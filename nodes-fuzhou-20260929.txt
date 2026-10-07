@@ -14,3 +14,4 @@ hysteria2://axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2@31.76.71.232:443?sni=de.1.23.h2corp
 hysteria2://axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2@153.76.194.154:8443?sni=northernleaf.gazette.help&alpn=h3&insecure=0#%E8%8A%AC%E5%85%B001%200.25M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20%5B10-07%2014%3A23%20AGY%5D%20HYSTERIA2
 hysteria2://s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z@77.74.123.108:8443/?sni=grape-test-italy.dynuddns.net&insecure=0#%E8%8D%B7%E5%85%B002%200.25M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20%5B10-07%2014%3A23%20AGY%5D%20HYSTERIA2
 hysteria2://axP-VNWeg-V-Bd_ZaSJGxWbWEE-t35Y2@31.76.71.233:443?sni=info.wwwinternetvideo.click&security=tls&insecure=0#%E8%8D%B7%E5%85%B003%200.25M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20%5B10-07%2014%3A23%20AGY%5D%20HYSTERIA2
+hysteria2://Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0@103.126.51.46:8443?sni=ocober-romania-new.yyuyy.com&insecure=0#%E7%BD%97%E9%A9%AC%E5%B0%BC%E4%BA%9A02%200.25M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20%5B10-07%2015%3A32%20AGY%5D%20HYSTERIA2
