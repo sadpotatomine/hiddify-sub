@@ -190,6 +190,13 @@ proxies:
     path: /platform117
     headers:
       Host: platform117.halalkhor.info
+- name: 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
+  type: hysteria2
+  server: outh.yandex-cloud.org
+  port: 54183
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  udp: true
+  sni: outh.yandex-cloud.org
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -207,6 +214,7 @@ proxy-groups:
   - 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
+  - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -225,6 +233,7 @@ proxy-groups:
   - 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
+  - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
