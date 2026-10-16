@@ -211,6 +211,23 @@ proxies:
     path: /tk3x9qa
     headers:
       Host: panel.shahophoto.cv
+- name: 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
+  type: vless
+  server: 45.63.53.81
+  port: 443
+  uuid: c512dcbd-1847-40a2-9c99-989c8bfe4717
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: 6nTROV2ELz-3vNUl0A00hp378QngpYABrPgjCpUknD0
+    short-id: f436f707
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -231,6 +248,7 @@ proxy-groups:
   - 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
   - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
+  - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -252,6 +270,7 @@ proxy-groups:
   - 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
   - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
+  - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
