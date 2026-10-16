@@ -185,6 +185,20 @@ proxies:
   cipher: 2022-blake3-aes-128-gcm
   password: 1JvlmtT4v8y1yGczDtT6Ww==:DeuO3EsXNkdUiVVCS8nU2Q==
   udp: true
+- name: 新加坡01 0.15M限 稳测 [10-17 01:58 AGY] VLESS
+  type: vless
+  server: 13.212.54.161
+  port: 443
+  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: live.theasianbanker.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
+    short-id: 819a87bf1651bf44
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -202,6 +216,7 @@ proxy-groups:
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
   - 法国08 0.15M限 稳测 [10-16 22:24 AGY] VLESS
   - 法国09 0.08M限 稳测 [10-17 01:30 AGY] SHADOWSOCKS
+  - 新加坡01 0.15M限 稳测 [10-17 01:58 AGY] VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -220,6 +235,7 @@ proxy-groups:
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
   - 法国08 0.15M限 稳测 [10-16 22:24 AGY] VLESS
   - 法国09 0.08M限 稳测 [10-17 01:30 AGY] SHADOWSOCKS
+  - 新加坡01 0.15M限 稳测 [10-17 01:58 AGY] VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
