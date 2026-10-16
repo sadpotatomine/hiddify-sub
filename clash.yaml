@@ -211,6 +211,20 @@ proxies:
     path: /hokm
     headers:
       Host: sdcdethyerft.localip.ir
+- name: 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
+  type: vless
+  server: panel.shahophoto.cv
+  port: 2087
+  uuid: 4d02da22-21ab-4799-8064-ac049c1979a9
+  udp: true
+  tls: true
+  servername: panel.shahophoto.cv
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /tk3x9qa
+    headers:
+      Host: panel.shahophoto.cv
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -231,6 +245,7 @@ proxy-groups:
   - 立陶宛01 0.19M限 稳测 [10-17 04:46 AGY] VLESS
   - 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
+  - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -252,6 +267,7 @@ proxy-groups:
   - 立陶宛01 0.19M限 稳测 [10-17 04:46 AGY] VLESS
   - 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
+  - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
