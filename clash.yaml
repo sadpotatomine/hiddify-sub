@@ -129,19 +129,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 阿联酋01 0.18M限 稳测 [10-15 15:44 AGY] VLESS
-  type: vless
-  server: 45.59.120.217
-  port: 443
-  uuid: 8732f92b-ba85-48f7-92e4-ad029f1cd4e7
-  udp: true
-  tls: true
-  servername: strm.yandex.net
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: mWxcYeYE-M3iE0RBjTzG88QI9kj2wivJDoIYDu_aG3w
-    short-id: 29c2dd1e3ef7c4d4
 - name: 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
   type: vless
   server: api.mediapereval.cc
@@ -215,7 +202,6 @@ proxy-groups:
   - 美国15 0.25M限 稳测 [10-10 15:46 AGY] VLESS
   - 德国14 0.25M限 稳测 [10-11 06:11 AGY] VLESS
   - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
-  - 阿联酋01 0.18M限 稳测 [10-15 15:44 AGY] VLESS
   - 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
@@ -234,7 +220,6 @@ proxy-groups:
   - 美国15 0.25M限 稳测 [10-10 15:46 AGY] VLESS
   - 德国14 0.25M限 稳测 [10-11 06:11 AGY] VLESS
   - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
-  - 阿联酋01 0.18M限 稳测 [10-15 15:44 AGY] VLESS
   - 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
