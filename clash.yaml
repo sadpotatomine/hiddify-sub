@@ -195,6 +195,18 @@ proxies:
     path: /vless-tr
     headers:
       Host: tgmansion.site
+- name: BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
+  type: vless
+  server: platform117.golnamakcert.top
+  port: 80
+  uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /platform117
+    headers:
+      Host: platform117.halalkhor.info
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -212,6 +224,7 @@ proxy-groups:
   - 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
   - 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
+  - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -230,6 +243,7 @@ proxy-groups:
   - 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
   - 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
+  - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
