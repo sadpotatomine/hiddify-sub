@@ -156,14 +156,6 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
-- name: 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
-  type: vless
-  server: metro.proxy.rlwy.net
-  port: 29780
-  uuid: d699be41-b417-4a2e-8fa0-96198cc21330
-  udp: true
-  tls: false
-  network: httpupgrade
 - name: TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   type: vless
   server: 177.3.208.65
@@ -211,7 +203,6 @@ proxy-groups:
   - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
   - 阿联酋01 0.18M限 稳测 [10-15 15:44 AGY] VLESS
   - 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
-  - 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
@@ -230,7 +221,6 @@ proxy-groups:
   - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
   - 阿联酋01 0.18M限 稳测 [10-15 15:44 AGY] VLESS
   - 奥地利01 0.16M限 稳测 [10-16 16:45 AGY] VLESS
-  - 荷兰01 0.25M限 稳测 [10-16 16:45 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
