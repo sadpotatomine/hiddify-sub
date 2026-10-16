@@ -150,20 +150,6 @@ proxies:
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
   sni: outh.yandex-cloud.org
-- name: 新加坡01 0.15M限 稳测 [10-17 01:58 AGY] VLESS
-  type: vless
-  server: 13.212.54.161
-  port: 443
-  uuid: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: live.theasianbanker.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: x8aCD8cJtkDvAjcRrcMG05MNiwh11LaKg70KIRvfN0g
-    short-id: 819a87bf1651bf44
 - name: 捷克01 0.19M限 稳测 [10-17 02:23 AGY] SHADOWSOCKS
   type: ss
   server: 67.159.18.34
@@ -239,7 +225,6 @@ proxy-groups:
   - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
-  - 新加坡01 0.15M限 稳测 [10-17 01:58 AGY] VLESS
   - 捷克01 0.19M限 稳测 [10-17 02:23 AGY] SHADOWSOCKS
   - 美国16 0.24M限 稳测 [10-17 04:46 AGY] SHADOWSOCKS
   - 立陶宛01 0.19M限 稳测 [10-17 04:46 AGY] VLESS
@@ -261,7 +246,6 @@ proxy-groups:
   - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
-  - 新加坡01 0.15M限 稳测 [10-17 01:58 AGY] VLESS
   - 捷克01 0.19M限 稳测 [10-17 02:23 AGY] SHADOWSOCKS
   - 美国16 0.24M限 稳测 [10-17 04:46 AGY] SHADOWSOCKS
   - 立陶宛01 0.19M限 稳测 [10-17 04:46 AGY] VLESS
