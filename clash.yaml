@@ -190,6 +190,13 @@ proxies:
   reality-opts:
     public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
     short-id: a8
+- name: 法国09 0.08M限 稳测 [10-17 01:30 AGY] SHADOWSOCKS
+  type: ss
+  server: 95.38.68.152
+  port: 2089
+  cipher: 2022-blake3-aes-128-gcm
+  password: 1JvlmtT4v8y1yGczDtT6Ww==:DeuO3EsXNkdUiVVCS8nU2Q==
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -207,6 +214,7 @@ proxy-groups:
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
   - 法国08 0.15M限 稳测 [10-16 22:24 AGY] VLESS
+  - 法国09 0.08M限 稳测 [10-17 01:30 AGY] SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -225,6 +233,7 @@ proxy-groups:
   - BR01 0.13M限 稳测 [10-16 19:37 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
   - 法国08 0.15M限 稳测 [10-16 22:24 AGY] VLESS
+  - 法国09 0.08M限 稳测 [10-17 01:30 AGY] SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
