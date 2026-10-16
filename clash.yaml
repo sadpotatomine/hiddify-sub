@@ -35,23 +35,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 美国01 0.28M 稳 [10-05 AGY] VLESS
-  type: vless
-  server: 154.12.38.202
-  port: 443
-  uuid: 2a9ab69b-26e7-44d0-a325-e5056d849900
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: iJDZHJQcTGl2VIwbsRmlOG9JGbbmxNY5wmv1hc6OwQM
-    short-id: c31176b6
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 美国04 0.18M限 稳测 [10-06 00:59 Codex] VLESS
   type: vless
   server: 45.32.69.110
@@ -213,7 +196,6 @@ proxy-groups:
   proxies:
   - ⚡ 自动选择
   - 新增 美国01 6轮完整-限速验证 VLESS 2026-10-04
-  - 美国01 0.28M 稳 [10-05 AGY] VLESS
   - 美国04 0.18M限 稳测 [10-06 00:59 Codex] VLESS
   - 美国08 0.25M限 稳测 [10-07 17:05 AGY] VLESS
   - 美国10 0.21M限 稳测 [10-08 19:10 AGY] VLESS
@@ -232,7 +214,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 新增 美国01 6轮完整-限速验证 VLESS 2026-10-04
-  - 美国01 0.28M 稳 [10-05 AGY] VLESS
   - 美国04 0.18M限 稳测 [10-06 00:59 Codex] VLESS
   - 美国08 0.25M限 稳测 [10-07 17:05 AGY] VLESS
   - 美国10 0.21M限 稳测 [10-08 19:10 AGY] VLESS
