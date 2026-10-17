@@ -5,7 +5,7 @@
 - [福州节点汇总订阅 (Hiddify / 通用)](nodes-fuzhou-20260929.txt)
 - [Clash / Clash Meta 专属订阅](clash.yaml)
 
-当前共 16 条，继续排除香港。
+当前共 19 条，继续排除香港。
 
 命名规则：新加入节点统一使用“日期 国家 gpt/反重力 序号 协议”。其中 gpt 表示由 ChatGPT 流程筛选加入，反重力表示由反重力流程加入。
 
@@ -18,3 +18,7 @@ GPT 实测流程已启用：候选在 GitHub Actions 的 Ubuntu Runner 中使用
 旧的反重力/Codex 节点未在本轮重新测试。
 
 nodes.txt 保留早期合集。
+
+## GPT 本轮实测结果（10-17）
+
+候选 16 条；严格长稳定性测试最终通过 3 条，失败 13 条。正式加入：`10-17 美国 gpt 29 VLESS`、`10-17 美国 gpt 30 VLESS`、`10-17 美国 gpt 31 VLESS`。未通过节点已从活动 Clash 配置清除。
