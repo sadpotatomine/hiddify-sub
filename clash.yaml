@@ -228,15 +228,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-17 美国 gpt 19 VMESS
-  type: vmess
-  server: 84.17.41.2
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  network: tcp
-  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -258,7 +249,6 @@ proxy-groups:
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
   - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
-  - 10-17 美国 gpt 19 VMESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -281,7 +271,6 @@ proxy-groups:
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
   - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
-  - 10-17 美国 gpt 19 VMESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
