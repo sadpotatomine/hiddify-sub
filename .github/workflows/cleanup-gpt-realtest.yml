@@ -1,0 +1,98 @@
+name: Cleanup Unstable GPT Nodes
+
+on:
+  push:
+    paths:
+      - ".github/workflows/cleanup-gpt-realtest.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install YAML parser
+        run: python -m pip install --quiet pyyaml
+      - name: Remove unstable GPT nodes and update README
+        run: |
+          python - <<'PY'
+          import urllib.parse
+          import yaml
+
+          unstable = {f"10-17 美国 gpt {n} SHADOWSOCKS" for n in range(20, 29)}
+
+          with open('clash.yaml', encoding='utf-8') as f:
+              data = yaml.safe_load(f)
+
+          before = len(data.get('proxies', []))
+          data['proxies'] = [p for p in data.get('proxies', []) if p.get('name') not in unstable]
+          removed = before - len(data['proxies'])
+          if removed != 9:
+              raise SystemExit(f'Expected to remove 9 proxies, removed {removed}')
+
+          for group in data.get('proxy-groups', []):
+              if isinstance(group.get('proxies'), list):
+                  group['proxies'] = [name for name in group['proxies'] if name not in unstable]
+
+          with open('clash.yaml', 'w', encoding='utf-8') as f:
+              yaml.safe_dump(data, f, allow_unicode=True, sort_keys=False, width=1000)
+
+          with open('nodes-fuzhou-20260929.txt', encoding='utf-8') as f:
+              lines = f.read().splitlines()
+          kept = []
+          removed_lines = 0
+          for line in lines:
+              frag = urllib.parse.unquote(line.rsplit('#', 1)[-1]) if '#' in line else ''
+              if frag in unstable:
+                  removed_lines += 1
+              else:
+                  kept.append(line)
+          if removed_lines != 9:
+              raise SystemExit(f'Expected to remove 9 subscription lines, removed {removed_lines}')
+          with open('nodes-fuzhou-20260929.txt', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(kept) + '\n')
+
+          readme = '''# hiddify-sub
+
+## 汇总订阅
+
+- [福州节点汇总订阅 (Hiddify / 通用)](nodes-fuzhou-20260929.txt)
+- [Clash / Clash Meta 专属订阅](clash.yaml)
+
+当前共 17 条，继续排除香港。
+
+命名规则：新加入节点统一使用“日期 国家 gpt/反重力 序号 协议”。其中 gpt 表示由 ChatGPT 流程筛选加入，反重力表示由反重力流程加入。
+
+GPT 实测流程已启用：候选在 GitHub Actions 的 Ubuntu Runner 中使用 Mihomo 建立真实代理隧道；每轮重新启动代理核心，依次完成真实 HTTPS 连通检查与 4 MiB 完整下载，下载串行限速约 256 KiB/s。每条至少测试 5 轮，任一轮失败则不作为稳定节点保留。
+
+本轮对 gpt 19–28 做了两批独立 5 轮复测。只有 `10-17 美国 gpt 19 VMESS` 两批均为 5/5（合计 10/10）；20–28 均至少在一批中出现失败，已从活动订阅和 Clash 中移除。旧的反重力/Codex 节点未在本轮重新测试。
+
+说明：当前实测流程覆盖真实代理隧道、HTTPS、完整 4 MiB 下载和逐轮重连；尚未加入反重力旧流程中的“间隔至少 10 分钟再次复测”和“连续 5 分钟每 30 秒健康检查”，因此不会把本流程描述成完全等同于反重力的全套长时稳定性测试。
+
+nodes.txt 保留早期合集。
+'''
+          with open('README.md', 'w', encoding='utf-8') as f:
+              f.write(readme)
+          PY
+      - name: Validate remaining GPT set
+        run: |
+          python - <<'PY'
+          import yaml
+          with open('clash.yaml', encoding='utf-8') as f:
+              data = yaml.safe_load(f)
+          gpt = [p['name'] for p in data.get('proxies', []) if ' gpt ' in p.get('name', '')]
+          assert gpt == ['10-17 美国 gpt 19 VMESS'], gpt
+          print('Remaining GPT node:', gpt[0])
+          PY
+      - name: Commit cleanup and remove one-time workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/cleanup-gpt-realtest.yml
+          git add README.md clash.yaml nodes-fuzhou-20260929.txt
+          git commit -m "Prune GPT nodes failing real 5-round tests; keep 19"
+          git push origin HEAD:main
