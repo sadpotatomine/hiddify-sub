@@ -1,0 +1,161 @@
+name: GPT Node Real Test
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/gpt-node-real-test.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      nodes: ${{ steps.nodes.outputs.nodes }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install YAML parser
+        run: python -m pip install --quiet pyyaml
+      - id: nodes
+        name: Select GPT nodes
+        run: |
+          python - <<'PY'
+          import json, os, yaml
+          with open('clash.yaml', encoding='utf-8') as f:
+              data = yaml.safe_load(f)
+          names = [p['name'] for p in data.get('proxies', []) if ' gpt ' in p.get('name', '')]
+          if not names:
+              raise SystemExit('No GPT nodes found')
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
+              out.write('nodes=' + json.dumps(names, ensure_ascii=False) + '\n')
+          print('Testing:', *names, sep='\n- ')
+          PY
+
+  test:
+    needs: prepare
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        node: ${{ fromJson(needs.prepare.outputs.nodes) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install YAML parser
+        run: python -m pip install --quiet pyyaml
+      - name: Build one-node config
+        env:
+          NODE_NAME: ${{ matrix.node }}
+        run: |
+          python - <<'PY'
+          import os, yaml
+          name = os.environ['NODE_NAME']
+          with open('clash.yaml', encoding='utf-8') as f:
+              data = yaml.safe_load(f)
+          proxy = next((p for p in data.get('proxies', []) if p.get('name') == name), None)
+          if proxy is None:
+              raise SystemExit(f'Node not found: {name}')
+          cfg = {
+              'mixed-port': 7890,
+              'allow-lan': False,
+              'mode': 'rule',
+              'log-level': 'warning',
+              'ipv6': False,
+              'external-controller': '127.0.0.1:9090',
+              'proxies': [proxy],
+              'proxy-groups': [{'name': 'TEST', 'type': 'select', 'proxies': [name]}],
+              'rules': ['MATCH,TEST'],
+          }
+          with open('/tmp/node-test.yaml', 'w', encoding='utf-8') as f:
+              yaml.safe_dump(cfg, f, allow_unicode=True, sort_keys=False)
+          PY
+      - name: Install pinned Mihomo
+        run: |
+          set -euo pipefail
+          url='https://github.com/MetaCubeX/mihomo/releases/download/v1.19.32/mihomo-linux-amd64-compatible-v1.19.32.gz'
+          curl -fL --retry 3 -o /tmp/mihomo.gz "$url"
+          echo 'ba3ce607747a07f948fc35780e108a4a7c7f552a38b9bd4d115f313ebcb89c20  /tmp/mihomo.gz' | sha256sum -c -
+          gzip -dc /tmp/mihomo.gz > /tmp/mihomo
+          chmod +x /tmp/mihomo
+          /tmp/mihomo -v
+      - name: Five independent real proxy rounds
+        id: rounds
+        env:
+          NODE_NAME: ${{ matrix.node }}
+        run: |
+          set +e
+          result=/tmp/result.txt
+          : > "$result"
+          passed=0
+          for round in 1 2 3 4 5; do
+            echo "=== round $round ===" | tee -a "$result"
+            rm -rf "/tmp/mihomo-$round"
+            mkdir -p "/tmp/mihomo-$round"
+            /tmp/mihomo -d "/tmp/mihomo-$round" -f /tmp/node-test.yaml >"/tmp/mihomo-$round.log" 2>&1 &
+            pid=$!
+            ready=0
+            for _ in $(seq 1 30); do
+              if curl -fsS --max-time 1 http://127.0.0.1:9090/version >/dev/null 2>&1; then
+                ready=1
+                break
+              fi
+              sleep 0.5
+            done
+            if [ "$ready" -ne 1 ]; then
+              echo 'FAIL: mihomo did not become ready' | tee -a "$result"
+              kill "$pid" 2>/dev/null || true
+              wait "$pid" 2>/dev/null || true
+              continue
+            fi
+
+            https_ok=0
+            download_ok=0
+            exit_ip='unknown'
+
+            curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 \
+              -o /dev/null https://www.gstatic.com/generate_204
+            [ $? -eq 0 ] && https_ok=1
+
+            ip_out=$(curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 https://api.ipify.org 2>/dev/null)
+            [ -n "$ip_out" ] && exit_ip="$ip_out"
+
+            rm -f "/tmp/payload-$round"
+            curl -fsSL --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 45 \
+              --limit-rate 256K -o "/tmp/payload-$round" \
+              'https://speed.cloudflare.com/__down?bytes=4194304'
+            dl_rc=$?
+            bytes=0
+            [ -f "/tmp/payload-$round" ] && bytes=$(wc -c < "/tmp/payload-$round")
+            if [ "$dl_rc" -eq 0 ] && [ "$bytes" -eq 4194304 ]; then
+              download_ok=1
+            fi
+
+            echo "https=$https_ok download=$download_ok bytes=$bytes exit_ip=$exit_ip" | tee -a "$result"
+            if [ "$https_ok" -eq 1 ] && [ "$download_ok" -eq 1 ]; then
+              passed=$((passed + 1))
+            fi
+
+            kill "$pid" 2>/dev/null || true
+            wait "$pid" 2>/dev/null || true
+            sleep 2
+          done
+
+          echo "node=$NODE_NAME" | tee -a "$result"
+          echo "passed=$passed/5" | tee -a "$result"
+          if [ "$passed" -ne 5 ]; then
+            echo 'FINAL=FAIL' | tee -a "$result"
+            exit 1
+          fi
+          echo 'FINAL=PASS' | tee -a "$result"
+      - name: Upload test result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: node-test-${{ strategy.job-index }}
+          path: |
+            /tmp/result.txt
+            /tmp/mihomo-*.log
+          if-no-files-found: warn
+          retention-days: 3
