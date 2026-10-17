@@ -1,3 +1,4 @@
+# revision: 2
 name: GPT Node Real Test
 
 on:
@@ -5,6 +6,7 @@ on:
   push:
     paths:
       - ".github/workflows/gpt-node-real-test.yml"
+      - "clash.yaml"
 
 permissions:
   contents: read
