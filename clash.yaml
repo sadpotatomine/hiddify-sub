@@ -237,69 +237,6 @@ proxies:
   cipher: auto
   network: tcp
   udp: true
-- name: 10-17 美国 gpt 20 SHADOWSOCKS
-  type: ss
-  server: 103.11.76.248
-  port: 28679
-  cipher: 2022-blake3-aes-128-gcm
-  password: NzJlOTQ5NWYtM2ZkYi00Cg==
-  udp: true
-- name: 10-17 美国 gpt 21 SHADOWSOCKS
-  type: ss
-  server: 173.244.56.6
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 22 SHADOWSOCKS
-  type: ss
-  server: 156.146.38.170
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 23 SHADOWSOCKS
-  type: ss
-  server: 156.146.38.167
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 24 SHADOWSOCKS
-  type: ss
-  server: 37.19.198.243
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 25 SHADOWSOCKS
-  type: ss
-  server: 37.19.198.160
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 26 SHADOWSOCKS
-  type: ss
-  server: 37.19.198.244
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 27 SHADOWSOCKS
-  type: ss
-  server: 37.19.198.236
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 10-17 美国 gpt 28 SHADOWSOCKS
-  type: ss
-  server: 15.204.233.41
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -322,15 +259,6 @@ proxy-groups:
   - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
   - 10-17 美国 gpt 19 VMESS
-  - 10-17 美国 gpt 20 SHADOWSOCKS
-  - 10-17 美国 gpt 21 SHADOWSOCKS
-  - 10-17 美国 gpt 22 SHADOWSOCKS
-  - 10-17 美国 gpt 23 SHADOWSOCKS
-  - 10-17 美国 gpt 24 SHADOWSOCKS
-  - 10-17 美国 gpt 25 SHADOWSOCKS
-  - 10-17 美国 gpt 26 SHADOWSOCKS
-  - 10-17 美国 gpt 27 SHADOWSOCKS
-  - 10-17 美国 gpt 28 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -354,15 +282,6 @@ proxy-groups:
   - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
   - 10-17 美国 gpt 19 VMESS
-  - 10-17 美国 gpt 20 SHADOWSOCKS
-  - 10-17 美国 gpt 21 SHADOWSOCKS
-  - 10-17 美国 gpt 22 SHADOWSOCKS
-  - 10-17 美国 gpt 23 SHADOWSOCKS
-  - 10-17 美国 gpt 24 SHADOWSOCKS
-  - 10-17 美国 gpt 25 SHADOWSOCKS
-  - 10-17 美国 gpt 26 SHADOWSOCKS
-  - 10-17 美国 gpt 27 SHADOWSOCKS
-  - 10-17 美国 gpt 28 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
