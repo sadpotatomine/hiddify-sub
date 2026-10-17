@@ -1,4 +1,4 @@
-# revision: 2
+# revision: 3
 name: GPT Node Real Test
 
 on:
@@ -38,6 +38,7 @@ jobs:
   test:
     needs: prepare
     runs-on: ubuntu-latest
+    timeout-minutes: 35
     strategy:
       fail-fast: false
       max-parallel: 5
@@ -83,7 +84,6 @@ jobs:
           chmod +x /tmp/mihomo
           /tmp/mihomo -v
       - name: Five independent real proxy rounds
-        id: rounds
         env:
           NODE_NAME: ${{ matrix.node }}
         run: |
@@ -111,46 +111,76 @@ jobs:
               wait "$pid" 2>/dev/null || true
               continue
             fi
-
             https_ok=0
             download_ok=0
             exit_ip='unknown'
-
-            curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 \
-              -o /dev/null https://www.gstatic.com/generate_204
+            curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 -o /dev/null https://www.gstatic.com/generate_204
             [ $? -eq 0 ] && https_ok=1
-
             ip_out=$(curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 https://api.ipify.org 2>/dev/null)
             [ -n "$ip_out" ] && exit_ip="$ip_out"
-
             rm -f "/tmp/payload-$round"
-            curl -fsSL --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 45 \
-              --limit-rate 256K -o "/tmp/payload-$round" \
-              'https://speed.cloudflare.com/__down?bytes=4194304'
+            curl -fsSL --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 45 --limit-rate 256K -o "/tmp/payload-$round" 'https://speed.cloudflare.com/__down?bytes=4194304'
             dl_rc=$?
             bytes=0
             [ -f "/tmp/payload-$round" ] && bytes=$(wc -c < "/tmp/payload-$round")
             if [ "$dl_rc" -eq 0 ] && [ "$bytes" -eq 4194304 ]; then
               download_ok=1
             fi
-
             echo "https=$https_ok download=$download_ok bytes=$bytes exit_ip=$exit_ip" | tee -a "$result"
             if [ "$https_ok" -eq 1 ] && [ "$download_ok" -eq 1 ]; then
               passed=$((passed + 1))
             fi
-
             kill "$pid" 2>/dev/null || true
             wait "$pid" 2>/dev/null || true
             sleep 2
           done
-
           echo "node=$NODE_NAME" | tee -a "$result"
-          echo "passed=$passed/5" | tee -a "$result"
+          echo "initial_passed=$passed/5" | tee -a "$result"
           if [ "$passed" -ne 5 ]; then
-            echo 'FINAL=FAIL' | tee -a "$result"
+            echo 'FINAL=FAIL_INITIAL' | tee -a "$result"
             exit 1
           fi
-          echo 'FINAL=PASS' | tee -a "$result"
+      - name: Delayed reconnect and sustained health check
+        env:
+          NODE_NAME: ${{ matrix.node }}
+        run: |
+          set -euo pipefail
+          result=/tmp/result.txt
+          echo '=== delayed reconnect interval ===' | tee -a "$result"
+          sleep 600
+          rm -rf /tmp/mihomo-soak
+          mkdir -p /tmp/mihomo-soak
+          /tmp/mihomo -d /tmp/mihomo-soak -f /tmp/node-test.yaml >/tmp/mihomo-soak.log 2>&1 &
+          pid=$!
+          trap 'kill "$pid" 2>/dev/null || true' EXIT
+          ready=0
+          for _ in $(seq 1 30); do
+            if curl -fsS --max-time 1 http://127.0.0.1:9090/version >/dev/null 2>&1; then
+              ready=1
+              break
+            fi
+            sleep 0.5
+          done
+          [ "$ready" -eq 1 ] || { echo 'FINAL=FAIL_RECONNECT' | tee -a "$result"; exit 1; }
+          echo '=== 5-minute HTTPS health soak, every 30s ===' | tee -a "$result"
+          for check in $(seq 1 11); do
+            ts=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+            if ! curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 -o /dev/null https://www.gstatic.com/generate_204; then
+              echo "health_check=$check time=$ts FAIL" | tee -a "$result"
+              echo 'FINAL=FAIL_SOAK' | tee -a "$result"
+              exit 1
+            fi
+            exit_ip=$(curl -fsS --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 20 https://api.ipify.org)
+            echo "health_check=$check time=$ts PASS exit_ip=$exit_ip" | tee -a "$result"
+            if [ "$check" -lt 11 ]; then sleep 30; fi
+          done
+          echo '=== final full 4 MiB download ===' | tee -a "$result"
+          rm -f /tmp/final-payload
+          curl -fsSL --proxy http://127.0.0.1:7890 --connect-timeout 10 --max-time 45 --limit-rate 256K -o /tmp/final-payload 'https://speed.cloudflare.com/__down?bytes=4194304'
+          bytes=$(wc -c < /tmp/final-payload)
+          [ "$bytes" -eq 4194304 ] || { echo "final_bytes=$bytes" | tee -a "$result"; echo 'FINAL=FAIL_DOWNLOAD' | tee -a "$result"; exit 1; }
+          echo "final_bytes=$bytes" | tee -a "$result"
+          echo 'FINAL=PASS_LONG_STABILITY' | tee -a "$result"
       - name: Upload test result
         if: always()
         uses: actions/upload-artifact@v4
