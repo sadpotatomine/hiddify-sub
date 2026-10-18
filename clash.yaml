@@ -167,48 +167,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-17 美国 gpt 29 VLESS
-  type: vless
-  server: 131.143.180.110
-  port: 443
-  uuid: 0dfaf133-be36-436a-bdad-a7b53ae58b30
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: learn.microsoft.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: ABZFDD3Ne57Q0i7skCnEpyUVTKTdMhm3aqJ9mwLZ7lw
-    short-id: 62169cb853fb7503
-- name: 10-17 美国 gpt 30 VLESS
-  type: vless
-  server: 195.123.240.65
-  port: 443
-  uuid: ce18d0eb-5c71-41f9-96e5-1632e22456e4
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: ios
-  network: raw
-  reality-opts:
-    public-key: StPbcmBuzpuYUfa4oZ5SI3Bq1OSF_-oU1vp2AcyvQVE
-    short-id: 19296c9f1bf9c7b1
-- name: 10-17 美国 gpt 31 VLESS
-  type: vless
-  server: 176.122.183.26
-  port: 42346
-  uuid: d5bc1380-2afd-4c7e-bacd-54e7833b0140
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: fk0_CYMC_RKIbBDwS-lagle8Jm-hnvkSlV_7P0nBagM
-    short-id: 3f8ced2bf06b8448
 - name: 日本01 0.17M限 稳测 [10-18 09:44 AGY] VLESS
   type: vless
   server: 141.11.138.132
@@ -326,9 +284,6 @@ proxy-groups:
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
-  - 10-17 美国 gpt 29 VLESS
-  - 10-17 美国 gpt 30 VLESS
-  - 10-17 美国 gpt 31 VLESS
   - 日本01 0.17M限 稳测 [10-18 09:44 AGY] VLESS
   - 美国19 0.25M限 稳测 [10-18 09:44 AGY] SHADOWSOCKS
   - 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
@@ -356,9 +311,6 @@ proxy-groups:
   - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
   - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
-  - 10-17 美国 gpt 29 VLESS
-  - 10-17 美国 gpt 30 VLESS
-  - 10-17 美国 gpt 31 VLESS
   - 日本01 0.17M限 稳测 [10-18 09:44 AGY] VLESS
   - 美国19 0.25M限 稳测 [10-18 09:44 AGY] SHADOWSOCKS
   - 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
