@@ -303,6 +303,20 @@ proxies:
   reality-opts:
     public-key: HYY52az_HItfkFMxkpFFJnTgsxVUHjBmaJP2yIo7PgI
     short-id: 121d03f8
+- name: 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+  type: hysteria2
+  server: 189.74.106.162
+  port: 54183
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  udp: true
+  sni: outh.yandex-cloud.org
+- name: 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+  type: hysteria2
+  server: 189.74.114.2
+  port: 54183
+  password: 082f5694-9019-4110-b67b-8125dbb9bab8
+  udp: true
+  sni: outh.yandex-cloud.org
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -330,6 +344,8 @@ proxy-groups:
   - 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
   - 美国20 0.23M限 稳测 [10-18 10:10 AGY] VLESS
   - 美国21 0.24M限 稳测 [10-18 10:10 AGY] VLESS
+  - 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+  - 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -358,6 +374,8 @@ proxy-groups:
   - 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
   - 美国20 0.23M限 稳测 [10-18 10:10 AGY] VLESS
   - 美国21 0.24M限 稳测 [10-18 10:10 AGY] VLESS
+  - 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+  - 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
