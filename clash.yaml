@@ -177,13 +177,6 @@ proxies:
   reality-opts:
     public-key: MbRONgV8ADD5B_aKDBv15LAW2a8QZok5bkkZexRRVAs
     short-id: 2301ac8aee8bf6d4
-- name: 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
-  type: ss
-  server: ge.duravexv.ir
-  port: 1020
-  cipher: aes-256-gcm
-  password: n8hbhzdagj1o7m0v
-  udp: true
 - name: 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
   type: vless
   server: sdcdethyerft.localip.ir
@@ -197,20 +190,6 @@ proxies:
     path: /hokm
     headers:
       Host: sdcdethyerft.localip.ir
-- name: 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
-  type: vless
-  server: panel.shahophoto.cv
-  port: 2087
-  uuid: 4d02da22-21ab-4799-8064-ac049c1979a9
-  udp: true
-  tls: true
-  servername: panel.shahophoto.cv
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /tk3x9qa
-    headers:
-      Host: panel.shahophoto.cv
 - name: 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
   type: vless
   server: 45.63.53.81
@@ -315,9 +294,7 @@ proxy-groups:
   - 捷克01 0.19M限 稳测 [10-17 02:23 AGY] SHADOWSOCKS
   - 美国16 0.24M限 稳测 [10-17 04:46 AGY] SHADOWSOCKS
   - 立陶宛01 0.19M限 稳测 [10-17 04:46 AGY] VLESS
-  - 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
-  - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
   - 10-17 美国 gpt 29 VLESS
   - 10-17 美国 gpt 30 VLESS
@@ -343,9 +320,7 @@ proxy-groups:
   - 捷克01 0.19M限 稳测 [10-17 02:23 AGY] SHADOWSOCKS
   - 美国16 0.24M限 稳测 [10-17 04:46 AGY] SHADOWSOCKS
   - 立陶宛01 0.19M限 稳测 [10-17 04:46 AGY] VLESS
-  - 荷兰03 0.17M限 稳测 [10-17 05:36 AGY] SHADOWSOCKS
   - 德国15 0.15M限 稳测 [10-17 05:36 AGY] VLESS
-  - 美国17 0.24M限 稳测 [10-17 06:08 AGY] VLESS
   - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
   - 10-17 美国 gpt 29 VLESS
   - 10-17 美国 gpt 30 VLESS
