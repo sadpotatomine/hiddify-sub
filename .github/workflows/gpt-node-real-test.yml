@@ -15,6 +15,7 @@ jobs:
   prepare:
     runs-on: ubuntu-latest
     outputs:
+      has_nodes: ${{ steps.nodes.outputs.has_nodes }}
       nodes: ${{ steps.nodes.outputs.nodes }}
     steps:
       - uses: actions/checkout@v4
@@ -28,15 +29,19 @@ jobs:
           with open('clash.yaml', encoding='utf-8') as f:
               data = yaml.safe_load(f)
           names = [p['name'] for p in data.get('proxies', []) if ' gpt ' in p.get('name', '')]
-          if not names:
-              raise SystemExit('No GPT nodes found')
+          has_nodes = bool(names)
           with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
+              out.write(f'has_nodes={"true" if has_nodes else "false"}\n')
               out.write('nodes=' + json.dumps(names, ensure_ascii=False) + '\n')
+          if not names:
+              print('No GPT nodes found in clash.yaml, skipping cleanly.')
+              raise SystemExit(0)
           print('Testing:', *names, sep='\n- ')
           PY
 
   test:
     needs: prepare
+    if: needs.prepare.outputs.has_nodes == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 35
     strategy:
