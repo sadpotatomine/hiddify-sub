@@ -317,6 +317,20 @@ proxies:
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
   sni: outh.yandex-cloud.org
+- name: 德国18 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
+  type: hysteria2
+  server: 45.88.12.36
+  port: 443
+  password: 5062e1a7-89aa-4bd0-be2a-4f4a88f6c325
+  udp: true
+  sni: va.stream-room.com
+- name: 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
+  type: hysteria2
+  server: 193.233.88.26
+  port: 443
+  password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
+  udp: true
+  sni: ru1server.rabstvo.shop
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -346,6 +360,8 @@ proxy-groups:
   - 美国21 0.24M限 稳测 [10-18 10:10 AGY] VLESS
   - 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
   - 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+  - 德国18 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
+  - 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -376,6 +392,8 @@ proxy-groups:
   - 美国21 0.24M限 稳测 [10-18 10:10 AGY] VLESS
   - 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
   - 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+  - 德国18 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
+  - 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
