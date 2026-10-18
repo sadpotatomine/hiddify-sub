@@ -256,6 +256,13 @@ proxies:
   network: tcp
   reality-opts:
     public-key: yzpUjsMEI7c7nBB5A3M_VVnROlrZdIR50XEhUQfXnC0
+- name: 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 45.130.165.199
+  port: 443
+  password: dd1b14f6-d290-428b-8d22-12105541c4c9
+  udp: true
+  sni: sg45199.cdn-video.pro
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -281,6 +288,7 @@ proxy-groups:
   - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
   - 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
   - 10-18 反重力 美国20 0.20M限 稳测 VLESS
+  - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -307,6 +315,7 @@ proxy-groups:
   - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
   - 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
   - 10-18 反重力 美国20 0.20M限 稳测 VLESS
+  - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
