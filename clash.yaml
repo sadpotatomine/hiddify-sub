@@ -19,7 +19,7 @@ dns:
   - https://1.1.1.1/dns-query
   - https://8.8.8.8/dns-query
 proxies:
-- name: 新增 美国01 6轮完整-限速验证 VLESS 2026-10-04
+- name: 10-04 gpt 美国01 0.25M限 稳测 VLESS
   type: vless
   server: 154.29.145.196
   port: 443
@@ -35,7 +35,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 美国04 0.18M限 稳测 [10-06 00:59 Codex] VLESS
+- name: 10-06 gpt 美国04 0.18M限 稳测 VLESS
   type: vless
   server: 45.32.69.110
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 美国08 0.25M限 稳测 [10-07 17:05 AGY] VLESS
+- name: 10-07 反重力 美国08 0.25M限 稳测 VLESS
   type: vless
   server: 154.12.38.159
   port: 443
@@ -67,7 +67,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 美国10 0.21M限 稳测 [10-08 19:10 AGY] VLESS
+- name: 10-08 反重力 美国10 0.21M限 稳测 VLESS
   type: vless
   server: 144.202.126.147
   port: 443
@@ -84,7 +84,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 美国15 0.25M限 稳测 [10-10 15:46 AGY] VLESS
+- name: 10-10 反重力 美国15 0.25M限 稳测 VLESS
   type: vless
   server: 154.9.241.170
   port: 443
@@ -100,7 +100,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 德国14 0.25M限 稳测 [10-11 06:11 AGY] VLESS
+- name: 10-11 反重力 德国14 0.25M限 稳测 VLESS
   type: vless
   server: 189.24.82.195
   port: 443
@@ -116,7 +116,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
+- name: 10-14 反重力 法国07 0.24M限 稳测 VLESS
   type: vless
   server: 163.245.42.48
   port: 443
@@ -129,7 +129,7 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
+- name: 10-16 反重力 土耳其01 0.15M限 稳测 VLESS
   type: vless
   server: 177.3.208.65
   port: 443
@@ -143,14 +143,14 @@ proxies:
     path: /vless-tr
     headers:
       Host: tgmansion.site
-- name: 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
+- name: 10-16 反重力 荷兰02 0.15M限 稳测 HYSTERIA2
   type: hysteria2
   server: outh.yandex-cloud.org
   port: 54183
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
   sni: outh.yandex-cloud.org
-- name: 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
+- name: 10-17 反重力 美国18 0.21M限 稳测 VLESS
   type: vless
   server: 45.63.53.81
   port: 443
@@ -167,7 +167,7 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 日本01 0.17M限 稳测 [10-18 09:44 AGY] VLESS
+- name: 10-18 反重力 日本01 0.17M限 稳测 VLESS
   type: vless
   server: 141.11.138.132
   port: 443
@@ -181,49 +181,49 @@ proxies:
   reality-opts:
     public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
     short-id: f9ca9286d0ff8920
-- name: 美国19 0.25M限 稳测 [10-18 09:44 AGY] SHADOWSOCKS
+- name: 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
   type: ss
   server: 104.36.66.212
   port: 443
   cipher: aes-256-gcm
   password: bwLa2026x9KpQzRt7Nv
   udp: true
-- name: 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
+- name: 10-18 反重力 德国16 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: 189.74.106.163
   port: 54183
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
   sni: outh.yandex-cloud.org
-- name: 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+- name: 10-18 反重力 德国17 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: 189.74.106.162
   port: 54183
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
   sni: outh.yandex-cloud.org
-- name: 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
+- name: 10-18 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: 189.74.114.2
   port: 54183
   password: 082f5694-9019-4110-b67b-8125dbb9bab8
   udp: true
   sni: outh.yandex-cloud.org
-- name: 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
+- name: 10-18 反重力 俄罗斯01 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: 193.233.88.26
   port: 443
   password: 9yOIR2_QAChKs26rYaiX_aoNnOALd0aU
   udp: true
   sni: ru1server.rabstvo.shop
-- name: 德国19 0.23M限 稳测 [10-18 12:13 AGY] TROJAN
+- name: 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   type: trojan
   server: de4.dedushka.top
   port: 443
   password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
   udp: true
   sni: de4.dedushka.top
-- name: 澳大利亚01 0.18M限 稳测 [10-18 12:35 AGY] VLESS
+- name: 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
   type: vless
   server: 212.81.47.99
   port: 51106
@@ -236,14 +236,14 @@ proxies:
   reality-opts:
     public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
     short-id: abcd1234
-- name: 法国08 0.25M限 稳测 [10-18 14:30 AGY] HYSTERIA2
+- name: 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: fr167230.cdn-video.pro
   port: 443
   password: dd1b14f6-d290-428b-8d22-12105541c4c9
   udp: true
   sni: fr167230.cdn-video.pro
-- name: 美国20 0.20M限 稳测 [10-18 14:30 AGY] VLESS
+- name: 10-18 反重力 美国20 0.20M限 稳测 VLESS
   type: vless
   server: 104.225.239.122
   port: 443
@@ -261,52 +261,52 @@ proxy-groups:
   type: select
   proxies:
   - ⚡ 自动选择
-  - 新增 美国01 6轮完整-限速验证 VLESS 2026-10-04
-  - 美国04 0.18M限 稳测 [10-06 00:59 Codex] VLESS
-  - 美国08 0.25M限 稳测 [10-07 17:05 AGY] VLESS
-  - 美国10 0.21M限 稳测 [10-08 19:10 AGY] VLESS
-  - 美国15 0.25M限 稳测 [10-10 15:46 AGY] VLESS
-  - 德国14 0.25M限 稳测 [10-11 06:11 AGY] VLESS
-  - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
-  - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
-  - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
-  - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
-  - 日本01 0.17M限 稳测 [10-18 09:44 AGY] VLESS
-  - 美国19 0.25M限 稳测 [10-18 09:44 AGY] SHADOWSOCKS
-  - 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
-  - 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
-  - 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
-  - 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
-  - 德国19 0.23M限 稳测 [10-18 12:13 AGY] TROJAN
-  - 澳大利亚01 0.18M限 稳测 [10-18 12:35 AGY] VLESS
-  - 法国08 0.25M限 稳测 [10-18 14:30 AGY] HYSTERIA2
-  - 美国20 0.20M限 稳测 [10-18 14:30 AGY] VLESS
+  - 10-04 gpt 美国01 0.25M限 稳测 VLESS
+  - 10-06 gpt 美国04 0.18M限 稳测 VLESS
+  - 10-07 反重力 美国08 0.25M限 稳测 VLESS
+  - 10-08 反重力 美国10 0.21M限 稳测 VLESS
+  - 10-10 反重力 美国15 0.25M限 稳测 VLESS
+  - 10-11 反重力 德国14 0.25M限 稳测 VLESS
+  - 10-14 反重力 法国07 0.24M限 稳测 VLESS
+  - 10-16 反重力 土耳其01 0.15M限 稳测 VLESS
+  - 10-16 反重力 荷兰02 0.15M限 稳测 HYSTERIA2
+  - 10-17 反重力 美国18 0.21M限 稳测 VLESS
+  - 10-18 反重力 日本01 0.17M限 稳测 VLESS
+  - 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
+  - 10-18 反重力 德国16 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 德国17 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 俄罗斯01 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
+  - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
+  - 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 美国20 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 300
   tolerance: 50
   proxies:
-  - 新增 美国01 6轮完整-限速验证 VLESS 2026-10-04
-  - 美国04 0.18M限 稳测 [10-06 00:59 Codex] VLESS
-  - 美国08 0.25M限 稳测 [10-07 17:05 AGY] VLESS
-  - 美国10 0.21M限 稳测 [10-08 19:10 AGY] VLESS
-  - 美国15 0.25M限 稳测 [10-10 15:46 AGY] VLESS
-  - 德国14 0.25M限 稳测 [10-11 06:11 AGY] VLESS
-  - 法国07 0.24M限 稳测 [10-14 07:53 AGY] VLESS
-  - TR01 0.15M限 稳测 [10-16 16:45 AGY] VLESS
-  - 荷兰02 0.15M限 稳测 [10-16 21:50 AGY] HYSTERIA2
-  - 美国18 0.21M限 稳测 [10-17 07:48 AGY] VLESS
-  - 日本01 0.17M限 稳测 [10-18 09:44 AGY] VLESS
-  - 美国19 0.25M限 稳测 [10-18 09:44 AGY] SHADOWSOCKS
-  - 德国16 0.25M限 稳测 [10-18 09:44 AGY] HYSTERIA2
-  - 德国17 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
-  - 荷兰03 0.25M限 稳测 [10-18 11:10 AGY] HYSTERIA2
-  - 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
-  - 德国19 0.23M限 稳测 [10-18 12:13 AGY] TROJAN
-  - 澳大利亚01 0.18M限 稳测 [10-18 12:35 AGY] VLESS
-  - 法国08 0.25M限 稳测 [10-18 14:30 AGY] HYSTERIA2
-  - 美国20 0.20M限 稳测 [10-18 14:30 AGY] VLESS
+  - 10-04 gpt 美国01 0.25M限 稳测 VLESS
+  - 10-06 gpt 美国04 0.18M限 稳测 VLESS
+  - 10-07 反重力 美国08 0.25M限 稳测 VLESS
+  - 10-08 反重力 美国10 0.21M限 稳测 VLESS
+  - 10-10 反重力 美国15 0.25M限 稳测 VLESS
+  - 10-11 反重力 德国14 0.25M限 稳测 VLESS
+  - 10-14 反重力 法国07 0.24M限 稳测 VLESS
+  - 10-16 反重力 土耳其01 0.15M限 稳测 VLESS
+  - 10-16 反重力 荷兰02 0.15M限 稳测 HYSTERIA2
+  - 10-17 反重力 美国18 0.21M限 稳测 VLESS
+  - 10-18 反重力 日本01 0.17M限 稳测 VLESS
+  - 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
+  - 10-18 反重力 德国16 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 德国17 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 俄罗斯01 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
+  - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
+  - 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
+  - 10-18 反重力 美国20 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
