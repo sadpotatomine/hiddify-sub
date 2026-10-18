@@ -243,6 +243,26 @@ proxies:
   reality-opts:
     public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
     short-id: abcd1234
+- name: 法国08 0.25M限 稳测 [10-18 14:30 AGY] HYSTERIA2
+  type: hysteria2
+  server: fr167230.cdn-video.pro
+  port: 443
+  password: dd1b14f6-d290-428b-8d22-12105541c4c9
+  udp: true
+  sni: fr167230.cdn-video.pro
+- name: 美国20 0.20M限 稳测 [10-18 14:30 AGY] VLESS
+  type: vless
+  server: 104.225.239.122
+  port: 443
+  uuid: 5c68cb0a-0c11-4c61-9458-66f63387adc5
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: yzpUjsMEI7c7nBB5A3M_VVnROlrZdIR50XEhUQfXnC0
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -267,6 +287,8 @@ proxy-groups:
   - 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
   - 德国19 0.23M限 稳测 [10-18 12:13 AGY] TROJAN
   - 澳大利亚01 0.18M限 稳测 [10-18 12:35 AGY] VLESS
+  - 法国08 0.25M限 稳测 [10-18 14:30 AGY] HYSTERIA2
+  - 美国20 0.20M限 稳测 [10-18 14:30 AGY] VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -292,6 +314,8 @@ proxy-groups:
   - 俄罗斯01 0.25M限 稳测 [10-18 11:36 AGY] HYSTERIA2
   - 德国19 0.23M限 稳测 [10-18 12:13 AGY] TROJAN
   - 澳大利亚01 0.18M限 稳测 [10-18 12:35 AGY] VLESS
+  - 法国08 0.25M限 稳测 [10-18 14:30 AGY] HYSTERIA2
+  - 美国20 0.20M限 稳测 [10-18 14:30 AGY] VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
