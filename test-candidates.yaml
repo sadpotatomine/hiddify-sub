@@ -1,0 +1,76 @@
+proxies:
+    - name: 10-20 gpt 法国01 待核实 HYSTERIA2
+      password: github.com/Alvin9999-newpac/fanqiang
+      port: 60111
+      server: 62.210.7.139
+      skip-cert-verify: true
+      sni: ""
+      type: hysteria2
+    - name: 10-20 gpt 荷兰01 待核实 HYSTERIA2
+      password: c9aaa35e-3e47-4af2-a0fe-e2e8cddccea6
+      port: 443
+      server: 158.180.80.119
+      skip-cert-verify: true
+      sni: www.bing.com
+      type: hysteria2
+    - name: 10-20 gpt 英国01 待核实 HYSTERIA2
+      password: b3a11068-1a7e-4643-85de-7c82cce46943
+      port: 443
+      server: 191.215.46.37
+      skip-cert-verify: true
+      sni: uk.shamanapp.online
+      type: hysteria2
+    - name: 10-20 gpt 德国01 待核实 HYSTERIA2
+      password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj
+      port: 443
+      server: de.1.23.h2corp.org
+      skip-cert-verify: true
+      sni: germany3.h2corp.local
+      type: hysteria2
+    - name: 10-20 gpt 新加坡01 待核实 HYSTERIA2
+      password: f87376e17da040ed04c9665ce8972930
+      port: 50160
+      server: 138.2.73.238
+      skip-cert-verify: true
+      sni: 138.2.73.238
+      type: hysteria2
+    - client-fingerprint: random
+      flow: xtls-rprx-vision
+      name: 10-20 gpt 意大利01 待核实 VLESS
+      network: tcp
+      port: 443
+      reality-opts:
+        public-key: _0bRaAOYHd4ccDCmnlIq9I13WLRuT4LzlXfV_GGHKE0
+        short-id: 5aab0b0401044801
+      server: 31.59.180.155
+      servername: italynew.nztvpn.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: ee18d188-14cc-417e-beb1-70e4add6d023
+    - client-fingerprint: firefox
+      name: 10-20 gpt 印度01 待核实 VLESS
+      network: raw
+      port: 2053
+      reality-opts:
+        public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
+        short-id: 9980e0609b0d3891
+      server: 194.61.31.126
+      servername: www.apple.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: 1d4e18bd-1f26-4915-b35a-7ace4826e76a
+    - client-fingerprint: chrome
+      name: 10-20 gpt 波兰01 待核实 VLESS
+      network: raw
+      port: 2053
+      reality-opts:
+        public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
+        short-id: 50ba05992b05c1c3
+      server: 54.37.136.194
+      servername: www.cloudflare.com
+      tls: true
+      type: vless
+      udp: true
+      uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
