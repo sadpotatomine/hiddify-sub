@@ -129,13 +129,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-16 反重力 荷兰02 0.15M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: outh.yandex-cloud.org
-  port: 54183
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  udp: true
-  sni: outh.yandex-cloud.org
 - name: 10-17 反重力 美国18 0.21M限 稳测 VLESS
   type: vless
   server: 45.63.53.81
@@ -174,27 +167,6 @@ proxies:
   cipher: aes-256-gcm
   password: bwLa2026x9KpQzRt7Nv
   udp: true
-- name: 10-18 反重力 德国16 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 189.74.106.163
-  port: 54183
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  udp: true
-  sni: outh.yandex-cloud.org
-- name: 10-18 反重力 德国17 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 189.74.106.162
-  port: 54183
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  udp: true
-  sni: outh.yandex-cloud.org
-- name: 10-18 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 189.74.114.2
-  port: 54183
-  password: 082f5694-9019-4110-b67b-8125dbb9bab8
-  udp: true
-  sni: outh.yandex-cloud.org
 - name: 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   type: trojan
   server: de4.dedushka.top
@@ -215,13 +187,6 @@ proxies:
   reality-opts:
     public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
     short-id: abcd1234
-- name: 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: fr167230.cdn-video.pro
-  port: 443
-  password: dd1b14f6-d290-428b-8d22-12105541c4c9
-  udp: true
-  sni: fr167230.cdn-video.pro
 - name: 10-18 反重力 美国20 0.20M限 稳测 VLESS
   type: vless
   server: 104.225.239.122
@@ -254,16 +219,11 @@ proxy-groups:
   - 10-10 反重力 美国15 0.25M限 稳测 VLESS
   - 10-11 反重力 德国14 0.25M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
-  - 10-16 反重力 荷兰02 0.15M限 稳测 HYSTERIA2
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-18 反重力 日本01 0.17M限 稳测 VLESS
   - 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
-  - 10-18 反重力 德国16 0.25M限 稳测 HYSTERIA2
-  - 10-18 反重力 德国17 0.25M限 稳测 HYSTERIA2
-  - 10-18 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  - 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
   - 10-18 反重力 美国20 0.20M限 稳测 VLESS
   - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
@@ -279,16 +239,11 @@ proxy-groups:
   - 10-10 反重力 美国15 0.25M限 稳测 VLESS
   - 10-11 反重力 德国14 0.25M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
-  - 10-16 反重力 荷兰02 0.15M限 稳测 HYSTERIA2
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-18 反重力 日本01 0.17M限 稳测 VLESS
   - 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
-  - 10-18 反重力 德国16 0.25M限 稳测 HYSTERIA2
-  - 10-18 反重力 德国17 0.25M限 稳测 HYSTERIA2
-  - 10-18 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  - 10-18 反重力 法国08 0.25M限 稳测 HYSTERIA2
   - 10-18 反重力 美国20 0.20M限 稳测 VLESS
   - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
