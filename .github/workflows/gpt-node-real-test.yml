@@ -1,4 +1,4 @@
-# revision: 4
+# revision: 5 - isolated candidates
 name: GPT Node Real Test
 
 on:
@@ -7,6 +7,7 @@ on:
     paths:
       - ".github/workflows/gpt-node-real-test.yml"
       - "clash.yaml"
+      - "test-candidates.yaml"
 
 permissions:
   contents: read
@@ -26,7 +27,7 @@ jobs:
         run: |
           python - <<'PY'
           import json, os, yaml
-          with open('clash.yaml', encoding='utf-8') as f:
+          with open('test-candidates.yaml', encoding='utf-8') as f:
               data = yaml.safe_load(f)
           names = [p['name'] for p in data.get('proxies', []) if ' gpt ' in p.get('name', '')]
           has_nodes = bool(names)
@@ -34,7 +35,7 @@ jobs:
               out.write(f'has_nodes={"true" if has_nodes else "false"}\n')
               out.write('nodes=' + json.dumps(names, ensure_ascii=False) + '\n')
           if not names:
-              print('No GPT nodes found in clash.yaml, skipping cleanly.')
+              print('No GPT nodes found in test-candidates.yaml, skipping cleanly.')
               raise SystemExit(0)
           print('Testing:', *names, sep='\n- ')
           PY
@@ -61,11 +62,11 @@ jobs:
           python - <<'PY'
           import os, yaml
           name = os.environ['NODE_NAME']
-          with open('clash.yaml', encoding='utf-8') as f:
+          with open('test-candidates.yaml', encoding='utf-8') as f:
               data = yaml.safe_load(f)
           proxy = next((p for p in data.get('proxies', []) if p.get('name') == name), None)
           if proxy is None:
-              raise SystemExit(f'Node not found: {name}')
+              raise SystemExit(f'Candidate not found: {name}')
           cfg = {
               'mixed-port': 7890,
               'allow-lan': False,
