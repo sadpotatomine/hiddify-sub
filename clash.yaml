@@ -179,20 +179,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-21 反重力 日本03 0.24M限 稳测 VLESS
-  type: vless
-  server: pyygg0769.sys-metric-report.com
-  port: 52804
-  uuid: 2c8c4c3b-4616-400c-a2d4-f3669ea18fe9
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: japp.cfastcdn.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: cCwvNI8D-LX-kLH1IDuBZwnKkkyMPJm_0sJXsxz-_mA
-    short-id: 68c4f6b0
 - name: 10-21 反重力 美国21 0.20M限 稳测 VLESS
   type: vless
   server: 45.76.172.197
@@ -259,7 +245,6 @@ proxy-groups:
   - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 日本03 0.24M限 稳测 VLESS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 德国15 0.24M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
@@ -282,7 +267,6 @@ proxy-groups:
   - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 日本03 0.24M限 稳测 VLESS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 德国15 0.24M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
