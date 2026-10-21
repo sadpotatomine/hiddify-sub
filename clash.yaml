@@ -84,22 +84,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-10 反重力 美国15 0.25M限 稳测 VLESS
-  type: vless
-  server: 154.9.241.170
-  port: 443
-  uuid: 30b98a28-ed4e-46eb-8548-54c25f4db53c
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  network: ws
-  reality-opts:
-    public-key: _E8d7s7B7xYfZImOkKmESW6MJDxwKxnsscu56jhE2EM
-    short-id: 3fb4e08c
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 10-11 反重力 德国14 0.25M限 稳测 VLESS
   type: vless
   server: 189.24.82.195
@@ -146,47 +130,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-18 反重力 日本01 0.17M限 稳测 VLESS
-  type: vless
-  server: 141.11.138.132
-  port: 443
-  uuid: b47cc98c-54f4-4ab2-acb9-b493a04ccc6b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
-    short-id: f9ca9286d0ff8920
-- name: 10-18 反重力 德国19 0.23M限 稳测 TROJAN
-  type: trojan
-  server: de4.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: de4.dedushka.top
-- name: 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  type: vless
-  server: 212.81.47.99
-  port: 51106
-  uuid: f5f0babe-aea2-4f07-a1fc-3c9820253f49
-  udp: true
-  tls: true
-  servername: apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
-    short-id: abcd1234
-- name: 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 45.130.165.199
-  port: 443
-  password: dd1b14f6-d290-428b-8d22-12105541c4c9
-  udp: true
-  sni: sg45199.cdn-video.pro
 - name: 10-21 反重力 IT01 0.18M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.36
@@ -203,14 +146,9 @@ proxy-groups:
   - 10-06 gpt 美国04 0.18M限 稳测 VLESS
   - 10-07 反重力 美国08 0.25M限 稳测 VLESS
   - 10-08 反重力 美国10 0.21M限 稳测 VLESS
-  - 10-10 反重力 美国15 0.25M限 稳测 VLESS
   - 10-11 反重力 德国14 0.25M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
-  - 10-18 反重力 日本01 0.17M限 稳测 VLESS
-  - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
-  - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
   - 10-21 反重力 IT01 0.18M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
@@ -222,14 +160,9 @@ proxy-groups:
   - 10-06 gpt 美国04 0.18M限 稳测 VLESS
   - 10-07 反重力 美国08 0.25M限 稳测 VLESS
   - 10-08 反重力 美国10 0.21M限 稳测 VLESS
-  - 10-10 反重力 美国15 0.25M限 稳测 VLESS
   - 10-11 反重力 德国14 0.25M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
-  - 10-18 反重力 日本01 0.17M限 稳测 VLESS
-  - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
-  - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
   - 10-21 反重力 IT01 0.18M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
