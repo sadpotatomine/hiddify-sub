@@ -137,34 +137,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-21 反重力 日本01 0.18M限 稳测 VLESS
-  type: vless
-  server: 166.88.97.224
-  port: 443
-  uuid: 73ceae65-fbfc-480e-8f56-d039be69c16c
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: XEFPrL1_DWJ_lx0MLgOiXdEdn_6eysDDWlTxga7_z2E
-    short-id: 04b065db
-- name: 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
-  type: vless
-  server: test.wolf-moose.test-cdn-kkk.com
-  port: 443
-  uuid: bbe37c75-d097-4b72-a074-445a56fe3969
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: la.cdn-tech-images.com
-  client-fingerprint: qq
-  network: tcp
-  reality-opts:
-    public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-    short-id: '50'
 - name: 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.54
@@ -172,19 +144,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-21 反重力 美国19 0.21M限 稳测 VLESS
-  type: vless
-  server: 172.96.192.167
-  port: 8443
-  uuid: 38a9c88a-14c7-49e4-841d-bdb78fbb9529
-  udp: true
-  tls: true
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: 8-tz1FBA5y6CcLp0NogIY4-x6pxkFBZ_HWSOXEioWho
-    short-id: dc286495
 - name: 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.72
@@ -220,33 +179,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-21 反重力 日本02 0.12M限 稳测 VLESS
-  type: vless
-  server: 45.76.98.127
-  port: 443
-  uuid: 18ce1302-4e37-4eac-bd4f-e3e0a983e589
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: LZR1ZQzdHDSdooxAImvxEjFIs-gebEP3zf0J6V3qVSI
-    short-id: 49fa0dad
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 10-21 反重力 德国15 0.21M限 稳测 VLESS
-  type: vless
-  server: 213.182.201.131
-  port: 3090
-  uuid: bb75325a-2605-4703-aa6b-f7e30862573e
-  udp: true
-  tls: false
-  network: grpc
-  grpc-opts:
-    grpc-service-name: vless
 - name: 10-21 反重力 日本03 0.24M限 稳测 VLESS
   type: vless
   server: pyygg0769.sys-metric-report.com
@@ -291,16 +223,11 @@ proxy-groups:
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 日本01 0.18M限 稳测 VLESS
-  - 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 美国19 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 日本02 0.12M限 稳测 VLESS
-  - 10-21 反重力 德国15 0.21M限 稳测 VLESS
   - 10-21 反重力 日本03 0.24M限 稳测 VLESS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -317,16 +244,11 @@ proxy-groups:
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 日本01 0.18M限 稳测 VLESS
-  - 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 美国19 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 日本02 0.12M限 稳测 VLESS
-  - 10-21 反重力 德国15 0.21M限 稳测 VLESS
   - 10-21 反重力 日本03 0.24M限 稳测 VLESS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
