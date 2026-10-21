@@ -144,13 +144,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 10-21 反重力 美国20 0.25M限 稳测 VLESS
   type: vless
   server: 156.229.164.4
@@ -255,7 +248,6 @@ proxy-groups:
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
@@ -278,7 +270,6 @@ proxy-groups:
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
