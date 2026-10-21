@@ -275,6 +275,13 @@ proxies:
     path: /f2fc2a1f
     headers:
       Host: 2.hi-l.im
+- name: 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: fn1s.sublinkplas.ir
+  port: 53731
+  cipher: chacha20-ietf-poly1305
+  password: QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -300,6 +307,7 @@ proxy-groups:
   - 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
   - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
+  - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -326,6 +334,7 @@ proxy-groups:
   - 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
   - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
+  - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
