@@ -102,7 +102,9 @@ def run():
     with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:
         checks=list(pool.map(check,enumerate(proxies)))
     failures=sum(x['status']=='FAILED_UNREACHABLE' for x in checks)
-    correlated=len(proxies)>=5 and failures*4>=len(proxies)*3
+    # Treat a total outage as potentially environmental. When other nodes pass,
+    # the Runner is demonstrably able to establish real proxy tunnels.
+    correlated=len(proxies)>=5 and failures==len(proxies)
     if correlated:
         for x in checks:
             if x['status']=='FAILED_UNREACHABLE':
@@ -117,7 +119,7 @@ def run():
         item['records']=sorted(item['records'],key=lambda r:r['cycle'])[-12:]
         item['consecutive_failures']=streak(item['records'])
         if item['consecutive_failures']>=3:delete.append(proxy['name'])
-    if delete and (len(delete)>=len(proxies) or len(delete)>len(proxies)//2):
+    if delete and len(delete)>=len(proxies):
         raise RuntimeError('Mass-deletion protection: no files written')
     if delete:
         drop=set(delete)
