@@ -192,6 +192,20 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 10-21 反重力 美国20 0.25M限 稳测 VLESS
+  type: vless
+  server: 156.229.164.4
+  port: 9443
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -210,6 +224,7 @@ proxy-groups:
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国19 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
+  - 10-21 反重力 美国20 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -229,6 +244,7 @@ proxy-groups:
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国19 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
+  - 10-21 反重力 美国20 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
