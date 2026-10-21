@@ -1,0 +1,73 @@
+name: Active Node Health (5h)
+
+on:
+  schedule:
+    # Hourly wake-up plus UTC epoch-hour gate avoids midnight 4h gaps.
+    - cron: '17 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/node-health.yml'
+      - '.github/scripts/node_health.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: active-node-health
+  cancel-in-progress: false
+
+jobs:
+  time-gate:
+    runs-on: ubuntu-latest
+    outputs:
+      due: ${{ steps.gate.outputs.due }}
+    steps:
+      - id: gate
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          python - <<'PY'
+          import datetime as dt, os
+          anchor = dt.datetime(2026, 10, 20, 11, tzinfo=dt.timezone.utc).timestamp() // 3600
+          now = dt.datetime.now(dt.timezone.utc).timestamp() // 3600
+          due = os.environ['EVENT_NAME'] != 'schedule' or (now - anchor) % 5 == 0
+          with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as out:
+              out.write('due=' + str(due).lower() + '\n')
+          print('Run health checks:', due)
+          PY
+
+  check:
+    needs: time-gate
+    if: needs.time-gate.outputs.due == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install parser and pinned Mihomo
+        run: |
+          set -euo pipefail
+          python -m pip install --quiet pyyaml
+          url='https://github.com/MetaCubeX/mihomo/releases/download/v1.19.32/mihomo-linux-amd64-compatible-v1.19.32.gz'
+          curl -fL --retry 3 -o /tmp/mihomo.gz "$url"
+          echo 'ba3ce607747a07f948fc35780e108a4a7c7f552a38b9bd4d115f313ebcb89c20  /tmp/mihomo.gz' | sha256sum -c -
+          gzip -dc /tmp/mihomo.gz > /tmp/mihomo
+          chmod +x /tmp/mihomo
+          /tmp/mihomo -v
+      - name: Test all nodes and apply consecutive-failure rule
+        run: python .github/scripts/node_health.py
+      - name: Persist evidence and verified pruning
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/node-health-history.json clash.yaml nodes-fuzhou-20260929.txt
+          if git diff --cached --quiet; then
+            echo 'No changes'
+            exit 0
+          fi
+          git commit -m 'Record five-hour node health; prune only 3 confirmed consecutive outages [skip ci]'
+          git push origin HEAD:main
