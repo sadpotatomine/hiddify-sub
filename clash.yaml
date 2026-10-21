@@ -160,13 +160,6 @@ proxies:
   reality-opts:
     public-key: Kb511WMVMJe1nImN8kCi9PdPQSGu3aZCrffMOvzv43A
     short-id: f9ca9286d0ff8920
-- name: 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 104.36.66.212
-  port: 443
-  cipher: aes-256-gcm
-  password: bwLa2026x9KpQzRt7Nv
-  udp: true
 - name: 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   type: trojan
   server: de4.dedushka.top
@@ -187,19 +180,6 @@ proxies:
   reality-opts:
     public-key: 2k8UhfxEK4WSVLWUr-uRExRiTiAsacWpe6I1xrnyt38
     short-id: abcd1234
-- name: 10-18 反重力 美国20 0.20M限 稳测 VLESS
-  type: vless
-  server: 104.225.239.122
-  port: 443
-  uuid: 5c68cb0a-0c11-4c61-9458-66f63387adc5
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: yzpUjsMEI7c7nBB5A3M_VVnROlrZdIR50XEhUQfXnC0
 - name: 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: 45.130.165.199
@@ -221,10 +201,8 @@ proxy-groups:
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-18 反重力 日本01 0.17M限 稳测 VLESS
-  - 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
   - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  - 10-18 反重力 美国20 0.20M限 稳测 VLESS
   - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
@@ -241,10 +219,8 @@ proxy-groups:
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-18 反重力 日本01 0.17M限 稳测 VLESS
-  - 10-18 反重力 美国19 0.25M限 稳测 SHADOWSOCKS
   - 10-18 反重力 德国19 0.23M限 稳测 TROJAN
   - 10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS
-  - 10-18 反重力 美国20 0.20M限 稳测 VLESS
   - 10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
