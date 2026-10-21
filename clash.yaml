@@ -185,6 +185,13 @@ proxies:
   reality-opts:
     public-key: 8-tz1FBA5y6CcLp0NogIY4-x6pxkFBZ_HWSOXEioWho
     short-id: dc286495
+- name: 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -202,6 +209,7 @@ proxy-groups:
   - 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国19 0.21M限 稳测 VLESS
+  - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -220,6 +228,7 @@ proxy-groups:
   - 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国19 0.21M限 稳测 VLESS
+  - 10-21 反重力 意大利03 0.18M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
