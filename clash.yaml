@@ -224,6 +224,23 @@ proxies:
     path: /hokm
     headers:
       Host: wefuhsah.ferto-shoping12.website
+- name: 10-21 反重力 美国22 0.25M限 稳测 VLESS
+  type: vless
+  server: 172.236.227.60
+  port: 443
+  uuid: e1ca5089-4e86-4fa9-b5e7-aa94cd91e71d
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: RTuOfZq_rHg1mbEZ_Xh0p9jDaRjIv_CYy5E-oLfUUR4
+    short-id: 59ad82ce
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -245,6 +262,7 @@ proxy-groups:
   - 10-21 反重力 日本03 0.24M限 稳测 VLESS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 德国15 0.24M限 稳测 VLESS
+  - 10-21 反重力 美国22 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -267,6 +285,7 @@ proxy-groups:
   - 10-21 反重力 日本03 0.24M限 稳测 VLESS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 德国15 0.24M限 稳测 VLESS
+  - 10-21 反重力 美国22 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
