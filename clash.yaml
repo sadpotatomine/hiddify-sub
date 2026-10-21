@@ -172,6 +172,19 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 10-21 反重力 美国19 0.21M限 稳测 VLESS
+  type: vless
+  server: 172.96.192.167
+  port: 8443
+  uuid: 38a9c88a-14c7-49e4-841d-bdb78fbb9529
+  udp: true
+  tls: true
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 8-tz1FBA5y6CcLp0NogIY4-x6pxkFBZ_HWSOXEioWho
+    short-id: dc286495
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -188,6 +201,7 @@ proxy-groups:
   - 10-21 反重力 日本01 0.18M限 稳测 VLESS
   - 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
+  - 10-21 反重力 美国19 0.21M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -205,6 +219,7 @@ proxy-groups:
   - 10-21 反重力 日本01 0.18M限 稳测 VLESS
   - 10-21 反重力 拉脱维亚01 0.19M限 稳测 VLESS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
+  - 10-21 反重力 美国19 0.21M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
