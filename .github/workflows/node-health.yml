@@ -58,8 +58,11 @@ jobs:
           chmod +x /tmp/mihomo
           /tmp/mihomo -v
       - name: Test all nodes and apply consecutive-failure rule
+        id: health
+        continue-on-error: true
         run: python .github/scripts/node_health.py
       - name: Persist evidence and verified pruning
+        if: always() && steps.health.outcome != 'skipped'
         run: |
           set -euo pipefail
           git config user.name 'github-actions[bot]'
@@ -71,3 +74,6 @@ jobs:
           fi
           git commit -m 'Record five-hour node health; prune only 3 confirmed consecutive outages [skip ci]'
           git push origin HEAD:main
+      - name: Surface health test errors after persisting evidence
+        if: always() && steps.health.outcome == 'failure'
+        run: exit 1
