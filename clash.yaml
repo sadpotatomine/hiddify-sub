@@ -249,6 +249,32 @@ proxies:
     short-id: f61a8e2fcf7222a6
   grpc-opts:
     grpc-service-name: ce30fc556a31
+- name: 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 65.109.209.239
+  port: 43586
+  password: vyn7irc6gzdo78ds
+  udp: true
+  sni: 65.109.209.239
+- name: 10-22 反重力 TR01 0.25M限 稳测 TROJAN
+  type: trojan
+  server: tr1.dedushka.top
+  port: 443
+  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
+  udp: true
+  sni: tr1.dedushka.top
+- name: 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 78.17.171.137
+  port: 443
+  password: u93yPGuY2zgIsisJZKS2QzJzg
+  udp: true
+  sni: 2.HI-L.IM
+  network: ws
+  ws-opts:
+    path: /f2fc2a1f
+    headers:
+      Host: 2.hi-l.im
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -271,6 +297,9 @@ proxy-groups:
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 波兰01 0.17M限 稳测 VLESS
+  - 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
+  - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
+  - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -294,6 +323,9 @@ proxy-groups:
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 波兰01 0.17M限 稳测 VLESS
+  - 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
+  - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
+  - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
