@@ -1,13 +1,13 @@
 {
   "last_cycle": 3,
-  "last_run": "2026-10-21T04:02:02.031944+00:00",
-  "last_run_url": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
+  "last_run": "2026-10-21T04:04:36.713908+00:00",
+  "last_run_url": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
   "last_summary": {
-    "correlated_guard": true,
+    "correlated_guard": false,
     "counts": {
-      "FAILED_UNREACHABLE": 0,
+      "FAILED_UNREACHABLE": 10,
       "PASS": 3,
-      "UNKNOWN": 10
+      "UNKNOWN": 0
     },
     "removed": []
   },
@@ -21,27 +21,26 @@
             "PASS"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
           "status": "PASS",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "19d04542bb6765238a906ce007c3682b3707bbacd27abcd6f2631db1548200a3": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-10 反重力 美国15 0.25M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
@@ -54,135 +53,128 @@
             "PASS"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
           "status": "PASS",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "45a61b3f4cd0b5c3ec6c0c6c85dd9504c4ca0e76121ec646e33f7e3a4089c3f7": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-07 反重力 美国08 0.25M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "55ad471f054a100500a9264f3769150ae99e50fd353a152dd5e544722863514b": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-18 反重力 日本01 0.17M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "61c1598c64544aee85cb44ad22e5ec5fbc3f4d6d58dcd243e5f3457960a1a50e": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-04 gpt 美国01 0.25M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "62154489437347cf8dadd668aa06ba6b6f91da4421785bfdd9960b736622c984": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-18 反重力 新加坡01 0.25M限 稳测 HYSTERIA2",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "66096bbd227d2961f3fb5d94482c162c855ada63b58d1a8cd8fd7658b1c492be": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-11 反重力 德国14 0.25M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "6a1873758bf30c2d45b31bf6f70176f31565f211c6f483c2036eb0fb5511c3d2": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-08 反重力 美国10 0.21M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "77d3e510789c467fffb2b5e706c8013ebd23e182918787584e109c69a078ca62": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-17 反重力 美国18 0.21M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
@@ -195,45 +187,43 @@
             "PASS"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
           "status": "PASS",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "b29ee8847fe4929bcd7947f2f6d0c70a30b4f25c5962467a8d084c71c482b1bd": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-18 反重力 澳大利亚01 0.18M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     },
     "ed2bf482b0c633b94e4ebeb5d7812f381e624800420078de6e899c0c36a0e52c": {
-      "consecutive_failures": 0,
+      "consecutive_failures": 1,
       "name": "10-06 gpt 美国04 0.18M限 稳测 VLESS",
       "records": [
         {
           "attempts": [
             "UNREACHABLE",
             "UNREACHABLE",
-            "UNREACHABLE",
-            "CORRELATED_FAILURE_GUARD"
+            "UNREACHABLE"
           ],
           "cycle": 3,
-          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39541779887",
-          "status": "UNKNOWN",
-          "time": "2026-10-21T04:02:02.031944+00:00"
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-21T04:04:36.713908+00:00"
         }
       ]
     }
