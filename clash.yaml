@@ -237,6 +237,16 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 10-21 反重力 德国15 0.21M限 稳测 VLESS
+  type: vless
+  server: 213.182.201.131
+  port: 3090
+  uuid: bb75325a-2605-4703-aa6b-f7e30862573e
+  udp: true
+  tls: false
+  network: grpc
+  grpc-opts:
+    grpc-service-name: vless
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -259,6 +269,7 @@ proxy-groups:
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 日本02 0.12M限 稳测 VLESS
+  - 10-21 反重力 德国15 0.21M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -282,6 +293,7 @@ proxy-groups:
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 日本02 0.12M限 稳测 VLESS
+  - 10-21 反重力 德国15 0.21M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
