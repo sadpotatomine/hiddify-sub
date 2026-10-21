@@ -247,6 +247,37 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: vless
+- name: 10-21 反重力 日本03 0.24M限 稳测 VLESS
+  type: vless
+  server: pyygg0769.sys-metric-report.com
+  port: 52804
+  uuid: 2c8c4c3b-4616-400c-a2d4-f3669ea18fe9
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: japp.cfastcdn.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: cCwvNI8D-LX-kLH1IDuBZwnKkkyMPJm_0sJXsxz-_mA
+    short-id: 68c4f6b0
+- name: 10-21 反重力 美国21 0.20M限 稳测 VLESS
+  type: vless
+  server: 45.76.172.197
+  port: 443
+  uuid: b256c867-a020-48e0-be80-1b079f2613a2
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: Ag8SQ5QdqfHO9pKWA93kqGmH5EQo7Xm5Z4RbPnwPBBE
+    short-id: ff3597db
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -270,6 +301,8 @@ proxy-groups:
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 日本02 0.12M限 稳测 VLESS
   - 10-21 反重力 德国15 0.21M限 稳测 VLESS
+  - 10-21 反重力 日本03 0.24M限 稳测 VLESS
+  - 10-21 反重力 美国21 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -294,6 +327,8 @@ proxy-groups:
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 日本02 0.12M限 稳测 VLESS
   - 10-21 反重力 德国15 0.21M限 稳测 VLESS
+  - 10-21 反重力 日本03 0.24M限 稳测 VLESS
+  - 10-21 反重力 美国21 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
