@@ -227,6 +227,20 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 10-22 反重力 日本01 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.202.254.20
+  port: 9443
+  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -248,6 +262,7 @@ proxy-groups:
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 德国15 0.24M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
+  - 10-22 反重力 日本01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -270,6 +285,7 @@ proxy-groups:
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 德国15 0.24M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
+  - 10-22 反重力 日本01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
