@@ -417,6 +417,13 @@ proxies:
   cipher: aes-256-gcm
   password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
   udp: true
+- name: 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 87.107.114.105
+  port: 900
+  cipher: aes-128-gcm
+  password: db2cf3e21c83483c9084b9db1bd469fb
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -455,6 +462,7 @@ proxy-groups:
   - 10-23 反重力 芬兰01 0.25M限 稳测 VLESS
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
   - 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -494,6 +502,7 @@ proxy-groups:
   - 10-23 反重力 芬兰01 0.25M限 稳测 VLESS
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
   - 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
