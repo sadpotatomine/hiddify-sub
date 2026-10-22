@@ -522,6 +522,55 @@ proxies:
   network: tcp
   reality-opts:
     public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
+- name: 10-22 反重力 芬兰03 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: meshcobalt.komediyatorg.net
+  port: 443
+  password: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
+  udp: true
+  sni: meshcobalt.komediyatorg.net
+- name: 10-22 反重力 荷兰03 0.23M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: nl.lucheeebezlimitnoekino.stream
+  port: 443
+  password: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
+  udp: true
+  sni: nl.lucheeebezlimitnoekino.stream
+- name: 10-22 反重力 荷兰04 0.26M限 稳测 VLESS
+  type: vless
+  server: e8oi.4xv.hhll.vavava.kdns.fr
+  port: 443
+  uuid: 44d636ef-7056-4bdf-a3f4-acabe2adfc6f
+  udp: true
+  tls: true
+  servername: e8oi.4xv.hhll.vavava.kdns.fr
+  network: ws
+  ws-opts:
+    path: /?auto=1&ed=2560
+    headers:
+      Host: e8oi.4xv.hhll.vavava.kdns.fr
+- name: 10-22 反重力 德国20 0.13M限 稳测 VLESS
+  type: vless
+  server: 31.77.161.183
+  port: 8443
+  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
+  udp: true
+  tls: true
+  servername: germany01.azotvpn.xyz
+  client-fingerprint: random
+  network: grpc
+  reality-opts:
+    public-key: 7hHoROf3WLDWI8SQ4B82O00j29Bpwxd49hWe5EMBsgI
+    short-id: 8bbb9ef51f37aad7
+  grpc-opts:
+    grpc-service-name: ''
+- name: 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: scoreviolet.v-aiai-petuh.uk
+  port: 443
+  password: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
+  udp: true
+  sni: scoreviolet.v-aiai-petuh.uk
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -568,6 +617,11 @@ proxy-groups:
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 法国09 0.26M限 稳测 VLESS
   - 10-22 反重力 美国25 0.26M限 稳测 VLESS
+  - 10-22 反重力 芬兰03 0.26M限 稳测 HYSTERIA2
+  - 10-22 反重力 荷兰03 0.23M限 稳测 HYSTERIA2
+  - 10-22 反重力 荷兰04 0.26M限 稳测 VLESS
+  - 10-22 反重力 德国20 0.13M限 稳测 VLESS
+  - 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -615,6 +669,11 @@ proxy-groups:
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 法国09 0.26M限 稳测 VLESS
   - 10-22 反重力 美国25 0.26M限 稳测 VLESS
+  - 10-22 反重力 芬兰03 0.26M限 稳测 HYSTERIA2
+  - 10-22 反重力 荷兰03 0.23M限 稳测 HYSTERIA2
+  - 10-22 反重力 荷兰04 0.26M限 稳测 VLESS
+  - 10-22 反重力 德国20 0.13M限 稳测 VLESS
+  - 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
