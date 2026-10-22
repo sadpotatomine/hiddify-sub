@@ -440,6 +440,41 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
+- name: 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
+  type: vless
+  server: 5.39.250.208
+  port: 443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lv1.formatconnection.icu
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
+    short-id: 7271129440ade8fa
+- name: 10-22 反重力 荷兰02 0.25M限 稳测 VLESS
+  type: vless
+  server: test.xxee.ru
+  port: 443
+  uuid: 53ccc4c0-d220-4bec-99f7-917eae0d39e6
+  udp: true
+  tls: true
+  servername: test.xxee.ru
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /19419/F0LCt4uG
+    headers:
+      Host: test.xxee.ru
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -479,6 +514,9 @@ proxy-groups:
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 美国24 0.26M限 稳测 VLESS
   - 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
+  - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
+  - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
+  - 10-22 反重力 荷兰02 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -519,6 +557,9 @@ proxy-groups:
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 美国24 0.26M限 稳测 VLESS
   - 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
+  - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
+  - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
+  - 10-22 反重力 荷兰02 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
