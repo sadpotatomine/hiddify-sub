@@ -206,25 +206,6 @@ proxies:
   reality-opts:
     public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
     short-id: b390142456517acc
-- name: 10-22 反重力 TR01 0.25M限 稳测 TROJAN
-  type: trojan
-  server: tr1.dedushka.top
-  port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  udp: true
-  sni: tr1.dedushka.top
-- name: 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 78.17.171.137
-  port: 443
-  password: u93yPGuY2zgIsisJZKS2QzJzg
-  udp: true
-  sni: 2.HI-L.IM
-  network: ws
-  ws-opts:
-    path: /f2fc2a1f
-    headers:
-      Host: 2.hi-l.im
 - name: 10-22 反重力 德国16 0.26M限 稳测 VLESS
   type: vless
   server: 194.87.29.96
@@ -444,19 +425,6 @@ proxies:
   reality-opts:
     public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
     short-id: 7271129440ade8fa
-- name: 10-22 反重力 美国25 0.26M限 稳测 VLESS
-  type: vless
-  server: 141.98.190.152
-  port: 443
-  uuid: 30572b57-f5ab-4eb8-82d4-a24d399b99f6
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: allo.eosvpn.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: Buy9pirx5Ih_LHwc6R3BCmvRL4g4Ljx6B3MEsZfIZhU
 - name: 10-22 反重力 德国20 0.13M限 稳测 VLESS
   type: vless
   server: 31.77.161.183
@@ -559,8 +527,6 @@ proxy-groups:
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
-  - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
-  - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国17 0.26M限 稳测 VLESS
@@ -579,7 +545,6 @@ proxy-groups:
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 法国09 0.26M限 稳测 VLESS
-  - 10-22 反重力 美国25 0.26M限 稳测 VLESS
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 日本02 0.25M限 稳测 VLESS
@@ -607,8 +572,6 @@ proxy-groups:
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
-  - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
-  - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国17 0.26M限 稳测 VLESS
@@ -627,7 +590,6 @@ proxy-groups:
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 法国09 0.26M限 稳测 VLESS
-  - 10-22 反重力 美国25 0.26M限 稳测 VLESS
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 日本02 0.25M限 稳测 VLESS
