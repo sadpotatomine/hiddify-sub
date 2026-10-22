@@ -304,35 +304,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-22 反重力 法国09 0.26M限 稳测 VLESS
-  type: vless
-  server: 83.171.226.10
-  port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: web.sakhweb.fyi
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-    short-id: 7271129440ade8fa
-- name: 10-22 反重力 德国20 0.13M限 稳测 VLESS
-  type: vless
-  server: 31.77.161.183
-  port: 8443
-  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
-  udp: true
-  tls: true
-  servername: germany01.azotvpn.xyz
-  client-fingerprint: random
-  network: grpc
-  reality-opts:
-    public-key: 7hHoROf3WLDWI8SQ4B82O00j29Bpwxd49hWe5EMBsgI
-    short-id: 8bbb9ef51f37aad7
-  grpc-opts:
-    grpc-service-name: ''
 - name: 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   type: vless
   server: 95.182.120.128
@@ -485,8 +456,6 @@ proxy-groups:
   - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
-  - 10-22 反重力 法国09 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 日本02 0.25M限 稳测 VLESS
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
@@ -526,8 +495,6 @@ proxy-groups:
   - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
-  - 10-22 反重力 法国09 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 日本02 0.25M限 稳测 VLESS
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
