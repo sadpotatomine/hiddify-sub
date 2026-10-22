@@ -526,6 +526,20 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 10-22 反重力 波兰03 0.26M限 稳测 VLESS
+  type: vless
+  server: 151.241.166.159
+  port: 443
+  uuid: 7ab86f1f-871e-4de6-9dae-7addf6dc976c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: pl-hsts.zloygo.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: tPhBRGpTbyaPFF3W0wpqncSrdNsV5I-eyM3S9CZoeCQ
+    short-id: 9a26e586f8cadc07
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -572,6 +586,7 @@ proxy-groups:
   - 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
+  - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -619,6 +634,7 @@ proxy-groups:
   - 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
+  - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
