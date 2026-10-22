@@ -189,20 +189,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-21 反重力 德国15 0.24M限 稳测 VLESS
-  type: vless
-  server: shortbig.ir
-  port: 2087
-  uuid: 31f185b6-e591-413b-ba72-88083a87feb2
-  udp: true
-  tls: true
-  servername: wefuhsah.ferto-shoping12.website
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /hokm
-    headers:
-      Host: wefuhsah.ferto-shoping12.website
 - name: 10-21 反重力 美国22 0.25M限 稳测 VLESS
   type: vless
   server: 172.236.227.60
@@ -329,7 +315,6 @@ proxy-groups:
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
-  - 10-21 反重力 德国15 0.24M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 波兰01 0.17M限 稳测 VLESS
@@ -358,7 +343,6 @@ proxy-groups:
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
-  - 10-21 反重力 德国15 0.24M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 波兰01 0.17M限 稳测 VLESS
