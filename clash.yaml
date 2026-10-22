@@ -297,6 +297,81 @@ proxies:
   reality-opts:
     public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
     short-id: 7271129440ade8fa
+- name: 10-22 反重力 瑞典01 0.17M限 稳测 VLESS
+  type: vless
+  server: 51.21.135.136
+  port: 443
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  udp: true
+  tls: false
+  network: http
+- name: 10-22 反重力 德国17 0.26M限 稳测 VLESS
+  type: vless
+  server: 147.45.46.148
+  port: 443
+  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: de.ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-22 反重力 德国18 0.20M限 稳测 VLESS
+  type: vless
+  server: 5.22.212.81
+  port: 8080
+  uuid: 7f36e606-3eb9-4b60-b783-8d8806818286
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 5.22.212.81
+- name: 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 217.60.237.28
+  port: 443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: backend.sakhweb.fyi
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
+    short-id: 7271129440ade8fa
+- name: 10-22 反重力 德国19 0.27M限 稳测 VLESS
+  type: vless
+  server: 194.87.29.96
+  port: 443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: login.moscowvibe.fyi
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
+    short-id: 7271129440ade8fa
+- name: 10-22 反重力 法国08 0.26M限 稳测 VLESS
+  type: vless
+  server: 194.113.235.121
+  port: 443
+  uuid: 7ab86f1f-871e-4de6-9dae-7addf6dc976c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: fr1-4v.zvcorp24.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: f2a5R8ubMtjmFDxUt1VtikDOmgPgVWBPzcZjOOJpYlc
+    short-id: 12f319370b60ec2f
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -324,6 +399,12 @@ proxy-groups:
   - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  - 10-22 反重力 瑞典01 0.17M限 稳测 VLESS
+  - 10-22 反重力 德国17 0.26M限 稳测 VLESS
+  - 10-22 反重力 德国18 0.20M限 稳测 VLESS
+  - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
+  - 10-22 反重力 德国19 0.27M限 稳测 VLESS
+  - 10-22 反重力 法国08 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -352,6 +433,12 @@ proxy-groups:
   - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  - 10-22 反重力 瑞典01 0.17M限 稳测 VLESS
+  - 10-22 反重力 德国17 0.26M限 稳测 VLESS
+  - 10-22 反重力 德国18 0.20M限 稳测 VLESS
+  - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
+  - 10-22 反重力 德国19 0.27M限 稳测 VLESS
+  - 10-22 反重力 法国08 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
