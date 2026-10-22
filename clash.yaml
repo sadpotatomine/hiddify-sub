@@ -443,6 +443,20 @@ proxies:
   reality-opts:
     public-key: tPhBRGpTbyaPFF3W0wpqncSrdNsV5I-eyM3S9CZoeCQ
     short-id: 9a26e586f8cadc07
+- name: 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
+  type: vless
+  server: 77.239.110.89
+  port: 443
+  uuid: a500be68-4ff6-433b-9968-472be69fab14
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: netherlands02.azotvpn.xyz
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
+    short-id: fc70174007a393b4
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -482,6 +496,7 @@ proxy-groups:
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
+  - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -522,6 +537,7 @@ proxy-groups:
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
+  - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
