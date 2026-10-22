@@ -235,19 +235,6 @@ proxies:
   reality-opts:
     public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
     short-id: 7271129440ade8fa
-- name: 10-22 反重力 德国17 0.26M限 稳测 VLESS
-  type: vless
-  server: 147.45.46.148
-  port: 443
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: de.ozon.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   type: vless
   server: 217.60.237.28
@@ -318,19 +305,6 @@ proxies:
   reality-opts:
     public-key: ST900c3lnBenLZfgTP95GPCXNm2dOpwQ7R5WShAKjSs
     short-id: 7271129440ade8fa
-- name: 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.128.78.171
-  port: 443
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ozon.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.63
@@ -490,14 +464,12 @@ proxy-groups:
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国17 0.26M限 稳测 VLESS
   - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国19 0.27M限 稳测 VLESS
   - 10-22 反重力 法国08 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
-  - 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
@@ -532,14 +504,12 @@ proxy-groups:
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国17 0.26M限 稳测 VLESS
   - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国19 0.27M限 稳测 VLESS
   - 10-22 反重力 法国08 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
-  - 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
