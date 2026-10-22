@@ -144,20 +144,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-21 反重力 美国20 0.25M限 稳测 VLESS
-  type: vless
-  server: 156.229.164.4
-  port: 9443
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
 - name: 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.99
@@ -220,28 +206,6 @@ proxies:
   reality-opts:
     public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
     short-id: b390142456517acc
-- name: 10-22 反重力 波兰01 0.17M限 稳测 VLESS
-  type: vless
-  server: 201.10.91.20
-  port: 443
-  uuid: 3acb386b-fdd7-4bc9-911f-159fdcd834ce
-  udp: true
-  tls: true
-  servername: a4d9acg.plp1.h1cloud.net
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: 8pz2ja5pjpfnY-ZVymqkB8YmWnI6pkca4CKapBhA1XI
-    short-id: f61a8e2fcf7222a6
-  grpc-opts:
-    grpc-service-name: ce30fc556a31
-- name: 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 65.109.209.239
-  port: 43586
-  password: vyn7irc6gzdo78ds
-  udp: true
-  sni: 65.109.209.239
 - name: 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   type: trojan
   server: tr1.dedushka.top
@@ -261,13 +225,6 @@ proxies:
     path: /f2fc2a1f
     headers:
       Host: 2.hi-l.im
-- name: 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: fn1s.sublinkplas.ir
-  port: 53731
-  cipher: chacha20-ietf-poly1305
-  password: QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7
-  udp: true
 - name: 10-22 反重力 德国16 0.26M限 稳测 VLESS
   type: vless
   server: 194.87.29.96
@@ -585,17 +542,13 @@ proxy-groups:
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
-  - 10-22 反重力 波兰01 0.17M限 稳测 VLESS
-  - 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
   - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
-  - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 瑞典01 0.17M限 稳测 VLESS
@@ -637,17 +590,13 @@ proxy-groups:
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利02 0.15M限 稳测 SHADOWSOCKS
-  - 10-21 反重力 美国20 0.25M限 稳测 VLESS
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
-  - 10-22 反重力 波兰01 0.17M限 稳测 VLESS
-  - 10-22 反重力 芬兰01 0.26M限 稳测 TROJAN
   - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
-  - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 瑞典01 0.17M限 稳测 VLESS
