@@ -221,20 +221,6 @@ proxies:
     short-id: 4d2cf3
   grpc-opts:
     grpc-service-name: ''
-- name: 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
-  type: vless
-  server: 87.58.205.242
-  port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: backend.mskvibe.fyi
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-    short-id: 7271129440ade8fa
 - name: 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   type: vless
   server: 217.60.237.28
@@ -249,34 +235,6 @@ proxies:
   reality-opts:
     public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
     short-id: 7271129440ade8fa
-- name: 10-22 反重力 德国19 0.27M限 稳测 VLESS
-  type: vless
-  server: 194.87.29.96
-  port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: login.moscowvibe.fyi
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
-    short-id: 7271129440ade8fa
-- name: 10-22 反重力 法国08 0.26M限 稳测 VLESS
-  type: vless
-  server: 194.113.235.121
-  port: 443
-  uuid: 7ab86f1f-871e-4de6-9dae-7addf6dc976c
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fr1-4v.zvcorp24.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: f2a5R8ubMtjmFDxUt1VtikDOmgPgVWBPzcZjOOJpYlc
-    short-id: 12f319370b60ec2f
 - name: 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.27
@@ -402,13 +360,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: oM8fSNZoxUPYolfcA-trXnlHCbeG7402OQTGOfokaVY
-- name: 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 129.101.113.184
-  port: 140
-  cipher: chacha20-ietf-poly1305
-  password: 1zopGb7xhQYNJ6AiZKQ8lukmvV0TT6Fp
-  udp: true
 - name: 10-22 反重力 德国21 0.26M限 稳测 VLESS
   type: vless
   server: da0bcdc2133654d7.tunvi.w-ert.org
@@ -477,10 +428,7 @@ proxy-groups:
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
-  - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国19 0.27M限 稳测 VLESS
-  - 10-22 反重力 法国08 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
@@ -492,7 +440,6 @@ proxy-groups:
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 日本02 0.25M限 稳测 VLESS
-  - 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
@@ -518,10 +465,7 @@ proxy-groups:
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 日本01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
-  - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国19 0.27M限 稳测 VLESS
-  - 10-22 反重力 法国08 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
@@ -533,7 +477,6 @@ proxy-groups:
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 日本02 0.25M限 稳测 VLESS
-  - 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 德国21 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
