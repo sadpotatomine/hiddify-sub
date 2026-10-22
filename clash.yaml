@@ -408,6 +408,48 @@ proxies:
   reality-opts:
     public-key: ui9MLRYZIz7S6_1E4fZgoamwTypfQAMwJ1olxGcWomE
     short-id: fc70174007a393b4
+- name: 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
+  type: vless
+  server: 213.152.165.203
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+- name: 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
+  type: vless
+  server: 50.7.245.204
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
+- name: 10-23 反重力 IR01 0.26M限 稳测 VLESS
+  type: vless
+  server: 198.16.113.219
+  port: 8443
+  uuid: e3e0e1c3-599e-4ae1-8ad4-d9e90effacc4
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 8NkTRxC5Q7bptx-8ADobkuhPK-ZN0kEEbzv6tCFGMzE
+    short-id: 69984b9e02545831
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -444,6 +486,9 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
+  - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
+  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
+  - 10-23 反重力 IR01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -481,6 +526,9 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
+  - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
+  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
+  - 10-23 反重力 IR01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
