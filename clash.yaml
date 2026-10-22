@@ -282,6 +282,35 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: QoYjvkIZ7-bMIYfVI9IzRXUx5A1o3kj7
   udp: true
+- name: 10-22 反重力 德国16 0.26M限 稳测 VLESS
+  type: vless
+  server: 194.87.29.96
+  port: 8443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  tls: true
+  servername: vk.ru
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs
+    short-id: 4d2cf3
+  grpc-opts:
+    grpc-service-name: ''
+- name: 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  type: vless
+  server: 87.58.205.242
+  port: 443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: backend.mskvibe.fyi
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
+    short-id: 7271129440ade8fa
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -308,6 +337,8 @@ proxy-groups:
   - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
   - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
+  - 10-22 反重力 德国16 0.26M限 稳测 VLESS
+  - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -335,6 +366,8 @@ proxy-groups:
   - 10-22 反重力 TR01 0.25M限 稳测 TROJAN
   - 10-22 反重力 波兰02 0.26M限 稳测 TROJAN
   - 10-22 反重力 芬兰02 0.26M限 稳测 SHADOWSOCKS
+  - 10-22 反重力 德国16 0.26M限 稳测 VLESS
+  - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
