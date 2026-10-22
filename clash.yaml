@@ -534,6 +534,26 @@ proxies:
   reality-opts:
     public-key: 7MRwvMvlDcjZqfdbBmePpZI5WDEYgya1y_pOp7B9CDc
     short-id: d0dc65ab94f5e69b
+- name: 10-22 反重力 日本02 0.25M限 稳测 VLESS
+  type: vless
+  server: 38.47.97.90
+  port: 443
+  uuid: 26e3125d-9cc3-4f8a-816f-55c7806692ee
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: oM8fSNZoxUPYolfcA-trXnlHCbeG7402OQTGOfokaVY
+- name: 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 129.101.113.184
+  port: 140
+  cipher: chacha20-ietf-poly1305
+  password: 1zopGb7xhQYNJ6AiZKQ8lukmvV0TT6Fp
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -581,6 +601,8 @@ proxy-groups:
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
+  - 10-22 反重力 日本02 0.25M限 稳测 VLESS
+  - 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -629,6 +651,8 @@ proxy-groups:
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
+  - 10-22 反重力 日本02 0.25M限 稳测 VLESS
+  - 10-22 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
