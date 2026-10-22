@@ -528,6 +528,20 @@ proxies:
   password: 5e12bc12-6da2-4a86-bbfe-144419d0e0e3
   udp: true
   sni: scoreviolet.v-aiai-petuh.uk
+- name: 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
+  type: vless
+  server: 95.182.120.128
+  port: 443
+  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: api.stride.surf
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 7MRwvMvlDcjZqfdbBmePpZI5WDEYgya1y_pOp7B9CDc
+    short-id: d0dc65ab94f5e69b
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -575,6 +589,7 @@ proxy-groups:
   - 10-22 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
+  - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -623,6 +638,7 @@ proxy-groups:
   - 10-22 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-22 反重力 德国20 0.13M限 稳测 VLESS
   - 10-22 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
+  - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
