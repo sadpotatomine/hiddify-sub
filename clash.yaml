@@ -248,18 +248,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-22 反重力 德国18 0.20M限 稳测 VLESS
-  type: vless
-  server: 5.22.212.81
-  port: 8080
-  uuid: 7f36e606-3eb9-4b60-b783-8d8806818286
-  udp: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 5.22.212.81
 - name: 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   type: vless
   server: 217.60.237.28
@@ -316,19 +304,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-22 反重力 俄罗斯01 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.9.118.187
-  port: 443
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ozon.ru
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-22 反重力 美国23 0.26M限 稳测 VLESS
   type: vless
   server: 69.42.222.165
@@ -377,20 +352,6 @@ proxies:
   reality-opts:
     public-key: 13nLTYkdBEFR-A4CfK2beOx-5LKEsXh1QHPq8Kt52BQ
     short-id: 7271129440ade8fa
-- name: 10-22 反重力 荷兰02 0.25M限 稳测 VLESS
-  type: vless
-  server: test.xxee.ru
-  port: 443
-  uuid: 53ccc4c0-d220-4bec-99f7-917eae0d39e6
-  udp: true
-  tls: true
-  servername: test.xxee.ru
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /19419/F0LCt4uG
-    headers:
-      Host: test.xxee.ru
 - name: 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.81
@@ -530,18 +491,15 @@ proxy-groups:
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国17 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国18 0.20M限 稳测 VLESS
   - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国19 0.27M限 稳测 VLESS
   - 10-22 反重力 法国08 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
-  - 10-22 反重力 荷兰02 0.25M限 稳测 VLESS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 法国09 0.26M限 稳测 VLESS
@@ -575,18 +533,15 @@ proxy-groups:
   - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国17 0.26M限 稳测 VLESS
-  - 10-22 反重力 德国18 0.20M限 稳测 VLESS
   - 10-22 反重力 荷兰01 0.26M限 稳测 VLESS
   - 10-22 反重力 德国19 0.27M限 稳测 VLESS
   - 10-22 反重力 法国08 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 俄罗斯02 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 拉脱维亚01 0.26M限 稳测 VLESS
-  - 10-22 反重力 荷兰02 0.25M限 稳测 VLESS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 法国09 0.26M限 稳测 VLESS
