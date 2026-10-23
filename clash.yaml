@@ -192,21 +192,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-22 反重力 德国16 0.26M限 稳测 VLESS
-  type: vless
-  server: 194.87.29.96
-  port: 8443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  tls: true
-  servername: vk.ru
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: zdUSjR5iPKcmOOUbSFQQ0pCYjGGVJMRBMD6_F3_wBEs
-    short-id: 4d2cf3
-  grpc-opts:
-    grpc-service-name: ''
 - name: 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.27
@@ -249,19 +234,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
-  type: vless
-  server: 45.128.78.178
-  port: 443
-  uuid: 261160d5-0343-4b85-8c28-3d40dd681559
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ozon.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.18
@@ -392,13 +364,6 @@ proxies:
   reality-opts:
     public-key: yyp3p-OdwN1MUuviO3r1tBNMYY4giulLMDOeNLNfyhI
     short-id: 4522e8266a24d531
-- name: 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 179.61.138.145
-  port: 36264
-  password: Telegram-vpnjey
-  udp: true
-  sni: de2.jey.cc.cd
 - name: 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   type: vless
   server: 50.7.245.205
@@ -438,13 +403,11 @@ proxy-groups:
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
-  - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
@@ -456,7 +419,6 @@ proxy-groups:
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
-  - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
@@ -478,13 +440,11 @@ proxy-groups:
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
-  - 10-22 反重力 德国16 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
@@ -496,7 +456,6 @@ proxy-groups:
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
-  - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
