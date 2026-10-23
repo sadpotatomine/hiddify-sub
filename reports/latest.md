@@ -1,13 +1,13 @@
 # 节点库维护运行报告
 
-- 批次：`batch-20261023-181111-208373-r1`
-- 报告时间（北京时间）：2026-10-23T18:32:58.849465+08:00
-- 状态：complete；结果：published
+- 批次：`batch-20261023-183307-758126-r2`
+- 报告时间（北京时间）：2026-10-23T18:40:40.670106+08:00
+- 状态：complete；结果：no-new
 - 异常类型：无；运行阶段：publish
-- 合格新增：1；移除：0
+- 合格新增：0；移除：0
 - 当前节点数：31
 - 订阅远端字节校验：True
-- 节点订阅内容发生变化：True
+- 节点订阅内容发生变化：False
 
 运行方式：Python + sing-box，无需 AI 账号。每完成 5 轮后休息 1 小时，再继续。
 
@@ -23,12 +23,12 @@
   },
   "screen.json": {
     "count": 200,
-    "passed": 1
+    "passed": 2
   },
   "deep.json": {
-    "count": 6,
-    "passed": 6,
-    "incomplete_downloads": 0
+    "count": 4,
+    "passed": 2,
+    "incomplete_downloads": 1
   }
 }
 ```
