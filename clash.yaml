@@ -327,6 +327,34 @@ proxies:
   udp: true
   tls: false
   network: tcp
+- name: 10-24 反重力 日本03 0.26M限 稳测 VLESS
+  type: vless
+  server: fuji.etherhub.cc
+  port: 443
+  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: fuji.etherhub.cc
+  client-fingerprint: qq
+  network: tcp
+  reality-opts:
+    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
+    short-id: bd6f67b6b2152b45
+- name: 10-24 反重力 德国16 0.14M限 稳测 VLESS
+  type: vless
+  server: 31.77.161.183
+  port: 443
+  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: germany01.azotvpn.xyz
+  client-fingerprint: random
+  network: raw
+  reality-opts:
+    public-key: 4goy1hsfLyeu1POy0fjyH7qIrc1CK4p3nAZQVMTdPFY
+    short-id: af3292b33826ae94
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -359,6 +387,8 @@ proxy-groups:
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-24 反重力 德国15 0.26M限 稳测 VLESS
   - 10-24 反重力 英国01 0.26M限 稳测 VLESS
+  - 10-24 反重力 日本03 0.26M限 稳测 VLESS
+  - 10-24 反重力 德国16 0.14M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -392,6 +422,8 @@ proxy-groups:
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-24 反重力 德国15 0.26M限 稳测 VLESS
   - 10-24 反重力 英国01 0.26M限 稳测 VLESS
+  - 10-24 反重力 日本03 0.26M限 稳测 VLESS
+  - 10-24 反重力 德国16 0.14M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
