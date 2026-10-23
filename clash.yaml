@@ -354,6 +354,14 @@ proxies:
   udp: true
   tls: false
   network: tcp
+- name: 10-24 反重力 英国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 51.24.209.55
+  port: 22224
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  udp: true
+  tls: false
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -388,6 +396,7 @@ proxy-groups:
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
   - 10-24 反重力 德国15 0.26M限 稳测 VLESS
+  - 10-24 反重力 英国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -423,6 +432,7 @@ proxy-groups:
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
   - 10-24 反重力 德国15 0.26M限 稳测 VLESS
+  - 10-24 反重力 英国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
