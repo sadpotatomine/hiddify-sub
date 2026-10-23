@@ -287,20 +287,6 @@ proxies:
     short-id: 07f508fe5d2355d3
   grpc-opts:
     grpc-service-name: ''
-- name: 10-23 反重力 美国26 0.26M限 稳测 VLESS
-  type: vless
-  server: tuic.moxin1245.win
-  port: 8443
-  uuid: ab5fac73-e8c3-44e3-8596-0fdab35477d1
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: yyp3p-OdwN1MUuviO3r1tBNMYY4giulLMDOeNLNfyhI
-    short-id: 4522e8266a24d531
 - name: 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.90
@@ -382,7 +368,6 @@ proxy-groups:
   - 10-23 反重力 日本02 0.25M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
-  - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
@@ -417,7 +402,6 @@ proxy-groups:
   - 10-23 反重力 日本02 0.25M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
-  - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
