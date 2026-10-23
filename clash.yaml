@@ -367,6 +367,20 @@ proxies:
   cipher: aes-128-gcm
   password: 0b5037a729c3a2a6134e82445bcc5ff3
   udp: true
+- name: 10-23 反重力 美国29 0.25M限 稳测 TROJAN
+  type: trojan
+  server: lisa3.pacemakere.com
+  port: 20008
+  password: 8411611d10544e41
+  udp: true
+  sni: lisa3.pacemakere.com
+- name: 10-23 反重力 美国30 0.26M限 稳测 TROJAN
+  type: trojan
+  server: ui108.pacemakere.com
+  port: 20008
+  password: 6ab93ec68bd94b76
+  udp: true
+  sni: ui108.pacemakere.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -402,6 +416,8 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 美国29 0.25M限 稳测 TROJAN
+  - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -438,6 +454,8 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 美国29 0.25M限 稳测 TROJAN
+  - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
