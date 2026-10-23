@@ -374,6 +374,13 @@ proxies:
   servername: a3.xtssc.top
   client-fingerprint: chrome
   network: tcp
+- name: 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 205.209.104.94
+  port: 17897
+  cipher: aes-128-gcm
+  password: 0b5037a729c3a2a6134e82445bcc5ff3
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -409,6 +416,7 @@ proxy-groups:
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
+  - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -445,6 +453,7 @@ proxy-groups:
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
+  - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
