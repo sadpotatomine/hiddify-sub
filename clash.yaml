@@ -467,6 +467,13 @@ proxies:
   reality-opts:
     public-key: yyp3p-OdwN1MUuviO3r1tBNMYY4giulLMDOeNLNfyhI
     short-id: 4522e8266a24d531
+- name: 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 179.61.138.145
+  port: 36264
+  password: Telegram-vpnjey
+  udp: true
+  sni: de2.jey.cc.cd
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -509,6 +516,7 @@ proxy-groups:
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
+  - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -552,6 +560,7 @@ proxy-groups:
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
+  - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
