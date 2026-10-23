@@ -272,20 +272,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
   udp: true
-- name: 10-23 反重力 美国24 0.26M限 稳测 VLESS
-  type: vless
-  server: 156.229.164.149
-  port: 9443
-  uuid: 82eb8419-59f4-4d3e-9106-d05d22af615c
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
 - name: 10-23 反重力 美国25 0.26M限 稳测 VLESS
   type: vless
   server: rn.20066002.xyz
@@ -346,13 +332,6 @@ proxies:
   servername: a3.xtssc.top
   client-fingerprint: chrome
   network: tcp
-- name: 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 205.209.104.94
-  port: 17897
-  cipher: aes-128-gcm
-  password: 0b5037a729c3a2a6134e82445bcc5ff3
-  udp: true
 - name: 10-23 反重力 美国29 0.25M限 稳测 TROJAN
   type: trojan
   server: lisa3.pacemakere.com
@@ -394,13 +373,11 @@ proxy-groups:
   - 10-23 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 日本02 0.25M限 稳测 VLESS
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
-  - 10-23 反重力 美国24 0.26M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
@@ -431,13 +408,11 @@ proxy-groups:
   - 10-23 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 日本02 0.25M限 稳测 VLESS
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
-  - 10-23 反重力 美国24 0.26M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
