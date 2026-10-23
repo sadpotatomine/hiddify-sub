@@ -440,6 +440,13 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
+- name: 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -480,6 +487,7 @@ proxy-groups:
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
+  - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -521,6 +529,7 @@ proxy-groups:
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
+  - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
