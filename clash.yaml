@@ -329,20 +329,6 @@ proxies:
   reality-opts:
     public-key: yyp3p-OdwN1MUuviO3r1tBNMYY4giulLMDOeNLNfyhI
     short-id: 4522e8266a24d531
-- name: 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
-  type: vless
-  server: 50.7.245.205
-  port: 2093
-  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
 - name: 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.90
@@ -412,7 +398,6 @@ proxy-groups:
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
-  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
@@ -450,7 +435,6 @@ proxy-groups:
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
-  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
