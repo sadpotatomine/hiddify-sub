@@ -410,6 +410,19 @@ proxies:
   cipher: aes-128-gcm
   password: db2cf3e21c83483c9084b9db1bd469fb
   udp: true
+- name: 10-23 反重力 新加坡01 0.21M限 稳测 VLESS
+  type: vless
+  server: 54.95.91.152
+  port: 46105
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.lamer.com.sg
+  network: tcp
+  reality-opts:
+    public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
+    short-id: 28f5c1f8f98a
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -448,6 +461,7 @@ proxy-groups:
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
   - 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 新加坡01 0.21M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -487,6 +501,7 @@ proxy-groups:
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
   - 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 新加坡01 0.21M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
