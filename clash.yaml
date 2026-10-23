@@ -355,6 +355,33 @@ proxies:
   reality-opts:
     public-key: 4goy1hsfLyeu1POy0fjyH7qIrc1CK4p3nAZQVMTdPFY
     short-id: af3292b33826ae94
+- name: 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
+  type: vless
+  server: finlandlanzarotte.live
+  port: 443
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: finlandlanzarotte.live
+  client-fingerprint: qq
+  network: tcp
+  reality-opts:
+    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
+- name: 10-24 反重力 EE01 0.26M限 稳测 VLESS
+  type: vless
+  server: ee1.mycloud1.org
+  port: 443
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ee1.mycloud1.org
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -389,6 +416,8 @@ proxy-groups:
   - 10-24 反重力 英国01 0.26M限 稳测 VLESS
   - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
+  - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
+  - 10-24 反重力 EE01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -424,6 +453,8 @@ proxy-groups:
   - 10-24 反重力 英国01 0.26M限 稳测 VLESS
   - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
+  - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
+  - 10-24 反重力 EE01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
