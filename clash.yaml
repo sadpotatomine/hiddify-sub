@@ -346,6 +346,14 @@ proxies:
   reality-opts:
     public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
     short-id: 1a
+- name: 10-24 反重力 德国15 0.26M限 稳测 VLESS
+  type: vless
+  server: s10.redmbred.ir
+  port: 37857
+  uuid: 43d5b705-f33e-4d43-8540-b2de5f309117
+  udp: true
+  tls: false
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -379,6 +387,7 @@ proxy-groups:
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
+  - 10-24 反重力 德国15 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -413,6 +422,7 @@ proxy-groups:
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
+  - 10-24 反重力 德国15 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
