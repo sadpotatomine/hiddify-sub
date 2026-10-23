@@ -206,20 +206,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-22 反重力 美国23 0.26M限 稳测 VLESS
-  type: vless
-  server: 69.42.222.165
-  port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: api.moscowvibe.fyi
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: ST900c3lnBenLZfgTP95GPCXNm2dOpwQ7R5WShAKjSs
-    short-id: 7271129440ade8fa
 - name: 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.63
@@ -401,7 +387,6 @@ proxy-groups:
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
@@ -438,7 +423,6 @@ proxy-groups:
   - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 美国23 0.26M限 稳测 VLESS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
