@@ -325,13 +325,6 @@ proxies:
   servername: a3.xtssc.top
   client-fingerprint: chrome
   network: tcp
-- name: 10-23 反重力 美国29 0.25M限 稳测 TROJAN
-  type: trojan
-  server: lisa3.pacemakere.com
-  port: 20008
-  password: 8411611d10544e41
-  udp: true
-  sni: lisa3.pacemakere.com
 - name: 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   type: trojan
   server: ui108.pacemakere.com
@@ -384,7 +377,6 @@ proxy-groups:
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-23 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -419,7 +411,6 @@ proxy-groups:
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-23 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
