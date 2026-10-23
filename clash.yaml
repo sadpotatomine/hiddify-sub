@@ -426,6 +426,20 @@ proxies:
   password: Telegram-vpnjey
   udp: true
   sni: de2.jey.cc.cd
+- name: 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
+  type: vless
+  server: 50.7.245.205
+  port: 2093
+  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -465,6 +479,7 @@ proxy-groups:
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
+  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -505,6 +520,7 @@ proxy-groups:
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 德国17 0.25M限 稳测 HYSTERIA2
+  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
