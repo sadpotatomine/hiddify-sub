@@ -385,6 +385,34 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 10-23 反重力 新加坡01 0.26M限 稳测 VLESS
+  type: vless
+  server: sg2.oh-node.com
+  port: 443
+  uuid: 8c88c56d-5efb-4218-8753-0c2365dfe96a
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: sg-hyp-api.hoyoverse.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: Oh-r_LCdfRhSzm9zQEv-0jMO57hebZJzOmSTTGveh2c
+    short-id: 5f2ca3da385c
+- name: 10-23 反重力 韩国01 0.26M限 稳测 VLESS
+  type: vless
+  server: kr2.oh-node.com
+  port: 443
+  uuid: 8c88c56d-5efb-4218-8753-0c2365dfe96a
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.coway.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 6pZxjabeHoyJlsc2cP3Q5YK7G0bIOQwzWFyiarbUQXc
+    short-id: c8af1462debbc1
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -421,6 +449,8 @@ proxy-groups:
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -458,6 +488,8 @@ proxy-groups:
   - 10-23 反重力 美国26 0.26M限 稳测 VLESS
   - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
+  - 10-23 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
