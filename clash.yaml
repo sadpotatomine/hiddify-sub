@@ -276,20 +276,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
-  type: vless
-  server: 95.182.120.128
-  port: 443
-  uuid: 9c794bb7-54fe-4acd-844a-a26209af36c3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: api.stride.surf
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 7MRwvMvlDcjZqfdbBmePpZI5WDEYgya1y_pOp7B9CDc
-    short-id: d0dc65ab94f5e69b
 - name: 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.18
@@ -325,20 +311,6 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-- name: 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
-  type: vless
-  server: 50.7.245.204
-  port: 2093
-  uuid: 0b418782-e023-447e-ba99-e66b84ff118d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-    short-id: 8a9725533854a7e8
 - name: 10-23 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 195.133.5.194
@@ -363,32 +335,12 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-23 反重力 芬兰01 0.25M限 稳测 VLESS
-  type: vless
-  server: areal1.greewebservices.ir
-  port: 2425
-  uuid: 2582857a-632b-4c4e-9b67-96213cbaf58c
-  udp: true
-  tls: true
-  servername: play.googleapis.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: MnPGY1Vo4ZbYdpLRTYHoolv5s_pwO41karyJfnQ0F3o
-    short-id: 9b60d3
 - name: 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
   type: ss
   server: 82.38.31.169
   port: 443
   cipher: chacha20-ietf-poly1305
   password: oZIoA69Q8yhcQV8ka3Pa3A
-  udp: true
-- name: 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 195.58.49.34
-  port: 18443
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
   udp: true
 - name: 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
   type: ss
@@ -500,16 +452,12 @@ proxy-groups:
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
-  - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 日本02 0.25M限 稳测 VLESS
-  - 10-23 反重力 芬兰01 0.25M限 稳测 VLESS
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
-  - 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 新加坡01 0.21M限 稳测 VLESS
   - 10-23 反重力 美国24 0.26M限 稳测 VLESS
@@ -544,16 +492,12 @@ proxy-groups:
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 俄罗斯03 0.22M限 稳测 VLESS
-  - 10-22 反重力 俄罗斯04 0.18M限 稳测 VLESS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 荷兰02 0.24M限 稳测 VLESS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 10-23 反重力 加拿大02 0.26M限 稳测 VLESS
   - 10-23 反重力 俄罗斯05 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 日本02 0.25M限 稳测 VLESS
-  - 10-23 反重力 芬兰01 0.25M限 稳测 VLESS
   - 10-23 反重力 荷兰03 0.24M限 稳测 SHADOWSOCKS
-  - 10-23 反重力 俄罗斯06 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 TR01 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 新加坡01 0.21M限 稳测 VLESS
   - 10-23 反重力 美国24 0.26M限 稳测 VLESS
