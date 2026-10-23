@@ -311,20 +311,6 @@ proxies:
   password: 6ab93ec68bd94b76
   udp: true
   sni: ui108.pacemakere.com
-- name: 10-23 反重力 韩国01 0.26M限 稳测 VLESS
-  type: vless
-  server: t11.qifei.app
-  port: 443
-  uuid: b98d4c6e-6770-4a31-8256-a4750cdea0e7
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: 0i_xAxYgSNx5NMpK2lOaWGS-CvAiD_LneYPO0MF0owo
-    short-id: 1a
 - name: 10-24 反重力 德国15 0.26M限 稳测 VLESS
   type: vless
   server: s10.redmbred.ir
@@ -371,7 +357,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
-  - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
   - 10-24 反重力 德国15 0.26M限 稳测 VLESS
   - 10-24 反重力 英国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -405,7 +390,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
-  - 10-23 反重力 韩国01 0.26M限 稳测 VLESS
   - 10-24 反重力 德国15 0.26M限 稳测 VLESS
   - 10-24 反重力 英国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
