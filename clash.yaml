@@ -241,23 +241,6 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-- name: 10-23 反重力 日本02 0.25M限 稳测 VLESS
-  type: vless
-  server: 45.76.98.127
-  port: 443
-  uuid: 18ce1302-4e37-4eac-bd4f-e3e0a983e589
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: LZR1ZQzdHDSdooxAImvxEjFIs-gebEP3zf0J6V3qVSI
-    short-id: 49fa0dad
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 10-23 反重力 美国25 0.26M限 稳测 VLESS
   type: vless
   server: rn.20066002.xyz
@@ -304,20 +287,6 @@ proxies:
   servername: a3.xtssc.top
   client-fingerprint: chrome
   network: tcp
-- name: 10-24 反重力 日本03 0.26M限 稳测 VLESS
-  type: vless
-  server: fuji.etherhub.cc
-  port: 443
-  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fuji.etherhub.cc
-  client-fingerprint: qq
-  network: tcp
-  reality-opts:
-    public-key: ejx56dFtS4LK_Th6HSLFFdm7v7zqRpv8KfjrWAw4Sjg
-    short-id: bd6f67b6b2152b45
 - name: 10-24 反重力 德国16 0.14M限 稳测 VLESS
   type: vless
   server: 31.77.161.183
@@ -359,37 +328,6 @@ proxies:
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
     short-id: afee962d
-- name: 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
-  type: vless
-  server: toggle.skelmoridianservice.com
-  port: 443
-  uuid: 26dd886d-3eae-4eda-a92d-dc5d5e7e036e
-  udp: true
-  tls: true
-  servername: my.hexagonicfield.com
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: a1b2c3d4e5f6a7b8
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
-- name: 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
-  type: vless
-  server: 13.250.61.170
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  udp: true
-  tls: false
-  network: http
-- name: 10-24 反重力 美国31 0.23M限 稳测 VLESS
-  type: vless
-  server: 35.93.112.83
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  udp: true
-  tls: false
-  network: http
 - name: 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: sweden.luxes.network
@@ -397,14 +335,6 @@ proxies:
   password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
   udp: true
   sni: sweden.luxes.network
-- name: 10-24 反重力 美国32 0.21M限 稳测 VLESS
-  type: vless
-  server: 34.212.112.62
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  udp: true
-  tls: false
-  network: http
 - name: 10-24 反重力 英国02 0.26M限 稳测 VLESS
   type: vless
   server: 185.88.173.186
@@ -418,21 +348,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
-  type: vless
-  server: skelmoridianservice.com
-  port: 443
-  uuid: af381781-3a00-4565-b1bc-4df0275eb4b9
-  udp: true
-  tls: true
-  servername: www.velunatrixes.com
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
-    short-id: a1b2c3d4e5f6a7b8
-  grpc-opts:
-    grpc-service-name: moktana.net.v1.StreamService
 - name: 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: fl.solomon-planet.ru
@@ -454,30 +369,6 @@ proxies:
     path: /media/stream/qUWu2oaFgxAw
     headers:
       Host: santehdv.site
-- name: 10-24 反重力 德国17 0.26M限 稳测 VLESS
-  type: vless
-  server: 5.83.129.236
-  port: 443
-  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-  udp: true
-  tls: true
-  servername: host-de-upscale.cdn.cachefleet.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: a9w9wmko0k2od14hv8v
-- name: 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
-  type: vless
-  server: 87.232.116.20
-  port: 443
-  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-  udp: true
-  tls: true
-  servername: fafeqdhlett2p5la6d.cdn.cachefleet.com
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 67h2o3erm0t9imsj
 - name: 10-24 反重力 德国18 0.25M限 稳测 VLESS
   type: vless
   server: nl.shadowraze.co
@@ -565,26 +456,17 @@ proxy-groups:
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 10-23 反重力 日本02 0.25M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
-  - 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
-  - 10-24 反重力 美国31 0.23M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 美国32 0.21M限 稳测 VLESS
   - 10-24 反重力 英国02 0.26M限 稳测 VLESS
-  - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
-  - 10-24 反重力 德国17 0.26M限 稳测 VLESS
-  - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
   - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
@@ -615,26 +497,17 @@ proxy-groups:
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 10-23 反重力 日本02 0.25M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
-  - 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
-  - 10-24 反重力 美国31 0.23M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 美国32 0.21M限 稳测 VLESS
   - 10-24 反重力 英国02 0.26M限 稳测 VLESS
-  - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
-  - 10-24 反重力 德国17 0.26M限 稳测 VLESS
-  - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
   - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
