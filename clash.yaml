@@ -455,6 +455,13 @@ proxies:
   cipher: aes-256-gcm
   password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
   udp: true
+- name: 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -497,6 +504,7 @@ proxy-groups:
   - 10-25 反重力 俄罗斯09 0.26M限 稳测 VLESS
   - 10-25 反重力 英国09 0.26M限 稳测 VLESS
   - 10-25 反重力 俄罗斯10 0.26M限 稳测 SHADOWSOCKS
+  - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -540,6 +548,7 @@ proxy-groups:
   - 10-25 反重力 俄罗斯09 0.26M限 稳测 VLESS
   - 10-25 反重力 英国09 0.26M限 稳测 VLESS
   - 10-25 反重力 俄罗斯10 0.26M限 稳测 SHADOWSOCKS
+  - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
