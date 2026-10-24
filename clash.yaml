@@ -432,6 +432,32 @@ proxies:
   reality-opts:
     public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
     short-id: 1c5869a95671bcb0
+- name: 10-24 反重力 德国21 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.151.71.158
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ai.ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
+  type: vless
+  server: vd2.outlinevpn.cc
+  port: 12213
+  uuid: 7c464358-6c89-4623-bd20-7c7bcd51bc55
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: music.yandex.ru
+  client-fingerprint: edge
+  network: tcp
+  reality-opts:
+    public-key: kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI
+    short-id: 6a29a03b21
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -472,6 +498,8 @@ proxy-groups:
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
   - 10-24 反重力 捷克01 0.25M限 稳测 VLESS
+  - 10-24 反重力 德国21 0.26M限 稳测 VLESS
+  - 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -513,6 +541,8 @@ proxy-groups:
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
   - 10-24 反重力 捷克01 0.25M限 稳测 VLESS
+  - 10-24 反重力 德国21 0.26M限 稳测 VLESS
+  - 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
