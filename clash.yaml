@@ -186,33 +186,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
-  type: vless
-  server: finlandlanzarotte.live
-  port: 443
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: finlandlanzarotte.live
-  client-fingerprint: qq
-  network: tcp
-  reality-opts:
-    public-key: 6lZ5dkQN2sH9tYca374W4N1n9eCanD_F2FfghcksKSo
-- name: 10-24 反重力 EE01 0.26M限 稳测 VLESS
-  type: vless
-  server: ee1.mycloud1.org
-  port: 443
-  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ee1.mycloud1.org
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
-    short-id: afee962d
 - name: 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   type: vless
   server: 46.243.142.104
@@ -495,8 +468,6 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
-  - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
@@ -539,8 +510,6 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
-  - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
