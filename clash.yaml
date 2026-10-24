@@ -207,21 +207,6 @@ proxies:
   reality-opts:
     public-key: q6WMAqAzFYui3TiWXdOJ1-E4NbiHHk5o1mx6W6m4hEM
     short-id: c4623fa4291795e7
-- name: 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: 2.26.106.232
-  port: 8443
-  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
-  udp: true
-  tls: true
-  servername: finland02.azotvpn.xyz
-  client-fingerprint: random
-  network: grpc
-  reality-opts:
-    public-key: fQ1M2sO50w5A3oM55Hfs8vmZ320I8VaKdzRqeXOMMnQ
-    short-id: 07f508fe5d2355d3
-  grpc-opts:
-    grpc-service-name: ''
 - name: 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.90
@@ -300,13 +285,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: fl.solomon-planet.ru
-  port: 443
-  password: 0ce6e041-b701-4dd0-a82a-96b287abc4bf
-  udp: true
-  sni: fl.solomon-planet.ru
 - name: 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   type: vless
   server: 46.243.142.104
@@ -321,20 +299,6 @@ proxies:
     path: /media/stream/qUWu2oaFgxAw
     headers:
       Host: santehdv.site
-- name: 10-24 反重力 德国18 0.25M限 稳测 VLESS
-  type: vless
-  server: nl.shadowraze.co
-  port: 443
-  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.bmw.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: UZc4OlyX-cYmQh5FJtjzoSuVqtbiGJCNQGF_MN8CxA4
-    short-id: 748e4f563dd9bd02
 - name: 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: 143.246.211.163
@@ -473,7 +437,6 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
-  - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
@@ -481,9 +444,7 @@ proxy-groups:
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 英国02 0.26M限 稳测 VLESS
-  - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
-  - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
@@ -517,7 +478,6 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 美国25 0.26M限 稳测 VLESS
-  - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
@@ -525,9 +485,7 @@ proxy-groups:
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 英国02 0.26M限 稳测 VLESS
-  - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
-  - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
