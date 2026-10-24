@@ -401,6 +401,72 @@ proxies:
     path: /tr
     headers:
       Host: panel-production-4c69.up.railway.app
+- name: 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
+  type: vless
+  server: 13.250.61.170
+  port: 443
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  udp: true
+  tls: false
+  network: http
+- name: 10-24 反重力 美国31 0.23M限 稳测 VLESS
+  type: vless
+  server: 35.93.112.83
+  port: 443
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  udp: true
+  tls: false
+  network: http
+- name: 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: sweden.luxes.network
+  port: 2053
+  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
+  udp: true
+  sni: sweden.luxes.network
+- name: 10-24 反重力 美国32 0.21M限 稳测 VLESS
+  type: vless
+  server: 34.212.112.62
+  port: 443
+  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  udp: true
+  tls: false
+  network: http
+- name: 10-24 反重力 英国02 0.26M限 稳测 VLESS
+  type: vless
+  server: 185.88.173.186
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: gb.ozon.ru
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
+  type: vless
+  server: skelmoridianservice.com
+  port: 443
+  uuid: af381781-3a00-4565-b1bc-4df0275eb4b9
+  udp: true
+  tls: true
+  servername: www.velunatrixes.com
+  client-fingerprint: chrome
+  network: grpc
+  reality-opts:
+    public-key: C6nh6hqFTbtizgSH8vGmw2XUxsQAbAW3jPylpgGvfl4
+    short-id: a1b2c3d4e5f6a7b8
+  grpc-opts:
+    grpc-service-name: moktana.net.v1.StreamService
+- name: 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: fl.solomon-planet.ru
+  port: 443
+  password: 0ce6e041-b701-4dd0-a82a-96b287abc4bf
+  udp: true
+  sni: fl.solomon-planet.ru
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -438,6 +504,13 @@ proxy-groups:
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
   - 10-24 反重力 荷兰01 0.26M限 稳测 TROJAN
+  - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 10-24 反重力 美国31 0.23M限 稳测 VLESS
+  - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 美国32 0.21M限 稳测 VLESS
+  - 10-24 反重力 英国02 0.26M限 稳测 VLESS
+  - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
+  - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -476,6 +549,13 @@ proxy-groups:
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
   - 10-24 反重力 荷兰01 0.26M限 稳测 TROJAN
+  - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 10-24 反重力 美国31 0.23M限 稳测 VLESS
+  - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 美国32 0.21M限 稳测 VLESS
+  - 10-24 反重力 英国02 0.26M限 稳测 VLESS
+  - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
+  - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
