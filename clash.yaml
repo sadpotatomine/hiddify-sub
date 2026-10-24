@@ -512,6 +512,27 @@ proxies:
   password: 4fd2b10b6a754019
   udp: true
   sni: su106.izzzzzi.com
+- name: 10-24 反重力 德国18 0.25M限 稳测 VLESS
+  type: vless
+  server: nl.shadowraze.co
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.bmw.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: UZc4OlyX-cYmQh5FJtjzoSuVqtbiGJCNQGF_MN8CxA4
+    short-id: 748e4f563dd9bd02
+- name: 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 143.246.211.163
+  port: 443
+  password: b3d079ff-b775-4ffe-bac9-41228b08b15b
+  udp: true
+  sni: fr.gorobsub.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -560,6 +581,8 @@ proxy-groups:
   - 10-24 反重力 德国17 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
   - 10-24 反重力 美国33 0.26M限 稳测 TROJAN
+  - 10-24 反重力 德国18 0.25M限 稳测 VLESS
+  - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -609,6 +632,8 @@ proxy-groups:
   - 10-24 反重力 德国17 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
   - 10-24 反重力 美国33 0.26M限 稳测 TROJAN
+  - 10-24 反重力 德国18 0.25M限 稳测 VLESS
+  - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
