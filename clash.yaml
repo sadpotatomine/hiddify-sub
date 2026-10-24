@@ -200,20 +200,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-24 反重力 德国16 0.14M限 稳测 VLESS
-  type: vless
-  server: 31.77.161.183
-  port: 443
-  uuid: 5a96c1fc-f167-44b9-9020-8f6867537d14
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: germany01.azotvpn.xyz
-  client-fingerprint: random
-  network: raw
-  reality-opts:
-    public-key: 4goy1hsfLyeu1POy0fjyH7qIrc1CK4p3nAZQVMTdPFY
-    short-id: af3292b33826ae94
 - name: 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   type: vless
   server: finlandlanzarotte.live
@@ -248,19 +234,6 @@ proxies:
   password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
   udp: true
   sni: sweden.luxes.network
-- name: 10-24 反重力 英国02 0.26M限 稳测 VLESS
-  type: vless
-  server: 185.88.173.186
-  port: 443
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: gb.ozon.ru
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   type: vless
   server: 46.243.142.104
@@ -310,19 +283,6 @@ proxies:
   reality-opts:
     public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
     short-id: 082e4d45beed1487
-- name: 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
-  type: vless
-  server: 45.128.78.177
-  port: 443
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ozon.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: promo3.betust.net
@@ -337,20 +297,6 @@ proxies:
   password: va3E77I9fZCnCVcGKkxBCfz5
   udp: true
   sni: vpn.liumr.top
-- name: 10-24 反重力 德国22 0.25M限 稳测 VLESS
-  type: vless
-  server: 159.195.196.138
-  port: 50051
-  uuid: 21f5ba17-28ea-4fd0-9c8f-80e2b91df5f1
-  udp: true
-  tls: true
-  servername: lstu.ru
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
-  grpc-opts:
-    grpc-service-name: ''
 - name: 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
   type: vless
   server: 45.9.118.200
@@ -465,19 +411,15 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 英国02 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
-  - 10-24 反重力 德国22 0.25M限 稳测 VLESS
   - 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
   - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-24 反重力 新加坡02 0.26M限 稳测 VLESS
@@ -508,19 +450,15 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 英国02 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
-  - 10-24 反重力 德国22 0.25M限 稳测 VLESS
   - 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
   - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-24 反重力 新加坡02 0.26M限 稳测 VLESS
