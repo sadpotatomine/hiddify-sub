@@ -499,6 +499,48 @@ proxies:
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   udp: true
   sni: fr.gorobsub.com
+- name: 10-24 反重力 德国19 0.24M限 稳测 VLESS
+  type: vless
+  server: wifi6.jzxc.digital
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wifi6.jzxc.digital
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: _hvd47UytqRrbVTiFFe2vwvWgeg4visStJQpj9xcGjM
+    short-id: 681c5f389bb35191
+- name: 10-24 反重力 德国20 0.26M限 稳测 VLESS
+  type: vless
+  server: 5.175.161.195
+  port: 443
+  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: wifi12.jzxc.digital
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
+    short-id: 082e4d45beed1487
+- name: 10-24 反重力 捷克01 0.25M限 稳测 VLESS
+  type: vless
+  server: 86.54.82.50
+  port: 443
+  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: cz1.accessboy.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
+    short-id: 1c5869a95671bcb0
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -545,6 +587,9 @@ proxy-groups:
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
   - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 德国19 0.24M限 稳测 VLESS
+  - 10-24 反重力 德国20 0.26M限 稳测 VLESS
+  - 10-24 反重力 捷克01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -592,6 +637,9 @@ proxy-groups:
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
   - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 德国19 0.24M限 稳测 VLESS
+  - 10-24 反重力 德国20 0.26M限 稳测 VLESS
+  - 10-24 反重力 捷克01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
