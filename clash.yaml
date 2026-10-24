@@ -213,13 +213,6 @@ proxies:
   reality-opts:
     public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
     short-id: afee962d
-- name: 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: sweden.luxes.network
-  port: 2053
-  password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
-  udp: true
-  sni: sweden.luxes.network
 - name: 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   type: vless
   server: 46.243.142.104
@@ -471,7 +464,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
-  - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
@@ -513,7 +505,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
-  - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
