@@ -370,6 +370,20 @@ proxies:
   reality-opts:
     public-key: 6DLiz4O1GkMzUveVx_6Wr_e99QxAgZZ6BonblaRVPFI
     short-id: ba80654a85a4634c
+- name: 10-25 反重力 TR01 0.26M限 稳测 VLESS_2
+  type: vless
+  server: 45.74.159.238
+  port: 443
+  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: trend.eidoslab.link
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: p7X0vRL9R-23Ey-MZZZj7FY0g87nQq0Jzc01DwuryRk
+    short-id: 7597c5df264bcc10
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -405,6 +419,7 @@ proxy-groups:
   - 10-25 反重力 俄罗斯05 0.26M限 稳测 VLESS
   - 10-25 反重力 瑞典01 0.27M限 稳测 VLESS
   - 10-25 反重力 芬兰06 0.21M限 稳测 VLESS
+  - 10-25 反重力 TR01 0.26M限 稳测 VLESS_2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -441,6 +456,7 @@ proxy-groups:
   - 10-25 反重力 俄罗斯05 0.26M限 稳测 VLESS
   - 10-25 反重力 瑞典01 0.27M限 稳测 VLESS
   - 10-25 反重力 芬兰06 0.21M限 稳测 VLESS
+  - 10-25 反重力 TR01 0.26M限 稳测 VLESS_2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
