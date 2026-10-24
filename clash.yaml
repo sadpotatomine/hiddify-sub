@@ -410,6 +410,71 @@ proxies:
   cipher: aes-256-gcm
   password: I6o9NnialYLMEjVt28RF4dpjmr9wMvNL
   udp: true
+- name: 10-25 反重力 英国08 0.26M限 稳测 VLESS
+  type: vless
+  server: 37.235.249.5
+  port: 443
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: gb.ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 法国11 0.26M限 稳测 VLESS
+  type: vless
+  server: 147.45.47.85
+  port: 8443
+  uuid: 91f8e51c-b89c-4c6e-ae01-e8c623c5bf62
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: apple.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 俄罗斯08 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.128.78.180
+  port: 443
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 俄罗斯09 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.128.78.176
+  port: 443
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 英国09 0.26M限 稳测 VLESS
+  type: vless
+  server: 193.223.104.152
+  port: 443
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: gb.ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -448,6 +513,11 @@ proxy-groups:
   - 10-25 反重力 俄罗斯07 0.26M限 稳测 VLESS
   - 10-25 反重力 英国06 0.26M限 稳测 VLESS
   - 10-25 反重力 英国07 0.26M限 稳测 SHADOWSOCKS
+  - 10-25 反重力 英国08 0.26M限 稳测 VLESS
+  - 10-25 反重力 法国11 0.26M限 稳测 VLESS
+  - 10-25 反重力 俄罗斯08 0.26M限 稳测 VLESS
+  - 10-25 反重力 俄罗斯09 0.26M限 稳测 VLESS
+  - 10-25 反重力 英国09 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -487,6 +557,11 @@ proxy-groups:
   - 10-25 反重力 俄罗斯07 0.26M限 稳测 VLESS
   - 10-25 反重力 英国06 0.26M限 稳测 VLESS
   - 10-25 反重力 英国07 0.26M限 稳测 SHADOWSOCKS
+  - 10-25 反重力 英国08 0.26M限 稳测 VLESS
+  - 10-25 反重力 法国11 0.26M限 稳测 VLESS
+  - 10-25 反重力 俄罗斯08 0.26M限 稳测 VLESS
+  - 10-25 反重力 俄罗斯09 0.26M限 稳测 VLESS
+  - 10-25 反重力 英国09 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
