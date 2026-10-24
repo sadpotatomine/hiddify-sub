@@ -423,6 +423,20 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: promo3.betust.net
+  port: 443
+  password: 94c2b91777f8de3a5bc12d2a91b732c2
+  udp: true
+  sni: promo3.betust.net
+- name: 10-24 反重力 美国29 0.25M限 稳测 TROJAN
+  type: trojan
+  server: vpn.liumr.top
+  port: 443
+  password: va3E77I9fZCnCVcGKkxBCfz5
+  udp: true
+  sni: vpn.liumr.top
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -463,6 +477,8 @@ proxy-groups:
   - 10-24 反重力 德国21 0.26M限 稳测 VLESS
   - 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
   - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
+  - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -504,6 +520,8 @@ proxy-groups:
   - 10-24 反重力 德国21 0.26M限 稳测 VLESS
   - 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
   - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
+  - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
