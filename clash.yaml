@@ -19,22 +19,6 @@ dns:
   - https://1.1.1.1/dns-query
   - https://8.8.8.8/dns-query
 proxies:
-- name: 10-04 gpt 美国01 0.25M限 稳测 VLESS
-  type: vless
-  server: 154.29.145.196
-  port: 443
-  uuid: 62fdae06-6692-4b79-8f34-470784e55fd6
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  network: ws
-  reality-opts:
-    public-key: h6EW_Y5nW9PRypxaOrSOyiHZDR-kuNfdoy24inGOoB0
-    short-id: 33b15a3e
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 10-06 gpt 美国04 0.18M限 稳测 VLESS
   type: vless
   server: 45.32.69.110
@@ -47,22 +31,6 @@ proxies:
   reality-opts:
     public-key: 6l-Yq_zkVrnExw8AVv85VwoYnfNc8-dRSpoj_AA-fxY
     short-id: c5cde18f
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 10-07 反重力 美国08 0.25M限 稳测 VLESS
-  type: vless
-  server: 154.12.38.159
-  port: 443
-  uuid: 12c465bd-11a3-4fd8-8aa9-19b20a883b9e
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  network: ws
-  reality-opts:
-    public-key: iv4XmZKQUC4KEuMaWZxDmjJOlGEnS3rRw-Nk8h93zUU
-    short-id: f61a3a8f
   ws-opts:
     path: /ws
     headers:
@@ -80,22 +48,6 @@ proxies:
   reality-opts:
     public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
     short-id: 77c4230d
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
-- name: 10-11 反重力 德国14 0.25M限 稳测 VLESS
-  type: vless
-  server: 189.24.82.195
-  port: 443
-  uuid: bf7ca7a3-a028-488e-b9f1-34e467d6d897
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  network: ws
-  reality-opts:
-    public-key: oXHb-GX9ExLRs-CcFwllm6zp99jpx7yAdxrvAV1sZ18
-    short-id: 3eaacc9b
   ws-opts:
     path: /ws
     headers:
@@ -463,11 +415,8 @@ proxy-groups:
   type: select
   proxies:
   - ⚡ 自动选择
-  - 10-04 gpt 美国01 0.25M限 稳测 VLESS
   - 10-06 gpt 美国04 0.18M限 稳测 VLESS
-  - 10-07 反重力 美国08 0.25M限 稳测 VLESS
   - 10-08 反重力 美国10 0.21M限 稳测 VLESS
-  - 10-11 反重力 德国14 0.25M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
@@ -506,11 +455,8 @@ proxy-groups:
   interval: 300
   tolerance: 50
   proxies:
-  - 10-04 gpt 美国01 0.25M限 稳测 VLESS
   - 10-06 gpt 美国04 0.18M限 稳测 VLESS
-  - 10-07 反重力 美国08 0.25M限 稳测 VLESS
   - 10-08 反重力 美国10 0.21M限 稳测 VLESS
-  - 10-11 反重力 德国14 0.25M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
