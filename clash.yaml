@@ -323,6 +323,60 @@ proxies:
   flow: xtls-rprx-vision
   client-fingerprint: chrome
   network: tcp
+- name: 10-25 反重力 法国09 0.26M限 稳测 VLESS
+  type: vless
+  server: 103.91.147.247
+  port: 443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 俄罗斯05 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.9.118.207
+  port: 443
+  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 瑞典01 0.27M限 稳测 VLESS
+  type: vless
+  server: se1.mycloud1.org
+  port: 443
+  uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: se1.mycloud1.org
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
+    short-id: afee962d
+- name: 10-25 反重力 芬兰06 0.21M限 稳测 VLESS
+  type: vless
+  server: 78.17.209.100
+  port: 443
+  uuid: c5cf36f5-50e9-405b-adb4-b40fdf0d4619
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: fin-skl-1.movietop24.site
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 6DLiz4O1GkMzUveVx_6Wr_e99QxAgZZ6BonblaRVPFI
+    short-id: ba80654a85a4634c
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -355,6 +409,10 @@ proxy-groups:
   - 10-25 反重力 英国04 0.26M限 稳测 VLESS
   - 10-25 反重力 TR01 0.26M限 稳测 VLESS
   - 10-25 反重力 芬兰05 0.26M限 稳测 VLESS
+  - 10-25 反重力 法国09 0.26M限 稳测 VLESS
+  - 10-25 反重力 俄罗斯05 0.26M限 稳测 VLESS
+  - 10-25 反重力 瑞典01 0.27M限 稳测 VLESS
+  - 10-25 反重力 芬兰06 0.21M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -388,6 +446,10 @@ proxy-groups:
   - 10-25 反重力 英国04 0.26M限 稳测 VLESS
   - 10-25 反重力 TR01 0.26M限 稳测 VLESS
   - 10-25 反重力 芬兰05 0.26M限 稳测 VLESS
+  - 10-25 反重力 法国09 0.26M限 稳测 VLESS
+  - 10-25 反重力 俄罗斯05 0.26M限 稳测 VLESS
+  - 10-25 反重力 瑞典01 0.27M限 稳测 VLESS
+  - 10-25 反重力 芬兰06 0.21M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
