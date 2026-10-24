@@ -481,6 +481,37 @@ proxies:
     path: /media/stream/qUWu2oaFgxAw
     headers:
       Host: santehdv.site
+- name: 10-24 反重力 德国17 0.26M限 稳测 VLESS
+  type: vless
+  server: 5.83.129.236
+  port: 443
+  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+  udp: true
+  tls: true
+  servername: host-de-upscale.cdn.cachefleet.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: a9w9wmko0k2od14hv8v
+- name: 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
+  type: vless
+  server: 87.232.116.20
+  port: 443
+  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
+  udp: true
+  tls: true
+  servername: fafeqdhlett2p5la6d.cdn.cachefleet.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 67h2o3erm0t9imsj
+- name: 10-24 反重力 美国33 0.26M限 稳测 TROJAN
+  type: trojan
+  server: su106.izzzzzi.com
+  port: 20008
+  password: 4fd2b10b6a754019
+  udp: true
+  sni: su106.izzzzzi.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -526,6 +557,9 @@ proxy-groups:
   - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
+  - 10-24 反重力 德国17 0.26M限 稳测 VLESS
+  - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
+  - 10-24 反重力 美国33 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -572,6 +606,9 @@ proxy-groups:
   - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
+  - 10-24 反重力 德国17 0.26M限 稳测 VLESS
+  - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
+  - 10-24 反重力 美国33 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
