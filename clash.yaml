@@ -193,20 +193,6 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-- name: 10-23 反重力 美国25 0.26M限 稳测 VLESS
-  type: vless
-  server: rn.20066002.xyz
-  port: 443
-  uuid: 444715e6-1c6a-4027-90df-fa01ac984669
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: gateway.icloud.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: q6WMAqAzFYui3TiWXdOJ1-E4NbiHHk5o1mx6W6m4hEM
-    short-id: c4623fa4291795e7
 - name: 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.90
@@ -214,16 +200,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  type: vless
-  server: a3.xtssc.top
-  port: 48805
-  uuid: 48aa91a2-049c-49ac-902c-285a78dda068
-  udp: true
-  tls: true
-  servername: a3.xtssc.top
-  client-fingerprint: chrome
-  network: tcp
 - name: 10-24 反重力 德国16 0.14M限 稳测 VLESS
   type: vless
   server: 31.77.161.183
@@ -334,46 +310,6 @@ proxies:
   reality-opts:
     public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
     short-id: 082e4d45beed1487
-- name: 10-24 反重力 捷克01 0.25M限 稳测 VLESS
-  type: vless
-  server: 86.54.82.50
-  port: 443
-  uuid: caf3d607-95c9-4ea0-98b5-864027056ba0
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: cz1.accessboy.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 1TtWNQhTJr_3H7-ypMw4EiLzVxy22AzUtMiE5JmQMl4
-    short-id: 1c5869a95671bcb0
-- name: 10-24 反重力 德国21 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.151.71.158
-  port: 443
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ai.ozon.ru
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
-  type: vless
-  server: vd2.outlinevpn.cc
-  port: 12213
-  uuid: 7c464358-6c89-4623-bd20-7c7bcd51bc55
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: music.yandex.ru
-  client-fingerprint: edge
-  network: tcp
-  reality-opts:
-    public-key: kTKM-s7XF0s878Ydmq1KeZFiGT6k1Bw_rLE79s1l1jI
-    short-id: 6a29a03b21
 - name: 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   type: vless
   server: 45.128.78.177
@@ -489,9 +425,7 @@ proxy-groups:
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
@@ -501,9 +435,6 @@ proxy-groups:
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 捷克01 0.25M限 稳测 VLESS
-  - 10-24 反重力 德国21 0.26M限 稳测 VLESS
-  - 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
   - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
@@ -534,9 +465,7 @@ proxy-groups:
   - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 10-23 反重力 美国25 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
@@ -546,9 +475,6 @@ proxy-groups:
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 捷克01 0.25M限 稳测 VLESS
-  - 10-24 反重力 德国21 0.26M限 稳测 VLESS
-  - 10-24 反重力 荷兰01 0.23M限 稳测 VLESS
   - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
