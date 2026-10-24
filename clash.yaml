@@ -321,6 +321,32 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+- name: 10-25 反重力 美国30 0.23M限 稳测 VLESS
+  type: vless
+  server: 154.17.5.16
+  port: 8443
+  uuid: 3d116251-c919-4cf7-bc61-3a90d91aa80b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: updates.cdn-apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: ozguNbRK0BghbZv0n6a164gmotQ-EI-VR9iXgGlfuXg
+- name: 10-25 反重力 英国04 0.26M限 稳测 VLESS
+  type: vless
+  server: 54.37.2.245
+  port: 8443
+  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ozon.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -353,6 +379,8 @@ proxy-groups:
   - 10-24 反重力 法国09 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
   - 10-24 反重力 法国10 0.24M限 稳测 VLESS
+  - 10-25 反重力 美国30 0.23M限 稳测 VLESS
+  - 10-25 反重力 英国04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -386,6 +414,8 @@ proxy-groups:
   - 10-24 反重力 法国09 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
   - 10-24 反重力 法国10 0.24M限 稳测 VLESS
+  - 10-25 反重力 美国30 0.23M限 稳测 VLESS
+  - 10-25 反重力 英国04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
