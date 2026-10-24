@@ -1,7 +1,7 @@
 # 节点库维护运行报告
 
-- 批次：`batch-20261024-221728-011182-r1`
-- 报告时间（北京时间）：2026-10-24T22:38:34.597297+08:00
+- 批次：`batch-20261024-223849-629981-r2`
+- 报告时间（北京时间）：2026-10-24T22:45:04.847496+08:00
 - 状态：complete；结果：no-new
 - 异常类型：无；运行阶段：publish
 - 合格新增：0；移除：0
@@ -23,12 +23,12 @@
   },
   "screen.json": {
     "count": 200,
-    "passed": 5
+    "passed": 1
   },
   "deep.json": {
-    "count": 9,
-    "passed": 4,
-    "incomplete_downloads": 4
+    "count": 1,
+    "passed": 0,
+    "incomplete_downloads": 1
   }
 }
 ```
