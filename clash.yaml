@@ -304,13 +304,6 @@ proxies:
   servername: a3.xtssc.top
   client-fingerprint: chrome
   network: tcp
-- name: 10-23 反重力 美国30 0.26M限 稳测 TROJAN
-  type: trojan
-  server: ui108.pacemakere.com
-  port: 20008
-  password: 6ab93ec68bd94b76
-  udp: true
-  sni: ui108.pacemakere.com
 - name: 10-24 反重力 日本03 0.26M限 稳测 VLESS
   type: vless
   server: fuji.etherhub.cc
@@ -381,18 +374,6 @@ proxies:
     short-id: a1b2c3d4e5f6a7b8
   grpc-opts:
     grpc-service-name: moktana.net.v1.StreamService
-- name: 10-24 反重力 荷兰01 0.26M限 稳测 TROJAN
-  type: trojan
-  server: panel-production-4c69.up.railway.app
-  port: 443
-  password: ce852641-b913-4597-ab61-d734e1a953c6
-  udp: true
-  sni: panel-production-4c69.up.railway.app
-  network: ws
-  ws-opts:
-    path: /tr
-    headers:
-      Host: panel-production-4c69.up.railway.app
 - name: 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
   type: vless
   server: 13.250.61.170
@@ -497,13 +478,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 67h2o3erm0t9imsj
-- name: 10-24 反重力 美国33 0.26M限 稳测 TROJAN
-  type: trojan
-  server: su106.izzzzzi.com
-  port: 20008
-  password: 4fd2b10b6a754019
-  udp: true
-  sni: su106.izzzzzi.com
 - name: 10-24 反重力 德国18 0.25M限 稳测 VLESS
   type: vless
   server: nl.shadowraze.co
@@ -554,13 +528,11 @@ proxy-groups:
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 10-24 反重力 荷兰01 0.26M限 稳测 TROJAN
   - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-24 反重力 美国31 0.23M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
@@ -571,7 +543,6 @@ proxy-groups:
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 德国17 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
-  - 10-24 反重力 美国33 0.26M限 稳测 TROJAN
   - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
@@ -604,13 +575,11 @@ proxy-groups:
   - 10-23 反重力 芬兰02 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
-  - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
   - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS
   - 10-24 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 10-24 反重力 荷兰01 0.26M限 稳测 TROJAN
   - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-24 反重力 美国31 0.23M限 稳测 VLESS
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
@@ -621,7 +590,6 @@ proxy-groups:
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 德国17 0.26M限 稳测 VLESS
   - 10-24 反重力 EE01 0.26M限 稳测 VLESS_2
-  - 10-24 反重力 美国33 0.26M限 稳测 TROJAN
   - 10-24 反重力 德国18 0.25M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
