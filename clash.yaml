@@ -467,6 +467,20 @@ proxies:
   password: 0ce6e041-b701-4dd0-a82a-96b287abc4bf
   udp: true
   sni: fl.solomon-planet.ru
+- name: 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
+  type: vless
+  server: 46.243.142.104
+  port: 443
+  uuid: 9ba53795-4356-40ab-8067-76ec2ae2a3d8
+  udp: true
+  tls: true
+  servername: santehdv.site
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /media/stream/qUWu2oaFgxAw
+    headers:
+      Host: santehdv.site
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -511,6 +525,7 @@ proxy-groups:
   - 10-24 反重力 英国02 0.26M限 稳测 VLESS
   - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -556,6 +571,7 @@ proxy-groups:
   - 10-24 反重力 英国02 0.26M限 稳测 VLESS
   - 10-24 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 10-24 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
+  - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
