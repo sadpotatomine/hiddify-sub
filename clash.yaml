@@ -311,14 +311,6 @@ proxies:
   password: 6ab93ec68bd94b76
   udp: true
   sni: ui108.pacemakere.com
-- name: 10-24 反重力 英国01 0.26M限 稳测 VLESS
-  type: vless
-  server: 51.24.209.55
-  port: 22224
-  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
-  udp: true
-  tls: false
-  network: tcp
 - name: 10-24 反重力 日本03 0.26M限 稳测 VLESS
   type: vless
   server: fuji.etherhub.cc
@@ -563,7 +555,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
-  - 10-24 反重力 英国01 0.26M限 稳测 VLESS
   - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
@@ -614,7 +605,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 美国27 0.21M限 稳测 VLESS
   - 10-23 反重力 美国30 0.26M限 稳测 TROJAN
-  - 10-24 反重力 英国01 0.26M限 稳测 VLESS
   - 10-24 反重力 日本03 0.26M限 稳测 VLESS
   - 10-24 反重力 德国16 0.14M限 稳测 VLESS
   - 10-24 反重力 芬兰03 0.26M限 稳测 VLESS
