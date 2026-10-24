@@ -415,6 +415,18 @@ proxies:
     public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
   grpc-opts:
     grpc-service-name: ''
+- name: 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.9.118.200
+  port: 443
+  uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ozon.ru
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -455,6 +467,7 @@ proxy-groups:
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-24 反重力 德国22 0.25M限 稳测 VLESS
+  - 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -496,6 +509,7 @@ proxy-groups:
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-24 反重力 德国22 0.25M限 稳测 VLESS
+  - 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
