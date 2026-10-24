@@ -248,27 +248,6 @@ proxies:
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   udp: true
   sni: fr.gorobsub.com
-- name: 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  type: vless
-  server: 5.175.161.195
-  port: 443
-  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: wifi12.jzxc.digital
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
-    short-id: 082e4d45beed1487
-- name: 10-24 反重力 美国29 0.25M限 稳测 TROJAN
-  type: trojan
-  server: vpn.liumr.top
-  port: 443
-  password: va3E77I9fZCnCVcGKkxBCfz5
-  udp: true
-  sni: vpn.liumr.top
 - name: 10-24 反重力 英国03 0.26M限 稳测 VLESS
   type: vless
   server: 51.77.108.218
@@ -282,19 +261,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-24 反重力 法国09 0.26M限 稳测 VLESS
-  type: vless
-  server: 147.45.47.95
-  port: 8443
-  uuid: df549242-dc8e-482c-9dd5-eb3518583099
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: apple.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
   type: vless
   server: 45.9.118.177
@@ -304,19 +270,6 @@ proxies:
   tls: true
   flow: xtls-rprx-vision
   servername: apple.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-24 反重力 法国10 0.24M限 稳测 VLESS
-  type: vless
-  server: 113.30.154.237
-  port: 443
-  uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ozon.ru
   client-fingerprint: firefox
   network: tcp
   reality-opts:
@@ -373,12 +326,8 @@ proxy-groups:
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
-  - 10-24 反重力 法国09 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
-  - 10-24 反重力 法国10 0.24M限 稳测 VLESS
   - 10-25 反重力 美国30 0.23M限 稳测 VLESS
   - 10-25 反重力 英国04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -408,12 +357,8 @@ proxy-groups:
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
-  - 10-24 反重力 法国09 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
-  - 10-24 反重力 法国10 0.24M限 稳测 VLESS
   - 10-25 反重力 美国30 0.23M限 稳测 VLESS
   - 10-25 反重力 英国04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
