@@ -165,13 +165,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-  udp: true
 - name: 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.18
@@ -255,20 +248,6 @@ proxies:
   password: b3d079ff-b775-4ffe-bac9-41228b08b15b
   udp: true
   sni: fr.gorobsub.com
-- name: 10-24 反重力 德国19 0.24M限 稳测 VLESS
-  type: vless
-  server: wifi6.jzxc.digital
-  port: 443
-  uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: wifi6.jzxc.digital
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: _hvd47UytqRrbVTiFFe2vwvWgeg4visStJQpj9xcGjM
-    short-id: 681c5f389bb35191
 - name: 10-24 反重力 德国20 0.26M限 稳测 VLESS
   type: vless
   server: 5.175.161.195
@@ -283,13 +262,6 @@ proxies:
   reality-opts:
     public-key: 90gg8QRDqwmrelQBiQ159MlmdUreo4h1-yBgRmp7U2c
     short-id: 082e4d45beed1487
-- name: 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: promo3.betust.net
-  port: 443
-  password: 94c2b91777f8de3a5bc12d2a91b732c2
-  udp: true
-  sni: promo3.betust.net
 - name: 10-24 反重力 美国29 0.25M限 稳测 TROJAN
   type: trojan
   server: vpn.liumr.top
@@ -297,46 +269,6 @@ proxies:
   password: va3E77I9fZCnCVcGKkxBCfz5
   udp: true
   sni: vpn.liumr.top
-- name: 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.9.118.200
-  port: 443
-  uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ozon.ru
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
-  type: vless
-  server: pq.aws66.yydjc.top
-  port: 443
-  uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: iosapps.itunes.apple.com
-  client-fingerprint: safari
-  network: tcp
-  reality-opts:
-    public-key: OmGeSOsHQMl3Rm6G3SzYjmZvgFYBF489vxfbBCNDWjw
-    short-id: 289c74e0
-- name: 10-24 反重力 新加坡02 0.26M限 稳测 VLESS
-  type: vless
-  server: pq.aws65.yydjc.top
-  port: 443
-  uuid: 55aa2c1f-7e63-4557-b9c5-9ebdf4539b73
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: iosapps.itunes.apple.com
-  client-fingerprint: safari
-  network: tcp
-  reality-opts:
-    public-key: 9076EbD5vM8kATc_08QvDiqZF5KHTM_LaSrMOvcwfHw
-    short-id: 57b7989c
 - name: 10-24 反重力 英国03 0.26M限 稳测 VLESS
   type: vless
   server: 51.77.108.218
@@ -407,7 +339,6 @@ proxy-groups:
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
@@ -416,13 +347,8 @@ proxy-groups:
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
-  - 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
-  - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
-  - 10-24 反重力 新加坡02 0.26M限 稳测 VLESS
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
   - 10-24 反重力 法国09 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
@@ -446,7 +372,6 @@ proxy-groups:
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利07 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
-  - 10-22 反重力 意大利09 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 加拿大01 0.26M限 稳测 VLESS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
@@ -455,13 +380,8 @@ proxy-groups:
   - 10-24 反重力 芬兰04 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 俄罗斯01 0.26M限 稳测 VLESS
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
-  - 10-24 反重力 德国19 0.24M限 稳测 VLESS
   - 10-24 反重力 德国20 0.26M限 稳测 VLESS
-  - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
-  - 10-24 反重力 俄罗斯03 0.26M限 稳测 VLESS
-  - 10-24 反重力 新加坡01 0.26M限 稳测 VLESS
-  - 10-24 反重力 新加坡02 0.26M限 稳测 VLESS
   - 10-24 反重力 英国03 0.26M限 稳测 VLESS
   - 10-24 反重力 法国09 0.26M限 稳测 VLESS
   - 10-24 反重力 俄罗斯04 0.26M限 稳测 VLESS
