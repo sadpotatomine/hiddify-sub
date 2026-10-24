@@ -437,6 +437,20 @@ proxies:
   password: va3E77I9fZCnCVcGKkxBCfz5
   udp: true
   sni: vpn.liumr.top
+- name: 10-24 反重力 德国22 0.25M限 稳测 VLESS
+  type: vless
+  server: 159.195.196.138
+  port: 50051
+  uuid: 21f5ba17-28ea-4fd0-9c8f-80e2b91df5f1
+  udp: true
+  tls: true
+  servername: lstu.ru
+  client-fingerprint: chrome
+  network: grpc
+  reality-opts:
+    public-key: e0RV9wRJdsQbQ0ugn5QUhJcTgWsSTVsKQTXMKweMDUg
+  grpc-opts:
+    grpc-service-name: ''
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -479,6 +493,7 @@ proxy-groups:
   - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
+  - 10-24 反重力 德国22 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -522,6 +537,7 @@ proxy-groups:
   - 10-24 反重力 俄罗斯02 0.25M限 稳测 VLESS
   - 10-24 反重力 美国28 0.26M限 稳测 HYSTERIA2
   - 10-24 反重力 美国29 0.25M限 稳测 TROJAN
+  - 10-24 反重力 德国22 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
