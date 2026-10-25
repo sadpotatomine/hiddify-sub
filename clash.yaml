@@ -220,19 +220,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-25 反重力 英国06 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.151.71.162
-  port: 443
-  uuid: 680e92ac-1688-49e0-af96-7327fbc30ce8
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: gb.ozon.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 - name: 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.81
@@ -263,7 +250,6 @@ proxy-groups:
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-25 反重力 TR01 0.26M限 稳测 VLESS
   - 10-25 反重力 英国05 0.26M限 稳测 VLESS
-  - 10-25 反重力 英国06 0.26M限 稳测 VLESS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
@@ -289,7 +275,6 @@ proxy-groups:
   - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-25 反重力 TR01 0.26M限 稳测 VLESS
   - 10-25 反重力 英国05 0.26M限 稳测 VLESS
-  - 10-25 反重力 英国06 0.26M限 稳测 VLESS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
