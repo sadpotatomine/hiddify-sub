@@ -172,13 +172,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 143.246.211.163
-  port: 443
-  password: b3d079ff-b775-4ffe-bac9-41228b08b15b
-  udp: true
-  sni: fr.gorobsub.com
 - name: 10-25 反重力 英国05 0.26M限 稳测 VLESS
   type: vless
   server: 45.151.71.159
@@ -218,7 +211,6 @@ proxy-groups:
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-25 反重力 英国05 0.26M限 稳测 VLESS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
@@ -241,7 +233,6 @@ proxy-groups:
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
-  - 10-24 反重力 法国08 0.26M限 稳测 HYSTERIA2
   - 10-25 反重力 英国05 0.26M限 稳测 VLESS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
