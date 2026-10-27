@@ -340,6 +340,20 @@ proxies:
   udp: true
   tls: false
   network: tcp
+- name: 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
+  type: vless
+  server: 13.143.172.34
+  port: 2083
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ya.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: cHJfClQkyUnSxMCi9kmfC8j5OpMrUpyvrjVboO50YXM
+    short-id: f5152b45697a2b58
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -375,6 +389,7 @@ proxy-groups:
   - 10-28 反重力 德国02 0.26M限 稳测 VLESS
   - 10-28 反重力 美国29 0.26M限 稳测 VLESS
   - 10-28 反重力 德国03 0.26M限 稳测 VLESS
+  - 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -411,6 +426,7 @@ proxy-groups:
   - 10-28 反重力 德国02 0.26M限 稳测 VLESS
   - 10-28 反重力 美国29 0.26M限 稳测 VLESS
   - 10-28 反重力 德国03 0.26M限 稳测 VLESS
+  - 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
