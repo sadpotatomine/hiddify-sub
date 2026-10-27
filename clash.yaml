@@ -269,6 +269,33 @@ proxies:
   password: 7c9c7f52-5a8c-43e0-b6d1-c8552289f230
   udp: true
   sni: us.mi11o4ka.com
+- name: 10-28 反重力 芬兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 2.27.122.221
+  port: 443
+  uuid: dcec1f6d-0584-48ee-9e67-c2e16f23904a
+  udp: true
+  tls: true
+  servername: www.nvidia.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: YuFm9PUkI61urw2Uzk_bulQJdblxqxebBafwKHW-8TE
+    short-id: b484941b4767eb
+- name: 10-28 反重力 德国01 0.26M限 稳测 VLESS
+  type: vless
+  server: de.puflino.com
+  port: 443
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: edge-fr.extazy.net
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: ygxQyBcJzlLgpSl3MCRDDiFET4TT-3wxa4GdG1obkCY
+    short-id: ba4b2afa9e7193ea
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -299,6 +326,8 @@ proxy-groups:
   - 10-28 反重力 美国25 0.25M限 稳测 TROJAN
   - 10-28 反重力 美国26 0.26M限 稳测 TROJAN
   - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
+  - 10-28 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -330,6 +359,8 @@ proxy-groups:
   - 10-28 反重力 美国25 0.25M限 稳测 TROJAN
   - 10-28 反重力 美国26 0.26M限 稳测 TROJAN
   - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
+  - 10-28 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
