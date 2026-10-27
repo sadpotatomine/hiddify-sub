@@ -219,6 +219,21 @@ proxies:
   reality-opts:
     public-key: akVbcyv-ypq-YT4-bsi_ts85pkDwhAIapn5bCb_hj28
     short-id: 85f609aa0f0bead8
+- name: 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
+  type: vless
+  server: 136.148.211.243
+  port: 443
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  udp: true
+  tls: true
+  servername: se1-cl3.vless-fiberstasis.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo
+    short-id: 11d37dd92940329e
+  grpc-opts:
+    grpc-service-name: grpc-se-3
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -243,6 +258,7 @@ proxy-groups:
   - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
   - 10-27 反重力 MY01 0.25M限 稳测 VLESS
+  - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -268,6 +284,7 @@ proxy-groups:
   - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
   - 10-27 反重力 MY01 0.25M限 稳测 VLESS
+  - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
