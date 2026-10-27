@@ -382,6 +382,13 @@ proxies:
   network: tcp
   reality-opts:
     public-key: q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE
+- name: 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: creator.morteza1388m1122.ir
+  port: 29232
+  cipher: chacha20-ietf-poly1305
+  password: vpximr7tis5td84p
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -420,6 +427,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
+  - 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -459,6 +467,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
+  - 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
