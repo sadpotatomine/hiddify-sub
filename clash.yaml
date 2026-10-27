@@ -162,6 +162,13 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 10-27 反重力 日本01 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 31.77.29.74
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  udp: true
+  sni: jap2.nexfile.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -181,6 +188,7 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
+  - 10-27 反重力 日本01 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -201,6 +209,7 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
+  - 10-27 反重力 日本01 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
