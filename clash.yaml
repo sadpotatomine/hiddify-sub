@@ -35,23 +35,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-08 反重力 美国10 0.21M限 稳测 VLESS
-  type: vless
-  server: 144.202.126.147
-  port: 443
-  uuid: 45d51389-0c38-4843-8ae8-cffb94e97a72
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
-    short-id: 77c4230d
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 10-14 反重力 法国07 0.24M限 稳测 VLESS
   type: vless
   server: 163.245.42.48
@@ -185,7 +168,6 @@ proxy-groups:
   proxies:
   - ⚡ 自动选择
   - 10-06 gpt 美国04 0.18M限 稳测 VLESS
-  - 10-08 反重力 美国10 0.21M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
@@ -206,7 +188,6 @@ proxy-groups:
   tolerance: 50
   proxies:
   - 10-06 gpt 美国04 0.18M限 稳测 VLESS
-  - 10-08 反重力 美国10 0.21M限 稳测 VLESS
   - 10-14 反重力 法国07 0.24M限 稳测 VLESS
   - 10-17 反重力 美国18 0.21M限 稳测 VLESS
   - 10-21 反重力 意大利01 0.18M限 稳测 SHADOWSOCKS
