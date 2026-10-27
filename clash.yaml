@@ -234,6 +234,41 @@ proxies:
     short-id: 11d37dd92940329e
   grpc-opts:
     grpc-service-name: grpc-se-3
+- name: 10-28 反重力 美国23 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 24.199.106.240
+  port: 9998
+  password: hRtaKtsQkpklmssQDbbWRCNawDGdJePw
+  udp: true
+  sni: hotspot-unlimited.com
+- name: 10-28 反重力 美国24 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 45.32.135.70
+  port: 9213
+  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
+  udp: true
+  sni: hotspot-unlimited.com
+- name: 10-28 反重力 美国25 0.25M限 稳测 TROJAN
+  type: trojan
+  server: 45.32.140.119
+  port: 9304
+  password: dyuDoaYEEhbHTfUgfJHUjNVHlDENejfh
+  udp: true
+  sni: hotspot-unlimited.com
+- name: 10-28 反重力 美国26 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 209.38.66.47
+  port: 6105
+  password: mMIywuxBtHHOAwAkkpwiCmBXIlKOysGv
+  udp: true
+  sni: hotspot-unlimited.com
+- name: 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 167.148.201.99
+  port: 443
+  password: 7c9c7f52-5a8c-43e0-b6d1-c8552289f230
+  udp: true
+  sni: us.mi11o4ka.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -259,6 +294,11 @@ proxy-groups:
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
   - 10-27 反重力 MY01 0.25M限 稳测 VLESS
   - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 10-28 反重力 美国23 0.26M限 稳测 TROJAN
+  - 10-28 反重力 美国24 0.26M限 稳测 TROJAN
+  - 10-28 反重力 美国25 0.25M限 稳测 TROJAN
+  - 10-28 反重力 美国26 0.26M限 稳测 TROJAN
+  - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -285,6 +325,11 @@ proxy-groups:
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
   - 10-27 反重力 MY01 0.25M限 稳测 VLESS
   - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 10-28 反重力 美国23 0.26M限 稳测 TROJAN
+  - 10-28 反重力 美国24 0.26M限 稳测 TROJAN
+  - 10-28 反重力 美国25 0.25M限 稳测 TROJAN
+  - 10-28 反重力 美国26 0.26M限 稳测 TROJAN
+  - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
