@@ -110,23 +110,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 10-21 反重力 美国22 0.25M限 稳测 VLESS
-  type: vless
-  server: 172.236.227.60
-  port: 443
-  uuid: e1ca5089-4e86-4fa9-b5e7-aa94cd91e71d
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: RTuOfZq_rHg1mbEZ_Xh0p9jDaRjIv_CYy5E-oLfUUR4
-    short-id: 59ad82ce
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.27
@@ -309,7 +292,6 @@ proxy-groups:
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
-  - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
@@ -342,7 +324,6 @@ proxy-groups:
   - 10-21 反重力 意大利04 0.20M限 稳测 SHADOWSOCKS
   - 10-21 反重力 意大利05 0.22M限 稳测 SHADOWSOCKS
   - 10-21 反重力 美国21 0.20M限 稳测 VLESS
-  - 10-21 反重力 美国22 0.25M限 稳测 VLESS
   - 10-22 反重力 意大利06 0.26M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利08 0.25M限 稳测 SHADOWSOCKS
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
