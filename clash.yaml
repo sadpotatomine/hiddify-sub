@@ -205,6 +205,20 @@ proxies:
     short-id: 27abb0897222ef3a
   grpc-opts:
     grpc-service-name: grpcx1
+- name: 10-27 反重力 MY01 0.25M限 稳测 VLESS
+  type: vless
+  server: my.wawojk.dpdns.org
+  port: 8443
+  uuid: 264bee07-e004-41c7-812f-aaf2daaad2c9
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.asus.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: akVbcyv-ypq-YT4-bsi_ts85pkDwhAIapn5bCb_hj28
+    short-id: 85f609aa0f0bead8
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -228,6 +242,7 @@ proxy-groups:
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
+  - 10-27 反重力 MY01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -252,6 +267,7 @@ proxy-groups:
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
+  - 10-27 反重力 MY01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
