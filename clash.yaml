@@ -355,6 +355,20 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
+- name: 10-28 反重力 英国01 0.26M限 稳测 VLESS
+  type: vless
+  server: gb.puflino.com
+  port: 443
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: edge-uk2.mystatic-cdn.ru
+  client-fingerprint: edge
+  network: tcp
+  reality-opts:
+    public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI
+    short-id: ee169e93d3c277a1
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -391,6 +405,7 @@ proxy-groups:
   - 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-28 反重力 美国30 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 英国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -428,6 +443,7 @@ proxy-groups:
   - 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-28 反重力 美国30 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 英国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
