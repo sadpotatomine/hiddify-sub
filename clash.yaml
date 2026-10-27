@@ -311,6 +311,48 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: VideoRenderer
+- name: 10-28 反重力 美国28 0.26M限 稳测 VLESS
+  type: vless
+  server: us5.pc-peervax.top
+  port: 443
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: us5.pc-peervax.top
+  client-fingerprint: qq
+  network: tcp
+  reality-opts:
+    public-key: v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk
+    short-id: a9c3f7e2
+- name: 10-28 反重力 德国02 0.26M限 稳测 VLESS
+  type: vless
+  server: nl.puflino.com
+  port: 8443
+  uuid: c7270753-bd18-4696-956d-57dbde1183fe
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: nl2.reddotcorp.org
+  client-fingerprint: edge
+  network: tcp
+  reality-opts:
+    public-key: VDZdbh_RzDDZsHpYF58yUuuvXh93XnmkvpSqb50qG2U
+    short-id: 1be482b8e08aa0ef
+- name: 10-28 反重力 美国29 0.26M限 稳测 VLESS
+  type: vless
+  server: usa.letsconnectpoint.com
+  port: 443
+  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: usa.letsconnectpoint.com
+  client-fingerprint: edge
+  network: tcp
+  reality-opts:
+    public-key: I45spoFEwSCaxR8FIP1HnrFj5KbR3keSAGMMdgt2AHY
+    short-id: b1c5a5e2
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -345,6 +387,9 @@ proxy-groups:
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 荷兰03 0.25M限 稳测 VLESS
+  - 10-28 反重力 美国28 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国02 0.26M限 稳测 VLESS
+  - 10-28 反重力 美国29 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -380,6 +425,9 @@ proxy-groups:
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 荷兰03 0.25M限 稳测 VLESS
+  - 10-28 反重力 美国28 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国02 0.26M限 稳测 VLESS
+  - 10-28 反重力 美国29 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
