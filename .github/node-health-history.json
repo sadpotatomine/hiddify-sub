@@ -1,12 +1,12 @@
 {
-  "last_cycle": 34,
-  "last_run": "2026-10-27T13:14:49.352438+00:00",
-  "last_run_url": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
+  "last_cycle": 35,
+  "last_run": "2026-10-27T18:44:28.482008+00:00",
+  "last_run_url": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
   "last_summary": {
     "correlated_guard": false,
     "counts": {
-      "FAILED_UNREACHABLE": 4,
-      "PASS": 10,
+      "FAILED_UNREACHABLE": 3,
+      "PASS": 26,
       "UNKNOWN": 0
     },
     "removed": []
@@ -56,6 +56,21 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39871596716",
           "status": "PASS",
           "time": "2026-10-22T23:24:59.656782+00:00"
+        }
+      ]
+    },
+    "032901291d477d844ad0a6f4d896d41bb1fac6c96011b122cd40e50b3c193243": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 捷克01 0.26M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -122,6 +137,15 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -164,6 +188,15 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -238,6 +271,36 @@
         }
       ]
     },
+    "284b63f728ed1f7ad46a8ad2d02721540e2632e7f95d3c82c9e090070d46e213": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 芬兰01 0.26M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "2fa0d2d8c8a041f35a04f1c52a8af030427013ab65f361eeb8a6a3f10b184d2b": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 荷兰03 0.25M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
     "3d707867e2588cd4cd3d18288e04305fb0ce9e74c145ecc4e90f48b875997f19": {
       "consecutive_failures": 1,
       "name": "10-22 反重力 德国16 0.26M限 稳测 VLESS",
@@ -252,6 +315,21 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39871596716",
           "status": "FAILED_UNREACHABLE",
           "time": "2026-10-22T23:24:59.656782+00:00"
+        }
+      ]
+    },
+    "3edd83d34b487c531b2964092912da1bcb3b59cfa1646cf1c5332fa659bd6728": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 德国01 0.26M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -294,6 +372,15 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -645,6 +732,36 @@
         }
       ]
     },
+    "66e5b17b9e7aad07e4d10cbe9e08ca6907a0b88a2b4cca36a2c87d61d0221ffb": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "67469018cbc89eb55954e1fb5ddf4237937357d050853d37da0977e9c4f2cb13": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 美国26 0.26M限 稳测 TROJAN",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
     "6a1873758bf30c2d45b31bf6f70176f31565f211c6f483c2036eb0fb5511c3d2": {
       "consecutive_failures": 1,
       "name": "10-08 反重力 美国10 0.21M限 稳测 VLESS",
@@ -726,7 +843,7 @@
       ]
     },
     "77d3e510789c467fffb2b5e706c8013ebd23e182918787584e109c69a078ca62": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "name": "10-17 反重力 美国18 0.21M限 稳测 VLESS",
       "records": [
         {
@@ -783,6 +900,32 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "FAILED_UNREACHABLE",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "UNREACHABLE",
+            "UNREACHABLE",
+            "UNREACHABLE"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "7b2e9a00c5127b49212f26986075fa5677fa0141b5ac5003c9090dd79ad4f248": {
+      "consecutive_failures": 0,
+      "name": "10-27 反重力 日本01 0.26M限 稳测 HYSTERIA2",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -879,6 +1022,45 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "8b6093f5ca84c520838a08e98412b61c276c137b3298c471829d06f276b8e112": {
+      "consecutive_failures": 0,
+      "name": "10-27 反重力 荷兰02 0.19M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "8d00c9187baebff4d61d87484359731724fffcd42ce729657559ce1977af7a48": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -936,6 +1118,15 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1042,6 +1233,30 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "a8e24666be2ea7262a3a6a9bebefc0520fa3b0993c37044530ff0863a6a537d3": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 美国23 0.26M限 稳测 TROJAN",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1084,6 +1299,30 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "acd53262b3e5c165ed2c6a61aaae79dce43e4f57c132a16c80cd7db1f50fe37f": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 美国25 0.25M限 稳测 TROJAN",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1116,6 +1355,21 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39542016518",
           "status": "FAILED_UNREACHABLE",
           "time": "2026-10-21T04:04:36.713908+00:00"
+        }
+      ]
+    },
+    "bf1495854d6627918e2224f1e74bd87c245202d215832dda0235771b49c4012f": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 美国24 0.26M限 稳测 TROJAN",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1158,6 +1412,15 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1215,6 +1478,45 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "d207c367bfc29d0de91f940d00c01ee0e7ad6ceef3ae52490beb673d218b4a26": {
+      "consecutive_failures": 0,
+      "name": "10-27 反重力 MY01 0.25M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "d39f135ab9b9006b96e632e9282f6daa7c9aa4ff10ab0495aabdd02a105d0b75": {
+      "consecutive_failures": 0,
+      "name": "10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1248,11 +1550,20 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "PASS",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
     "e0d60e7eb0fbf9fc8a14218a18dffaab78906c95ce88429f02544bc1e7c71af3": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "name": "10-21 反重力 美国21 0.20M限 稳测 VLESS",
       "records": [
         {
@@ -1298,11 +1609,22 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "FAILED_UNREACHABLE",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "UNREACHABLE",
+            "UNREACHABLE",
+            "UNREACHABLE"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
     "ed2bf482b0c633b94e4ebeb5d7812f381e624800420078de6e899c0c36a0e52c": {
-      "consecutive_failures": 1,
+      "consecutive_failures": 2,
       "name": "10-06 gpt 美国04 0.18M限 稳测 VLESS",
       "records": [
         {
@@ -1359,6 +1681,32 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40510314966",
           "status": "FAILED_UNREACHABLE",
           "time": "2026-10-27T13:14:49.352438+00:00"
+        },
+        {
+          "attempts": [
+            "UNREACHABLE",
+            "UNREACHABLE",
+            "UNREACHABLE"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "FAILED_UNREACHABLE",
+          "time": "2026-10-27T18:44:28.482008+00:00"
+        }
+      ]
+    },
+    "ee1297361c11a5d7a12d69032d6aa266f2818b55d7f3777e0715dd97525dbc55": {
+      "consecutive_failures": 0,
+      "name": "10-27 反重力 荷兰01 0.21M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
@@ -1374,6 +1722,21 @@
           "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/39871596716",
           "status": "PASS",
           "time": "2026-10-22T23:24:59.656782+00:00"
+        }
+      ]
+    },
+    "fab4faa5220cc97df1cf7b395e091ac82726d670eab3569cd23e2c27eb21b397": {
+      "consecutive_failures": 0,
+      "name": "10-28 反重力 瑞典01 0.26M限 稳测 VLESS",
+      "records": [
+        {
+          "attempts": [
+            "PASS"
+          ],
+          "cycle": 35,
+          "run": "https://github.com/sadpotatomine/hiddify-sub/actions/runs/40562713432",
+          "status": "PASS",
+          "time": "2026-10-27T18:44:28.482008+00:00"
         }
       ]
     },
