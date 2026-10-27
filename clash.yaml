@@ -369,6 +369,19 @@ proxies:
   reality-opts:
     public-key: 65d6SIYIqiX-SN4vx_BnNiQJ8Lnr0HAgUKoT7WgWRgI
     short-id: ee169e93d3c277a1
+- name: 10-28 反重力 德国04 0.25M限 稳测 VLESS
+  type: vless
+  server: 191.217.217.69
+  port: 443
+  uuid: 846cedee-2a52-0002-a0b9-11850ead6a8b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: nl-central.v8x2b.lol
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -406,6 +419,7 @@ proxy-groups:
   - 10-28 反重力 美国30 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国04 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -444,6 +458,7 @@ proxy-groups:
   - 10-28 反重力 美国30 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国04 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
