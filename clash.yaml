@@ -389,6 +389,13 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: vpximr7tis5td84p
   udp: true
+- name: 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: pl3.nexfile.net
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  udp: true
+  sni: pl3.nexfile.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -428,6 +435,7 @@ proxy-groups:
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -468,6 +476,7 @@ proxy-groups:
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
