@@ -169,6 +169,42 @@ proxies:
   password: 10be1dad-9952-4c5e-aa30-db435f69b727
   udp: true
   sni: jap2.nexfile.net
+- name: 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 31.185.105.12
+  port: 443
+  password: 1953e43b-605c-4262-83eb-41a80646b801
+  udp: true
+  sni: fr.song69.fun
+- name: 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
+  type: vless
+  server: 13.143.172.34
+  port: 4443
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.kinopoisk.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: cHJfClQkyUnSxMCi9kmfC8j5OpMrUpyvrjVboO50YXM
+    short-id: a4529b9ea7ac5cbc
+- name: 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
+  type: vless
+  server: 13.143.172.34
+  port: 2087
+  uuid: fafc7c16-f890-45ee-a856-02df225172dd
+  udp: true
+  tls: true
+  servername: ya.ru
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: cHJfClQkyUnSxMCi9kmfC8j5OpMrUpyvrjVboO50YXM
+    short-id: 27abb0897222ef3a
+  grpc-opts:
+    grpc-service-name: grpcx1
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -189,6 +225,9 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-27 反重力 日本01 0.26M限 稳测 HYSTERIA2
+  - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
+  - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
+  - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -210,6 +249,9 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-27 反重力 日本01 0.26M限 稳测 HYSTERIA2
+  - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
+  - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
+  - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
