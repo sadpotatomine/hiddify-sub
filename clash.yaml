@@ -134,13 +134,6 @@ proxies:
     short-id: 11d37dd92940329e
   grpc-opts:
     grpc-service-name: grpc-se-3
-- name: 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 167.148.201.99
-  port: 443
-  password: 7c9c7f52-5a8c-43e0-b6d1-c8552289f230
-  udp: true
-  sni: us.mi11o4ka.com
 - name: 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: bl2.nexfile.net
@@ -161,20 +154,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: MMpt_jWc4J3oySBdf5sPDVRkiWlZmOObth6A1scM9BM
-- name: 10-28 反重力 美国29 0.26M限 稳测 VLESS
-  type: vless
-  server: usa.letsconnectpoint.com
-  port: 443
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: usa.letsconnectpoint.com
-  client-fingerprint: edge
-  network: tcp
-  reality-opts:
-    public-key: I45spoFEwSCaxR8FIP1HnrFj5KbR3keSAGMMdgt2AHY
-    short-id: b1c5a5e2
 - name: 10-28 反重力 德国03 0.26M限 稳测 VLESS
   type: vless
   server: 171.22.119.74
@@ -389,10 +368,8 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
-  - 10-28 反重力 美国29 0.26M限 稳测 VLESS
   - 10-28 反重力 德国03 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
@@ -429,10 +406,8 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
-  - 10-28 反重力 美国29 0.26M限 稳测 VLESS
   - 10-28 反重力 德国03 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
