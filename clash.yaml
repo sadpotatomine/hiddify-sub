@@ -350,6 +350,13 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
+- name: 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 144.31.239.226
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  udp: true
+  sni: fl2.nexfile.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -387,6 +394,7 @@ proxy-groups:
   - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
   - 10-28 反重力 美国32 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
+  - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -425,6 +433,7 @@ proxy-groups:
   - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
   - 10-28 反重力 美国32 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
+  - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
