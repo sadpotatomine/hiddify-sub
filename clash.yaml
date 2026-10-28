@@ -301,6 +301,13 @@ proxies:
   reality-opts:
     public-key: jHtC6ayzhkd_GVNF5TIGPu9iVpqUltBAQj1dpGJHwxs
     short-id: 55986a94e2228791
+- name: 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
+  type: ss
+  server: dns8.m3hrzd.ir
+  port: 8044
+  cipher: chacha20-ietf-poly1305
+  password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -334,6 +341,7 @@ proxy-groups:
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
   - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -368,6 +376,7 @@ proxy-groups:
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
   - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
+  - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
