@@ -315,6 +315,62 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
+- name: 10-28 反重力 法国11 0.26M限 稳测 VLESS
+  type: vless
+  server: 213.152.180.55
+  port: 2092
+  uuid: 4d8cc1c2-2605-43c4-8e17-dcafa86d9757
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
+    short-id: 716b7eba38125f3a
+- name: 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
+  type: vless
+  server: 213.152.180.55
+  port: 2095
+  uuid: 16107a06-1b5e-4060-8b48-e13a04b15e56
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: OKksVHWL5JepTv7if7Ta_L_7vn8OxW0INwV71HJM1jI
+    short-id: 3869d49a9a79e06a
+- name: 10-28 反重力 美国32 0.26M限 稳测 VLESS
+  type: vless
+  server: 213.152.180.104
+  port: 2088
+  uuid: 0ac16dd6-2f00-4e35-9a4d-479fd2755475
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: bvG7GBU_gOKuBuAagnC07EbQZ_2tJ8OhBNSVGkHSugo
+    short-id: 66d62ef550107695
+- name: 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
+  type: vless
+  server: 213.152.180.55
+  port: 2093
+  uuid: 7e5c47fb-69a5-4d9e-af57-1d80db594e88
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -350,6 +406,10 @@ proxy-groups:
   - 10-28 反重力 澳大利亚01 0.26M限 稳测 VLESS
   - 10-28 反重力 EE01 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
+  - 10-28 反重力 法国11 0.26M限 稳测 VLESS
+  - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
+  - 10-28 反重力 美国32 0.26M限 稳测 VLESS
+  - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -386,6 +446,10 @@ proxy-groups:
   - 10-28 反重力 澳大利亚01 0.26M限 稳测 VLESS
   - 10-28 反重力 EE01 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
+  - 10-28 反重力 法国11 0.26M限 稳测 VLESS
+  - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
+  - 10-28 反重力 美国32 0.26M限 稳测 VLESS
+  - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
