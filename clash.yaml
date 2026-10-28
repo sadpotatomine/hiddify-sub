@@ -247,21 +247,6 @@ proxies:
   servername: in002.zestapp778.com
   client-fingerprint: chrome
   network: tcp
-- name: 10-28 反重力 EE01 0.26M限 稳测 VLESS
-  type: vless
-  server: 217.60.182.138
-  port: 8843
-  uuid: f7274516-0050-4544-9462-0f1ca689db54
-  udp: true
-  tls: true
-  servername: myschoolonline.cvedcmimikal.space
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: XD-GOGR9K3rGRCfpytDaJZmtXOr7ZO6OdczpjUE0Dh8
-    short-id: a4f8c92d
-  grpc-opts:
-    grpc-service-name: 46205b
 - name: 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
   type: vless
   server: 213.152.180.104
@@ -368,7 +353,6 @@ proxy-groups:
   - 10-28 反重力 英国02 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 IN01 0.26M限 稳测 VLESS
-  - 10-28 反重力 EE01 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
   - 10-28 反重力 法国11 0.26M限 稳测 VLESS
   - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
@@ -405,7 +389,6 @@ proxy-groups:
   - 10-28 反重力 英国02 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 IN01 0.26M限 稳测 VLESS
-  - 10-28 反重力 EE01 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
   - 10-28 反重力 法国11 0.26M限 稳测 VLESS
   - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
