@@ -293,6 +293,18 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
   udp: true
+- name: 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
+  type: trojan
+  server: 13.140.93.138
+  port: 8080
+  password: IKw-DmAhQSpyl3zqDMI2yxNXTEIxgUy1
+  udp: true
+  sni: 13.140.93.138
+  network: ws
+  ws-opts:
+    path: /xksosksjekdnd
+    headers:
+      Host: 13.140.93.138
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -326,6 +338,7 @@ proxy-groups:
   - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -360,6 +373,7 @@ proxy-groups:
   - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
