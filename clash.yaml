@@ -178,13 +178,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
   udp: true
-- name: 10-29 反重力 英国01 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: london02.npvnot.com
-  port: 995
-  cipher: aes-256-gcm
-  password: OGEyYWJkY2Y4OTFjYTQ1MTFmZmE0OWI2MTA5ZDgz
-  udp: true
 - name: 10-29 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: frankfurt111.npvnot.com
@@ -206,19 +199,6 @@ proxies:
   reality-opts:
     public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
     short-id: e6d589857d1cec5e
-- name: 10-29 反重力 芬兰03 0.26M限 稳测 VLESS
-  type: vless
-  server: p2real22.greewebservices.ir
-  port: 1320
-  uuid: a7e9fc98-25a2-4801-961c-7a6ed9d69328
-  udp: true
-  tls: true
-  servername: play.googleapis.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: 9b60d3
 - name: 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   type: vless
   server: p2real33.greewebservices.ir
@@ -336,10 +316,8 @@ proxy-groups:
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 英国01 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
-  - 10-29 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
@@ -374,10 +352,8 @@ proxy-groups:
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 英国01 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
-  - 10-29 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
