@@ -301,6 +301,20 @@ proxies:
     short-id: a4f8c92d
   grpc-opts:
     grpc-service-name: 46205b
+- name: 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
+  type: vless
+  server: 213.152.180.104
+  port: 2093
+  uuid: 19456d94-8f54-4f82-ae9c-0e19afb5c29c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
+    short-id: 8a9725533854a7e8
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -335,6 +349,7 @@ proxy-groups:
   - 10-28 反重力 IN01 0.26M限 稳测 VLESS
   - 10-28 反重力 澳大利亚01 0.26M限 稳测 VLESS
   - 10-28 反重力 EE01 0.26M限 稳测 VLESS
+  - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -370,6 +385,7 @@ proxy-groups:
   - 10-28 反重力 IN01 0.26M限 稳测 VLESS
   - 10-28 反重力 澳大利亚01 0.26M限 稳测 VLESS
   - 10-28 反重力 EE01 0.26M限 稳测 VLESS
+  - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
