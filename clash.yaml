@@ -164,20 +164,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
   udp: true
-- name: 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
-  type: vless
-  server: 154.86.119.152
-  port: 443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fr.golangwikito.cfd
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
-    short-id: e6d589857d1cec5e
 - name: 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   type: vless
   server: p2real33.greewebservices.ir
@@ -226,13 +212,6 @@ proxies:
   cipher: aes-256-gcm
   password: OWJjMTUwNTNmZjhlZjk2ODNjYjBiZjRiNzRlM2Zj
   udp: true
-- name: 10-29 反重力 德国08 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: de7ddk.vault-connect.online
-  port: 8443
-  password: 9420ba04-6647-4c95-96f1-a9e094b922ed
-  udp: true
-  sni: de7ddk.vault-connect.online
 - name: 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: bl1.nexfile.net
@@ -294,12 +273,10 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 TR01 0.25M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 德国08 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
@@ -328,12 +305,10 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 TR01 0.25M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 德国08 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
