@@ -352,6 +352,20 @@ proxies:
   reality-opts:
     public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
     short-id: 9b60d3
+- name: 10-29 反重力 美国33 0.26M限 稳测 VLESS
+  type: vless
+  server: 156.229.160.98
+  port: 9443
+  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.amazon.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
+    short-id: b390142456517acc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -390,6 +404,7 @@ proxy-groups:
   - 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
   - 10-29 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
+  - 10-29 反重力 美国33 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -429,6 +444,7 @@ proxy-groups:
   - 10-29 反重力 荷兰03 0.25M限 稳测 VLESS
   - 10-29 反重力 芬兰03 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
+  - 10-29 反重力 美国33 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
