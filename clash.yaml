@@ -452,6 +452,16 @@ proxies:
   reality-opts:
     public-key: od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg
     short-id: 17fa3af0924c88b3
+- name: 10-28 反重力 IN01 0.26M限 稳测 VLESS
+  type: vless
+  server: in002.zestapp778.com
+  port: 46362
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  servername: in002.zestapp778.com
+  client-fingerprint: chrome
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -497,6 +507,7 @@ proxy-groups:
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
   - 10-28 反重力 英国02 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
+  - 10-28 反重力 IN01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -543,6 +554,7 @@ proxy-groups:
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
   - 10-28 反重力 英国02 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
+  - 10-28 反重力 IN01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
