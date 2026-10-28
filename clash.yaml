@@ -265,13 +265,6 @@ proxies:
   reality-opts:
     public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
     short-id: 8a9725533854a7e8
-- name: 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 144.31.239.226
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  udp: true
-  sni: fl2.nexfile.net
 - name: 10-28 反重力 德国05 0.26M限 稳测 VLESS
   type: vless
   server: 213.152.180.104
@@ -335,7 +328,6 @@ proxy-groups:
   - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
   - 10-28 反重力 美国32 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
-  - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
   - 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
@@ -370,7 +362,6 @@ proxy-groups:
   - 10-28 反重力 西班牙01 0.26M限 稳测 VLESS
   - 10-28 反重力 美国32 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
-  - 10-28 反重力 芬兰01 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
   - 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
