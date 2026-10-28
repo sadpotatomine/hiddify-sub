@@ -188,20 +188,6 @@ proxies:
     short-id: 27abb0897222ef3a
   grpc-opts:
     grpc-service-name: grpcx1
-- name: 10-27 反重力 MY01 0.25M限 稳测 VLESS
-  type: vless
-  server: my.wawojk.dpdns.org
-  port: 8443
-  uuid: 264bee07-e004-41c7-812f-aaf2daaad2c9
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.asus.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: akVbcyv-ypq-YT4-bsi_ts85pkDwhAIapn5bCb_hj28
-    short-id: 85f609aa0f0bead8
 - name: 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
   type: vless
   server: 136.148.211.243
@@ -284,20 +270,6 @@ proxies:
   reality-opts:
     public-key: v36yrZJ-5Zikx9eh_SXaoDS2GuobOA4_WLagBVO0vxk
     short-id: a9c3f7e2
-- name: 10-28 反重力 德国02 0.26M限 稳测 VLESS
-  type: vless
-  server: nl.puflino.com
-  port: 8443
-  uuid: c7270753-bd18-4696-956d-57dbde1183fe
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl2.reddotcorp.org
-  client-fingerprint: edge
-  network: tcp
-  reality-opts:
-    public-key: VDZdbh_RzDDZsHpYF58yUuuvXh93XnmkvpSqb50qG2U
-    short-id: 1be482b8e08aa0ef
 - name: 10-28 反重力 美国29 0.26M限 稳测 VLESS
   type: vless
   server: usa.letsconnectpoint.com
@@ -382,13 +354,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE
-- name: 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: creator.morteza1388m1122.ir
-  port: 29232
-  cipher: chacha20-ietf-poly1305
-  password: vpximr7tis5td84p
-  udp: true
 - name: 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: pl3.nexfile.net
@@ -484,7 +449,6 @@ proxy-groups:
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
-  - 10-27 反重力 MY01 0.25M限 稳测 VLESS
   - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
   - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国01 0.26M限 稳测 VLESS
@@ -492,7 +456,6 @@ proxy-groups:
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 荷兰03 0.25M限 稳测 VLESS
   - 10-28 反重力 美国28 0.26M限 稳测 VLESS
-  - 10-28 反重力 德国02 0.26M限 稳测 VLESS
   - 10-28 反重力 美国29 0.26M限 稳测 VLESS
   - 10-28 反重力 德国03 0.26M限 稳测 VLESS
   - 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
@@ -500,7 +463,6 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
-  - 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
@@ -531,7 +493,6 @@ proxy-groups:
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-27 反重力 荷兰01 0.21M限 稳测 VLESS
   - 10-27 反重力 荷兰02 0.19M限 稳测 VLESS
-  - 10-27 反重力 MY01 0.25M限 稳测 VLESS
   - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
   - 10-28 反重力 美国27 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 德国01 0.26M限 稳测 VLESS
@@ -539,7 +500,6 @@ proxy-groups:
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 荷兰03 0.25M限 稳测 VLESS
   - 10-28 反重力 美国28 0.26M限 稳测 VLESS
-  - 10-28 反重力 德国02 0.26M限 稳测 VLESS
   - 10-28 反重力 美国29 0.26M限 稳测 VLESS
   - 10-28 反重力 德国03 0.26M限 稳测 VLESS
   - 10-28 反重力 荷兰04 0.26M限 稳测 VLESS
@@ -547,7 +507,6 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 英国01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
-  - 10-28 反重力 法国09 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
