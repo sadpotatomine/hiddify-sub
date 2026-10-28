@@ -106,21 +106,6 @@ proxies:
   password: 1953e43b-605c-4262-83eb-41a80646b801
   udp: true
   sni: fr.song69.fun
-- name: 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
-  type: vless
-  server: 136.148.211.243
-  port: 443
-  uuid: 4b1be712-774c-4b65-8491-a3339e124a70
-  udp: true
-  tls: true
-  servername: se1-cl3.vless-fiberstasis.top
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: qJja_3vaCxm3As6alnqjpIIThwGm4e4m_MOluQBNFgo
-    short-id: 11d37dd92940329e
-  grpc-opts:
-    grpc-service-name: grpc-se-3
 - name: 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: bl2.nexfile.net
@@ -324,7 +309,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
-  - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
@@ -359,7 +343,6 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
-  - 10-28 反重力 瑞典01 0.26M限 稳测 VLESS
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
