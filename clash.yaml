@@ -380,6 +380,13 @@ proxies:
   reality-opts:
     public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
     short-id: b390142456517acc
+- name: 10-29 反重力 TR01 0.25M限 稳测 SHADOWSOCKS
+  type: ss
+  server: istanbul07.npvnot.com
+  port: 995
+  cipher: aes-256-gcm
+  password: OWJjMTUwNTNmZjhlZjk2ODNjYjBiZjRiNzRlM2Zj
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -420,6 +427,7 @@ proxy-groups:
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
+  - 10-29 反重力 TR01 0.25M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -461,6 +469,7 @@ proxy-groups:
   - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
+  - 10-29 反重力 TR01 0.25M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
