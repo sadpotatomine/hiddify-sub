@@ -196,20 +196,6 @@ proxies:
     path: /live.stream.v1.Broadcast/
     headers:
       Host: broadcast.liveflow.space
-- name: 10-28 反重力 英国02 0.26M限 稳测 VLESS
-  type: vless
-  server: sinavm.soft10.ir
-  port: 2096
-  uuid: 295009c6-5a47-4f77-b9ac-9be24a61da48
-  udp: true
-  tls: true
-  servername: sinavm.soft10.ir
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM
-    headers:
-      Host: sinavm.soft10.ir
 - name: 10-28 反重力 TR01 0.26M限 稳测 VLESS
   type: vless
   server: tr2.h1cloud.net
@@ -340,7 +326,6 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
-  - 10-28 反重力 英国02 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
   - 10-28 反重力 法国11 0.26M限 稳测 VLESS
@@ -375,7 +360,6 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
-  - 10-28 反重力 英国02 0.26M限 稳测 VLESS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 加拿大01 0.24M限 稳测 VLESS
   - 10-28 反重力 法国11 0.26M限 稳测 VLESS
