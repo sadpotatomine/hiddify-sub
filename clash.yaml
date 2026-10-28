@@ -410,6 +410,20 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: MODziWLa9qMuW-4yPa0rfw
   udp: true
+- name: 10-28 反重力 法国10 0.26M限 稳测 VLESS
+  type: vless
+  server: 194.55.239.89
+  port: 443
+  uuid: 073b7df7-5527-45a2-ba29-183b85c39071
+  udp: true
+  tls: true
+  servername: broadcast.liveflow.space
+  client-fingerprint: android
+  network: ws
+  ws-opts:
+    path: /live.stream.v1.Broadcast/
+    headers:
+      Host: broadcast.liveflow.space
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -452,6 +466,7 @@ proxy-groups:
   - 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 法国10 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -495,6 +510,7 @@ proxy-groups:
   - 10-28 反重力 波兰02 0.26M限 稳测 HYSTERIA2
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
+  - 10-28 反重力 法国10 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
