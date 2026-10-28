@@ -279,18 +279,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
   udp: true
-- name: 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
-  type: trojan
-  server: 13.140.93.138
-  port: 8080
-  password: IKw-DmAhQSpyl3zqDMI2yxNXTEIxgUy1
-  udp: true
-  sni: 13.140.93.138
-  network: ws
-  ws-opts:
-    path: /xksosksjekdnd
-    headers:
-      Host: 13.140.93.138
 - name: 10-29 反重力 英国01 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: london02.npvnot.com
@@ -418,7 +406,6 @@ proxy-groups:
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
   - 10-29 反重力 英国01 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 荷兰02 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
@@ -460,7 +447,6 @@ proxy-groups:
   - 10-28 反重力 加拿大02 0.27M限 稳测 VLESS
   - 10-28 反重力 德国05 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-28 反重力 芬兰02 0.25M限 稳测 TROJAN
   - 10-29 反重力 英国01 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 荷兰02 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
