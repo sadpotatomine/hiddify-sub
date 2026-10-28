@@ -1,24 +1,24 @@
 {
   "date_beijing": "2026-10-29",
-  "started_at": 1793211236.4900038,
-  "finished_at": 1793211506.5517182,
+  "started_at": 1793211529.89102,
+  "finished_at": 1793212824.6050668,
   "status": "complete",
   "phase": "publish",
-  "outcome": "no-new",
-  "published": false,
-  "appended": 0,
+  "outcome": "published",
+  "published": true,
+  "appended": 1,
   "removed": 0,
-  "total": 34,
-  "remote_node_count": 34,
-  "remote_sha256": "7b8e3b8c0727d8849d1d77ddfc5ca4e170d4ae27a70e8b583e8cf661f7ea3739",
+  "total": 35,
+  "remote_node_count": 35,
+  "remote_sha256": "cb80305aa9c02fbef59f14c1ea8972da347244f0e097f5700ba2ebd85de74541",
   "remote_verified": true,
-  "repo_head_before": "568776963a712f1a2c1614f7274e2f30afbc9707",
-  "repo_head_after": "568776963a712f1a2c1614f7274e2f30afbc9707",
+  "repo_head_before": "88e6a8ca22d4d77ea78c0017ee26767e380c6cc9",
+  "repo_head_after": "5f40280d979909bcb7e43f6c0df2ce9c1e2ee77c",
   "google_https": "passed",
-  "batch": "batch-20261029-021356-373404-r3",
+  "batch": "batch-20261029-021849-779569-r4",
   "engine": "python + sing-box",
   "schedule": "5 completed rounds, then rest 1 hour; repeat",
-  "summary_generated_at": "2026-10-29T02:18:26.553117+08:00",
+  "summary_generated_at": "2026-10-29T02:40:24.606785+08:00",
   "checks": {
     "candidates.json": {
       "count": 200,
@@ -26,7 +26,12 @@
     },
     "screen.json": {
       "count": 200,
-      "passed": 0
+      "passed": 1
+    },
+    "deep.json": {
+      "count": 6,
+      "passed": 6,
+      "incomplete_downloads": 0
     }
   }
 }
