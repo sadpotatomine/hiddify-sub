@@ -424,6 +424,34 @@ proxies:
     path: /live.stream.v1.Broadcast/
     headers:
       Host: broadcast.liveflow.space
+- name: 10-28 反重力 英国02 0.26M限 稳测 VLESS
+  type: vless
+  server: sinavm.soft10.ir
+  port: 2096
+  uuid: 295009c6-5a47-4f77-b9ac-9be24a61da48
+  udp: true
+  tls: true
+  servername: sinavm.soft10.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM-SiNAVM
+    headers:
+      Host: sinavm.soft10.ir
+- name: 10-28 反重力 TR01 0.26M限 稳测 VLESS
+  type: vless
+  server: tr2.h1cloud.net
+  port: 25021
+  uuid: 2446e2e2-1ce3-4502-9050-1dd32bacc68c
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.samsung.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg
+    short-id: 17fa3af0924c88b3
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -467,6 +495,8 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
+  - 10-28 反重力 英国02 0.26M限 稳测 VLESS
+  - 10-28 反重力 TR01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -511,6 +541,8 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 瑞典02 0.18M限 稳测 SHADOWSOCKS
   - 10-28 反重力 法国10 0.26M限 稳测 VLESS
+  - 10-28 反重力 英国02 0.26M限 稳测 VLESS
+  - 10-28 反重力 TR01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
