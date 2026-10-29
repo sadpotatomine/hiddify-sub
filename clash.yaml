@@ -82,13 +82,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 31.185.105.12
-  port: 443
-  password: 1953e43b-605c-4262-83eb-41a80646b801
-  udp: true
-  sni: fr.song69.fun
 - name: 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   type: hysteria2
   server: bl2.nexfile.net
@@ -157,19 +150,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
   udp: true
-- name: 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: p2real33.greewebservices.ir
-  port: 1330
-  uuid: a7e9fc98-25a2-4801-961c-7a6ed9d69328
-  udp: true
-  tls: true
-  servername: play.googleapis.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8
-    short-id: 9b60d3
 - name: 10-29 反重力 美国33 0.26M限 稳测 VLESS
   type: vless
   server: 156.229.160.98
@@ -236,20 +216,6 @@ proxies:
   password: 78b6899a-93cb-4ddf-a644-f391581f0294
   udp: true
   sni: 109.120.184.210.amstar.sbs
-- name: 10-29 反重力 荷兰05 0.26M限 稳测 VLESS
-  type: vless
-  server: fr.golangwikito.cfd
-  port: 443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fr.golangwikito.cfd
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
-    short-id: e6d589857d1cec5e
 - name: 10-29 反重力 TR01 0.26M限 稳测 VLESS
   type: vless
   server: 206.1.101.85
@@ -299,7 +265,6 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
-  - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
@@ -307,14 +272,12 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
-  - 10-29 反重力 荷兰05 0.26M限 稳测 VLESS
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 美国34 0.26M限 稳测 TROJAN
   - 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
@@ -334,7 +297,6 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
-  - 10-27 反重力 法国08 0.20M限 稳测 HYSTERIA2
   - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
@@ -342,14 +304,12 @@ proxy-groups:
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 芬兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
-  - 10-29 反重力 荷兰05 0.26M限 稳测 VLESS
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 美国34 0.26M限 稳测 TROJAN
   - 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
