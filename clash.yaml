@@ -171,6 +171,34 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: DtduH1vDWOKbgnmmZKVAs1NVi8WJWKn5
   udp: true
+- name: 10-29 反重力 美国40 0.26M限 稳测 VLESS
+  type: vless
+  server: 185.168.208.190
+  port: 47443
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: us-1.waspguard.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: hz7rzdHvTAVwfy48pa6313yBF-sV7V0svvPVnl95bgY
+    short-id: ae97246a8f799854
+- name: 10-29 反重力 美国41 0.25M限 稳测 VLESS
+  type: vless
+  server: 89.46.38.58
+  port: 443
+  uuid: 8bab5583-04b1-4b83-96e8-4ed46062eeb7
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: us-a1.netfix.app
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: HNC4xdL0kgaIcgnPtMyc21hxY6dk0zl_vAclmQZHigw
+    short-id: 323da253
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -195,6 +223,8 @@ proxy-groups:
   - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
   - 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
+  - 10-29 反重力 美国40 0.26M限 稳测 VLESS
+  - 10-29 反重力 美国41 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -220,6 +250,8 @@ proxy-groups:
   - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
   - 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
+  - 10-29 反重力 美国40 0.26M限 稳测 VLESS
+  - 10-29 反重力 美国41 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
