@@ -283,6 +283,41 @@ proxies:
   reality-opts:
     public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
     short-id: deccc6fac1ddb0ff
+- name: 10-30 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.23
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.250
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.142
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.21
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.43
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -314,6 +349,11 @@ proxy-groups:
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 10-30 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -346,6 +386,11 @@ proxy-groups:
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 10-30 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
