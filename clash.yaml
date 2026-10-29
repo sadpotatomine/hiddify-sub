@@ -269,6 +269,20 @@ proxies:
   reality-opts:
     public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
     short-id: e6d589857d1cec5e
+- name: 10-30 反重力 波兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: etpl6.servertest.cc
+  port: 443
+  uuid: 3f044365-9592-4301-8291-f2d93fcc2570
+  udp: true
+  tls: true
+  servername: etpl6.servertest.cc
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /gateway/v1/ws/e17e55a42ca2cb6bc3c98ab20ff16f9c
+    headers:
+      Host: etpl6.servertest.cc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -300,6 +314,7 @@ proxy-groups:
   - 10-30 反重力 美国42 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
+  - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -332,6 +347,7 @@ proxy-groups:
   - 10-30 反重力 美国42 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
+  - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
