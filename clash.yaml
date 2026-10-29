@@ -333,6 +333,20 @@ proxies:
   password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
   udp: true
   sni: diffoscope.com
+- name: 10-30 反重力 KZ01 0.26M限 稳测 VLESS
+  type: vless
+  server: 95.56.251.12
+  port: 47443
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: kz1.waspnest.space
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
+    short-id: ae97223a8f799877
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -372,6 +386,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -412,6 +427,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
