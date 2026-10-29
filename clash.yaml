@@ -150,13 +150,6 @@ proxies:
   password: sBMuYgEz3jve2XtEBh8JPh9trNE-c9bH
   udp: true
   sni: d1-fl.cloud-cdn.xyz
-- name: 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: cc.biomaze.cc.cd
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: DtduH1vDWOKbgnmmZKVAs1NVi8WJWKn5
-  udp: true
 - name: 10-29 反重力 美国40 0.26M限 稳测 VLESS
   type: vless
   server: 185.168.208.190
@@ -241,7 +234,6 @@ proxy-groups:
   - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
   - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
-  - 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 美国40 0.26M限 稳测 VLESS
   - 10-29 反重力 美国41 0.25M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
@@ -269,7 +261,6 @@ proxy-groups:
   - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
   - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
-  - 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 美国40 0.26M限 稳测 VLESS
   - 10-29 反重力 美国41 0.25M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
