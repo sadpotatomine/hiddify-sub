@@ -143,6 +143,13 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
+- name: 10-29 反重力 德国05 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 193.108.119.96
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.iloverussia2026.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -163,6 +170,7 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
+  - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -184,6 +192,7 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
+  - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
