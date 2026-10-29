@@ -129,13 +129,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-29 反重力 美国36 0.25M限 稳测 TROJAN
-  type: trojan
-  server: 170.101.101.112
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.explorecreativejobsandenhanceyourcareerportfolio.com
 - name: 10-29 反重力 德国05 0.26M限 稳测 TROJAN
   type: trojan
   server: 193.108.119.96
@@ -224,7 +217,6 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
   - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
   - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
@@ -251,7 +243,6 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
   - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
   - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
