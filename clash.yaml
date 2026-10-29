@@ -82,13 +82,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: bl2.nexfile.net
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  udp: true
-  sni: bl2.nexfile.net
 - name: 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   type: vless
   server: cz-prg.dontblockmepls.com
@@ -157,13 +150,6 @@ proxies:
   reality-opts:
     public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
     short-id: b390142456517acc
-- name: 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: bl1.nexfile.net
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  udp: true
-  sni: bl1.nexfile.net
 - name: 10-29 反重力 法国12 0.26M限 稳测 VLESS
   type: vless
   server: 163.245.42.157
@@ -240,14 +226,12 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
-  - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
-  - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
@@ -270,14 +254,12 @@ proxy-groups:
   - 10-22 反重力 意大利10 0.26M限 稳测 SHADOWSOCKS
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
-  - 10-28 反重力 波兰01 0.25M限 稳测 HYSTERIA2
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
-  - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
