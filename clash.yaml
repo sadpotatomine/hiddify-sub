@@ -283,6 +283,20 @@ proxies:
     path: /gateway/v1/ws/e17e55a42ca2cb6bc3c98ab20ff16f9c
     headers:
       Host: etpl6.servertest.cc
+- name: 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
+  type: vless
+  server: 213.152.180.104
+  port: 2089
+  uuid: 492e3bca-472f-406f-8bbb-2fdcc1560508
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
+    short-id: deccc6fac1ddb0ff
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -315,6 +329,7 @@ proxy-groups:
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
+  - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -348,6 +363,7 @@ proxy-groups:
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
+  - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
