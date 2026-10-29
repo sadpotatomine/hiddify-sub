@@ -129,20 +129,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-29 反重力 德国05 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 193.108.119.96
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.iloverussia2026.com
-- name: 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 130.94.16.109
-  port: 8388
-  cipher: 2022-blake3-aes-128-gcm
-  password: CNongHrmKObCxalqw4w0Hw==
-  udp: true
 - name: 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
   type: trojan
   server: 31.76.102.130
@@ -315,8 +301,6 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
-  - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
   - 10-29 反重力 美国40 0.26M限 稳测 VLESS
   - 10-29 反重力 美国41 0.25M限 稳测 VLESS
@@ -349,8 +333,6 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
-  - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
   - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
   - 10-29 反重力 美国40 0.26M限 稳测 VLESS
   - 10-29 反重力 美国41 0.25M限 稳测 VLESS
