@@ -143,27 +143,6 @@ proxies:
   reality-opts:
     public-key: od79bUkYtqQtsGrrTdhmkDflx5c9al4vqxwWApvc-Dg
     short-id: 17fa3af0924c88b3
-- name: 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  type: ss
-  server: dns8.m3hrzd.ir
-  port: 8044
-  cipher: chacha20-ietf-poly1305
-  password: U5Jk0BhRNKjb5wQBBOXx2wwkWZ_yWU0N
-  udp: true
-- name: 10-29 反重力 美国33 0.26M限 稳测 VLESS
-  type: vless
-  server: 156.229.160.98
-  port: 9443
-  uuid: 4a270d3e-27b4-497d-8c8c-28f1f54958d9
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: 0hIFPaEn4RdFib8_eP8HYxMywR5izEwM3JA2W1Zo8U4
-    short-id: b390142456517acc
 - name: 10-29 反重力 日本01 0.26M限 稳测 VLESS
   type: vless
   server: 45.202.255.92
@@ -198,17 +177,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: alice.proxyplankton.ru
-  port: 8443
-  uuid: fa0010d9-7060-4abd-956a-76f15f067d0d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: alice.proxyplankton.ru
-  client-fingerprint: chrome
-  network: tcp
 - name: 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: 109.120.184.210
@@ -278,12 +246,9 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
-  - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 美国34 0.26M限 稳测 TROJAN
@@ -311,12 +276,9 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
-  - 10-28 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  - 10-29 反重力 美国33 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 波兰03 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 美国34 0.26M限 稳测 TROJAN
