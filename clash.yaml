@@ -326,6 +326,20 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
+- name: 10-30 反重力 波兰02 0.26M限 稳测 VLESS
+  type: vless
+  server: 8.6.112.0
+  port: 2087
+  uuid: 77290716-1ecb-5e6c-985b-8e2de8bbb434
+  udp: true
+  tls: true
+  servername: pl1.vlnet.site
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: pl1.vlnet.site
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -364,6 +378,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
+  - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -403,6 +418,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
+  - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
