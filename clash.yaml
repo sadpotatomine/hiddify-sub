@@ -116,20 +116,6 @@ proxies:
   reality-opts:
     public-key: hz7rzdHvTAVwfy48pa6313yBF-sV7V0svvPVnl95bgY
     short-id: ae97246a8f799854
-- name: 10-29 反重力 美国41 0.25M限 稳测 VLESS
-  type: vless
-  server: 89.46.38.58
-  port: 443
-  uuid: 8bab5583-04b1-4b83-96e8-4ed46062eeb7
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: us-a1.netfix.app
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: HNC4xdL0kgaIcgnPtMyc21hxY6dk0zl_vAclmQZHigw
-    short-id: 323da253
 - name: 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   type: vless
   server: 187.52.44.20
@@ -193,20 +179,6 @@ proxies:
     path: /ws-tesla
     headers:
       Host: fast.145779.xyz
-- name: 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: 185.81.115.198
-  port: 443
-  uuid: 8bab5583-04b1-4b83-96e8-4ed46062eeb7
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl-a1.netfix.app
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: HNC4xdL0kgaIcgnPtMyc21hxY6dk0zl_vAclmQZHigw
-    short-id: 5108255f
 - name: 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   type: vless
   server: 154.86.119.158
@@ -357,14 +329,12 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 美国40 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国41 0.25M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
   - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
   - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
   - 10-30 反重力 美国42 0.26M限 稳测 VLESS
-  - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
@@ -397,14 +367,12 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 美国40 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国41 0.25M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
   - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
   - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
   - 10-30 反重力 美国42 0.26M限 稳测 VLESS
-  - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
