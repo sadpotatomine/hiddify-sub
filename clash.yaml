@@ -339,6 +339,13 @@ proxies:
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   udp: true
   sni: onecloudstream.com
+- name: 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 192.142.23.46
+  port: 443
+  password: a0052f4f-4c63-0002-a16f-ab2d5d718cd3
+  udp: true
+  sni: diffoscope.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -378,6 +385,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -418,6 +426,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 瑞典01 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
