@@ -150,6 +150,27 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: learn.iloverussia2026.com
+- name: 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 130.94.16.109
+  port: 8388
+  cipher: 2022-blake3-aes-128-gcm
+  password: CNongHrmKObCxalqw4w0Hw==
+  udp: true
+- name: 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
+  type: trojan
+  server: 31.76.102.130
+  port: 41445
+  password: sBMuYgEz3jve2XtEBh8JPh9trNE-c9bH
+  udp: true
+  sni: d1-fl.cloud-cdn.xyz
+- name: 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: cc.biomaze.cc.cd
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: DtduH1vDWOKbgnmmZKVAs1NVi8WJWKn5
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -171,6 +192,9 @@ proxy-groups:
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
   - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
+  - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
+  - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
+  - 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -193,6 +217,9 @@ proxy-groups:
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
   - 10-29 反重力 德国05 0.26M限 稳测 TROJAN
+  - 10-29 反重力 美国38 0.22M限 稳测 SHADOWSOCKS
+  - 10-29 反重力 芬兰01 0.23M限 稳测 TROJAN
+  - 10-29 反重力 美国39 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
