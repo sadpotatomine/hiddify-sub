@@ -150,13 +150,6 @@ proxies:
     path: /
     headers:
       Host: 206.1.101.85
-- name: 10-29 反重力 美国34 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 169.197.140.224
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
 - name: 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
   type: trojan
   server: 216.152.147.152
@@ -164,20 +157,6 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: learn.connectingpeoplewithgreatjobs.com
-- name: 10-29 反重力 加拿大02 0.27M限 稳测 TROJAN
-  type: trojan
-  server: 216.152.147.201
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: resources.connectingpeoplewithgreatjobs.com
-- name: 10-29 反重力 加拿大03 0.25M限 稳测 TROJAN
-  type: trojan
-  server: 216.152.147.48
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: courses.connectingpeoplewithgreatjobs.com
 - name: 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   type: trojan
   server: 169.197.140.245
@@ -212,10 +191,7 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国34 0.26M限 稳测 TROJAN
   - 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
-  - 10-29 反重力 加拿大02 0.27M限 稳测 TROJAN
-  - 10-29 反重力 加拿大03 0.25M限 稳测 TROJAN
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
 - name: ⚡ 自动选择
@@ -239,10 +215,7 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 TR01 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国34 0.26M限 稳测 TROJAN
   - 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
-  - 10-29 反重力 加拿大02 0.27M限 稳测 TROJAN
-  - 10-29 反重力 加拿大03 0.25M限 稳测 TROJAN
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
