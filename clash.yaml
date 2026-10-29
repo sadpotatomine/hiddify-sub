@@ -257,6 +257,20 @@ proxies:
   reality-opts:
     public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
     short-id: e6d589857d1cec5e
+- name: 10-29 反重力 TR01 0.26M限 稳测 VLESS
+  type: vless
+  server: 206.1.101.85
+  port: 42654
+  uuid: 16e9ae65-c42d-49b9-9e86-524956e4ef19
+  udp: true
+  tls: true
+  servername: 206.1.101.85
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 206.1.101.85
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -288,6 +302,7 @@ proxy-groups:
   - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 荷兰05 0.26M限 稳测 VLESS
+  - 10-29 反重力 TR01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -320,6 +335,7 @@ proxy-groups:
   - 10-29 反重力 荷兰04 0.26M限 稳测 VLESS
   - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
   - 10-29 反重力 荷兰05 0.26M限 稳测 VLESS
+  - 10-29 反重力 TR01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
