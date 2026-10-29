@@ -213,6 +213,20 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: blog.connectingpeoplewithgreatjobs.com
+- name: 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 208.69.78.29
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: learn.yourultimateprofessionalcareerhub.com
+- name: 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 208.69.78.19
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: www.yourultimateprofessionalcareerhub.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -239,6 +253,8 @@ proxy-groups:
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
+  - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
+  - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -266,6 +282,8 @@ proxy-groups:
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
+  - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
+  - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
