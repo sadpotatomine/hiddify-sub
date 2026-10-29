@@ -115,13 +115,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: q3UXFUE5yYxNE4ugLUnYdpc9WRtR-sjsDTrKsiqzDHE
-- name: 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 64.83.20.73
-  port: 8388
-  cipher: aes-256-gcm
-  password: BookCloud2026
-  udp: true
 - name: 10-28 反重力 TR01 0.26M限 稳测 VLESS
   type: vless
   server: tr2.h1cloud.net
@@ -243,7 +236,6 @@ proxy-groups:
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
-  - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
@@ -273,7 +265,6 @@ proxy-groups:
   - 10-28 反重力 捷克01 0.26M限 稳测 VLESS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
-  - 10-28 反重力 美国31 0.14M限 稳测 SHADOWSOCKS
   - 10-28 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
