@@ -213,6 +213,13 @@ proxies:
   reality-opts:
     public-key: zHU0WVJ6mMqTgBj6hEt_B0yRnegzdTGGLBydGyAPvlk
     short-id: ae97223a8f799001
+- name: 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
+  type: trojan
+  server: 216.152.147.79
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  udp: true
+  sni: blog.connectingpeoplewithgreatjobs.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -239,6 +246,7 @@ proxy-groups:
   - 10-29 反重力 美国41 0.25M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
+  - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -266,6 +274,7 @@ proxy-groups:
   - 10-29 反重力 美国41 0.25M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
+  - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
