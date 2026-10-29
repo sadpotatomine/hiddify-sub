@@ -129,27 +129,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 109.120.184.210
-  port: 32854
-  password: 78b6899a-93cb-4ddf-a644-f391581f0294
-  udp: true
-  sni: 109.120.184.210.amstar.sbs
-- name: 10-29 反重力 TR01 0.26M限 稳测 VLESS
-  type: vless
-  server: 206.1.101.85
-  port: 42654
-  uuid: 16e9ae65-c42d-49b9-9e86-524956e4ef19
-  udp: true
-  tls: true
-  servername: 206.1.101.85
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: 206.1.101.85
 - name: 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
   type: trojan
   server: 216.152.147.152
@@ -189,8 +168,6 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
-  - 10-29 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
@@ -213,8 +190,6 @@ proxy-groups:
   - 10-28 反重力 德国04 0.25M限 稳测 VLESS
   - 10-29 反重力 日本01 0.26M限 稳测 VLESS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 芬兰05 0.26M限 稳测 HYSTERIA2
-  - 10-29 反重力 TR01 0.26M限 稳测 VLESS
   - 10-29 反重力 加拿大01 0.26M限 稳测 TROJAN
   - 10-29 反重力 美国35 0.24M限 稳测 TROJAN
   - 10-29 反重力 美国36 0.25M限 稳测 TROJAN
