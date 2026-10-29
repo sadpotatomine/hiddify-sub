@@ -318,6 +318,27 @@ proxies:
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   udp: true
   sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.81
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.44
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.46
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -354,6 +375,9 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -391,6 +415,9 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚07 0.25M限 稳测 HYSTERIA2
+  - 10-30 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
