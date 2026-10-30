@@ -102,20 +102,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-29 反重力 美国40 0.26M限 稳测 VLESS
-  type: vless
-  server: 185.168.208.190
-  port: 47443
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: us-1.waspguard.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: hz7rzdHvTAVwfy48pa6313yBF-sV7V0svvPVnl95bgY
-    short-id: ae97246a8f799854
 - name: 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   type: vless
   server: 187.52.44.20
@@ -151,34 +137,6 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: blog.connectingpeoplewithgreatjobs.com
-- name: 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 208.69.78.29
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.yourultimateprofessionalcareerhub.com
-- name: 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 208.69.78.19
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: www.yourultimateprofessionalcareerhub.com
-- name: 10-30 反重力 美国42 0.26M限 稳测 VLESS
-  type: vless
-  server: fast.145779.xyz
-  port: 2053
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  udp: true
-  tls: true
-  servername: fast.145779.xyz
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
 - name: 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   type: vless
   server: etpl6.servertest.cc
@@ -193,20 +151,6 @@ proxies:
     path: /gateway/v1/ws/e17e55a42ca2cb6bc3c98ab20ff16f9c
     headers:
       Host: etpl6.servertest.cc
-- name: 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
-  type: vless
-  server: 213.152.180.104
-  port: 2089
-  uuid: 492e3bca-472f-406f-8bbb-2fdcc1560508
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: oRmj7gTi5H2oIClNYxxgOjqp8-j5kFYtGFU8CNuMj34
-    short-id: deccc6fac1ddb0ff
 - name: 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   type: vless
   server: 95.56.251.12
@@ -320,15 +264,10 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国40 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
-  - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
-  - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
-  - 10-30 反重力 美国42 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
-  - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
@@ -354,15 +293,10 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 美国40 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
-  - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
-  - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
-  - 10-30 反重力 美国42 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
-  - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
