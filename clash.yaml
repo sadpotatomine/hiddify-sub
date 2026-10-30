@@ -116,20 +116,6 @@ proxies:
   reality-opts:
     public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
     short-id: ae97223a8f799872
-- name: 10-30 反重力 德国06 0.24M限 稳测 VLESS
-  type: vless
-  server: 217.60.151.141
-  port: 47443
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ge-1.waspguard.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: zHU0WVJ6mMqTgBj6hEt_B0yRnegzdTGGLBydGyAPvlk
-    short-id: ae97223a8f799001
 - name: 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
   type: trojan
   server: 216.152.147.79
@@ -265,7 +251,6 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
-  - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
@@ -294,7 +279,6 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
-  - 10-30 反重力 德国06 0.24M限 稳测 VLESS
   - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
