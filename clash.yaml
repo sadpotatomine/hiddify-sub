@@ -116,27 +116,6 @@ proxies:
   reality-opts:
     public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
     short-id: ae97223a8f799872
-- name: 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 216.152.147.79
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: blog.connectingpeoplewithgreatjobs.com
-- name: 10-30 反重力 波兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: etpl6.servertest.cc
-  port: 443
-  uuid: 3f044365-9592-4301-8291-f2d93fcc2570
-  udp: true
-  tls: true
-  servername: etpl6.servertest.cc
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /gateway/v1/ws/e17e55a42ca2cb6bc3c98ab20ff16f9c
-    headers:
-      Host: etpl6.servertest.cc
 - name: 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   type: vless
   server: 95.56.251.12
@@ -151,20 +130,6 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
-- name: 10-30 反重力 波兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: 8.6.112.0
-  port: 2087
-  uuid: 77290716-1ecb-5e6c-985b-8e2de8bbb434
-  udp: true
-  tls: true
-  servername: pl1.vlnet.site
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: pl1.vlnet.site
 - name: 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   type: vless
   server: 31.59.143.147
@@ -251,10 +216,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
-  - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
-  - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
@@ -279,10 +241,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
-  - 10-30 反重力 加拿大05 0.26M限 稳测 TROJAN
-  - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
