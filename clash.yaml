@@ -169,6 +169,19 @@ proxies:
   password: 5t6i121em5lkmsmk
   udp: true
   sni: en001.zestapp778.com
+- name: 10-30 反重力 德国01 0.25M限 稳测 VLESS
+  type: vless
+  server: 138.124.39.251
+  port: 443
+  uuid: 5254c281-3bc1-40ee-ba89-1aaf8c251402
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: nl-modx-prime.storagedirectguide.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -191,6 +204,7 @@ proxy-groups:
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
+  - 10-30 反重力 德国01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -214,6 +228,7 @@ proxy-groups:
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
+  - 10-30 反重力 德国01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
