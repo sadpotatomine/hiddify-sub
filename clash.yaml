@@ -102,20 +102,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
-  type: vless
-  server: 187.52.44.20
-  port: 47443
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl4.waspnest.space
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: g5am2VhZkx_xH2TSKfUU8OYLxAzFrmcszNQg8AbOenE
-    short-id: ae97223a8f799872
 - name: 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   type: vless
   server: 95.56.251.12
@@ -130,18 +116,6 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
-- name: 10-30 反重力 法国13 0.25M限 稳测 VLESS
-  type: vless
-  server: 82.22.2.225
-  port: 443
-  uuid: 7b22dce8-7ebd-425b-8ca4-7b6190321985
-  udp: true
-  tls: true
-  servername: b-wl.fr-2.bnc-gt.co.uk
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: 104.165.205.22
@@ -216,9 +190,7 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
@@ -241,9 +213,7 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
