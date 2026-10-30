@@ -1,1 +1,0 @@
-vless://e3149c82-00f6-4227-b2c0-b78f1dd81279@fast.145779.xyz:2053?fp=chrome&host=fast.145779.xyz&path=%2Fws-tesla&security=tls&sni=fast.145779.xyz&type=ws#10-30%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E7%BE%8E%E5%9B%BD42%200.26M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20VLESS
