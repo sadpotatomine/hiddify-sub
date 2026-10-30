@@ -357,6 +357,13 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.22
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -398,6 +405,7 @@ proxy-groups:
   - 10-30 反重力 美国45 0.18M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 EE01 0.26M限 稳测 VLESS
+  - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -440,6 +448,7 @@ proxy-groups:
   - 10-30 反重力 美国45 0.18M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 EE01 0.26M限 稳测 VLESS
+  - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
