@@ -179,20 +179,6 @@ proxies:
     path: /ws-tesla
     headers:
       Host: fast.145779.xyz
-- name: 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
-  type: vless
-  server: 154.86.119.158
-  port: 443
-  uuid: f8d52ece-fad4-478d-875d-df6eed3befa7
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fr.golangwikito.cfd
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: isYQuhKDrgc7IQ7G0LHywFnt57wffrkZ-er18DkVsBA
-    short-id: e6d589857d1cec5e
 - name: 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   type: vless
   server: etpl6.servertest.cc
@@ -394,7 +380,6 @@ proxy-groups:
   - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
   - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
   - 10-30 反重力 美国42 0.26M限 稳测 VLESS
-  - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
@@ -437,7 +422,6 @@ proxy-groups:
   - 10-30 反重力 瑞士01 0.26M限 稳测 TROJAN
   - 10-30 反重力 瑞士02 0.26M限 稳测 TROJAN
   - 10-30 反重力 美国42 0.26M限 稳测 VLESS
-  - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰01 0.26M限 稳测 VLESS
   - 10-30 反重力 新加坡01 0.26M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
