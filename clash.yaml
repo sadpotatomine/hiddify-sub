@@ -345,18 +345,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 10-30 反重力 EE01 0.26M限 稳测 VLESS
-  type: vless
-  server: 130.78.190.20
-  port: 443
-  uuid: 7b22dce8-7ebd-425b-8ca4-7b6190321985
-  udp: true
-  tls: true
-  servername: a.es-2.bnc-gt.co.uk
-  client-fingerprint: qq
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   type: hysteria2
   server: 104.165.205.22
@@ -404,7 +392,6 @@ proxy-groups:
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 美国45 0.18M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
-  - 10-30 反重力 EE01 0.26M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
@@ -447,7 +434,6 @@ proxy-groups:
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 美国45 0.18M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
-  - 10-30 反重力 EE01 0.26M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
