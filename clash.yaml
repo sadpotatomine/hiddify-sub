@@ -287,6 +287,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 10-30 反重力 日本01 0.26M限 稳测 VLESS
+  type: vless
+  server: 31.76.91.31
+  port: 443
+  uuid: 7b22dce8-7ebd-425b-8ca4-7b6190321985
+  udp: true
+  tls: true
+  servername: b.jp-1.bnc-gt.co.uk
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -319,6 +331,7 @@ proxy-groups:
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
+  - 10-30 反重力 日本01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -352,6 +365,7 @@ proxy-groups:
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
+  - 10-30 反重力 日本01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
