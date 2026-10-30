@@ -333,6 +333,44 @@ proxies:
   reality-opts:
     public-key: Liu35gmIQJtbul5AeCrceJTjsmln4RaqxX6joKlaBjk
     short-id: ae97223a8f799889
+- name: 10-30 反重力 美国45 0.18M限 稳测 VLESS
+  type: vless
+  server: 31.172.69.31
+  port: 8443
+  uuid: 9c6e83fc-b755-4ad4-9b0a-14b610153d8f
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.samsung.com
+  client-fingerprint: qq
+  network: tcp
+  reality-opts:
+    public-key: H43_itYl9CE0AJiCktUfriENFmixY_MTHgX8slCrN2Q
+    short-id: a4e32c324d86cfdf
+- name: 10-30 反重力 法国13 0.25M限 稳测 VLESS
+  type: vless
+  server: 82.22.2.225
+  port: 443
+  uuid: 7b22dce8-7ebd-425b-8ca4-7b6190321985
+  udp: true
+  tls: true
+  servername: b-wl.fr-2.bnc-gt.co.uk
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 10-30 反重力 EE01 0.26M限 稳测 VLESS
+  type: vless
+  server: 130.78.190.20
+  port: 443
+  uuid: 7b22dce8-7ebd-425b-8ca4-7b6190321985
+  udp: true
+  tls: true
+  servername: a.es-2.bnc-gt.co.uk
+  client-fingerprint: qq
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -372,6 +410,9 @@ proxy-groups:
   - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 德国07 0.25M限 稳测 SHADOWSOCKS
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
+  - 10-30 反重力 美国45 0.18M限 稳测 VLESS
+  - 10-30 反重力 法国13 0.25M限 稳测 VLESS
+  - 10-30 反重力 EE01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -412,6 +453,9 @@ proxy-groups:
   - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 德国07 0.25M限 稳测 SHADOWSOCKS
   - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
+  - 10-30 反重力 美国45 0.18M限 稳测 VLESS
+  - 10-30 反重力 法国13 0.25M限 稳测 VLESS
+  - 10-30 反重力 EE01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
