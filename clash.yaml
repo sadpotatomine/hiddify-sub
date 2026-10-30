@@ -123,18 +123,6 @@ proxies:
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   udp: true
   sni: onecloudstream.com
-- name: 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
-  type: vless
-  server: 45.144.52.187
-  port: 443
-  uuid: 7b22dce8-7ebd-425b-8ca4-7b6190321985
-  udp: true
-  tls: true
-  servername: b.fi-1.bnc-gt.co.uk
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 10-30 反重力 日本01 0.26M限 稳测 VLESS
   type: vless
   server: 31.76.91.31
@@ -192,7 +180,6 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
-  - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
@@ -215,7 +202,6 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
-  - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
