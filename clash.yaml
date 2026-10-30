@@ -319,6 +319,20 @@ proxies:
   cipher: 2022-blake3-aes-256-gcm
   password: TNG2Q6UxyK7elN5dNQxBiHBMs72lHZbC/spSfrEo1c4=:ej1biY3aJyEf45lf/GlWKV0NMwrDMPQw7yNoWy9lOqs=
   udp: true
+- name: 10-30 反重力 波兰03 0.26M限 稳测 VLESS
+  type: vless
+  server: 31.59.143.147
+  port: 443
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: pl2.waspnest.space
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: Liu35gmIQJtbul5AeCrceJTjsmln4RaqxX6joKlaBjk
+    short-id: ae97223a8f799889
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -357,6 +371,7 @@ proxy-groups:
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 德国07 0.25M限 稳测 SHADOWSOCKS
+  - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -396,6 +411,7 @@ proxy-groups:
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 波兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 德国07 0.25M限 稳测 SHADOWSOCKS
+  - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
