@@ -130,20 +130,6 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
-- name: 10-30 反重力 波兰03 0.26M限 稳测 VLESS
-  type: vless
-  server: 31.59.143.147
-  port: 443
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: pl2.waspnest.space
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: Liu35gmIQJtbul5AeCrceJTjsmln4RaqxX6joKlaBjk
-    short-id: ae97223a8f799889
 - name: 10-30 反重力 法国13 0.25M限 稳测 VLESS
   type: vless
   server: 82.22.2.225
@@ -217,7 +203,6 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
@@ -242,7 +227,6 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-29 反重力 荷兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 波兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 法国13 0.25M限 稳测 VLESS
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
