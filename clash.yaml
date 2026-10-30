@@ -162,6 +162,13 @@ proxies:
     short-id: 27350908de933e09
   grpc-opts:
     grpc-service-name: neurex
+- name: 10-30 反重力 英国01 0.26M限 稳测 TROJAN
+  type: trojan
+  server: en001.zestapp778.com
+  port: 29813
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: en001.zestapp778.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -183,6 +190,7 @@ proxy-groups:
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
+  - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -205,6 +213,7 @@ proxy-groups:
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
+  - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
