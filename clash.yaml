@@ -299,6 +299,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
+- name: 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
+  type: vless
+  server: 189.74.114.119
+  port: 443
+  uuid: abd5755a-8b77-4ed4-afbd-f2ccbc08e6f5
+  udp: true
+  tls: true
+  servername: api.mediaklenov.cc
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: 3e99d50d5740985d
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -332,6 +344,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
+  - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -366,6 +379,7 @@ proxy-groups:
   - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 芬兰01 0.24M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
+  - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
