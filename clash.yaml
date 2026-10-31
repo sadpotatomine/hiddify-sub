@@ -116,13 +116,6 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
-- name: 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 104.165.205.22
-  port: 9443
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  udp: true
-  sni: onecloudstream.com
 - name: 10-30 反重力 日本01 0.26M限 稳测 VLESS
   type: vless
   server: 31.76.91.31
@@ -182,6 +175,18 @@ proxies:
   network: tcp
   reality-opts:
     public-key: node0aB_7yyVADkeieiBBpxqIlxNLQcvgotRClh0QXQ
+- name: 🇺🇸 美国_06 - wanzhuanmi.com
+  type: vless
+  server: 208.84.100.209
+  port: 8080
+  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 208.84.100.209
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -199,12 +204,12 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
   - 10-30 反重力 德国01 0.25M限 稳测 VLESS
+  - 🇺🇸 美国_06 - wanzhuanmi.com
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -223,12 +228,12 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 10-30 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
   - 10-30 反重力 德国01 0.25M限 稳测 VLESS
+  - 🇺🇸 美国_06 - wanzhuanmi.com
 - name: 🐟 漏网之鱼
   type: select
   proxies:
