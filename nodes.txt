@@ -31,3 +31,4 @@ hy2://cf83b611-6cba-4535-adcb-8da06c6a9146@144.31.212.253:443?sni=vps155-edge.ke
 vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?fp=ios&pbk=PLslPQOBA3bfWO5hXLv7jioCTuNR8vCxa_axi0dC7C0&security=reality&sid=32f66f37df3f58d2&sni=www.cloudflare.com&type=tcp#%E6%96%B0%E5%A2%9E%20%E5%8F%B0%E6%B9%BE%20%E5%AE%9E%E6%B5%8B0.64-0.73MiB-s%20VLESS%200929
 https://null:null@44.248.167.117:8443?allowInsecure=1#US%20-%20zhuhai.uk%2002
 https://44.229.69.166:8443?allowInsecure=1#US%20-%20zhuhai.uk%2006
+vless://36c3dcc2-17b6-4478-b8a7-3978e6d5afe9@208.84.100.209:8080?encryption=none&security=&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_06%20-%20wanzhuanmi.com
