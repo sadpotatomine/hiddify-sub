@@ -140,21 +140,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: 3e99d50d5740985d
-- name: 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
-  type: vless
-  server: 5.149.248.151
-  port: 443
-  uuid: a1195f62-7dc3-48c0-8d65-7eeaf3c2df40
-  udp: true
-  tls: true
-  servername: nla.kosmosapp.net
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: pR39Vv5qhk8r6akOicoy6mMs4-ppSWUez8MyAXG7wwQ
-    short-id: 27350908de933e09
-  grpc-opts:
-    grpc-service-name: neurex
 - name: 10-30 反重力 英国01 0.26M限 稳测 TROJAN
   type: trojan
   server: en001.zestapp778.com
@@ -206,7 +191,6 @@ proxy-groups:
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
-  - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
   - 10-30 反重力 德国01 0.25M限 稳测 VLESS
   - 🇺🇸 美国_06 - wanzhuanmi.com
@@ -230,7 +214,6 @@ proxy-groups:
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 10-30 反重力 日本01 0.26M限 稳测 VLESS
   - 10-30 反重力 荷兰02 0.26M限 稳测 VLESS
-  - 10-30 反重力 荷兰03 0.26M限 稳测 VLESS
   - 10-30 反重力 英国01 0.26M限 稳测 TROJAN
   - 10-30 反重力 德国01 0.25M限 稳测 VLESS
   - 🇺🇸 美国_06 - wanzhuanmi.com
