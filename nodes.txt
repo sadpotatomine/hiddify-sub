@@ -32,3 +32,4 @@ vless://22a0b0bd-1cd0-43fa-a7c3-73b24eae44e2@35.201.181.122:443?fp=ios&pbk=PLslP
 https://null:null@44.248.167.117:8443?allowInsecure=1#US%20-%20zhuhai.uk%2002
 https://44.229.69.166:8443?allowInsecure=1#US%20-%20zhuhai.uk%2006
 vless://36c3dcc2-17b6-4478-b8a7-3978e6d5afe9@208.84.100.209:8080?encryption=none&security=&type=ws#%F0%9F%87%BA%F0%9F%87%B8%20%E7%BE%8E%E5%9B%BD_06%20-%20wanzhuanmi.com
+vless://1fe01c8a-ab37-4e95-bbfc-95d4a608931e@95.56.251.12:47443?security=reality&encryption=none&pbk=z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU&headerType=none&type=tcp&flow=xtls-rprx-vision&sni=kz1.waspnest.space&sid=ae97223a8f799877#%5BOpenRay%5D%20%F0%9F%87%B0%F0%9F%87%BFKZ-35
