@@ -10,3 +10,4 @@ ss://YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0
 vless://b9bfa54d-bc44-4592-a6d6-89a9665d286f@163.245.42.157:443?flow=xtls-rprx-vision&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&security=reality&sni=mother-earth.fyi&type=tcp#10-29%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E6%B3%95%E5%9B%BD12%200.26M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20VLESS
 trojan://humanity@109.248.170.245:443?allowInsecure=0&sni=www.cordweave.com&type=ws&host=www.cordweave.com&path=/assignment#11-01%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E8%8D%B7%E5%85%B001%200.26M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20TROJAN
 vless://0192c3d3-18d5-4b95-8eb3-598e18de6918@2.56.207.68:443?encryption=none&flow=xtls-rprx-vision&fp=firefox&security=tls&sni=www.slovarik.xyz&type=tcp#%5BOpenRay%5D%20%F0%9F%87%A6%F0%9F%87%B2AM-16
+vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@140.235.11.243:56984/?type=tcp&encryption=none&flow=&security=tls&sni=sg1.zestapp778.com&fp=firefox#%40FREE2CONFIG%20-%20174
