@@ -190,6 +190,19 @@ proxies:
   servername: de2.derevohom.xyz
   client-fingerprint: firefox
   network: tcp
+- name: 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
+  type: vless
+  server: 179.43.170.84
+  port: 443
+  uuid: 8007dda2-aed2-4514-8299-6e3edbdb015b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: si2.greenzone12.com
+  network: tcp
+  reality-opts:
+    public-key: hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8
+    short-id: 8718c58d3d51db59
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -214,6 +227,7 @@ proxy-groups:
   - 11-01 反重力 EE01 0.25M限 稳测 VLESS
   - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
+  - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -239,6 +253,7 @@ proxy-groups:
   - 11-01 反重力 EE01 0.25M限 稳测 VLESS
   - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
+  - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
