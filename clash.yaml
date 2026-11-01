@@ -205,6 +205,33 @@ proxies:
     path: /ws
     headers:
       Host: ghosts-spasm.quick-cdn.net
+- name: 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
+  type: vless
+  server: 95.81.102.121
+  port: 443
+  uuid: 48eb49ce-38b5-4ed1-b6ab-8eaf37cde710
+  udp: true
+  tls: true
+  servername: nodeam.easyvpn.dev
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /easyvpn-ws
+    headers:
+      Host: nodeam.easyvpn.dev
+- name: 11-01 反重力 德国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 13.143.180.141
+  port: 443
+  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: sw.lenvex.cc
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -229,6 +256,8 @@ proxy-groups:
   - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-01 反重力 美国01 0.22M限 稳测 VLESS
   - 11-01 反重力 美国02 0.20M限 稳测 VLESS
+  - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
+  - 11-01 反重力 德国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -254,6 +283,8 @@ proxy-groups:
   - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-01 反重力 美国01 0.22M限 稳测 VLESS
   - 11-01 反重力 美国02 0.20M限 稳测 VLESS
+  - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
+  - 11-01 反重力 德国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
