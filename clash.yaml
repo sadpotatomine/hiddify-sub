@@ -150,19 +150,6 @@ proxies:
   password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
   udp: true
   sni: nl1.obxodvpn.us
-- name: 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
-  type: vless
-  server: 179.43.170.84
-  port: 443
-  uuid: 8007dda2-aed2-4514-8299-6e3edbdb015b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: si2.greenzone12.com
-  network: tcp
-  reality-opts:
-    public-key: hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8
-    short-id: 8718c58d3d51db59
 - name: 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   type: vless
   server: 94.183.206.48
@@ -252,7 +239,6 @@ proxy-groups:
   - '[OpenRay] 🇰🇿KZ-35'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-01 反重力 美国01 0.22M限 稳测 VLESS
   - 11-01 反重力 美国02 0.20M限 稳测 VLESS
@@ -279,7 +265,6 @@ proxy-groups:
   - '[OpenRay] 🇰🇿KZ-35'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-01 反重力 美国01 0.22M限 稳测 VLESS
   - 11-01 反重力 美国02 0.20M限 稳测 VLESS
