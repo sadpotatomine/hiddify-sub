@@ -129,16 +129,6 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
-- name: '@FREE2CONFIG - 174'
-  type: vless
-  server: 140.235.11.243
-  port: 56984
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  udp: true
-  tls: true
-  servername: sg1.zestapp778.com
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   type: vless
   server: 31.76.227.57
@@ -235,7 +225,6 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - '[OpenRay] 🇰🇿KZ-35'
-  - '@FREE2CONFIG - 174'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   - 11-01 反重力 EE01 0.25M限 稳测 VLESS
@@ -262,7 +251,6 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - '[OpenRay] 🇰🇿KZ-35'
-  - '@FREE2CONFIG - 174'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   - 11-01 反重力 EE01 0.25M限 稳测 VLESS
