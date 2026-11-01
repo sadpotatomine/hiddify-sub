@@ -197,6 +197,34 @@ proxies:
     public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
   grpc-opts:
     grpc-service-name: ebl
+- name: 11-01 反重力 美国01 0.22M限 稳测 VLESS
+  type: vless
+  server: 151.101.201.242
+  port: 443
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  udp: true
+  tls: true
+  servername: bounded-crammed.video-streams.org
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: 11-01 反重力 美国02 0.20M限 稳测 VLESS
+  type: vless
+  server: 151.101.41.242
+  port: 443
+  uuid: 11e6c528-434f-4b15-83b3-40a46237ea13
+  udp: true
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -221,6 +249,8 @@ proxy-groups:
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
   - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
+  - 11-01 反重力 美国01 0.22M限 稳测 VLESS
+  - 11-01 反重力 美国02 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -246,6 +276,8 @@ proxy-groups:
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
   - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
+  - 11-01 反重力 美国01 0.22M限 稳测 VLESS
+  - 11-01 反重力 美国02 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
