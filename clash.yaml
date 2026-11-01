@@ -203,6 +203,20 @@ proxies:
   reality-opts:
     public-key: hyOYRfDSIYyqALQt3N2H0RjK8gbV1JvPTkNACC4PJF8
     short-id: 8718c58d3d51db59
+- name: 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
+  type: vless
+  server: 94.183.206.48
+  port: 7443
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  udp: true
+  tls: true
+  servername: optim.tildacdn.pub
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
+  grpc-opts:
+    grpc-service-name: ebl
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -228,6 +242,7 @@ proxy-groups:
   - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
   - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
+  - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -254,6 +269,7 @@ proxy-groups:
   - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
   - 11-01 反重力 瑞士01 0.26M限 稳测 VLESS
+  - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
