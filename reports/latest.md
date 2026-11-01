@@ -1,12 +1,12 @@
 # 节点库维护运行报告
 
-- 批次：`batch-20261101-225006-802455-r1`
-- 报告时间（北京时间）：2026-11-01T23:11:27.007750+08:00
-- 状态：complete；结果：no-new
-- 异常类型：无；运行阶段：publish
+- 批次：`batch-20261101-231201-786125-r2`
+- 报告时间（北京时间）：2026-11-01T23:12:14.363659+08:00
+- 状态：failed；结果：unknown
+- 异常类型：URLError；运行阶段：unknown
 - 合格新增：0；移除：0
-- 当前节点数：20
-- 订阅远端字节校验：True
+- 当前节点数：unknown
+- 订阅远端字节校验：False
 - 节点订阅内容发生变化：False
 
 运行方式：Python + sing-box，无需 AI 账号。每完成 5 轮后休息 1 小时，再继续。
@@ -16,19 +16,5 @@
 检查统计（详情见同目录 JSON）：
 
 ```json
-{
-  "candidates.json": {
-    "count": 200,
-    "passed": 0
-  },
-  "screen.json": {
-    "count": 200,
-    "passed": 2
-  },
-  "deep.json": {
-    "count": 5,
-    "passed": 4,
-    "incomplete_downloads": 1
-  }
-}
+{}
 ```
