@@ -219,6 +219,38 @@ proxies:
   servername: 87.121.86.24
   client-fingerprint: firefox
   network: tcp
+- name: ' b2n.ir/v2ray-configs | 543'
+  type: trojan
+  server: 185.18.250.252
+  port: 443
+  password: 74480619-b6a8-4ab8-94e1-1132fc18b2fa
+  udp: true
+  sni: unnes.ac.id.r3xxe.eu.cc
+  network: ws
+  ws-opts:
+    path: /au-mt
+    headers:
+      Host: unnes.ac.id.r3xxe.eu.cc
+- name: 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
+  type: vless
+  server: 179.253.179.109
+  port: 62083
+  uuid: ef988d56-9c18-408e-ae1f-a144a332ebce
+  udp: true
+  tls: true
+  servername: 177.3.220.159
+  client-fingerprint: firefox
+  network: tcp
+- name: 11-01 反重力 德国02 0.17M限 稳测 VLESS
+  type: vless
+  server: 179.253.179.109
+  port: 63080
+  uuid: e3aa3d22-a95e-407b-aacc-d855b90a5d70
+  udp: true
+  tls: true
+  servername: de2.derevohom.xyz
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -245,6 +277,9 @@ proxy-groups:
   - 🇨🇦
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   - 11-01 反重力 EE01 0.25M限 稳测 VLESS
+  - ' b2n.ir/v2ray-configs | 543'
+  - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
+  - 11-01 反重力 德国02 0.17M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -272,6 +307,9 @@ proxy-groups:
   - 🇨🇦
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
   - 11-01 反重力 EE01 0.25M限 稳测 VLESS
+  - ' b2n.ir/v2ray-configs | 543'
+  - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
+  - 11-01 反重力 德国02 0.17M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:

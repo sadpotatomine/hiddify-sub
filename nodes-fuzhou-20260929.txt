@@ -20,3 +20,5 @@ vless://6202b230-417c-4d8e-b624-0f71afa9c75d@155.46.167.30:8880?type=ws&host=vms
 hysteria2://c9aca131-c6a4-4518-9d7d-be52a60b4a3f@9.247.54.68:443?sni=nl1.obxodvpn.us&insecure=0#11-01%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E8%8D%B7%E5%85%B003%200.25M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20HYSTERIA2
 vless://da8fab8e-4a25-4eb0-b224-88ab96c753ce@179.253.179.109:57043?encryption=none&fp=firefox&security=tls&sni=87.121.86.24&type=tcp#11-01%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20EE01%200.25M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20VLESS
 trojan://74480619-b6a8-4ab8-94e1-1132fc18b2fa@185.18.250.252:443?security=tls&sni=unnes.ac.id.r3xxe.eu.cc&type=ws&path=/au-mt&Host=unnes.ac.id.r3xxe.eu.cc# b2n.ir/v2ray-configs | 543
+vless://ef988d56-9c18-408e-ae1f-a144a332ebce@179.253.179.109:62083?encryption=none&fp=firefox&security=tls&sni=177.3.220.159&type=tcp#11-01%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E8%8A%AC%E5%85%B001%200.22M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20VLESS
+vless://e3aa3d22-a95e-407b-aacc-d855b90a5d70@179.253.179.109:63080?security=tls&type=tcp&sni=de2.derevohom.xyz&fp=firefox#11-01%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E5%BE%B7%E5%9B%BD02%200.17M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20VLESS
