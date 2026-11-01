@@ -128,6 +128,54 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
+- name: '[OpenRay] 🇰🇿KZ-35'
+  type: vless
+  server: 95.56.251.12
+  port: 47443
+  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: kz1.waspnest.space
+  network: tcp
+  reality-opts:
+    public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
+    short-id: ae97223a8f799877
+- name: '[OpenRay] 🇦🇲AM-16'
+  type: vless
+  server: 2.56.207.68
+  port: 443
+  uuid: 0192c3d3-18d5-4b95-8eb3-598e18de6918
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.slovarik.xyz
+  client-fingerprint: firefox
+  network: tcp
+- name: '@FREE2CONFIG - 174'
+  type: vless
+  server: 140.235.11.243
+  port: 56984
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  udp: true
+  tls: true
+  servername: sg1.zestapp778.com
+  client-fingerprint: firefox
+  network: tcp
+- name: 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
+  type: vless
+  server: 31.76.227.57
+  port: 443
+  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: assets-mi-26.spbstudentlife.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
+    short-id: a7856800c2deb7b2
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -146,6 +194,10 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰01 0.26M限 稳测 TROJAN
+  - '[OpenRay] 🇰🇿KZ-35'
+  - '[OpenRay] 🇦🇲AM-16'
+  - '@FREE2CONFIG - 174'
+  - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -165,6 +217,10 @@ proxy-groups:
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰01 0.26M限 稳测 TROJAN
+  - '[OpenRay] 🇰🇿KZ-35'
+  - '[OpenRay] 🇦🇲AM-16'
+  - '@FREE2CONFIG - 174'
+  - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
