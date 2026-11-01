@@ -190,6 +190,35 @@ proxies:
   reality-opts:
     public-key: 2IylNqpuTBeUvd333tXWY6i0l8nkH6o5qfRVKZm6FA0
     short-id: e0aadc6f38ff06a8
+- name: 🇨🇦
+  type: vless
+  server: 155.46.167.30
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime50.workers.dev
+- name: 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 9.247.54.68
+  port: 443
+  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
+  udp: true
+  sni: nl1.obxodvpn.us
+- name: 11-01 反重力 EE01 0.25M限 稳测 VLESS
+  type: vless
+  server: 179.253.179.109
+  port: 57043
+  uuid: da8fab8e-4a25-4eb0-b224-88ab96c753ce
+  udp: true
+  tls: true
+  servername: 87.121.86.24
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -213,6 +242,9 @@ proxy-groups:
   - '@FREE2CONFIG - 174'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.24M限 稳测 VLESS
+  - 🇨🇦
+  - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
+  - 11-01 反重力 EE01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -237,6 +269,9 @@ proxy-groups:
   - '@FREE2CONFIG - 174'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.24M限 稳测 VLESS
+  - 🇨🇦
+  - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
+  - 11-01 反重力 EE01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
