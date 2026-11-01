@@ -1,0 +1,13 @@
+{
+  "date_beijing": "2026-11-01",
+  "started_at": 1793522976.4391418,
+  "finished_at": 1793523011.730231,
+  "status": "failed",
+  "published": false,
+  "error": "TimeoutError",
+  "batch": "batch-20261101-164936-314686-r5",
+  "engine": "python + sing-box",
+  "schedule": "5 completed rounds, then rest 1 hour; repeat",
+  "summary_generated_at": "2026-11-01T16:50:11.732768+08:00",
+  "checks": {}
+}
