@@ -37,3 +37,4 @@ vless://0192c3d3-18d5-4b95-8eb3-598e18de6918@2.56.207.68:443?encryption=none&flo
 vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@140.235.11.243:56984/?type=tcp&encryption=none&flow=&security=tls&sni=sg1.zestapp778.com&fp=firefox#%40FREE2CONFIG%20-%20174
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@155.46.167.30:8880?type=ws&host=vms.lifetime50.workers.dev&path=#🇨🇦
 trojan://74480619-b6a8-4ab8-94e1-1132fc18b2fa@185.18.250.252:443?security=tls&sni=unnes.ac.id.r3xxe.eu.cc&type=ws&path=/au-mt&Host=unnes.ac.id.r3xxe.eu.cc# b2n.ir/v2ray-configs | 543
+vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.12.30.40:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime28.workers.dev#%F0%9F%87%BA%F0%9F%87%B8US_1230%7C2.1MB%2Fs%2001
