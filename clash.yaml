@@ -116,18 +116,6 @@ proxies:
   reality-opts:
     public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
     short-id: ae97223a8f799877
-- name: 11-01 反重力 荷兰01 0.26M限 稳测 TROJAN
-  type: trojan
-  server: 109.248.170.245
-  port: 443
-  password: humanity
-  udp: true
-  sni: www.cordweave.com
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
 - name: '[OpenRay] 🇰🇿KZ-35'
   type: vless
   server: 95.56.251.12
@@ -251,6 +239,18 @@ proxies:
   servername: de2.derevohom.xyz
   client-fingerprint: firefox
   network: tcp
+- name: 🇺🇸US_1230|2.1MB/s 01
+  type: vless
+  server: 45.12.30.40
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  udp: true
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: vms.lifetime28.workers.dev
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -268,7 +268,6 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 11-01 反重力 荷兰01 0.26M限 稳测 TROJAN
   - '[OpenRay] 🇰🇿KZ-35'
   - '[OpenRay] 🇦🇲AM-16'
   - '@FREE2CONFIG - 174'
@@ -280,6 +279,7 @@ proxy-groups:
   - ' b2n.ir/v2ray-configs | 543'
   - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
+  - 🇺🇸US_1230|2.1MB/s 01
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -298,7 +298,6 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  - 11-01 反重力 荷兰01 0.26M限 稳测 TROJAN
   - '[OpenRay] 🇰🇿KZ-35'
   - '[OpenRay] 🇦🇲AM-16'
   - '@FREE2CONFIG - 174'
@@ -310,6 +309,7 @@ proxy-groups:
   - ' b2n.ir/v2ray-configs | 543'
   - 11-01 反重力 芬兰01 0.22M限 稳测 VLESS
   - 11-01 反重力 德国02 0.17M限 稳测 VLESS
+  - 🇺🇸US_1230|2.1MB/s 01
 - name: 🐟 漏网之鱼
   type: select
   proxies:
