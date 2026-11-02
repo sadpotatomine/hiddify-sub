@@ -160,6 +160,20 @@ proxies:
   servername: us3.shtil.io
   client-fingerprint: firefox
   network: tcp
+- name: 11-02 反重力 英国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 132.243.207.154
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: get-37.topp-con.xyz
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: tVx2o1LD0BI7CCoXfFSv-Rr_etGde9XpQ-iNA9P3338
+    short-id: 59d2296aa6320c76
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -181,6 +195,7 @@ proxy-groups:
   - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 美国03 0.20M限 稳测 VLESS
+  - 11-02 反重力 英国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -203,6 +218,7 @@ proxy-groups:
   - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 美国03 0.20M限 稳测 VLESS
+  - 11-02 反重力 英国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
