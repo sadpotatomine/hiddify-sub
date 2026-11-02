@@ -199,6 +199,32 @@ proxies:
   reality-opts:
     public-key: TuehOJjWdODQ0h3rFi7h1MHENl2SeiswlauIQIkNIgg
     short-id: da4d87fa
+- name: 11-03 反重力 TR01 0.26M限 稳测 VLESS
+  type: vless
+  server: 217.11.164.218
+  port: 443
+  uuid: 7072eeba-94fd-4fb3-92f2-a4506dd84cd8
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: tree.eidoslab.link
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: p7X0vRL9R-23Ey-MZZZj7FY0g87nQq0Jzc01DwuryRk
+    short-id: 7597c5df264bcc10
+- name: 11-03 反重力 德国03 0.26M限 稳测 VLESS
+  type: vless
+  server: 89.169.47.96
+  port: 443
+  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
+  udp: true
+  tls: true
+  servername: renderer-bridge-2-129.mirra.now
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: VideoRenderer
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -222,6 +248,8 @@ proxy-groups:
   - 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
   - 11-03 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-03 反重力 TR01 0.26M限 稳测 VLESS
+  - 11-03 反重力 德国03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -246,6 +274,8 @@ proxy-groups:
   - 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
   - 11-03 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-03 反重力 TR01 0.26M限 稳测 VLESS
+  - 11-03 反重力 德国03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
