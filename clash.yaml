@@ -102,20 +102,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: 31.76.227.57
-  port: 443
-  uuid: 07680ffb-0666-4836-b6ad-ec0de62bc38f
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: assets-mi-26.spbstudentlife.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
-    short-id: a7856800c2deb7b2
 - name: 11-01 反重力 德国01 0.26M限 稳测 VLESS
   type: vless
   server: 13.143.180.141
@@ -287,7 +273,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
   - 11-03 反重力 美国01 0.26M限 稳测 VLESS
@@ -316,7 +301,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
   - 11-03 反重力 美国01 0.26M限 稳测 VLESS
