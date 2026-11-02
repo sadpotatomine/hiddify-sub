@@ -102,20 +102,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 10-30 反重力 KZ01 0.26M限 稳测 VLESS
-  type: vless
-  server: 95.56.251.12
-  port: 47443
-  uuid: 1fe01c8a-ab37-4e95-bbfc-95d4a608931e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: kz1.waspnest.space
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: z1GSwCEACvO9RLcMVpcURiT8er4oeIdeSJhraw_0cGU
-    short-id: ae97223a8f799877
 - name: '[OpenRay] 🇰🇿KZ-35'
   type: vless
   server: 95.56.251.12
@@ -150,20 +136,6 @@ proxies:
   password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
   udp: true
   sni: nl1.obxodvpn.us
-- name: 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: 94.183.206.48
-  port: 7443
-  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
-  udp: true
-  tls: true
-  servername: optim.tildacdn.pub
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
-  grpc-opts:
-    grpc-service-name: ebl
 - name: 11-01 反重力 美国01 0.22M限 稳测 VLESS
   type: vless
   server: 151.101.201.242
@@ -245,11 +217,9 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - '[OpenRay] 🇰🇿KZ-35'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-01 反重力 美国01 0.22M限 稳测 VLESS
   - 11-01 反重力 美国02 0.20M限 稳测 VLESS
   - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
@@ -272,11 +242,9 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 10-30 反重力 KZ01 0.26M限 稳测 VLESS
   - '[OpenRay] 🇰🇿KZ-35'
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  - 11-01 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-01 反重力 美国01 0.22M限 稳测 VLESS
   - 11-01 反重力 美国02 0.20M限 稳测 VLESS
   - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
