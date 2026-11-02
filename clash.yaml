@@ -257,6 +257,21 @@ proxies:
   reality-opts:
     public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
     short-id: bdaddda4cbc8c7bf
+- name: 11-03 反重力 美国05 0.26M限 稳测 VLESS
+  type: vless
+  server: 87.232.88.27
+  port: 443
+  uuid: e08d9bc5-6832-4dd4-bd44-d9bbe61e5817
+  udp: true
+  tls: true
+  servername: max.ru
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: 4qE0kXmxDvNzsns2jdwd74AN35RptcTD4eKo5REa9w8
+    short-id: '04'
+  grpc-opts:
+    grpc-service-name: grpc-67
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -284,6 +299,7 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国04 0.26M限 稳测 VLESS
+  - 11-03 反重力 美国05 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -312,6 +328,7 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国04 0.26M限 稳测 VLESS
+  - 11-03 反重力 美国05 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
