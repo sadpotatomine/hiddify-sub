@@ -116,27 +116,6 @@ proxies:
   reality-opts:
     public-key: cYtAkO6yUCuRTxHvF8EH76bybk1yfS005KLls-at2yc
     short-id: a7856800c2deb7b2
-- name: 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 9.247.54.68
-  port: 443
-  password: c9aca131-c6a4-4518-9d7d-be52a60b4a3f
-  udp: true
-  sni: nl1.obxodvpn.us
-- name: 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
-  type: vless
-  server: 95.81.102.121
-  port: 443
-  uuid: 48eb49ce-38b5-4ed1-b6ab-8eaf37cde710
-  udp: true
-  tls: true
-  servername: nodeam.easyvpn.dev
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /easyvpn-ws
-    headers:
-      Host: nodeam.easyvpn.dev
 - name: 11-01 反重力 德国01 0.26M限 稳测 VLESS
   type: vless
   server: 13.143.180.141
@@ -150,16 +129,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
-- name: 11-02 反重力 美国03 0.20M限 稳测 VLESS
-  type: vless
-  server: 85.155.179.206
-  port: 443
-  uuid: 86a83d11-d751-4b60-aa4e-1dca5cff7028
-  udp: true
-  tls: true
-  servername: us3.shtil.io
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-02 反重力 英国01 0.26M限 稳测 VLESS
   type: vless
   server: 132.243.207.154
@@ -191,10 +160,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
-  - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-02 反重力 美国03 0.20M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -214,10 +180,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
-  - 11-01 反重力 荷兰03 0.25M限 稳测 HYSTERIA2
-  - 11-01 反重力 荷兰05 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-02 反重力 美国03 0.20M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
