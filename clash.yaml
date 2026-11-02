@@ -143,6 +143,48 @@ proxies:
   reality-opts:
     public-key: tVx2o1LD0BI7CCoXfFSv-Rr_etGde9XpQ-iNA9P3338
     short-id: 59d2296aa6320c76
+- name: 11-03 反重力 美国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 179.254.92.190
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: assets-32.topp-con.xyz
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: 66-TFe0f5ub9A27G6hLPLm-KRZ4LGixHi8IA_Nv7jVM
+    short-id: 81d36ba71dddfc3e
+- name: 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 201.58.177.35
+  port: 443
+  uuid: 5adb25b6-b41a-46ac-a481-71651deb60c5
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: xb1.huinaduok.fans
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: DA1kJXSsIsN8H-kZ51jEYHafTx50X-2RGG8KNZuCISg
+    short-id: da4d87fa
+- name: 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
+  type: vless
+  server: 94.183.206.226
+  port: 7443
+  uuid: 12776e55-6230-48b9-b069-1bb8a04b4237
+  udp: true
+  tls: true
+  servername: optim.tildacdn.pub
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
+  grpc-opts:
+    grpc-service-name: ebl
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -162,6 +204,9 @@ proxy-groups:
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
+  - 11-03 反重力 美国01 0.26M限 稳测 VLESS
+  - 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -182,6 +227,9 @@ proxy-groups:
   - 11-01 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
+  - 11-03 反重力 美国01 0.26M限 稳测 VLESS
+  - 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
