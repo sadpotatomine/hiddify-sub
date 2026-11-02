@@ -185,6 +185,20 @@ proxies:
     public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
   grpc-opts:
     grpc-service-name: ebl
+- name: 11-03 反重力 德国02 0.26M限 稳测 VLESS
+  type: vless
+  server: 177.202.69.204
+  port: 443
+  uuid: 5adb25b6-b41a-46ac-a481-71651deb60c5
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: hshdb.pashalloh.org
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: TuehOJjWdODQ0h3rFi7h1MHENl2SeiswlauIQIkNIgg
+    short-id: da4d87fa
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -207,6 +221,7 @@ proxy-groups:
   - 11-03 反重力 美国01 0.26M限 稳测 VLESS
   - 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
+  - 11-03 反重力 德国02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -230,6 +245,7 @@ proxy-groups:
   - 11-03 反重力 美国01 0.26M限 稳测 VLESS
   - 11-03 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
+  - 11-03 反重力 德国02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
