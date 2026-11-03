@@ -89,18 +89,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 11-03 反重力 德国03 0.26M限 稳测 VLESS
-  type: vless
-  server: 89.169.47.96
-  port: 443
-  uuid: 27653b37-603c-4c90-b1f5-25c4d23f8932
-  udp: true
-  tls: true
-  servername: renderer-bridge-2-129.mirra.now
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: VideoRenderer
 - name: 11-03 反重力 美国02 0.26M限 稳测 VLESS
   type: vless
   server: 172.235.51.71
@@ -148,13 +136,6 @@ proxies:
     short-id: '04'
   grpc-opts:
     grpc-service-name: grpc-67
-- name: 11-03 反重力 美国06 0.27M限 稳测 TROJAN
-  type: trojan
-  server: 169.197.140.218
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  udp: true
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
 - name: 11-03 反重力 德国04 0.24M限 稳测 TROJAN
   type: trojan
   server: 80.66.85.166
@@ -177,11 +158,9 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
-  - 11-03 反重力 德国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国05 0.26M限 稳测 VLESS
-  - 11-03 反重力 美国06 0.27M限 稳测 TROJAN
   - 11-03 反重力 德国04 0.24M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
@@ -199,11 +178,9 @@ proxy-groups:
   - 10-23 反重力 意大利11 0.26M限 稳测 SHADOWSOCKS
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
-  - 11-03 反重力 德国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国05 0.26M限 稳测 VLESS
-  - 11-03 反重力 美国06 0.27M限 稳测 TROJAN
   - 11-03 反重力 德国04 0.24M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
