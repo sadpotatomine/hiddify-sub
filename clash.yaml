@@ -148,13 +148,6 @@ proxies:
     short-id: '04'
   grpc-opts:
     grpc-service-name: grpc-67
-- name: 11-03 反重力 法国13 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 109.120.179.197
-  port: 1935
-  password: france_2_hysteria2_fastlane_ta9m8kofg
-  udp: true
-  sni: fr3.h.fastlanehosting.ru
 - name: 11-03 反重力 美国06 0.27M限 稳测 TROJAN
   type: trojan
   server: 169.197.140.218
@@ -188,7 +181,6 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国05 0.26M限 稳测 VLESS
-  - 11-03 反重力 法国13 0.26M限 稳测 HYSTERIA2
   - 11-03 反重力 美国06 0.27M限 稳测 TROJAN
   - 11-03 反重力 德国04 0.24M限 稳测 TROJAN
 - name: ⚡ 自动选择
@@ -211,7 +203,6 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国05 0.26M限 稳测 VLESS
-  - 11-03 反重力 法国13 0.26M限 稳测 HYSTERIA2
   - 11-03 反重力 美国06 0.27M限 稳测 TROJAN
   - 11-03 反重力 德国04 0.24M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
