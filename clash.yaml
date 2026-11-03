@@ -102,19 +102,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 11-01 反重力 德国01 0.26M限 稳测 VLESS
-  type: vless
-  server: 13.143.180.141
-  port: 443
-  uuid: 2614a96d-e39f-02f0-a9c7-467a178c2c0a
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: sw.lenvex.cc
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: OFmJtVi6OB9E6KIc5QV5YmoouimRFc-Se9hICjtV8hQ
 - name: 11-02 反重力 英国01 0.26M限 稳测 VLESS
   type: vless
   server: 132.243.207.154
@@ -157,20 +144,6 @@ proxies:
     public-key: unNROkbh95ZZNHzG2RIkgrFftOLldNH0ccmtW63CziE
   grpc-opts:
     grpc-service-name: ebl
-- name: 11-03 反重力 德国02 0.26M限 稳测 VLESS
-  type: vless
-  server: 177.202.69.204
-  port: 443
-  uuid: 5adb25b6-b41a-46ac-a481-71651deb60c5
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: hshdb.pashalloh.org
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: TuehOJjWdODQ0h3rFi7h1MHENl2SeiswlauIQIkNIgg
-    short-id: da4d87fa
 - name: 11-03 反重力 德国03 0.26M限 稳测 VLESS
   type: vless
   server: 89.169.47.96
@@ -260,11 +233,9 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
   - 11-03 反重力 美国01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
-  - 11-03 反重力 德国02 0.26M限 稳测 VLESS
   - 11-03 反重力 德国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
@@ -287,11 +258,9 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 11-01 反重力 德国01 0.26M限 稳测 VLESS
   - 11-02 反重力 英国01 0.26M限 稳测 VLESS
   - 11-03 反重力 美国01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
-  - 11-03 反重力 德国02 0.26M限 稳测 VLESS
   - 11-03 反重力 德国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
