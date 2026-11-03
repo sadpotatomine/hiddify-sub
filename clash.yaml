@@ -121,6 +121,20 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  udp: true
+  tls: true
+  servername: u.srilankangrill.online
+  client-fingerprint: android
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -138,6 +152,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
+  - 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -156,6 +171,7 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
+  - 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
