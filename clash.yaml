@@ -102,20 +102,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 11-02 反重力 英国01 0.26M限 稳测 VLESS
-  type: vless
-  server: 132.243.207.154
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: get-37.topp-con.xyz
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: tVx2o1LD0BI7CCoXfFSv-Rr_etGde9XpQ-iNA9P3338
-    short-id: 59d2296aa6320c76
 - name: 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
   type: vless
   server: 94.183.206.226
@@ -212,7 +198,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 11-02 反重力 英国01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
   - 11-03 反重力 德国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
@@ -236,7 +221,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 10-29 反重力 法国12 0.26M限 稳测 VLESS
-  - 11-02 反重力 英国01 0.26M限 稳测 VLESS
   - 11-03 反重力 荷兰03 0.25M限 稳测 VLESS
   - 11-03 反重力 德国03 0.26M限 稳测 VLESS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
