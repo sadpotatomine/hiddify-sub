@@ -121,23 +121,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-04 反重力 美国04 0.26M限 稳测 VLESS
-  type: vless
-  server: 144.202.126.147
-  port: 443
-  uuid: 45d51389-0c38-4843-8ae8-cffb94e97a72
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
-    short-id: 77c4230d
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 11-04 反重力 美国05 0.26M限 稳测 VLESS
   type: vless
   server: 45.76.172.197
@@ -161,20 +144,6 @@ proxies:
   password: d9064589-74af-432a-9390-5d8a9da281bf
   udp: true
   sni: hk.catxstar.com
-- name: 11-04 反重力 芬兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 178.17.60.69
-  port: 443
-  uuid: 03248cf9-cbcb-4718-a11d-35b499978d27
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fi-node.vopn.net
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: lBCt9m_PzWWdm1HvyZtJyCupmcySkfphwArSyPLPKXk
-    short-id: 6ee8c6d2e8e9f547
 - name: 11-04 反重力 荷兰01 0.23M限 稳测 VLESS
   type: vless
   server: 195.133.39.202
@@ -215,20 +184,6 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 11-05 反重力 美国08 0.26M限 稳测 VLESS
-  type: vless
-  server: 104.36.69.105
-  port: 443
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: portal.citygrainla.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
 - name: 11-05 反重力 新加坡02 0.26M限 稳测 VLESS
   type: vless
   server: 104.168.132.109
@@ -398,14 +353,11 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
-  - 11-04 反重力 美国04 0.26M限 稳测 VLESS
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
   - 11-04 反重力 阿联酋01 0.24M限 稳测 TROJAN
-  - 11-04 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-04 反重力 荷兰01 0.23M限 稳测 VLESS
   - 11-04 反重力 美国07 0.25M限 稳测 VLESS
   - 11-05 反重力 新加坡01 0.24M限 稳测 VLESS
-  - 11-05 反重力 美国08 0.26M限 稳测 VLESS
   - 11-05 反重力 新加坡02 0.26M限 稳测 VLESS
   - 11-05 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-05 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
@@ -436,14 +388,11 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
-  - 11-04 反重力 美国04 0.26M限 稳测 VLESS
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
   - 11-04 反重力 阿联酋01 0.24M限 稳测 TROJAN
-  - 11-04 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-04 反重力 荷兰01 0.23M限 稳测 VLESS
   - 11-04 反重力 美国07 0.25M限 稳测 VLESS
   - 11-05 反重力 新加坡01 0.24M限 稳测 VLESS
-  - 11-05 反重力 美国08 0.26M限 稳测 VLESS
   - 11-05 反重力 新加坡02 0.26M限 稳测 VLESS
   - 11-05 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-05 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
