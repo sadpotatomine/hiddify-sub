@@ -135,20 +135,6 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 11-04 反重力 EE01 0.26M限 稳测 VLESS
-  type: vless
-  server: 5.129.202.80
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: mirror-50.topp-con.xyz
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
-    short-id: 2ef2b10d5143d798
 - name: 11-04 反重力 新加坡02 0.26M限 稳测 VLESS
   type: vless
   server: 141.193.213.20
@@ -181,7 +167,6 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
-  - 11-04 反重力 EE01 0.26M限 稳测 VLESS
   - 11-04 反重力 新加坡02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -202,7 +187,6 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
-  - 11-04 反重力 EE01 0.26M限 稳测 VLESS
   - 11-04 反重力 新加坡02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
