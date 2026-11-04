@@ -121,6 +121,39 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 11-04 反重力 美国04 0.26M限 稳测 VLESS
+  type: vless
+  server: 144.202.126.147
+  port: 443
+  uuid: 45d51389-0c38-4843-8ae8-cffb94e97a72
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: jO7THaLxz0Oz3kePAJcuwcKNTlsWoEWGh18zzRmiXgo
+    short-id: 77c4230d
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-04 反重力 美国05 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.76.172.197
+  port: 443
+  uuid: b256c867-a020-48e0-be80-1b079f2613a2
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  network: ws
+  reality-opts:
+    public-key: Ag8SQ5QdqfHO9pKWA93kqGmH5EQo7Xm5Z4RbPnwPBBE
+    short-id: ff3597db
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -138,6 +171,8 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
+  - 11-04 反重力 美国04 0.26M限 稳测 VLESS
+  - 11-04 反重力 美国05 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -156,6 +191,8 @@ proxy-groups:
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
+  - 11-04 反重力 美国04 0.26M限 稳测 VLESS
+  - 11-04 反重力 美国05 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
