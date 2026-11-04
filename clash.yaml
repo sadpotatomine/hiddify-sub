@@ -212,13 +212,6 @@ proxies:
   reality-opts:
     public-key: O35Np_ugrc3mUDIEO4UnViEwRobM2r9kqQCdcdCHjEI
     short-id: cb33163cf9c03ab1
-- name: 11-05 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 104.165.205.22
-  port: 9443
-  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
-  udp: true
-  sni: onecloudstream.com
 - name: 11-05 反重力 美国09 0.25M限 稳测 SHADOWSOCKS
   type: ss
   server: 35.209.12.212
@@ -404,7 +397,6 @@ proxy-groups:
   - 11-05 反重力 新加坡01 0.24M限 稳测 VLESS
   - 11-05 反重力 新加坡02 0.26M限 稳测 VLESS
   - 11-05 反重力 波兰01 0.26M限 稳测 VLESS
-  - 11-05 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
   - 11-05 反重力 美国09 0.25M限 稳测 SHADOWSOCKS
   - 11-05 反重力 新加坡03 0.15M限 稳测 VLESS
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
@@ -442,7 +434,6 @@ proxy-groups:
   - 11-05 反重力 新加坡01 0.24M限 稳测 VLESS
   - 11-05 反重力 新加坡02 0.26M限 稳测 VLESS
   - 11-05 反重力 波兰01 0.26M限 稳测 VLESS
-  - 11-05 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
   - 11-05 反重力 美国09 0.25M限 稳测 SHADOWSOCKS
   - 11-05 反重力 新加坡03 0.15M限 稳测 VLESS
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
