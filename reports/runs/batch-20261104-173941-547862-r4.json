@@ -18,7 +18,7 @@
   "batch": "batch-20261104-173941-547862-r4",
   "engine": "python + sing-box",
   "schedule": "5 completed rounds, then rest 1 hour; repeat",
-  "summary_generated_at": "2026-11-04T18:17:27.087809+08:00",
+  "summary_generated_at": "2026-11-04T18:22:52.773146+08:00",
   "checks": {
     "candidates.json": {
       "count": 200,
