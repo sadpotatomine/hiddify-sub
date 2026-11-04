@@ -149,19 +149,6 @@ proxies:
   reality-opts:
     public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
     short-id: 2ef2b10d5143d798
-- name: 11-04 反重力 美国04 0.25M限 稳测 VLESS
-  type: vless
-  server: 182.16.62.14
-  port: 443
-  uuid: 5bfa133a-76d4-425c-b8d4-72cd2ff18198
-  udp: true
-  tls: true
-  servername: cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: npOtPP-gIOAg3Ltra8XJpvpIm3l4FtDKxqrUtSrPOT0
-    short-id: f76d89d0
 - name: 11-04 反重力 新加坡02 0.26M限 稳测 VLESS
   type: vless
   server: 141.193.213.20
@@ -195,7 +182,6 @@ proxy-groups:
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
   - 11-04 反重力 EE01 0.26M限 稳测 VLESS
-  - 11-04 反重力 美国04 0.25M限 稳测 VLESS
   - 11-04 反重力 新加坡02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -217,7 +203,6 @@ proxy-groups:
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 新加坡01 0.25M限 稳测 VLESS
   - 11-04 反重力 EE01 0.26M限 稳测 VLESS
-  - 11-04 反重力 美国04 0.25M限 稳测 VLESS
   - 11-04 反重力 新加坡02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
