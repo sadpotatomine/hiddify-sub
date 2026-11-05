@@ -157,20 +157,6 @@ proxies:
   network: tcp
   reality-opts:
     public-key: dpG1tE9V93FM9IJeYC5-n_7RJxX7jOwrWLbQJgZpFFo
-- name: 11-05 反重力 波兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 31.76.32.122
-  port: 443
-  uuid: 71b566cb-78c4-48e4-af5b-720e4f7884f2
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: p1.xvanta.online
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: O35Np_ugrc3mUDIEO4UnViEwRobM2r9kqQCdcdCHjEI
-    short-id: cb33163cf9c03ab1
 - name: 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   type: vless
   server: 138.124.86.230
@@ -248,7 +234,6 @@ proxy-groups:
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
   - 11-04 反重力 阿联酋01 0.24M限 稳测 TROJAN
   - 11-04 反重力 美国07 0.25M限 稳测 VLESS
-  - 11-05 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 EE01 0.25M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
@@ -274,7 +259,6 @@ proxy-groups:
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
   - 11-04 反重力 阿联酋01 0.24M限 稳测 TROJAN
   - 11-04 反重力 美国07 0.25M限 稳测 VLESS
-  - 11-05 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 EE01 0.25M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
