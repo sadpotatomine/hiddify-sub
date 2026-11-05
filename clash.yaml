@@ -228,26 +228,6 @@ proxies:
   reality-opts:
     public-key: ckrjzfXJY-PQC0CWudGxN5Y5L_o8ueznPisScnGp1C8
     short-id: e3d3f391
-- name: 11-05 反重力 美国12 0.26M限 稳测 VLESS
-  type: vless
-  server: 71b840t.de7.h1clayd.click
-  port: 443
-  uuid: b7b8ee80-db83-4276-8c68-87dc88b0b0b5
-  udp: true
-  tls: true
-  servername: 71b840t.de7.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE
-    short-id: e572b6579ea525d4
-- name: 11-05 反重力 美国13 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: oh.sbbz.tech
-  port: 443
-  password: 41d4f8b3-2a45-4531-a33b-938e2eebb939
-  udp: true
-  sni: oh.sbbz.tech
 - name: 11-05 反重力 芬兰01 0.11M限 稳测 HYSTERIA2
   type: hysteria2
   server: mein-1.octavia.dpdns.org
@@ -287,8 +267,6 @@ proxy-groups:
   - 11-05 反重力 EE01 0.25M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-05 反重力 荷兰02 0.23M限 稳测 VLESS
-  - 11-05 反重力 美国12 0.26M限 稳测 VLESS
-  - 11-05 反重力 美国13 0.26M限 稳测 HYSTERIA2
   - 11-05 反重力 芬兰01 0.11M限 稳测 HYSTERIA2
   - 11-05 反重力 韩国01 0.08M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
@@ -317,8 +295,6 @@ proxy-groups:
   - 11-05 反重力 EE01 0.25M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-05 反重力 荷兰02 0.23M限 稳测 VLESS
-  - 11-05 反重力 美国12 0.26M限 稳测 VLESS
-  - 11-05 反重力 美国13 0.26M限 稳测 HYSTERIA2
   - 11-05 反重力 芬兰01 0.11M限 稳测 HYSTERIA2
   - 11-05 反重力 韩国01 0.08M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
