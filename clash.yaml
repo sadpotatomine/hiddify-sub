@@ -228,13 +228,6 @@ proxies:
   reality-opts:
     public-key: ckrjzfXJY-PQC0CWudGxN5Y5L_o8ueznPisScnGp1C8
     short-id: e3d3f391
-- name: 11-05 反重力 芬兰01 0.11M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: mein-1.octavia.dpdns.org
-  port: 60000
-  password: xo43w4tc13ou2h3x
-  udp: true
-  sni: main-1.octavia.dpdns.org
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -260,7 +253,6 @@ proxy-groups:
   - 11-05 反重力 EE01 0.25M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-05 反重力 荷兰02 0.23M限 稳测 VLESS
-  - 11-05 反重力 芬兰01 0.11M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -287,7 +279,6 @@ proxy-groups:
   - 11-05 反重力 EE01 0.25M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-05 反重力 荷兰02 0.23M限 稳测 VLESS
-  - 11-05 反重力 芬兰01 0.11M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
