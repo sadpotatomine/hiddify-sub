@@ -186,6 +186,18 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 11-05 反重力 荷兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 84.245.18.243
+  port: 443
+  uuid: 7feec880-56f0-4425-9313-e2e340206284
+  udp: true
+  tls: true
+  servername: raverno.online
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: raverno.grpc2
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -208,6 +220,7 @@ proxy-groups:
   - 11-04 反重力 美国07 0.25M限 稳测 VLESS
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
+  - 11-05 反重力 荷兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -231,6 +244,7 @@ proxy-groups:
   - 11-04 反重力 美国07 0.25M限 稳测 VLESS
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
+  - 11-05 反重力 荷兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
