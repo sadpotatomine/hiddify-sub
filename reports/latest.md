@@ -1,7 +1,7 @@
 # 节点库维护运行报告
 
-- 批次：`batch-20261107-032740-622294-r5`
-- 报告时间（北京时间）：2026-11-07T03:34:44.198615+08:00
+- 批次：`batch-20261107-033508-214750-r1`
+- 报告时间（北京时间）：2026-11-07T03:46:02.274857+08:00
 - 状态：complete；结果：no-new
 - 异常类型：无；运行阶段：publish
 - 合格新增：0；移除：0
@@ -23,12 +23,12 @@
   },
   "screen.json": {
     "count": 200,
-    "passed": 1
+    "passed": 2
   },
   "deep.json": {
-    "count": 1,
-    "passed": 0,
-    "incomplete_downloads": 1
+    "count": 8,
+    "passed": 8,
+    "incomplete_downloads": 0
   }
 }
 ```
