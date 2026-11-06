@@ -187,6 +187,20 @@ proxies:
     public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
   grpc-opts:
     grpc-service-name: TunService
+- name: 11-06 反重力 芬兰02 0.23M限 稳测 VLESS
+  type: vless
+  server: 45.88.13.8
+  port: 8443
+  uuid: cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1
+  udp: true
+  tls: true
+  servername: download.nvidia.com
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
+  grpc-opts:
+    grpc-service-name: TunService
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -208,6 +222,7 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 11-06 反重力 芬兰02 0.23M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -230,6 +245,7 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 11-06 反重力 芬兰02 0.23M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
