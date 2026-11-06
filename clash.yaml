@@ -187,34 +187,6 @@ proxies:
     public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
   grpc-opts:
     grpc-service-name: TunService
-- name: 11-06 反重力 芬兰02 0.23M限 稳测 VLESS
-  type: vless
-  server: 45.88.13.8
-  port: 8443
-  uuid: cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1
-  udp: true
-  tls: true
-  servername: download.nvidia.com
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: FOQzn10eHqu4F5xOxiXW2bTDG8lH4TdOXP6A5rDqKFk
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 11-06 反重力 芬兰03 0.26M限 稳测 VLESS
-  type: vless
-  server: 122.8.47.5
-  port: 8443
-  uuid: cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1
-  udp: true
-  tls: true
-  servername: download.nvidia.com
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: skXBkyphBIt0TWVM0R5U3U-8UG0cuW00ONkaQpJ-OxU
-  grpc-opts:
-    grpc-service-name: TunService
 - name: 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   type: vless
   server: 185.209.15.44
@@ -228,20 +200,6 @@ proxies:
   reality-opts:
     public-key: KzMIiJZl6BXPiDBCOFNEiL1Uc3CJg_ZSZJLrc4MgFnU
     short-id: f3912f1a2dd0ed8e
-- name: 11-06 反重力 芬兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: 122.8.46.8
-  port: 8443
-  uuid: cfcfd0bb-7e8c-4f2b-9cc2-505c983fb8f1
-  udp: true
-  tls: true
-  servername: dl.dell.com
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk
-  grpc-opts:
-    grpc-service-name: TunService
 - name: 11-06 反重力 波兰01 0.26M限 稳测 VLESS
   type: vless
   server: 129.101.100.126
@@ -277,10 +235,7 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
-  - 11-06 反重力 芬兰02 0.23M限 稳测 VLESS
-  - 11-06 反重力 芬兰03 0.26M限 稳测 VLESS
   - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
-  - 11-06 反重力 芬兰04 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -304,10 +259,7 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
-  - 11-06 反重力 芬兰02 0.23M限 稳测 VLESS
-  - 11-06 反重力 芬兰03 0.26M限 稳测 VLESS
   - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
-  - 11-06 反重力 芬兰04 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
