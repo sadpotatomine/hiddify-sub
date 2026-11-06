@@ -166,20 +166,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-06 反重力 日本01 0.26M限 稳测 VLESS
-  type: vless
-  server: ga1data.xyy123.bid
-  port: 443
-  uuid: 81f686e2-0700-4e7d-b3aa-2f7fc544bcc3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.amzn.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk
-    short-id: 00b0389a
 - name: 11-06 反重力 TR01 0.26M限 稳测 VLESS
   type: vless
   server: tr1.japancase.site
@@ -242,7 +228,6 @@ proxy-groups:
   - 11-04 反重力 阿联酋01 0.24M限 稳测 TROJAN
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
-  - 11-06 反重力 日本01 0.26M限 稳测 VLESS
   - 11-06 反重力 TR01 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
@@ -267,7 +252,6 @@ proxy-groups:
   - 11-04 反重力 阿联酋01 0.24M限 稳测 TROJAN
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
-  - 11-06 反重力 日本01 0.26M限 稳测 VLESS
   - 11-06 反重力 TR01 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
