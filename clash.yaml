@@ -130,18 +130,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
-  type: vless
-  server: 138.124.86.230
-  port: 48115
-  uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b
-  udp: true
-  tls: true
-  servername: 138-124-86-230.sslip.io
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: 138-124-86-230-sslip-io
 - name: 11-05 反重力 美国11 0.26M限 稳测 VLESS
   type: vless
   server: 45.63.53.81
@@ -204,7 +192,6 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
-  - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
@@ -226,7 +213,6 @@ proxy-groups:
   - 11-03 反重力 美国02 0.26M限 稳测 VLESS
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
-  - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
