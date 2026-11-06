@@ -223,6 +223,20 @@ proxies:
   network: tcp
   reality-opts:
     public-key: pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ
+- name: 11-06 反重力 日本01 0.24M限 稳测 VLESS
+  type: vless
+  server: 74.113.233.192
+  port: 443
+  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: jp1.japancase.site
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: vR15JQvAL78o2FzRCftXVm1LTz-xdU31wBB2ohHFD0g
+    short-id: 47b225059e19aa39
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -247,6 +261,7 @@ proxy-groups:
   - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 德国01 0.22M限 稳测 VLESS
   - 11-06 反重力 ID01 0.24M限 稳测 VLESS
+  - 11-06 反重力 日本01 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -272,6 +287,7 @@ proxy-groups:
   - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 德国01 0.22M限 稳测 VLESS
   - 11-06 反重力 ID01 0.24M限 稳测 VLESS
+  - 11-06 反重力 日本01 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
