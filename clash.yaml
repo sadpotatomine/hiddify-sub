@@ -180,41 +180,6 @@ proxies:
   reality-opts:
     public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
     short-id: 051f20c2344a2dfd
-- name: 11-05 反重力 德国01 0.12M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 84.22.150.230
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: oo0vACw63GMSmdTywW_cbB5xvyFRcwK0
-  udp: true
-- name: 11-05 反重力 美国14 0.26M限 稳测 VLESS
-  type: vless
-  server: 174.137.53.15
-  port: 443
-  uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: portal.citygrainla.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-- name: 11-05 反重力 荷兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 104.245.102.26
-  port: 443
-  uuid: 0a3432cd-74b8-413a-896d-f51492b030bc
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: portal.citygrainla.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
 - name: 11-06 反重力 日本01 0.26M限 稳测 VLESS
   type: vless
   server: ga1data.xyy123.bid
@@ -278,9 +243,6 @@ proxy-groups:
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-05 反重力 美国12 0.26M限 稳测 VLESS
-  - 11-05 反重力 德国01 0.12M限 稳测 SHADOWSOCKS
-  - 11-05 反重力 美国14 0.26M限 稳测 VLESS
-  - 11-05 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 日本01 0.26M限 稳测 VLESS
   - 11-06 反重力 TR01 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
@@ -306,9 +268,6 @@ proxy-groups:
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-05 反重力 美国12 0.26M限 稳测 VLESS
-  - 11-05 反重力 德国01 0.12M限 稳测 SHADOWSOCKS
-  - 11-05 反重力 美国14 0.26M限 稳测 VLESS
-  - 11-05 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 日本01 0.26M限 稳测 VLESS
   - 11-06 反重力 TR01 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
