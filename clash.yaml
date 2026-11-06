@@ -173,33 +173,6 @@ proxies:
   reality-opts:
     public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
     short-id: 41ae8e266bc3346f
-- name: 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 122.8.47.4
-  port: 8443
-  uuid: ffaa2141-759b-424f-f28c-23dbeae00f10
-  udp: true
-  tls: true
-  servername: www.philips.com
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: Sq7mtLmaanwsTVNBR9gU7ECU87ftrb_wFGRLLNRBlmQ
-  grpc-opts:
-    grpc-service-name: TunService
-- name: 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 185.209.15.44
-  port: 443
-  uuid: 255a8044-3337-473e-af26-46a37208adcc
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl2.botfight.fun
-  network: tcp
-  reality-opts:
-    public-key: KzMIiJZl6BXPiDBCOFNEiL1Uc3CJg_ZSZJLrc4MgFnU
-    short-id: f3912f1a2dd0ed8e
 - name: 11-06 反重力 波兰01 0.26M限 稳测 VLESS
   type: vless
   server: 129.101.100.126
@@ -234,8 +207,6 @@ proxy-groups:
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
-  - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
-  - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -258,8 +229,6 @@ proxy-groups:
   - 11-05 反重力 瑞典01 0.15M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
-  - 11-06 反重力 芬兰01 0.26M限 稳测 VLESS
-  - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
