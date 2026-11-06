@@ -266,6 +266,20 @@ proxies:
   reality-opts:
     public-key: COvqGpB7lUdZshmbn5zdqiVi81n8Iyha8RbEHtK93xc
     short-id: 5037f0423dc4e4ff
+- name: 11-07 反重力 SI01 0.26M限 稳测 VLESS
+  type: vless
+  server: 92.42.201.160
+  port: 14443
+  uuid: a60da2ca-0abf-49f8-9dcb-156989d76ad2
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: node-slo05.rkitman.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: fmZQYGYXw4xYtiuMFvH4Dgse1DBoGazt-vWM7LOdchY
+    short-id: e013fa99a81badcc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -293,6 +307,7 @@ proxy-groups:
   - 11-06 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 荷兰03 0.20M限 稳测 VLESS
   - 11-07 反重力 波兰02 0.26M限 稳测 VLESS
+  - 11-07 反重力 SI01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -321,6 +336,7 @@ proxy-groups:
   - 11-06 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 荷兰03 0.20M限 稳测 VLESS
   - 11-07 反重力 波兰02 0.26M限 稳测 VLESS
+  - 11-07 反重力 SI01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
