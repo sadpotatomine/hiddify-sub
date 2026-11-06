@@ -1,1 +1,0 @@
-vless://81f686e2-0700-4e7d-b3aa-2f7fc544bcc3@ga1data.xyy123.bid:443?flow=xtls-rprx-vision&fp=chrome&pbk=Z7B8VKvjAiBH93XEkHFWCVBfK8Mu5HTLtAwfr5LuYlk&security=reality&sid=00b0389a&sni=www.amzn.com&type=tcp#11-06%20%E5%8F%8D%E9%87%8D%E5%8A%9B%20%E6%97%A5%E6%9C%AC01%200.26M%E9%99%90%20%E7%A8%B3%E6%B5%8B%20VLESS
