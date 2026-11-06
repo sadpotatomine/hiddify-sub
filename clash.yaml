@@ -242,6 +242,20 @@ proxies:
     public-key: oHaUPZiESTQQ89DMd4uIcPWgsyeFFy58iZYX_8mbvWk
   grpc-opts:
     grpc-service-name: TunService
+- name: 11-06 反重力 波兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 129.101.100.126
+  port: 8443
+  uuid: 981c7ccc-2b17-473c-8358-7fd1d6eec1b4
+  udp: true
+  tls: true
+  servername: lte-v2-ws.gacvpn.site
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /static/js/runtime.9d03c7.js
+    headers:
+      Host: lte-v2-ws.gacvpn.site
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -267,6 +281,7 @@ proxy-groups:
   - 11-06 反重力 芬兰03 0.26M限 稳测 VLESS
   - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰04 0.26M限 稳测 VLESS
+  - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -293,6 +308,7 @@ proxy-groups:
   - 11-06 反重力 芬兰03 0.26M限 稳测 VLESS
   - 11-06 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 芬兰04 0.26M限 稳测 VLESS
+  - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
