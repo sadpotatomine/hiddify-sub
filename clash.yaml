@@ -182,20 +182,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
   udp: true
-- name: 11-06 反重力 德国01 0.22M限 稳测 VLESS
-  type: vless
-  server: 178.214.109.1
-  port: 443
-  uuid: 40a86b1b-239d-455e-b53f-4c270788ba6e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: promo-digital.wb.ru
-  client-fingerprint: edge
-  network: tcp
-  reality-opts:
-    public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
-    short-id: 1cfa55abe4d2dc7a
 - name: 11-06 反重力 ID01 0.24M限 稳测 VLESS
   type: vless
   server: 103.172.197.2
@@ -343,7 +329,6 @@ proxy-groups:
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 美国12 0.26M限 稳测 SHADOWSOCKS
-  - 11-06 反重力 德国01 0.22M限 稳测 VLESS
   - 11-06 反重力 ID01 0.24M限 稳测 VLESS
   - 11-06 反重力 日本01 0.24M限 稳测 VLESS
   - 11-06 反重力 荷兰02 0.26M限 稳测 VLESS
@@ -375,7 +360,6 @@ proxy-groups:
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-06 反重力 美国12 0.26M限 稳测 SHADOWSOCKS
-  - 11-06 反重力 德国01 0.22M限 稳测 VLESS
   - 11-06 反重力 ID01 0.24M限 稳测 VLESS
   - 11-06 反重力 日本01 0.24M限 稳测 VLESS
   - 11-06 反重力 荷兰02 0.26M限 稳测 VLESS
