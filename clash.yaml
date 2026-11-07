@@ -224,6 +224,21 @@ proxies:
   password: Trojan@82164024
   udp: true
   sni: au.tronsg.com
+- name: 11-08 反重力 德国03 0.26M限 稳测 VLESS
+  type: vless
+  server: 79.182.39.110
+  port: 443
+  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
+  udp: true
+  tls: true
+  servername: ac3f32g.de18.h1clayd.click
+  client-fingerprint: chrome
+  network: grpc
+  reality-opts:
+    public-key: cO2bNRZvYDit8UqQk_zc6BaSBA7LiLMSmMHTwjU531Q
+    short-id: 051e90ed3d657158
+  grpc-opts:
+    grpc-service-name: 01ad85319ae3
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -249,6 +264,7 @@ proxy-groups:
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
+  - 11-08 反重力 德国03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -275,6 +291,7 @@ proxy-groups:
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
+  - 11-08 反重力 德国03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
