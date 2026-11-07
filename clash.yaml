@@ -240,34 +240,6 @@ proxies:
     short-id: bd8f712209a9c283
   grpc-opts:
     grpc-service-name: 99f2107b03f8
-- name: 11-07 反重力 奥地利02 0.26M限 稳测 VLESS
-  type: vless
-  server: 178.22.31.72
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: at1.japancase.site
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
-    short-id: 41ae8e266bc3346f
-- name: 11-07 反重力 德国03 0.26M限 稳测 VLESS
-  type: vless
-  server: thumborigin.comparecarprices.org
-  port: 443
-  uuid: 471137d4-112c-4402-a05e-1a4d14b6f82f
-  udp: true
-  tls: true
-  servername: thumborigin.comparecarprices.org
-  client-fingerprint: firefox
-  network: ws
-  ws-opts:
-    path: /media/ws/
-    headers:
-      Host: thumborigin.comparecarprices.org
 - name: 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
   type: vless
   server: migratefallback.lucheeebezlimitnoekino.stream
@@ -342,8 +314,6 @@ proxy-groups:
   - 11-07 反重力 荷兰03 0.20M限 稳测 VLESS
   - 11-07 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 美国13 0.26M限 稳测 VLESS
-  - 11-07 反重力 奥地利02 0.26M限 稳测 VLESS
-  - 11-07 反重力 德国03 0.26M限 稳测 VLESS
   - 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
@@ -374,8 +344,6 @@ proxy-groups:
   - 11-07 反重力 荷兰03 0.20M限 稳测 VLESS
   - 11-07 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 美国13 0.26M限 稳测 VLESS
-  - 11-07 反重力 奥地利02 0.26M限 稳测 VLESS
-  - 11-07 反重力 德国03 0.26M限 稳测 VLESS
   - 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
