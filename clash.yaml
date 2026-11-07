@@ -168,19 +168,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
   udp: true
-- name: 11-06 反重力 ID01 0.24M限 稳测 VLESS
-  type: vless
-  server: 103.172.197.2
-  port: 29172
-  uuid: 3977434d-6a9b-4858-8ced-80326ba5e367
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: aws.amazon.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: pff94OJwuKXnF7_3SJ8KKJuAN4GJtInBlR-kg-4mwzQ
 - name: 11-06 反重力 日本01 0.24M限 稳测 VLESS
   type: vless
   server: 74.113.233.192
@@ -356,7 +343,6 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 美国12 0.26M限 稳测 SHADOWSOCKS
-  - 11-06 反重力 ID01 0.24M限 稳测 VLESS
   - 11-06 反重力 日本01 0.24M限 稳测 VLESS
   - 11-06 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 荷兰03 0.20M限 稳测 VLESS
@@ -389,7 +375,6 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-06 反重力 奥地利01 0.26M限 稳测 VLESS
   - 11-06 反重力 美国12 0.26M限 稳测 SHADOWSOCKS
-  - 11-06 反重力 ID01 0.24M限 稳测 VLESS
   - 11-06 反重力 日本01 0.24M限 稳测 VLESS
   - 11-06 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 荷兰03 0.20M限 稳测 VLESS
