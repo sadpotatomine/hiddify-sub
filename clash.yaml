@@ -202,6 +202,21 @@ proxies:
   reality-opts:
     public-key: LEziyH-E4k9hehGRJkVi1FadVObB_NZJy8U7oUCVWXU
     short-id: b9120cd53ffd7bba
+- name: 11-08 反重力 美国18 0.25M限 稳测 VLESS
+  type: vless
+  server: 0592efg.us9.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 0592efg.us9.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
+    short-id: bd8f712209a9c283
+  grpc-opts:
+    grpc-service-name: 99f2107b03f8
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -225,6 +240,7 @@ proxy-groups:
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 美国17 0.25M限 稳测 VLESS
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-08 反重力 美国18 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -249,6 +265,7 @@ proxy-groups:
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 美国17 0.25M限 稳测 VLESS
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-08 反重力 美国18 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
