@@ -254,19 +254,6 @@ proxies:
   reality-opts:
     public-key: zEntiD6D81wY__YHPvIw78e09CBIgYkyQ5meIo7c_hg
     short-id: 41ae8e266bc3346f
-- name: 11-07 反重力 德国02 0.26M限 稳测 VLESS
-  type: vless
-  server: 100497t.de18.h1clayd.click
-  port: 443
-  uuid: 94042dd1-d32a-4797-b88c-dc48459e2b34
-  udp: true
-  tls: true
-  servername: 100497t.de18.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: x-7K9P2E91DCL-0ONwm14gxDkUseukg98hYzB-1dW1A
-    short-id: 5be240e45d3c445c
 - name: 11-07 反重力 德国03 0.26M限 稳测 VLESS
   type: vless
   server: thumborigin.comparecarprices.org
@@ -281,20 +268,6 @@ proxies:
     path: /media/ws/
     headers:
       Host: thumborigin.comparecarprices.org
-- name: 11-07 反重力 法国01 0.26M限 稳测 VLESS
-  type: vless
-  server: 82.148.255.201
-  port: 8443
-  uuid: 49fdd350-6ffb-4343-b467-14e269bb95de
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: 360.yandex.ru
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: DvNpCmas0_0MO91s70vlkAxZxnnIt1NE0zqCC4trURQ
-    short-id: 2bf10fc0a85601e5
 - name: 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
   type: vless
   server: migratefallback.lucheeebezlimitnoekino.stream
@@ -356,9 +329,7 @@ proxy-groups:
   - 11-07 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 美国13 0.26M限 稳测 VLESS
   - 11-07 反重力 奥地利02 0.26M限 稳测 VLESS
-  - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-07 反重力 德国03 0.26M限 稳测 VLESS
-  - 11-07 反重力 法国01 0.26M限 稳测 VLESS
   - 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
@@ -389,9 +360,7 @@ proxy-groups:
   - 11-07 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-07 反重力 美国13 0.26M限 稳测 VLESS
   - 11-07 反重力 奥地利02 0.26M限 稳测 VLESS
-  - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-07 反重力 德国03 0.26M限 稳测 VLESS
-  - 11-07 反重力 法国01 0.26M限 稳测 VLESS
   - 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
