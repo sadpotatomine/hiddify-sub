@@ -343,6 +343,20 @@ proxies:
     path: /service/telemetry/045d381f1166/
     headers:
       Host: bhjolq0d0l.flowersgood.top
+- name: 11-07 反重力 法国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 82.148.255.201
+  port: 8443
+  uuid: 49fdd350-6ffb-4343-b467-14e269bb95de
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 360.yandex.ru
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: DvNpCmas0_0MO91s70vlkAxZxnnIt1NE0zqCC4trURQ
+    short-id: 2bf10fc0a85601e5
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -376,6 +390,7 @@ proxy-groups:
   - 11-07 反重力 韩国01 0.06M限 稳测 SHADOWSOCKS
   - 11-07 反重力 德国03 0.26M限 稳测 VLESS
   - 11-07 反重力 波兰03 0.08M限 稳测 VLESS
+  - 11-07 反重力 法国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -410,6 +425,7 @@ proxy-groups:
   - 11-07 反重力 韩国01 0.06M限 稳测 SHADOWSOCKS
   - 11-07 反重力 德国03 0.26M限 稳测 VLESS
   - 11-07 反重力 波兰03 0.08M限 稳测 VLESS
+  - 11-07 反重力 法国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
