@@ -329,6 +329,20 @@ proxies:
   reality-opts:
     public-key: DvNpCmas0_0MO91s70vlkAxZxnnIt1NE0zqCC4trURQ
     short-id: 2bf10fc0a85601e5
+- name: 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: migratefallback.lucheeebezlimitnoekino.stream
+  port: 443
+  uuid: 471137d4-112c-4402-a05e-1a4d14b6f82f
+  udp: true
+  tls: true
+  servername: migratefallback.lucheeebezlimitnoekino.stream
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /media/ws/
+    headers:
+      Host: migratefallback.lucheeebezlimitnoekino.stream
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -361,6 +375,7 @@ proxy-groups:
   - 11-07 反重力 德国03 0.26M限 稳测 VLESS
   - 11-07 反重力 波兰03 0.08M限 稳测 VLESS
   - 11-07 反重力 法国01 0.26M限 稳测 VLESS
+  - 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -394,6 +409,7 @@ proxy-groups:
   - 11-07 反重力 德国03 0.26M限 稳测 VLESS
   - 11-07 反重力 波兰03 0.08M限 稳测 VLESS
   - 11-07 反重力 法国01 0.26M限 稳测 VLESS
+  - 11-07 反重力 芬兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
