@@ -217,6 +217,13 @@ proxies:
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   udp: true
   sni: onecloudstream.com
+- name: 11-09 反重力 日本01 0.08M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 45.12.89.202
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -242,6 +249,7 @@ proxy-groups:
   - 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
   - 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 日本01 0.08M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -268,6 +276,7 @@ proxy-groups:
   - 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
   - 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 日本01 0.08M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
