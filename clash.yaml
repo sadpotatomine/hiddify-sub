@@ -224,6 +224,48 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
   udp: true
+- name: 11-09 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.81
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 11-09 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.21
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 11-09 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.46
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 11-09 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.250
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.44
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.43
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -250,6 +292,12 @@ proxy-groups:
   - 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 日本01 0.08M限 稳测 SHADOWSOCKS
+  - 11-09 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -277,6 +325,12 @@ proxy-groups:
   - 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 日本01 0.08M限 稳测 SHADOWSOCKS
+  - 11-09 反重力 拉脱维亚03 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚04 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚05 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
