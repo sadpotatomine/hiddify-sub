@@ -266,6 +266,19 @@ proxies:
   password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
   udp: true
   sni: onecloudstream.com
+- name: 11-09 反重力 美国16 0.26M限 稳测 VLESS
+  type: vless
+  server: 04535dt.us8.h1clayd.click
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 04535dt.us8.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
+    short-id: ba2a3dce62b99092
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -298,6 +311,7 @@ proxy-groups:
   - 11-09 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 美国16 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -331,6 +345,7 @@ proxy-groups:
   - 11-09 反重力 拉脱维亚06 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 美国16 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
