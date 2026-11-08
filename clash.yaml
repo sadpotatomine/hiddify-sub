@@ -317,6 +317,20 @@ proxies:
   reality-opts:
     public-key: qpPNpe2H-O3S9GnYzXcK8JXJIpSDsJhCKM_J9l9fxUY
     short-id: 08b3d1a9cd59579c
+- name: 11-08 反重力 美国20 0.20M限 稳测 VLESS
+  type: vless
+  server: 136.176.65.251
+  port: 443
+  uuid: 39826f32-f5ca-42a5-ab33-188f7d199478
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.apple.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: O5NcKiTtNcJZiLMJhxT5d0Pn8KjVBvXGmztGd4_D-RI
+    short-id: cdac1a856b81390f
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -350,6 +364,7 @@ proxy-groups:
   - 11-08 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国19 0.25M限 稳测 VLESS
   - 11-08 反重力 BG01 0.26M限 稳测 VLESS
+  - 11-08 反重力 美国20 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -384,6 +399,7 @@ proxy-groups:
   - 11-08 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国19 0.25M限 稳测 VLESS
   - 11-08 反重力 BG01 0.26M限 稳测 VLESS
+  - 11-08 反重力 美国20 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
