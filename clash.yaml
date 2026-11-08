@@ -189,6 +189,20 @@ proxies:
   password: Trojan@82164024
   udp: true
   sni: au.tronsg.com
+- name: 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
+  type: vless
+  server: 139.162.27.96
+  port: 2096
+  uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+  udp: true
+  tls: true
+  servername: free-server.techsonic.dev
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /free-server.techsonic.dev
+    headers:
+      Host: free-server.techsonic.dev
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -211,6 +225,7 @@ proxy-groups:
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
+  - 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -234,6 +249,7 @@ proxy-groups:
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
+  - 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
