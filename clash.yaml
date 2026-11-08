@@ -268,6 +268,13 @@ proxies:
   password: a35c508f-4d5d-4531-842e-6e9d43c762c0
   udp: true
   sni: pl1.nexfile.net
+- name: 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 194.113.235.254
+  port: 23661
+  password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
+  udp: true
+  sni: fr.verymad.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -297,6 +304,7 @@ proxy-groups:
   - 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
   - 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
+  - 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -327,6 +335,7 @@ proxy-groups:
   - 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
   - 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
+  - 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
