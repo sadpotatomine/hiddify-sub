@@ -239,6 +239,21 @@ proxies:
     short-id: 051e90ed3d657158
   grpc-opts:
     grpc-service-name: 01ad85319ae3
+- name: 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.95.232.233
+  port: 8446
+  uuid: dac0e736-5c69-4b7c-8b1d-27cbbc3bd948
+  udp: true
+  tls: true
+  servername: 1c.hlclub.tech
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: XxWn04baea-nyjxLud3mjo15Xz1DNwlDOOken4qHNVA
+    short-id: 555ac69b22424282
+  grpc-opts:
+    grpc-service-name: grpc-tunnel
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -265,6 +280,7 @@ proxy-groups:
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-08 反重力 德国03 0.26M限 稳测 VLESS
+  - 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -292,6 +308,7 @@ proxy-groups:
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-08 反重力 德国03 0.26M限 稳测 VLESS
+  - 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
