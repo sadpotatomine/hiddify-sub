@@ -231,34 +231,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 4IxReHOucKiwvosjoRXlLLpu20Pso-rZ
   udp: true
-- name: 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 13.143.189.101
-  port: 4444
-  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
-  udp: true
-  sni: pl1.nexfile.net
-- name: 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
-  type: hysteria2
-  server: 194.113.235.254
-  port: 23661
-  password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
-  udp: true
-  sni: fr.verymad.net
-- name: 11-08 反重力 美国19 0.25M限 稳测 VLESS
-  type: vless
-  server: 104.204.69.15
-  port: 443
-  uuid: 39826f32-f5ca-42a5-ab33-188f7d199478
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: I3W4ERuGP-_SB9CvllYlAgXnBjPyhIRFuIYkiXYCYik
-    short-id: 987a29c3bfc3b31d
 - name: 11-08 反重力 BG01 0.26M限 稳测 VLESS
   type: vless
   server: 217.217.235.100
@@ -273,20 +245,6 @@ proxies:
   reality-opts:
     public-key: qpPNpe2H-O3S9GnYzXcK8JXJIpSDsJhCKM_J9l9fxUY
     short-id: 08b3d1a9cd59579c
-- name: 11-08 反重力 美国20 0.20M限 稳测 VLESS
-  type: vless
-  server: 136.176.65.251
-  port: 443
-  uuid: 39826f32-f5ca-42a5-ab33-188f7d199478
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: O5NcKiTtNcJZiLMJhxT5d0Pn8KjVBvXGmztGd4_D-RI
-    short-id: cdac1a856b81390f
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -313,11 +271,7 @@ proxy-groups:
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
-  - 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
-  - 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
-  - 11-08 反重力 美国19 0.25M限 稳测 VLESS
   - 11-08 反重力 BG01 0.26M限 稳测 VLESS
-  - 11-08 反重力 美国20 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -345,11 +299,7 @@ proxy-groups:
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
-  - 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
-  - 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
-  - 11-08 反重力 美国19 0.25M限 稳测 VLESS
   - 11-08 反重力 BG01 0.26M限 稳测 VLESS
-  - 11-08 反重力 美国20 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
