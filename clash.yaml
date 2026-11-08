@@ -279,6 +279,13 @@ proxies:
   reality-opts:
     public-key: UoS8qZ74hP_ECcncCz55lzvlcVss3R7VA0WYZE0YQCY
     short-id: ba2a3dce62b99092
+- name: 11-09 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.22
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -312,6 +319,7 @@ proxy-groups:
   - 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 美国16 0.26M限 稳测 VLESS
+  - 11-09 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -346,6 +354,7 @@ proxy-groups:
   - 11-09 反重力 拉脱维亚07 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 拉脱维亚08 0.26M限 稳测 HYSTERIA2
   - 11-09 反重力 美国16 0.26M限 稳测 VLESS
+  - 11-09 反重力 拉脱维亚09 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
