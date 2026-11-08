@@ -203,6 +203,20 @@ proxies:
     path: /free-server.techsonic.dev
     headers:
       Host: free-server.techsonic.dev
+- name: 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.142
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
+- name: 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: 104.165.205.23
+  port: 9443
+  password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+  udp: true
+  sni: onecloudstream.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -226,6 +240,8 @@ proxy-groups:
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -250,6 +266,8 @@ proxy-groups:
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-09 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 11-09 反重力 拉脱维亚01 0.26M限 稳测 HYSTERIA2
+  - 11-09 反重力 拉脱维亚02 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
