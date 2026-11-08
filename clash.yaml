@@ -224,21 +224,6 @@ proxies:
   password: Trojan@82164024
   udp: true
   sni: au.tronsg.com
-- name: 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.95.232.233
-  port: 8446
-  uuid: dac0e736-5c69-4b7c-8b1d-27cbbc3bd948
-  udp: true
-  tls: true
-  servername: 1c.hlclub.tech
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: XxWn04baea-nyjxLud3mjo15Xz1DNwlDOOken4qHNVA
-    short-id: 555ac69b22424282
-  grpc-opts:
-    grpc-service-name: grpc-tunnel
 - name: 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 13.140.83.153
@@ -260,20 +245,6 @@ proxies:
   password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
   udp: true
   sni: fr.verymad.net
-- name: 11-08 反重力 荷兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: nl3.japancase.site
-  port: 443
-  uuid: db80088c-32a1-4cb8-a907-0f3cb7844152
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl3.japancase.site
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: ZsKgmywoAPRRkYHqQ8hUHFB6X_f7tjXfYmvSeHj0-xQ
-    short-id: 0d98b07acc98ccef
 - name: 11-08 反重力 美国19 0.25M限 稳测 VLESS
   type: vless
   server: 104.204.69.15
@@ -341,11 +312,9 @@ proxy-groups:
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
-  - 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
   - 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
   - 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
-  - 11-08 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国19 0.25M限 稳测 VLESS
   - 11-08 反重力 BG01 0.26M限 稳测 VLESS
   - 11-08 反重力 美国20 0.20M限 稳测 VLESS
@@ -375,11 +344,9 @@ proxy-groups:
   - 11-07 反重力 德国02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国18 0.25M限 稳测 VLESS
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
-  - 11-08 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-08 反重力 芬兰01 0.26M限 稳测 SHADOWSOCKS
   - 11-08 反重力 波兰01 0.26M限 稳测 HYSTERIA2
   - 11-08 反重力 法国01 0.26M限 稳测 HYSTERIA2
-  - 11-08 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-08 反重力 美国19 0.25M限 稳测 VLESS
   - 11-08 反重力 BG01 0.26M限 稳测 VLESS
   - 11-08 反重力 美国20 0.20M限 稳测 VLESS
