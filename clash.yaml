@@ -218,21 +218,6 @@ proxies:
     path: /tvpn-trojan/bg
     headers:
       Host: orbylume.my.to
-- name: 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: 196.196.148.84
-  port: 25454
-  uuid: 95c2ba1e-a330-4e6b-bd81-bf9c0f647b2f
-  udp: true
-  tls: true
-  servername: s-25454.nl2.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: YOgsoXtChX3RvA0Gf9SSsP8VLP4GGk7dytVBo9qZCH4
-    short-id: 221ba0d14384ccf1
-  grpc-opts:
-    grpc-service-name: becc6caf9bea
 - name: 11-10 反重力 美国16 0.23M限 稳测 VLESS
   type: vless
   server: uuuss2.qiksme.com
@@ -303,7 +288,6 @@ proxy-groups:
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
   - 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
-  - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 美国16 0.23M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 KZ01 0.14M限 稳测 VLESS
@@ -333,7 +317,6 @@ proxy-groups:
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
   - 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
-  - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 美国16 0.23M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 KZ01 0.14M限 稳测 VLESS
