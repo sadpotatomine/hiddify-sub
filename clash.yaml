@@ -222,6 +222,18 @@ proxies:
     short-id: 7a8e24da4eb2c1b5
   grpc-opts:
     grpc-service-name: 43f41cd7fee0
+- name: 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
+  type: vless
+  server: 89.105.195.148
+  port: 443
+  uuid: 1653818d-532e-46be-b825-384107fb7c3a
+  udp: true
+  tls: true
+  servername: api.mediacorphub.org
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: gw.v2.PushService
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -246,6 +258,7 @@ proxy-groups:
   - 11-09 反重力 德国01 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
   - 11-09 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -271,6 +284,7 @@ proxy-groups:
   - 11-09 反重力 德国01 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
   - 11-09 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
