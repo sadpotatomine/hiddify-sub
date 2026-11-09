@@ -195,18 +195,6 @@ proxies:
   cipher: chacha20-ietf-poly1305
   password: 60806a2e4c3945f4ba08beade8d71d4e
   udp: true
-- name: 11-09 反重力 荷兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: 5.83.129.236
-  port: 443
-  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-  udp: true
-  tls: true
-  servername: host-de-upscale.cdn.cachefleet.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: a9w9wmko0k2od14hv8v
 - name: 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   type: vless
   server: 122.8.46.9
@@ -258,7 +246,6 @@ proxy-groups:
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 德国01 0.23M限 稳测 SHADOWSOCKS
-  - 11-09 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -285,7 +272,6 @@ proxy-groups:
   - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 德国01 0.23M限 稳测 SHADOWSOCKS
-  - 11-09 反重力 荷兰02 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
