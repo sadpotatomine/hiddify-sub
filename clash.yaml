@@ -216,20 +216,6 @@ proxies:
   reality-opts:
     public-key: QjYksCdraKvxMG024774_EOZjxtIB7xHm3GYGx3oN1Y
     short-id: c59bb8af70d9db1e
-- name: 11-09 反重力 荷兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 213.152.165.199
-  port: 2083
-  uuid: 965b0125-f98b-4c56-bda9-6651b8bed350
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: x3V7PB2__QEKcDuE5SgVoe0IgcbxdqOXXr0ai85s-C0
-    short-id: 906609ffc9e8d9fe
 - name: 11-09 反重力 德国01 0.26M限 稳测 VLESS
   type: vless
   server: 129.101.103.211
@@ -280,7 +266,6 @@ proxy-groups:
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰02 0.26M限 稳测 VLESS
-  - 11-09 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 德国01 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -308,7 +293,6 @@ proxy-groups:
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰02 0.26M限 稳测 VLESS
-  - 11-09 反重力 荷兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 德国01 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
