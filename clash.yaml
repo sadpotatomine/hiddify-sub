@@ -207,21 +207,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: api.v1.FeedService
-- name: 11-09 反重力 德国02 0.26M限 稳测 VLESS
-  type: vless
-  server: ec7a81g.de15.h1clayd.click
-  port: 443
-  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
-  udp: true
-  tls: true
-  servername: ec7a81g.de15.h1clayd.click
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-    short-id: 7a8e24da4eb2c1b5
-  grpc-opts:
-    grpc-service-name: 43f41cd7fee0
 - name: 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
   type: vless
   server: 89.105.195.148
@@ -269,7 +254,6 @@ proxy-groups:
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 德国01 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
-  - 11-09 反重力 德国02 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
 - name: ⚡ 自动选择
@@ -296,7 +280,6 @@ proxy-groups:
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 德国01 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰02 0.24M限 稳测 VLESS
-  - 11-09 反重力 德国02 0.26M限 稳测 VLESS
   - 11-09 反重力 荷兰03 0.23M限 稳测 VLESS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
