@@ -244,6 +244,19 @@ proxies:
   servername: uuuss2.qiksme.com
   client-fingerprint: firefox
   network: tcp
+- name: 11-10 反重力 波兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: msk9.gacvpn.site
+  port: 443
+  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: nl2-edge.gacvpn.site
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: ZrIwTVGx75Dkh7b7eKnczKFkkADOfSnVgeqYXTlUhUI
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -270,6 +283,7 @@ proxy-groups:
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 美国16 0.23M限 稳测 VLESS
+  - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -297,6 +311,7 @@ proxy-groups:
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 美国16 0.23M限 稳测 VLESS
+  - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
