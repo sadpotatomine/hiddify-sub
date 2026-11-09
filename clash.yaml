@@ -168,13 +168,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
-  type: trojan
-  server: au.tronsg.com
-  port: 443
-  password: Trojan@82164024
-  udp: true
-  sni: au.tronsg.com
 - name: 11-09 反重力 美国17 0.26M限 稳测 VLESS
   type: vless
   server: 196.245.52.188
@@ -262,7 +255,6 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
-  - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰02 0.26M限 稳测 VLESS
@@ -289,7 +281,6 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
-  - 11-08 反重力 澳大利亚01 0.26M限 稳测 TROJAN
   - 11-09 反重力 美国17 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-09 反重力 芬兰02 0.26M限 稳测 VLESS
