@@ -147,20 +147,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
-  type: vless
-  server: prvtch.titun.su
-  port: 443
-  uuid: 90157e25-cee1-4217-921e-91f300bc1a24
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: perevodchiki.su
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs
-    short-id: 428ef87fd47a3a32
 - name: 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 202.50.253.36
@@ -193,21 +179,6 @@ proxies:
   network: raw
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
-  type: vless
-  server: 362c1eg.se1.h1clayd.click
-  port: 443
-  uuid: c82031be-e90f-4b15-ab4f-7ccef236d3ca
-  udp: true
-  tls: true
-  servername: 362c1eg.se1.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY
-    short-id: bee802ae4ab66496
-  grpc-opts:
-    grpc-service-name: ''
 - name: 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   type: vless
   server: 201.58.189.105
@@ -277,11 +248,9 @@ proxy-groups:
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
-  - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
-  - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 德国01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
@@ -305,11 +274,9 @@ proxy-groups:
   - 11-03 反重力 美国03 0.26M限 稳测 VLESS
   - 11-04 反重力 美国05 0.26M限 稳测 VLESS
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
-  - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
-  - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 德国01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
