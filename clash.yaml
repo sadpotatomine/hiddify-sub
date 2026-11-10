@@ -282,6 +282,20 @@ proxies:
   reality-opts:
     public-key: 3WKoZ9V3OLA_QuOcqTtGurNFlrDL60LlzVvVP_EjV3c
     short-id: 3ef49eb261f27eeb
+- name: 11-11 反重力 德国01 0.26M限 稳测 VLESS
+  type: vless
+  server: ec7a81g.de15.h1clayd.click
+  port: 443
+  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
+  udp: true
+  tls: true
+  servername: ec7a81g.de15.h1clayd.click
+  network: grpc
+  reality-opts:
+    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
+    short-id: 7a8e24da4eb2c1b5
+  grpc-opts:
+    grpc-service-name: 43f41cd7fee0
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -311,6 +325,7 @@ proxy-groups:
   - 11-11 反重力 EE01 0.26M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.25M限 稳测 VLESS
   - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
+  - 11-11 反重力 德国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -341,6 +356,7 @@ proxy-groups:
   - 11-11 反重力 EE01 0.26M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.25M限 稳测 VLESS
   - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
+  - 11-11 反重力 德国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
