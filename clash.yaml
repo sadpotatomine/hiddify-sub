@@ -272,6 +272,21 @@ proxies:
     short-id: bee802ae4ab66496
   grpc-opts:
     grpc-service-name: ''
+- name: 11-10 反重力 波兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 201.58.189.105
+  port: 2083
+  uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
+  udp: true
+  tls: true
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: grpc
+  reality-opts:
+    public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
+    short-id: 8bd80253
+  grpc-opts:
+    grpc-service-name: google.storage.v2.Storage
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -300,6 +315,7 @@ proxy-groups:
   - 11-10 反重力 台湾01 0.26M限 稳测 VLESS
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -329,6 +345,7 @@ proxy-groups:
   - 11-10 反重力 台湾01 0.26M限 稳测 VLESS
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
