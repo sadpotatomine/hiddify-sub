@@ -180,18 +180,6 @@ proxies:
     path: /tvpn-trojan/bg
     headers:
       Host: orbylume.my.to
-- name: 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: images.mediacorphub.org
-  port: 443
-  uuid: 1653818d-532e-46be-b825-384107fb7c3a
-  udp: true
-  tls: true
-  servername: images.mediacorphub.org
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: stats.v2.StreamService
 - name: 11-10 反重力 台湾01 0.26M限 稳测 VLESS
   type: vless
   server: dddz-1-x.473221.xyz
@@ -299,7 +287,6 @@ proxy-groups:
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
-  - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 台湾01 0.26M限 稳测 VLESS
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
@@ -328,7 +315,6 @@ proxy-groups:
   - 11-07 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
-  - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 台湾01 0.26M限 稳测 VLESS
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
