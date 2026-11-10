@@ -268,6 +268,20 @@ proxies:
   reality-opts:
     public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
     short-id: 5895914d
+- name: 11-11 反重力 波兰02 0.26M限 稳测 VLESS
+  type: vless
+  server: 45.152.202.86
+  port: 443
+  uuid: 9f8a42c4-edd1-4d1e-a793-754b85b3e0f2
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ss-19-g1-d3a1b6919f6b.contenttransferportal.online
+  client-fingerprint: random
+  network: tcp
+  reality-opts:
+    public-key: 3WKoZ9V3OLA_QuOcqTtGurNFlrDL60LlzVvVP_EjV3c
+    short-id: 3ef49eb261f27eeb
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -296,6 +310,7 @@ proxy-groups:
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
   - 11-11 反重力 EE01 0.26M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.25M限 稳测 VLESS
+  - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -325,6 +340,7 @@ proxy-groups:
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
   - 11-11 反重力 EE01 0.26M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.25M限 稳测 VLESS
+  - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
