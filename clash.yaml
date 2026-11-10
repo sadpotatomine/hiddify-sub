@@ -302,6 +302,19 @@ proxies:
   reality-opts:
     public-key: NJgrmuV1CFhj7PeKJoQfDQVagDcFITkfrM-a7sa_mWw
     short-id: 8591c4d31f59a60d
+- name: 11-10 反重力 法国01 0.26M限 稳测 VLESS
+  type: vless
+  server: edge.bookmai.com
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: mother-earth.fyi
+  client-fingerprint: chrome
+  network: raw
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -333,6 +346,7 @@ proxy-groups:
   - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 荷兰05 0.26M限 稳测 VLESS
   - 11-10 反重力 台湾01 0.26M限 稳测 VLESS
+  - 11-10 反重力 法国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -365,6 +379,7 @@ proxy-groups:
   - 11-10 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-10 反重力 荷兰05 0.26M限 稳测 VLESS
   - 11-10 反重力 台湾01 0.26M限 稳测 VLESS
+  - 11-10 反重力 法国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
