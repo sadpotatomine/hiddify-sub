@@ -263,6 +263,35 @@ proxies:
     short-id: 8bd80253
   grpc-opts:
     grpc-service-name: google.storage.v2.Storage
+- name: 11-10 反重力 德国01 0.26M限 稳测 VLESS
+  type: vless
+  server: ec7a81g.de15.h1clayd.click
+  port: 443
+  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
+  udp: true
+  tls: true
+  servername: ec7a81g.de15.h1clayd.click
+  client-fingerprint: chrome
+  network: grpc
+  reality-opts:
+    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
+    short-id: 7a8e24da4eb2c1b5
+  grpc-opts:
+    grpc-service-name: 43f41cd7fee0
+- name: 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
+  type: vless
+  server: 196.199.122.2
+  port: 443
+  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 7aa271t.es1.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
+    short-id: 42426c882c5fcd41
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -290,6 +319,8 @@ proxy-groups:
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
+  - 11-10 反重力 德国01 0.26M限 稳测 VLESS
+  - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -318,6 +349,8 @@ proxy-groups:
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
+  - 11-10 反重力 德国01 0.26M限 稳测 VLESS
+  - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
