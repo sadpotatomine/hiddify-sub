@@ -215,6 +215,34 @@ proxies:
   password: 5t6i121em5lkmsmk
   udp: true
   sni: en001.zestapp778.com
+- name: 11-10 反重力 美国16 0.26M限 稳测 VLESS
+  type: vless
+  server: 104.36.69.105
+  port: 443
+  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: portal.citygrainla.com
+  client-fingerprint: firefox
+  network: raw
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: 051f20c2344a2dfd
+- name: 11-10 反重力 美国17 0.26M限 稳测 VLESS
+  type: vless
+  server: 104.225.239.235
+  port: 443
+  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: portal.citygrainla.com
+  client-fingerprint: firefox
+  network: raw
+  reality-opts:
+    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
+    short-id: 051f20c2344a2dfd
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -239,6 +267,8 @@ proxy-groups:
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-10 反重力 英国01 0.26M限 稳测 TROJAN
+  - 11-10 反重力 美国16 0.26M限 稳测 VLESS
+  - 11-10 反重力 美国17 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -264,6 +294,8 @@ proxy-groups:
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-10 反重力 英国01 0.26M限 稳测 TROJAN
+  - 11-10 反重力 美国16 0.26M限 稳测 VLESS
+  - 11-10 反重力 美国17 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
