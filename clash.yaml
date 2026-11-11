@@ -236,20 +236,6 @@ proxies:
   reality-opts:
     public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
     short-id: 051f20c2344a2dfd
-- name: 11-11 反重力 波兰02 0.26M限 稳测 VLESS
-  type: vless
-  server: 45.152.202.86
-  port: 443
-  uuid: 9f8a42c4-edd1-4d1e-a793-754b85b3e0f2
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ss-19-g1-d3a1b6919f6b.contenttransferportal.online
-  client-fingerprint: random
-  network: tcp
-  reality-opts:
-    public-key: 3WKoZ9V3OLA_QuOcqTtGurNFlrDL60LlzVvVP_EjV3c
-    short-id: 3ef49eb261f27eeb
 - name: 11-11 反重力 德国01 0.26M限 稳测 VLESS
   type: vless
   server: ec7a81g.de15.h1clayd.click
@@ -364,7 +350,6 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-10 反重力 美国16 0.26M限 稳测 VLESS
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.26M限 稳测 TROJAN
   - 11-11 反重力 瑞典01 0.26M限 稳测 VLESS
@@ -398,7 +383,6 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-10 反重力 美国16 0.26M限 稳测 VLESS
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.26M限 稳测 TROJAN
   - 11-11 反重力 瑞典01 0.26M限 稳测 VLESS
