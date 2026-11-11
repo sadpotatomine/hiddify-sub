@@ -1,7 +1,7 @@
 # 节点库维护运行报告
 
-- 批次：`batch-20261111-225935-965080-r2`
-- 报告时间（北京时间）：2026-11-11T23:13:22.991700+08:00
+- 批次：`batch-20261111-231351-314758-r3`
+- 报告时间（北京时间）：2026-11-11T23:34:57.550742+08:00
 - 状态：complete；结果：no-new
 - 异常类型：无；运行阶段：publish
 - 合格新增：0；移除：0
@@ -23,12 +23,12 @@
   },
   "screen.json": {
     "count": 200,
-    "passed": 2
+    "passed": 5
   },
   "deep.json": {
-    "count": 5,
-    "passed": 3,
-    "incomplete_downloads": 1
+    "count": 9,
+    "passed": 5,
+    "incomplete_downloads": 2
   }
 }
 ```
