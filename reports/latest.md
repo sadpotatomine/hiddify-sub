@@ -1,12 +1,12 @@
 # 节点库维护运行报告
 
-- 批次：`batch-20261112-063351-476191-r5`
-- 报告时间（北京时间）：2026-11-12T06:39:05.907828+08:00
-- 状态：complete；结果：no-new
-- 异常类型：无；运行阶段：publish
+- 批次：`batch-20261112-063930-706899-r1`
+- 报告时间（北京时间）：2026-11-12T07:00:11.205734+08:00
+- 状态：failed；结果：unknown
+- 异常类型：CalledProcessError；运行阶段：publish
 - 合格新增：0；移除：0
 - 当前节点数：31
-- 订阅远端字节校验：True
+- 订阅远端字节校验：False
 - 节点订阅内容发生变化：False
 
 运行方式：Python + sing-box，无需 AI 账号。每完成 5 轮后休息 1 小时，再继续。
@@ -23,7 +23,12 @@
   },
   "screen.json": {
     "count": 200,
-    "passed": 0
+    "passed": 2
+  },
+  "deep.json": {
+    "count": 7,
+    "passed": 6,
+    "incomplete_downloads": 0
   }
 }
 ```
