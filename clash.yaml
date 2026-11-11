@@ -221,13 +221,6 @@ proxies:
   reality-opts:
     public-key: MuQH546CBdgYVBzNU_F5fimkbQ0srHxgLKDjl1Wz2Rw
     short-id: '00000000'
-- name: 11-11 反重力 美国16 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 209.248.57.105
-  port: 8388
-  cipher: aes-256-gcm
-  password: AMok40FfaM+Ikwre16psBpVk6JHxsQZw
-  udp: true
 - name: 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   type: vless
   server: 138.124.242.46
@@ -369,7 +362,6 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-11 反重力 美国16 0.26M限 稳测 SHADOWSOCKS
   - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
@@ -404,7 +396,6 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-11 反重力 美国16 0.26M限 稳测 SHADOWSOCKS
   - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
