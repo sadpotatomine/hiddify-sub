@@ -349,6 +349,18 @@ proxies:
   servername: api-v2-6af3f40b.vmagnum.win
   client-fingerprint: safari
   network: tcp
+- name: 11-12 反重力 德国04 0.26M限 稳测 VLESS
+  type: vless
+  server: 212.113.116.181
+  port: 443
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  udp: true
+  tls: true
+  servername: de.oncloudvpn.com
+  client-fingerprint: chrome
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -383,6 +395,7 @@ proxy-groups:
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
   - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
+  - 11-12 反重力 德国04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -418,6 +431,7 @@ proxy-groups:
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
   - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
+  - 11-12 反重力 德国04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
