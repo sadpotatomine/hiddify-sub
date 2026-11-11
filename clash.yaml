@@ -236,20 +236,6 @@ proxies:
   reality-opts:
     public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
     short-id: 051f20c2344a2dfd
-- name: 11-11 反重力 德国01 0.26M限 稳测 VLESS
-  type: vless
-  server: ec7a81g.de15.h1clayd.click
-  port: 443
-  uuid: 13e6bdfd-d51b-4e57-a40e-b88784cba8bd
-  udp: true
-  tls: true
-  servername: ec7a81g.de15.h1clayd.click
-  network: grpc
-  reality-opts:
-    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-    short-id: 7a8e24da4eb2c1b5
-  grpc-opts:
-    grpc-service-name: 43f41cd7fee0
 - name: 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   type: vless
   server: 77.81.182.7
@@ -342,7 +328,6 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-10 反重力 美国16 0.26M限 稳测 VLESS
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
@@ -374,7 +359,6 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-10 反重力 美国16 0.26M限 稳测 VLESS
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
