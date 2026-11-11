@@ -193,20 +193,6 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: 42426c882c5fcd41
-- name: 11-11 反重力 IN01 0.22M限 稳测 VLESS
-  type: vless
-  server: xray-m0642ki4-silver-nebula-10.cloady.io
-  port: 443
-  uuid: bcd3798c-a56f-6bfc-b738-a17c43bd4a50
-  udp: true
-  tls: true
-  servername: xray-m0642ki4-silver-nebula-10.cloady.io
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /362b2b2c7197d648
-    headers:
-      Host: xray-m0642ki4-silver-nebula-10.cloady.io
 - name: 11-11 反重力 德国02 0.26M限 稳测 VLESS
   type: vless
   server: msk5.gacvpn.site
@@ -264,7 +250,6 @@ proxy-groups:
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 美国16 0.23M限 稳测 TROJAN
@@ -291,7 +276,6 @@ proxy-groups:
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 美国16 0.23M限 稳测 TROJAN
