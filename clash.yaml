@@ -243,17 +243,6 @@ proxies:
   reality-opts:
     public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
     short-id: 051f20c2344a2dfd
-- name: 11-11 反重力 EE01 0.26M限 稳测 VLESS
-  type: vless
-  server: 13.143.182.117
-  port: 443
-  uuid: 48bbb40c-99b2-45fc-9572-215ea2f233fb
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ee.point.cookie-line.cc
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   type: vless
   server: 45.152.202.86
@@ -357,7 +346,6 @@ proxy-groups:
   - 11-10 反重力 英国01 0.26M限 稳测 TROJAN
   - 11-10 反重力 美国16 0.26M限 稳测 VLESS
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  - 11-11 反重力 EE01 0.26M限 稳测 VLESS
   - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.26M限 稳测 TROJAN
@@ -391,7 +379,6 @@ proxy-groups:
   - 11-10 反重力 英国01 0.26M限 稳测 TROJAN
   - 11-10 反重力 美国16 0.26M限 稳测 VLESS
   - 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  - 11-11 反重力 EE01 0.26M限 稳测 VLESS
   - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.26M限 稳测 TROJAN
