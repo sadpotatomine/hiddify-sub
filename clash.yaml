@@ -179,21 +179,6 @@ proxies:
   network: raw
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 11-10 反重力 波兰01 0.26M限 稳测 VLESS
-  type: vless
-  server: 201.58.189.105
-  port: 2083
-  uuid: d7ddade6-b7a0-4cab-a910-d5d5c378d98a
-  udp: true
-  tls: true
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: B7x5bYp-YhtLeH31zYcilpKFCkGTMe3jtSECSw-bMC4
-    short-id: 8bd80253
-  grpc-opts:
-    grpc-service-name: google.storage.v2.Storage
 - name: 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   type: vless
   server: 196.199.122.2
@@ -222,20 +207,6 @@ proxies:
     path: /362b2b2c7197d648
     headers:
       Host: xray-m0642ki4-silver-nebula-10.cloady.io
-- name: 11-11 反重力 法国02 0.26M限 稳测 VLESS
-  type: vless
-  server: 3.168.218.7
-  port: 443
-  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
-  udp: true
-  tls: true
-  servername: d1aedflfr97jes.cloudfront.net
-  client-fingerprint: chrome
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: d1aedflfr97jes.cloudfront.net
 - name: 11-11 反重力 德国02 0.26M限 稳测 VLESS
   type: vless
   server: msk5.gacvpn.site
@@ -250,20 +221,6 @@ proxies:
   reality-opts:
     public-key: 8fSwTqCwJ2HWGxcTQsZs8Sx0hRk2Ru7HFdu-iLnesGg
     short-id: 53d0d0611a
-- name: 11-11 反重力 美国18 0.15M限 稳测 VLESS
-  type: vless
-  server: 88.210.37.174
-  port: 10103
-  uuid: dbf3f074-3b18-43f3-b82a-debd8c879c69
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.apple.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: _ARuUG0vgXer4ywV6w9DEfFc9Bgq1zn2mi7YAW2-rAk
-    short-id: 2e70c4b2af549ea0
 - name: 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   type: vless
   server: 7aa271t.es1.h1clayd.click
@@ -313,12 +270,9 @@ proxy-groups:
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
-  - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
-  - 11-11 反重力 法国02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
-  - 11-11 反重力 美国18 0.15M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -343,12 +297,9 @@ proxy-groups:
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
-  - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
-  - 11-11 反重力 法国02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
-  - 11-11 反重力 美国18 0.15M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
