@@ -208,19 +208,6 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: 42426c882c5fcd41
-- name: 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
-  type: vless
-  server: 77.81.182.7
-  port: 8443
-  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
-  udp: true
-  tls: true
-  servername: amp-api-edge.apps.apple.com
-  client-fingerprint: chrome
-  network: raw
-  reality-opts:
-    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
-    short-id: 974f7f8f
 - name: 11-11 反重力 IN01 0.22M限 稳测 VLESS
   type: vless
   server: xray-m0642ki4-silver-nebula-10.cloady.io
@@ -328,7 +315,6 @@ proxy-groups:
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 法国02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
@@ -359,7 +345,6 @@ proxy-groups:
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 法国02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
