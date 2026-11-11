@@ -338,6 +338,17 @@ proxies:
   reality-opts:
     public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
     short-id: 7f1e29593aa94ad1
+- name: 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
+  type: vless
+  server: 196.240.125.6
+  port: 8443
+  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: api-v2-6af3f40b.vmagnum.win
+  client-fingerprint: safari
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -371,6 +382,7 @@ proxy-groups:
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
   - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -405,6 +417,7 @@ proxy-groups:
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
   - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
