@@ -289,6 +289,48 @@ proxies:
   password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
   udp: true
   sni: resources.searchnationwidecareerchangehelperandguidancetoday.com
+- name: 11-11 反重力 瑞典01 0.26M限 稳测 VLESS
+  type: vless
+  server: 136.148.213.138
+  port: 443
+  uuid: 1c293216-de4c-42bb-8af4-711be19f94f2
+  udp: true
+  tls: true
+  servername: 362c1eg.se2.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY
+    short-id: bee802ae4ab66496
+  grpc-opts:
+    grpc-service-name: ''
+- name: 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
+  type: vless
+  server: 77.81.182.7
+  port: 8443
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  udp: true
+  tls: true
+  servername: amp-api-edge.apps.apple.com
+  client-fingerprint: chrome
+  network: raw
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: 974f7f8f
+- name: 11-11 反重力 IN01 0.22M限 稳测 VLESS
+  type: vless
+  server: xray-m0642ki4-silver-nebula-10.cloady.io
+  port: 443
+  uuid: bcd3798c-a56f-6bfc-b738-a17c43bd4a50
+  udp: true
+  tls: true
+  servername: xray-m0642ki4-silver-nebula-10.cloady.io
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /362b2b2c7197d648
+    headers:
+      Host: xray-m0642ki4-silver-nebula-10.cloady.io
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -319,6 +361,9 @@ proxy-groups:
   - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.26M限 稳测 TROJAN
+  - 11-11 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
+  - 11-11 反重力 IN01 0.22M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -350,6 +395,9 @@ proxy-groups:
   - 11-11 反重力 波兰02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.26M限 稳测 TROJAN
+  - 11-11 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
+  - 11-11 反重力 IN01 0.22M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
