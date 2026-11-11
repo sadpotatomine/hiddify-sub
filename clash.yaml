@@ -291,6 +291,20 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: 42426c882c5fcd41
+- name: 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
+  type: vless
+  server: zfapi.zalolink.com
+  port: 41295
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.lamer.com.sg
+  client-fingerprint: safari
+  network: tcp
+  reality-opts:
+    public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
+    short-id: 5895914d
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -320,6 +334,7 @@ proxy-groups:
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.15M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
+  - 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -350,6 +365,7 @@ proxy-groups:
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.15M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
+  - 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
