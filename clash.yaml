@@ -249,6 +249,13 @@ proxies:
   reality-opts:
     public-key: x1nqrSzJzU5Hq7fr36PEmtBfOf98A2XiFuRzIsdcz20
     short-id: 5895914d
+- name: 11-11 反重力 美国16 0.23M限 稳测 TROJAN
+  type: trojan
+  server: us007.zestapp778.com
+  port: 42314
+  password: 5t6i121em5lkmsmk
+  udp: true
+  sni: us007.zestapp778.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -275,6 +282,7 @@ proxy-groups:
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 11-11 反重力 美国16 0.23M限 稳测 TROJAN
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -302,6 +310,7 @@ proxy-groups:
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 新加坡01 0.26M限 稳测 VLESS
+  - 11-11 反重力 美国16 0.23M限 稳测 TROJAN
 - name: 🐟 漏网之鱼
   type: select
   proxies:
