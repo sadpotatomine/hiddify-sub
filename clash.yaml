@@ -272,6 +272,18 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: qi8ws15c7jv5q2fa
+- name: 11-12 反重力 法国03 0.26M限 稳测 VLESS
+  type: vless
+  server: 200.102.183.57
+  port: 80
+  uuid: 664f65f4-33b3-43a3-b9e5-68192d1d428e
+  udp: true
+  tls: true
+  servername: 68r2nrw6avta71yq.cdn.cachefleet.com
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: qi8ws15c7jv5q2fa
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -301,6 +313,7 @@ proxy-groups:
   - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
+  - 11-12 反重力 法国03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -331,6 +344,7 @@ proxy-groups:
   - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
+  - 11-12 反重力 法国03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
