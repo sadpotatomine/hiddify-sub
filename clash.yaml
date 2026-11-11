@@ -325,6 +325,20 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: a9w9wmko0k2od14hv8v
+- name: 11-11 反重力 法国02 0.26M限 稳测 VLESS
+  type: vless
+  server: 3.168.218.7
+  port: 443
+  uuid: 67cd3349-f789-4cbb-8b91-4b6b1654ce7c
+  udp: true
+  tls: true
+  servername: d1aedflfr97jes.cloudfront.net
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: d1aedflfr97jes.cloudfront.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -357,6 +371,7 @@ proxy-groups:
   - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
+  - 11-11 反重力 法国02 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -390,6 +405,7 @@ proxy-groups:
   - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
   - 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
+  - 11-11 反重力 法国02 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
