@@ -284,6 +284,21 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: qi8ws15c7jv5q2fa
+- name: 11-12 反重力 荷兰01 0.25M限 稳测 VLESS
+  type: vless
+  server: 196.245.153.156
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 961ec0g.nl17.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: xn7KVKS5MOnsFrYrEeRS04JssBCOxh12rxegaDFyGkA
+    short-id: 6d289ff0f47c0aac
+  grpc-opts:
+    grpc-service-name: 7d5abcd7d8a1
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -314,6 +329,7 @@ proxy-groups:
   - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
   - 11-12 反重力 法国03 0.26M限 稳测 VLESS
+  - 11-12 反重力 荷兰01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -345,6 +361,7 @@ proxy-groups:
   - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
   - 11-12 反重力 法国03 0.26M限 稳测 VLESS
+  - 11-12 反重力 荷兰01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
