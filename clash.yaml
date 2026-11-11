@@ -331,6 +331,20 @@ proxies:
   servername: api-6af3f40b.adhil.uk
   client-fingerprint: firefox
   network: tcp
+- name: 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
+  type: vless
+  server: 94.183.234.245
+  port: 443
+  uuid: 5de0c218-0138-45d8-94d2-c2c3f37a1a6d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: www.bing.com
+  client-fingerprint: qq
+  network: tcp
+  reality-opts:
+    public-key: tfFzmbVByvoZxxIEUiHMv22_k0-nQz00L0XjU0bd_Fc
+    short-id: 7f1e29593aa94ad1
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -364,6 +378,7 @@ proxy-groups:
   - 11-12 反重力 德国03 0.26M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
+  - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -398,6 +413,7 @@ proxy-groups:
   - 11-12 反重力 德国03 0.26M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
+  - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
