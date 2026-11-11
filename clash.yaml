@@ -208,34 +208,6 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: 42426c882c5fcd41
-- name: 11-10 反重力 美国16 0.26M限 稳测 VLESS
-  type: vless
-  server: 104.36.69.105
-  port: 443
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: portal.citygrainla.com
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
-- name: 11-10 反重力 美国17 0.26M限 稳测 VLESS
-  type: vless
-  server: 104.225.239.235
-  port: 443
-  uuid: 4dbf1ade-33f1-40dc-9273-e51babd570fe
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: portal.citygrainla.com
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE
-    short-id: 051f20c2344a2dfd
 - name: 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   type: vless
   server: 77.81.182.7
@@ -263,18 +235,6 @@ proxies:
     path: /362b2b2c7197d648
     headers:
       Host: xray-m0642ki4-silver-nebula-10.cloady.io
-- name: 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
-  type: vless
-  server: 5.83.129.236
-  port: 443
-  uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984
-  udp: true
-  tls: true
-  servername: host-de-upscale.cdn.cachefleet.com
-  client-fingerprint: chrome
-  network: grpc
-  grpc-opts:
-    grpc-service-name: a9w9wmko0k2od14hv8v
 - name: 11-11 反重力 法国02 0.26M限 稳测 VLESS
   type: vless
   server: 3.168.218.7
@@ -340,11 +300,8 @@ proxy-groups:
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-10 反重力 美国16 0.26M限 稳测 VLESS
-  - 11-10 反重力 美国17 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
-  - 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
   - 11-11 反重力 法国02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.15M限 稳测 VLESS
@@ -372,11 +329,8 @@ proxy-groups:
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-10 反重力 美国16 0.26M限 稳测 VLESS
-  - 11-10 反重力 美国17 0.26M限 稳测 VLESS
   - 11-11 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-11 反重力 IN01 0.22M限 稳测 VLESS
-  - 11-11 反重力 荷兰01 0.25M限 稳测 VLESS
   - 11-11 反重力 法国02 0.26M限 稳测 VLESS
   - 11-11 反重力 德国02 0.26M限 稳测 VLESS
   - 11-11 反重力 美国18 0.15M限 稳测 VLESS
