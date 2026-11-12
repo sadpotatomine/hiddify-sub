@@ -223,21 +223,6 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
-- name: 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: 9.247.54.228
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 717252g.nl8.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: d3bd772514c87d28
-  grpc-opts:
-    grpc-service-name: 204adda7e3da
 - name: 11-13 反重力 美国19 0.26M限 稳测 VLESS
   type: vless
   server: 179.254.92.190
@@ -373,7 +358,6 @@ proxy-groups:
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
-  - 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-13 反重力 美国19 0.26M限 稳测 VLESS
   - 11-13 反重力 美国20 0.17M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
@@ -407,7 +391,6 @@ proxy-groups:
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
-  - 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
   - 11-13 反重力 美国19 0.26M限 稳测 VLESS
   - 11-13 反重力 美国20 0.17M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
