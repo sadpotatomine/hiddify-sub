@@ -233,19 +233,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: connect-pl
-- name: 11-12 反重力 美国17 0.21M限 稳测 VLESS
-  type: vless
-  server: 35.212.243.76
-  port: 443
-  uuid: fdd162f9-1393-4229-a31c-ec5263b918ad
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: dl.google.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: x1ql3ShHUiyfMiA9_49FPY7ZV5Oqw2LcZPI9CUIlQQg
 - name: 11-12 反重力 法国02 0.26M限 稳测 VLESS
   type: vless
   server: 200.102.183.50
@@ -285,19 +272,6 @@ proxies:
     short-id: 6d289ff0f47c0aac
   grpc-opts:
     grpc-service-name: 7d5abcd7d8a1
-- name: 11-12 反重力 德国03 0.26M限 稳测 VLESS
-  type: vless
-  server: s1.berluno.ir
-  port: 1155
-  uuid: 4e55449f-dcdd-41b4-a31e-dad1e3d420db
-  udp: true
-  tls: true
-  servername: tgju.org
-  client-fingerprint: edge
-  network: tcp
-  reality-opts:
-    public-key: o6UTWdONnTOvDOWmhfxXUoeOEtlw7VUkoAWkmOk_FWI
-    short-id: 4e4aaad65cc07da8
 - name: 11-12 反重力 美国18 0.25M限 稳测 VLESS
   type: vless
   server: 196.245.52.187
@@ -401,11 +375,9 @@ proxy-groups:
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
-  - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
   - 11-12 反重力 法国03 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰01 0.25M限 稳测 VLESS
-  - 11-12 反重力 德国03 0.26M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
   - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
@@ -438,11 +410,9 @@ proxy-groups:
   - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
   - 11-11 反重力 德国01 0.26M限 稳测 VLESS
   - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
-  - 11-12 反重力 美国17 0.21M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
   - 11-12 反重力 法国03 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰01 0.25M限 稳测 VLESS
-  - 11-12 反重力 德国03 0.26M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 EE01 0.07M限 稳测 VLESS
   - 11-12 反重力 瑞典01 0.26M限 稳测 VLESS
