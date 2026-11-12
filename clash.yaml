@@ -351,6 +351,48 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
+- name: 11-12 反重力 拉脱维亚01 0.21M限 稳测 VLESS
+  type: vless
+  server: 31.42.120.3
+  port: 443
+  uuid: e9e44c8f-44e1-450f-806d-f0dca6d7dc95
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: lv-rix3.probe.geomyip.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: fs9MtVb3_vCzH5k_BG6c55J3yYA6ZOJ9XCM_zsUmZy0
+    short-id: 90ccb43f88cc0cb5
+- name: 11-12 反重力 BG01 0.25M限 稳测 VLESS
+  type: vless
+  server: 95.135.228.4
+  port: 443
+  uuid: e9e44c8f-44e1-450f-806d-f0dca6d7dc95
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ua-iev.probe.geomyip.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: s0mjVjM1NTDiLYzVWHrdcSEsbJGikDXGzfLezRuJyT4
+    short-id: 0170fd1d861899a2
+- name: 11-12 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  type: vless
+  server: 151.242.191.38
+  port: 443
+  uuid: e9e44c8f-44e1-450f-806d-f0dca6d7dc95
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ro-buh2.probe.geomyip.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: ibEiqFKpsoNZtgpVXkyxAOPFNF5lxAGz1IgliDInyAM
+    short-id: b2ed53d7cc3b3940
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -385,6 +427,9 @@ proxy-groups:
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
+  - 11-12 反重力 拉脱维亚01 0.21M限 稳测 VLESS
+  - 11-12 反重力 BG01 0.25M限 稳测 VLESS
+  - 11-12 反重力 罗马尼亚01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -420,6 +465,9 @@ proxy-groups:
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
+  - 11-12 反重力 拉脱维亚01 0.21M限 稳测 VLESS
+  - 11-12 反重力 BG01 0.25M限 稳测 VLESS
+  - 11-12 反重力 罗马尼亚01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
