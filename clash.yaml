@@ -306,6 +306,20 @@ proxies:
     path: /api/de3/live
     headers:
       Host: cryptoventura.online
+- name: 11-13 反重力 德国06 0.26M限 稳测 VLESS
+  type: vless
+  server: 188.225.37.43
+  port: 443
+  uuid: 4cabcd59-a405-4c00-96f5-03507e1e28fa
+  udp: true
+  tls: true
+  servername: torvani.cyou
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /api/boards/live
+    headers:
+      Host: torvani.cyou
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -336,6 +350,7 @@ proxy-groups:
   - 11-13 反重力 美国20 0.17M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国05 0.26M限 稳测 VLESS
+  - 11-13 反重力 德国06 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -367,6 +382,7 @@ proxy-groups:
   - 11-13 反重力 美国20 0.17M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国05 0.26M限 稳测 VLESS
+  - 11-13 反重力 德国06 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
