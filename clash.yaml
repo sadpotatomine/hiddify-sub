@@ -193,32 +193,6 @@ proxies:
   reality-opts:
     public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
     short-id: 42426c882c5fcd41
-- name: 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
-  type: vless
-  server: 7aa271t.es1.h1clayd.click
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
-- name: 11-11 反重力 波兰01 0.24M限 稳测 VLESS
-  type: vless
-  server: 138.124.242.46
-  port: 8443
-  uuid: 3f5e89d5-591f-4ac9-b071-b05680b573c3
-  udp: true
-  tls: true
-  servername: pl2-edge.gacvpn.site
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: connect-pl
 - name: 11-12 反重力 法国02 0.26M限 稳测 VLESS
   type: vless
   server: 200.102.183.50
@@ -246,28 +220,6 @@ proxies:
     short-id: bd8f712209a9c283
   grpc-opts:
     grpc-service-name: 99f2107b03f8
-- name: 11-12 反重力 EE01 0.07M限 稳测 VLESS
-  type: vless
-  server: 165.231.157.124
-  port: 8443
-  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: api-6af3f40b.adhil.uk
-  client-fingerprint: firefox
-  network: tcp
-- name: 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
-  type: vless
-  server: 196.240.125.6
-  port: 8443
-  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: api-v2-6af3f40b.vmagnum.win
-  client-fingerprint: safari
-  network: tcp
 - name: 11-12 反重力 德国04 0.26M限 稳测 VLESS
   type: vless
   server: 212.113.116.181
@@ -374,12 +326,8 @@ proxy-groups:
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
-  - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
-  - 11-12 反重力 EE01 0.07M限 稳测 VLESS
-  - 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
@@ -409,12 +357,8 @@ proxy-groups:
   - 11-09 反重力 T101 0.26M限 稳测 TROJAN
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  - 11-11 反重力 西班牙03 0.20M限 稳测 VLESS
-  - 11-11 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-12 反重力 法国02 0.26M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
-  - 11-12 反重力 EE01 0.07M限 稳测 VLESS
-  - 11-12 反重力 荷兰02 0.07M限 稳测 VLESS
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰04 0.26M限 稳测 VLESS
