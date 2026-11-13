@@ -211,20 +211,6 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
-- name: 11-13 反重力 美国19 0.26M限 稳测 VLESS
-  type: vless
-  server: 179.254.92.190
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: assets-32.topp-con.xyz
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: 66-TFe0f5ub9A27G6hLPLm-KRZ4LGixHi8IA_Nv7jVM
-    short-id: 81d36ba71dddfc3e
 - name: 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   type: vless
   server: 196.245.52.183
@@ -267,20 +253,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-13 反重力 荷兰09 0.26M限 稳测 VLESS
-  type: vless
-  server: 31.77.28.83
-  port: 443
-  uuid: 6c8e3705-809e-4ca8-ae10-fe2ae2fa9859
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl3.soshelper.space
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
-    short-id: 6562cf617728186e
 - name: 11-13 反重力 EE01 0.26M限 稳测 VLESS
   type: vless
   server: 5.129.202.80
@@ -295,20 +267,6 @@ proxies:
   reality-opts:
     public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
     short-id: 2ef2b10d5143d798
-- name: 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
-  type: vless
-  server: 31.77.28.173
-  port: 443
-  uuid: 6c8e3705-809e-4ca8-ae10-fe2ae2fa9859
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl4.soshelper.space
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
-    short-id: e06e30590f288e0f
 - name: 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   type: vless
   server: 178.214.125.1
@@ -336,20 +294,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
-  type: vless
-  server: 31.77.28.68
-  port: 443
-  uuid: 6c8e3705-809e-4ca8-ae10-fe2ae2fa9859
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: nl2.soshelper.space
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
-    short-id: 6562cf617728186e
 - name: 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: 18.171.57.116
@@ -380,16 +324,12 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
-  - 11-13 反重力 美国19 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国06 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-13 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-13 反重力 EE01 0.26M限 稳测 VLESS
-  - 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
-  - 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
@@ -415,16 +355,12 @@ proxy-groups:
   - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
-  - 11-13 反重力 美国19 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国06 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-13 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-13 反重力 EE01 0.26M限 稳测 VLESS
-  - 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
-  - 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
