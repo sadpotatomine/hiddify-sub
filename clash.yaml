@@ -400,6 +400,20 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
+- name: 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
+  type: vless
+  server: 31.77.28.68
+  port: 443
+  uuid: 6c8e3705-809e-4ca8-ae10-fe2ae2fa9859
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: nl2.soshelper.space
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: mEo4kHPpRns7efJfVW1G-gDEsPag0jELFQK-HIwrvjY
+    short-id: 6562cf617728186e
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -437,6 +451,7 @@ proxy-groups:
   - 11-13 反重力 美国21 0.25M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
+  - 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -475,6 +490,7 @@ proxy-groups:
   - 11-13 反重力 美国21 0.25M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
+  - 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
