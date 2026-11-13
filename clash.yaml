@@ -294,6 +294,32 @@ proxies:
   cipher: aes-256-gcm
   password: PJirKQcyqbAiqebq4AHetGUkZuQvmT6ffwuyPFZu0ng=
   udp: true
+- name: 11-14 反重力 西班牙02 0.26M限 稳测 VLESS
+  type: vless
+  server: 9.247.174.4
+  port: 8443
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  udp: true
+  tls: true
+  servername: play.googleapis.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: 974f7f8f
+- name: 11-14 反重力 西班牙03 0.26M限 稳测 VLESS
+  type: vless
+  server: 9.247.174.134
+  port: 8443
+  uuid: 585a421d-d782-4420-912e-dd58ff5966d7
+  udp: true
+  tls: true
+  servername: play.googleapis.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 7jPluypHwPilf_Mq7JOY96SwKkbK35WuIlN1HwGQ_0A
+    short-id: 974f7f8f
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -324,6 +350,8 @@ proxy-groups:
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   - 11-13 反重力 英国01 0.17M限 稳测 SHADOWSOCKS
+  - 11-14 反重力 西班牙02 0.26M限 稳测 VLESS
+  - 11-14 反重力 西班牙03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -355,6 +383,8 @@ proxy-groups:
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   - 11-13 反重力 英国01 0.17M限 稳测 SHADOWSOCKS
+  - 11-14 反重力 西班牙02 0.26M限 稳测 VLESS
+  - 11-14 反重力 西班牙03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
