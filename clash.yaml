@@ -348,6 +348,18 @@ proxies:
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: e06e30590f288e0f
+- name: 11-13 反重力 BG01 0.26M限 稳测 VLESS
+  type: vless
+  server: 88.80.150.15
+  port: 443
+  uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d
+  udp: true
+  tls: true
+  servername: bg2.oncloudvpn.com
+  client-fingerprint: edge
+  network: grpc
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -381,6 +393,7 @@ proxy-groups:
   - 11-13 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-13 反重力 EE01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
+  - 11-13 反重力 BG01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -415,6 +428,7 @@ proxy-groups:
   - 11-13 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-13 反重力 EE01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
+  - 11-13 反重力 BG01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
