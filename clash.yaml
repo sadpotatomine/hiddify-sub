@@ -308,6 +308,20 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
+- name: 11-13 反重力 波兰01 0.16M限 稳测 VLESS
+  type: vless
+  server: 81.90.20.203
+  port: 443
+  uuid: f37d32d0-ca5a-464f-8c32-92dc33f71408
+  udp: true
+  tls: true
+  servername: instance-103.nolimited.space
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: qVU44SZtoG7cKR3ZCg4Ipf5rPefL5cbrto2OpzZNoU8
+  grpc-opts:
+    grpc-service-name: ''
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -339,6 +353,7 @@ proxy-groups:
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   - 11-13 反重力 德国08 0.26M限 稳测 SHADOWSOCKS
+  - 11-13 反重力 波兰01 0.16M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -371,6 +386,7 @@ proxy-groups:
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-13 反重力 德国07 0.26M限 稳测 SHADOWSOCKS
   - 11-13 反重力 德国08 0.26M限 稳测 SHADOWSOCKS
+  - 11-13 反重力 波兰01 0.16M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
