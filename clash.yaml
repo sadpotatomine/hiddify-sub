@@ -253,20 +253,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-13 反重力 EE01 0.26M限 稳测 VLESS
-  type: vless
-  server: 5.129.202.80
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: mirror-50.topp-con.xyz
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: NY2bvH4IFKTstWkBWwyU5MmlzuKk0nU08cBoHlti2S8
-    short-id: 2ef2b10d5143d798
 - name: 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   type: vless
   server: 178.214.125.1
@@ -294,13 +280,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-13 反重力 德国08 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 18.196.82.94
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
 - name: 11-13 反重力 波兰01 0.16M限 稳测 VLESS
   type: vless
   server: 81.90.20.203
@@ -341,10 +320,8 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国06 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-13 反重力 EE01 0.26M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
-  - 11-13 反重力 德国08 0.26M限 稳测 SHADOWSOCKS
   - 11-13 反重力 波兰01 0.16M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -373,10 +350,8 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国06 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-13 反重力 EE01 0.26M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
-  - 11-13 反重力 德国08 0.26M限 稳测 SHADOWSOCKS
   - 11-13 反重力 波兰01 0.16M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
