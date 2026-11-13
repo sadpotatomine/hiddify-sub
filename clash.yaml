@@ -237,19 +237,6 @@ proxies:
   reality-opts:
     public-key: 66-TFe0f5ub9A27G6hLPLm-KRZ4LGixHi8IA_Nv7jVM
     short-id: 81d36ba71dddfc3e
-- name: 11-13 反重力 美国20 0.17M限 稳测 VLESS
-  type: vless
-  server: 192.177.26.55
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: repo-16.topp-con.xyz
-  network: tcp
-  reality-opts:
-    public-key: cC6kqzQ1mdCXyPey8xRXS7TQ1S4kF3nJW-h1ItJ4SH8
-    short-id: bdaddda4cbc8c7bf
 - name: 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   type: vless
   server: 196.245.52.183
@@ -346,19 +333,6 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: grpc
-- name: 11-13 反重力 美国21 0.25M限 稳测 VLESS
-  type: vless
-  server: 198.247.127.131
-  port: 443
-  uuid: 59548d2d-5d7c-4328-aa81-0d5614da0c1b
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: addons.mozilla.org
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: vmHHRwA9ER6c8dfgtL-gh2HBMCvjySy1xLimqYpLiCI
 - name: 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   type: vless
   server: 178.214.125.1
@@ -425,7 +399,6 @@ proxy-groups:
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
   - 11-13 反重力 美国19 0.26M限 稳测 VLESS
-  - 11-13 反重力 美国20 0.17M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国06 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰08 0.26M限 稳测 VLESS
@@ -433,7 +406,6 @@ proxy-groups:
   - 11-13 反重力 EE01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
   - 11-13 反重力 BG01 0.26M限 稳测 VLESS
-  - 11-13 反重力 美国21 0.25M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
@@ -463,7 +435,6 @@ proxy-groups:
   - 11-12 反重力 德国04 0.26M限 稳测 VLESS
   - 11-12 反重力 荷兰03 0.26M限 稳测 VLESS
   - 11-13 反重力 美国19 0.26M限 稳测 VLESS
-  - 11-13 反重力 美国20 0.17M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-13 反重力 德国06 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰08 0.26M限 稳测 VLESS
@@ -471,7 +442,6 @@ proxy-groups:
   - 11-13 反重力 EE01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰10 0.23M限 稳测 VLESS
   - 11-13 反重力 BG01 0.26M限 稳测 VLESS
-  - 11-13 反重力 美国21 0.25M限 稳测 VLESS
   - 11-13 反重力 芬兰01 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-13 反重力 荷兰12 0.26M限 稳测 VLESS
