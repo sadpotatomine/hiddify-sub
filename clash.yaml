@@ -302,6 +302,19 @@ proxies:
   reality-opts:
     public-key: 7zJHKYqVaw2u6BYRA3E4zXJy4bn2uAhD7XeaWvOgiT0
     short-id: e5b53356316d2a93
+- name: 11-14 反重力 美国21 0.26M限 稳测 VLESS
+  type: vless
+  server: 27septgerm.site
+  port: 444
+  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 27septgerm.site
+  client-fingerprint: qq
+  network: tcp
+  reality-opts:
+    public-key: aHxzHc7w0r_8X8mdx1XCyg2ooRLjcOQMOuscdAQPrEo
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -332,6 +345,7 @@ proxy-groups:
   - 11-14 反重力 美国19 0.24M限 稳测 VLESS
   - 11-14 反重力 美国20 0.23M限 稳测 VLESS
   - 11-14 反重力 英国01 0.26M限 稳测 VLESS
+  - 11-14 反重力 美国21 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -363,6 +377,7 @@ proxy-groups:
   - 11-14 反重力 美国19 0.24M限 稳测 VLESS
   - 11-14 反重力 美国20 0.23M限 稳测 VLESS
   - 11-14 反重力 英国01 0.26M限 稳测 VLESS
+  - 11-14 反重力 美国21 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
