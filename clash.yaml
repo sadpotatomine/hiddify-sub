@@ -270,6 +270,21 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 11-15 反重力 德国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 200.165.236.84
+  port: 443
+  uuid: a54c6d0b-56d8-4bb8-a4af-8c5a7f0c0b34
+  udp: true
+  tls: true
+  servername: yandex.ru
+  client-fingerprint: safari
+  network: grpc
+  reality-opts:
+    public-key: WerkLBuzReJqDK23pG8dd7JPLBcu2rVhUfBR52D4um0
+    short-id: 05c656ffd118ce13
+  grpc-opts:
+    grpc-service-name: api
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -297,6 +312,7 @@ proxy-groups:
   - 11-14 反重力 波兰02 0.25M限 稳测 VLESS
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
+  - 11-15 反重力 德国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -325,6 +341,7 @@ proxy-groups:
   - 11-14 反重力 波兰02 0.25M限 稳测 VLESS
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
+  - 11-15 反重力 德国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
