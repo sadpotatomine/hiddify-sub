@@ -260,21 +260,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 11-14 反重力 德国04 0.26M限 稳测 VLESS
-  type: vless
-  server: 46.229.253.201
-  port: 8443
-  uuid: e45c1654-9184-40c7-b68b-2929ce2a0a89
-  udp: true
-  tls: true
-  servername: goal-feed.russsport.life
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: fm_XBtJlFXwK11qv_yfMKXEzT3kpMjUR8b5bXI_14Bs
-    short-id: 6d
-  grpc-opts:
-    grpc-service-name: download
 - name: 11-14 反重力 美国19 0.24M限 稳测 VLESS
   type: vless
   server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
@@ -344,7 +329,6 @@ proxy-groups:
   - 11-14 反重力 德国02 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-14 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-14 反重力 德国04 0.26M限 稳测 VLESS
   - 11-14 反重力 美国19 0.24M限 稳测 VLESS
   - 11-14 反重力 美国20 0.23M限 稳测 VLESS
   - 11-14 反重力 英国01 0.26M限 稳测 VLESS
@@ -376,7 +360,6 @@ proxy-groups:
   - 11-14 反重力 德国02 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-14 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-14 反重力 德国04 0.26M限 稳测 VLESS
   - 11-14 反重力 美国19 0.24M限 稳测 VLESS
   - 11-14 反重力 美国20 0.23M限 稳测 VLESS
   - 11-14 反重力 英国01 0.26M限 稳测 VLESS
