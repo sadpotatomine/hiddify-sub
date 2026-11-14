@@ -323,6 +323,73 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: wn-adaptcloud
+- name: 11-15 反重力 德国02 0.26M限 稳测 VLESS
+  type: vless
+  server: 5.231.45.196
+  port: 443
+  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: images.porsche.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+- name: 11-15 反重力 荷兰09 0.26M限 稳测 VLESS
+  type: vless
+  server: 89.248.65.152
+  port: 443
+  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: images.porsche.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
+- name: 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
+  type: vless
+  server: 132.243.163.89
+  port: 443
+  uuid: 632cd343-1e8f-4bf6-a9a2-20ada1f6970f
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 3fb2b6t.se1.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: XQWaIMBPo0mpWs3MooxxkjWNSgxnkIESd_2PnR8_2HA
+    short-id: 1061f1b1cdaad3ad
+- name: 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
+  type: vless
+  server: 196.240.125.250
+  port: 8443
+  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: api-v1-6af87527.vmagnum.win
+  client-fingerprint: firefox
+  network: tcp
+- name: 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
+  type: vless
+  server: 13.143.176.250
+  port: 443
+  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: images.porsche.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
+    short-id: 1a2b3c4d
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -354,6 +421,11 @@ proxy-groups:
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS
   - 11-15 反重力 VN01 0.26M限 稳测 VLESS
   - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
+  - 11-15 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰09 0.26M限 稳测 VLESS
+  - 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
+  - 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -386,6 +458,11 @@ proxy-groups:
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS
   - 11-15 反重力 VN01 0.26M限 稳测 VLESS
   - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
+  - 11-15 反重力 德国02 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰09 0.26M限 稳测 VLESS
+  - 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
+  - 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
