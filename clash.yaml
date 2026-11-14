@@ -325,6 +325,18 @@ proxies:
   reality-opts:
     public-key: UuXUXzPnZM8IY-D5bQPy4iBIzEpK4PJFEOJzeObISRA
     short-id: 4710d669
+- name: 11-15 反重力 波兰04 0.26M限 稳测 VLESS
+  type: vless
+  server: 185.86.145.55
+  port: 10470
+  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
+  udp: true
+  tls: true
+  servername: wn-pl4.static-s3.org
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: wn-adaptcloud
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -356,6 +368,7 @@ proxy-groups:
   - 11-15 反重力 波兰03 0.26M限 稳测 VLESS
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS
   - 11-15 反重力 VN01 0.26M限 稳测 VLESS
+  - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -388,6 +401,7 @@ proxy-groups:
   - 11-15 反重力 波兰03 0.26M限 稳测 VLESS
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS
   - 11-15 反重力 VN01 0.26M限 稳测 VLESS
+  - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
