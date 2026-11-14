@@ -266,6 +266,21 @@ proxies:
     short-id: bd8f712209a9c283
   grpc-opts:
     grpc-service-name: 99f2107b03f8
+- name: 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
+  type: vless
+  server: 194.58.60.221
+  port: 443
+  uuid: bbbc1b48-9539-4300-acab-25cea65b533c
+  udp: true
+  tls: true
+  servername: node43.lmdscdn.ru
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: PVlnR_I9tZ8hKhOHW6ySpSofhsaShcBQ_JV2-0TePVA
+    short-id: db711de5e3ca0a68
+  grpc-opts:
+    grpc-service-name: livestreamcontent
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -293,6 +308,7 @@ proxy-groups:
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
+  - 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -321,6 +337,7 @@ proxy-groups:
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
+  - 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
