@@ -239,48 +239,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-14 反重力 美国19 0.24M限 稳测 VLESS
-  type: vless
-  server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
-  port: 37363
-  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fastcdn.hoyoverse.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: 7ZoIIHoMoH_hhPIOQcHC9hwYc7S_m5caK-rpDXmhY2g
-    short-id: d0dc35bffc929a
-- name: 11-14 反重力 美国20 0.23M限 稳测 VLESS
-  type: vless
-  server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
-  port: 31237
-  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fastcdn.hoyoverse.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: LhSYpu-xIL_xCYBc9D_dVldm4Mto7rq-ZUk5O_d7uTY
-    short-id: 1b494b33ce630d
-- name: 11-14 反重力 英国01 0.26M限 稳测 VLESS
-  type: vless
-  server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
-  port: 20894
-  uuid: dee59b19-a32f-4d35-b1ee-3708e7d06efc
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: fastcdn.hoyoverse.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: 7zJHKYqVaw2u6BYRA3E4zXJy4bn2uAhD7XeaWvOgiT0
-    short-id: e5b53356316d2a93
 - name: 11-14 反重力 美国21 0.26M限 稳测 VLESS
   type: vless
   server: 27septgerm.site
@@ -319,9 +277,6 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-14 反重力 美国19 0.24M限 稳测 VLESS
-  - 11-14 反重力 美国20 0.23M限 稳测 VLESS
-  - 11-14 反重力 英国01 0.26M限 稳测 VLESS
   - 11-14 反重力 美国21 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -349,9 +304,6 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-14 反重力 美国19 0.24M限 稳测 VLESS
-  - 11-14 反重力 美国20 0.23M限 稳测 VLESS
-  - 11-14 反重力 英国01 0.26M限 稳测 VLESS
   - 11-14 反重力 美国21 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
