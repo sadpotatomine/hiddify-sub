@@ -253,6 +253,38 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: wn-adaptcloud
+- name: 11-15 反重力 美国23 0.26M限 稳测 VLESS
+  type: vless
+  server: 172.239.67.142
+  port: 443
+  uuid: b0d814b5-7232-4fe9-9ce9-e552c9abbae8
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  network: ws
+  reality-opts:
+    public-key: Knpni0SBmL6d1nGWtqmHRDsOQvQxcD2Wd0eOf2KZtgs
+    short-id: ba356a45
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-15 反重力 日本01 0.25M限 稳测 VLESS
+  type: vless
+  server: 139.162.125.126
+  port: 443
+  uuid: eb6cf336-03bd-4dac-9f2a-3e456389279e
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  network: ws
+  reality-opts:
+    public-key: mMLchVbQzhQ2bGV6wkg1LP5Q7eqL2hCVHHMT0B03dwg
+    short-id: bd6e3e70
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -279,6 +311,8 @@ proxy-groups:
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
   - 11-14 反重力 波兰02 0.25M限 稳测 VLESS
+  - 11-15 反重力 美国23 0.26M限 稳测 VLESS
+  - 11-15 反重力 日本01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -306,6 +340,8 @@ proxy-groups:
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
   - 11-14 反重力 波兰02 0.25M限 稳测 VLESS
+  - 11-15 反重力 美国23 0.26M限 稳测 VLESS
+  - 11-15 反重力 日本01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
