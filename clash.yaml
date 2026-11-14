@@ -239,19 +239,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-14 反重力 美国21 0.26M限 稳测 VLESS
-  type: vless
-  server: 27septgerm.site
-  port: 444
-  uuid: 50a87e21-f0e2-4b53-a787-91adfe748f63
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: 27septgerm.site
-  client-fingerprint: qq
-  network: tcp
-  reality-opts:
-    public-key: aHxzHc7w0r_8X8mdx1XCyg2ooRLjcOQMOuscdAQPrEo
 - name: 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   type: vless
   server: 153.52.144.19
@@ -304,7 +291,6 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-14 反重力 美国21 0.26M限 稳测 VLESS
   - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -333,7 +319,6 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-14 反重力 美国21 0.26M限 稳测 VLESS
   - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
