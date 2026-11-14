@@ -252,6 +252,18 @@ proxies:
   network: tcp
   reality-opts:
     public-key: aHxzHc7w0r_8X8mdx1XCyg2ooRLjcOQMOuscdAQPrEo
+- name: 11-14 反重力 波兰01 0.25M限 稳测 VLESS
+  type: vless
+  server: 153.52.144.19
+  port: 443
+  uuid: 88c5f281-c2ab-49f7-b890-44a3cf174b60
+  udp: true
+  tls: true
+  servername: ihve79xkucduq9e.hat.onl
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: v1.segment.UyktTezxTgNzL5fx.ts
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -278,6 +290,7 @@ proxy-groups:
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-14 反重力 美国21 0.26M限 稳测 VLESS
+  - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -305,6 +318,7 @@ proxy-groups:
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-14 反重力 美国21 0.26M限 稳测 VLESS
+  - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
