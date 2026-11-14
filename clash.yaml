@@ -285,6 +285,20 @@ proxies:
     short-id: 05c656ffd118ce13
   grpc-opts:
     grpc-service-name: api
+- name: 11-15 反重力 波兰03 0.26M限 稳测 VLESS
+  type: vless
+  server: 191.217.211.145
+  port: 444
+  uuid: cdf4bc13-31e6-4bff-962c-05fe9151c593
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: pl1.vrsvpn.com
+  client-fingerprint: safari
+  network: tcp
+  reality-opts:
+    public-key: kwxHjH-aN-LBMcfkTs5CD0QEWpPjCJGjhSDhkuLpmAQ
+    short-id: 14ba51f812ad1f22
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -313,6 +327,7 @@ proxy-groups:
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
+  - 11-15 反重力 波兰03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -342,6 +357,7 @@ proxy-groups:
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
+  - 11-15 反重力 波兰03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
