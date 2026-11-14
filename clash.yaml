@@ -406,6 +406,19 @@ proxies:
   reality-opts:
     public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
     short-id: 1a2b3c4d
+- name: 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -443,6 +456,7 @@ proxy-groups:
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
   - 11-15 反重力 IN01 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -481,6 +495,7 @@ proxy-groups:
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
   - 11-15 反重力 IN01 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
