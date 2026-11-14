@@ -281,6 +281,18 @@ proxies:
     short-id: db711de5e3ca0a68
   grpc-opts:
     grpc-service-name: livestreamcontent
+- name: 11-14 反重力 波兰02 0.25M限 稳测 VLESS
+  type: vless
+  server: 78.159.245.177
+  port: 59715
+  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
+  udp: true
+  tls: true
+  servername: wn-pl4.static-s3.org
+  client-fingerprint: firefox
+  network: grpc
+  grpc-opts:
+    grpc-service-name: wn-adaptcloud
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -309,6 +321,7 @@ proxy-groups:
   - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
+  - 11-14 反重力 波兰02 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -338,6 +351,7 @@ proxy-groups:
   - 11-14 反重力 波兰01 0.25M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰09 0.23M限 稳测 VLESS
+  - 11-14 反重力 波兰02 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
