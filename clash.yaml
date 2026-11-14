@@ -299,6 +299,19 @@ proxies:
   reality-opts:
     public-key: kwxHjH-aN-LBMcfkTs5CD0QEWpPjCJGjhSDhkuLpmAQ
     short-id: 14ba51f812ad1f22
+- name: 11-15 反重力 EE01 0.26M限 稳测 VLESS
+  type: vless
+  server: d58daft.plp1.h1cloud.net
+  port: 443
+  uuid: bda6e235-c778-4e57-bfcd-5a9026fec8c9
+  udp: true
+  tls: true
+  servername: d58daft.plp1.h1cloud.net
+  client-fingerprint: chrome
+  network: raw
+  reality-opts:
+    public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
+    short-id: a91531ad58c8611c
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -328,6 +341,7 @@ proxy-groups:
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
   - 11-15 反重力 波兰03 0.26M限 稳测 VLESS
+  - 11-15 反重力 EE01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -358,6 +372,7 @@ proxy-groups:
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
   - 11-15 反重力 波兰03 0.26M限 稳测 VLESS
+  - 11-15 反重力 EE01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
