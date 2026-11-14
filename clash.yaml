@@ -226,20 +226,6 @@ proxies:
     short-id: 27350908de933e09
   grpc-opts:
     grpc-service-name: neurex
-- name: 11-14 反重力 德国02 0.26M限 稳测 VLESS
-  type: vless
-  server: 83.141.69.239
-  port: 443
-  uuid: 1b487f79-6b87-4971-863c-526bd31abd44
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: 83.141.69.239.sslip.io
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: vluPN5krskStuIe1YYoOopN766N8qK_uMsSsZGJdwCI
-    short-id: db71028aeb67289c
 - name: 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
   type: vless
   server: 196.196.148.85
@@ -253,13 +239,6 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
-- name: 11-14 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 47.254.143.251
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
 - name: 11-14 反重力 美国19 0.24M限 稳测 VLESS
   type: vless
   server: xjpscsgbgwlxxnzrwxgg.jiedddym.com
@@ -339,9 +318,7 @@ proxy-groups:
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 11-14 反重力 德国02 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-14 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-14 反重力 美国19 0.24M限 稳测 VLESS
   - 11-14 反重力 美国20 0.23M限 稳测 VLESS
   - 11-14 反重力 英国01 0.26M限 稳测 VLESS
@@ -371,9 +348,7 @@ proxy-groups:
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 瑞典01 0.26M限 稳测 VLESS
-  - 11-14 反重力 德国02 0.26M限 稳测 VLESS
   - 11-14 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-14 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-14 反重力 美国19 0.24M限 稳测 VLESS
   - 11-14 反重力 美国20 0.23M限 稳测 VLESS
   - 11-14 反重力 英国01 0.26M限 稳测 VLESS
