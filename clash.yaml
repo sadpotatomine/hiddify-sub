@@ -322,27 +322,6 @@ proxies:
   reality-opts:
     public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
     short-id: c33807f76b689c9a
-- name: 11-15 反重力 德国04 0.25M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 3.71.179.221
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
-- name: 11-15 反重力 德国05 0.27M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 18.175.238.57
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  udp: true
-- name: 11-15 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 3.79.47.19
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
 - name: 11-15 反重力 德国07 0.26M限 稳测 VLESS
   type: vless
   server: 153.52.85.217
@@ -371,32 +350,6 @@ proxies:
     path: /
     headers:
       Host: ir2.cryptojakiro.com
-- name: 11-15 反重力 波兰01 0.24M限 稳测 VLESS
-  type: vless
-  server: 46.243.233.165
-  port: 59715
-  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
-  udp: true
-  tls: true
-  servername: wn-pl4.static-s3.org
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: wn-adaptcloud
-- name: 11-15 反重力 智利01 0.15M限 稳测 VLESS
-  type: vless
-  server: 147.224.233.249
-  port: 63690
-  uuid: 47637b04-945c-481e-b221-03c32d10c52d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: U7t4RFE9MSMtC-o1DoJ8pYzKMfgVpTg6ZhTTknBrVkU
-    short-id: 1f2519bb96e5589c
 - name: 11-15 反重力 德国09 0.19M限 稳测 VLESS
   type: vless
   server: 153.56.228.151
@@ -454,13 +407,8 @@ proxy-groups:
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国04 0.25M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 德国05 0.27M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
   - 11-15 反重力 德国07 0.26M限 稳测 VLESS
   - 11-15 反重力 德国08 0.26M限 稳测 VLESS
-  - 11-15 反重力 波兰01 0.24M限 稳测 VLESS
-  - 11-15 反重力 智利01 0.15M限 稳测 VLESS
   - 11-15 反重力 德国09 0.19M限 稳测 VLESS
   - 11-16 反重力 德国10 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
@@ -495,13 +443,8 @@ proxy-groups:
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国04 0.25M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 德国05 0.27M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 德国06 0.23M限 稳测 SHADOWSOCKS
   - 11-15 反重力 德国07 0.26M限 稳测 VLESS
   - 11-15 反重力 德国08 0.26M限 稳测 VLESS
-  - 11-15 反重力 波兰01 0.24M限 稳测 VLESS
-  - 11-15 反重力 智利01 0.15M限 稳测 VLESS
   - 11-15 反重力 德国09 0.19M限 稳测 VLESS
   - 11-16 反重力 德国10 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
