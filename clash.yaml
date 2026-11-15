@@ -273,17 +273,6 @@ proxies:
     short-id: 05c656ffd118ce13
   grpc-opts:
     grpc-service-name: api
-- name: 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
-  type: vless
-  server: 196.240.125.250
-  port: 8443
-  uuid: 97fd7807-7e2b-49da-8a0e-e40197088f97
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: api-v1-6af87527.vmagnum.win
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-15 反重力 美国24 0.26M限 稳测 VLESS
   type: vless
   server: 162.35.38.156
@@ -435,7 +424,6 @@ proxy-groups:
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
@@ -475,7 +463,6 @@ proxy-groups:
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
