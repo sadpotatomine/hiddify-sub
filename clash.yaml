@@ -391,6 +391,20 @@ proxies:
   servername: db-28.topp-con.xyz
   client-fingerprint: firefox
   network: tcp
+- name: 11-16 反重力 德国12 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 47.254.169.3
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
+- name: 11-16 反重力 德国13 0.26M限 稳测 SHADOWSOCKS
+  type: ss
+  server: 47.254.143.251
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
+  udp: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -428,6 +442,8 @@ proxy-groups:
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-16 反重力 德国11 0.26M限 稳测 VLESS
   - 11-16 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 11-16 反重力 德国12 0.26M限 稳测 SHADOWSOCKS
+  - 11-16 反重力 德国13 0.26M限 稳测 SHADOWSOCKS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -466,6 +482,8 @@ proxy-groups:
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-16 反重力 德国11 0.26M限 稳测 VLESS
   - 11-16 反重力 芬兰01 0.26M限 稳测 VLESS
+  - 11-16 反重力 德国12 0.26M限 稳测 SHADOWSOCKS
+  - 11-16 反重力 德国13 0.26M限 稳测 SHADOWSOCKS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
