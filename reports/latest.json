@@ -1,7 +1,7 @@
 {
   "date_beijing": "2026-11-15",
-  "started_at": 1794731954.5694516,
-  "finished_at": 1794732224.584579,
+  "started_at": 1794732250.0165684,
+  "finished_at": 1794732535.5213919,
   "status": "complete",
   "phase": "publish",
   "outcome": "no-new",
@@ -12,13 +12,13 @@
   "remote_node_count": 41,
   "remote_sha256": "2599570f99b57993f930c732d75f3f1f102f11ea39b00987d5253d1c7a975f8b",
   "remote_verified": true,
-  "repo_head_before": "85332344e26ea3f6810802f5d91eecae32462742",
-  "repo_head_after": "85332344e26ea3f6810802f5d91eecae32462742",
+  "repo_head_before": "81c7cbe9254774900aa961fac5b3f28acb9b1e8c",
+  "repo_head_after": "81c7cbe9254774900aa961fac5b3f28acb9b1e8c",
   "google_https": "passed",
-  "batch": "batch-20261115-163914-452025-r3",
+  "batch": "batch-20261115-164409-895383-r4",
   "engine": "python + sing-box",
   "schedule": "5 completed rounds, then rest 1 hour; repeat",
-  "summary_generated_at": "2026-11-15T16:43:44.586585+08:00",
+  "summary_generated_at": "2026-11-15T16:48:55.523088+08:00",
   "checks": {
     "candidates.json": {
       "count": 200,
