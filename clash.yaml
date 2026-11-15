@@ -388,51 +388,6 @@ proxies:
   reality-opts:
     public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
     short-id: 4ad2e4e660550e43
-- name: 11-15 反重力 德国06 0.19M限 稳测 VLESS
-  type: vless
-  server: ec7a81g.de19.h1clayd.click
-  port: 443
-  uuid: 07df3711-07a1-4649-9a61-3f16cb931d02
-  udp: true
-  tls: true
-  servername: ec7a81g.de19.h1clayd.click
-  client-fingerprint: chrome
-  network: grpc
-  reality-opts:
-    public-key: shUbIWcBJdXaDzO80KqTU9exgMarUCOiiZ56Dwl7XVU
-    short-id: 7a8e24da4eb2c1b5
-  grpc-opts:
-    grpc-service-name: 43f41cd7fee0
-- name: 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
-  type: vless
-  server: b3cd32g.es1.h1clayd.click
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  servername: b3cd32g.es1.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: 7efBhLzPwoTtEC1GlukCdiTllobUfa2_XuAKNSLJx30
-    short-id: e7cffac9f8cfb434
-  grpc-opts:
-    grpc-service-name: ''
-- name: 11-15 反重力 罗马尼亚01 0.26M限 稳测 VLESS
-  type: vless
-  server: 85.204.107.53
-  port: 443
-  uuid: e45c1654-9184-40c7-b68b-2929ce2a0a89
-  udp: true
-  tls: true
-  servername: league-feed.russsport.life
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: MKifKIzltM4QisjoMt2mtnvOHgFPryuJxUZUtqdMZ1E
-    short-id: ed
-  grpc-opts:
-    grpc-service-name: download
 - name: 11-15 反重力 摩尔多瓦01 0.26M限 稳测 VLESS
   type: vless
   server: bundledispatch.ratethatrestaurant.org
@@ -461,21 +416,6 @@ proxies:
   reality-opts:
     public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
     short-id: c33807f76b689c9a
-- name: 11-15 反重力 德国07 0.26M限 稳测 VLESS
-  type: vless
-  server: 46.229.253.201
-  port: 8443
-  uuid: e45c1654-9184-40c7-b68b-2929ce2a0a89
-  udp: true
-  tls: true
-  servername: goal-feed.russsport.life
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: fm_XBtJlFXwK11qv_yfMKXEzT3kpMjUR8b5bXI_14Bs
-    short-id: 6d
-  grpc-opts:
-    grpc-service-name: download
 - name: 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   type: vless
   server: 3fb2b6t.se1.h1clayd.click
@@ -582,12 +522,8 @@ proxy-groups:
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国06 0.19M限 稳测 VLESS
-  - 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
-  - 11-15 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 11-15 反重力 摩尔多瓦01 0.26M限 稳测 VLESS
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国07 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-15 反重力 意大利15 0.26M限 稳测 VLESS
   - 11-15 反重力 德国08 0.26M限 稳测 VLESS
@@ -630,12 +566,8 @@ proxy-groups:
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国06 0.19M限 稳测 VLESS
-  - 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
-  - 11-15 反重力 罗马尼亚01 0.26M限 稳测 VLESS
   - 11-15 反重力 摩尔多瓦01 0.26M限 稳测 VLESS
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国07 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-15 反重力 意大利15 0.26M限 稳测 VLESS
   - 11-15 反重力 德国08 0.26M限 稳测 VLESS
