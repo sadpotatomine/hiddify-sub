@@ -369,6 +369,28 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
+- name: 11-16 反重力 德国11 0.26M限 稳测 VLESS
+  type: vless
+  server: 176.98.176.60
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: mosaic.topp-con.xyz
+  client-fingerprint: firefox
+  network: tcp
+- name: 11-16 反重力 芬兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 129.101.100.219
+  port: 443
+  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: db-28.topp-con.xyz
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -404,6 +426,8 @@ proxy-groups:
   - 11-16 反重力 德国10 0.24M限 稳测 VLESS
   - 11-16 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
+  - 11-16 反重力 德国11 0.26M限 稳测 VLESS
+  - 11-16 反重力 芬兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -440,6 +464,8 @@ proxy-groups:
   - 11-16 反重力 德国10 0.24M限 稳测 VLESS
   - 11-16 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
+  - 11-16 反重力 德国11 0.26M限 稳测 VLESS
+  - 11-16 反重力 芬兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
