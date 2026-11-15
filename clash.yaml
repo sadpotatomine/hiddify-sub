@@ -429,6 +429,19 @@ proxies:
   reality-opts:
     public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
     short-id: 1a2b3c4d
+- name: 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
+  type: vless
+  server: 195.110.15.17
+  port: 43000
+  uuid: 0809eed6-5204-49b8-8312-b82a10024022
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 195.110.15.17
+  network: tcp
+  reality-opts:
+    public-key: U_dxFnbfesmgSwL-SlpvGYFbpY5vlJ1kb52knlCXkkI
+    short-id: 8cfe1563
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -468,6 +481,7 @@ proxy-groups:
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-15 反重力 意大利15 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -508,6 +522,7 @@ proxy-groups:
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-15 反重力 意大利15 0.26M限 稳测 VLESS
+  - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
