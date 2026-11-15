@@ -465,6 +465,35 @@ proxies:
     short-id: e7cffac9f8cfb434
   grpc-opts:
     grpc-service-name: ''
+- name: 11-15 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  type: vless
+  server: 85.204.107.53
+  port: 443
+  uuid: e45c1654-9184-40c7-b68b-2929ce2a0a89
+  udp: true
+  tls: true
+  servername: league-feed.russsport.life
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: MKifKIzltM4QisjoMt2mtnvOHgFPryuJxUZUtqdMZ1E
+    short-id: ed
+  grpc-opts:
+    grpc-service-name: download
+- name: 11-15 反重力 摩尔多瓦01 0.26M限 稳测 VLESS
+  type: vless
+  server: bundledispatch.ratethatrestaurant.org
+  port: 443
+  uuid: c1208c5a-2350-4506-affd-fc41b4319286
+  udp: true
+  tls: true
+  servername: bundledispatch.ratethatrestaurant.org
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /media/ws/
+    headers:
+      Host: bundledispatch.ratethatrestaurant.org
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -507,6 +536,8 @@ proxy-groups:
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
   - 11-15 反重力 德国06 0.19M限 稳测 VLESS
   - 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
+  - 11-15 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  - 11-15 反重力 摩尔多瓦01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -550,6 +581,8 @@ proxy-groups:
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
   - 11-15 反重力 德国06 0.19M限 稳测 VLESS
   - 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
+  - 11-15 反重力 罗马尼亚01 0.26M限 稳测 VLESS
+  - 11-15 反重力 摩尔多瓦01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
