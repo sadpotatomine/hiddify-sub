@@ -444,48 +444,6 @@ proxies:
   reality-opts:
     public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
     short-id: 1a2b3c4d
-- name: 11-15 反重力 德国08 0.26M限 稳测 VLESS
-  type: vless
-  server: 2.28.70.17
-  port: 443
-  uuid: 695b0c69-f6af-43fd-adbc-617963cc6941
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: QWgT5AYPcIAhDU9EOENbdY_cFr5QdxaJEWjEnfAWVgY
-    short-id: 1f1100072426aa2b
-- name: 11-15 反重力 德国09 0.21M限 稳测 VLESS
-  type: vless
-  server: 2.28.194.230
-  port: 443
-  uuid: 72818014-723d-47d3-8cbe-0e4a2f6844c0
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: ox449fU0Iesgm3CxBlGNSU5PrnEBYeAtOqym6DMeyzI
-    short-id: 0c199b5b6842a2b0
-- name: 11-15 反重力 德国10 0.26M限 稳测 VLESS
-  type: vless
-  server: 62.83.95.178
-  port: 443
-  uuid: cb2985ca-be7d-40c7-b3dc-99e2e36416a3
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: DJkCpB76XrCvviggedo7PQAjpoyzEzDynZP3YYEPym0
-    short-id: 499f41c7dd761836
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -526,9 +484,6 @@ proxy-groups:
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-15 反重力 意大利15 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国08 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国09 0.21M限 稳测 VLESS
-  - 11-15 反重力 德国10 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -570,9 +525,6 @@ proxy-groups:
   - 11-15 反重力 美国27 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-15 反重力 意大利15 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国08 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国09 0.21M限 稳测 VLESS
-  - 11-15 反重力 德国10 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
