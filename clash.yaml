@@ -273,18 +273,6 @@ proxies:
     short-id: 05c656ffd118ce13
   grpc-opts:
     grpc-service-name: api
-- name: 11-15 反重力 波兰04 0.26M限 稳测 VLESS
-  type: vless
-  server: 185.86.145.55
-  port: 10470
-  uuid: 3ecbd833-40d8-4ddb-b80b-a7c4628ec7e5
-  udp: true
-  tls: true
-  servername: wn-pl4.static-s3.org
-  client-fingerprint: firefox
-  network: grpc
-  grpc-opts:
-    grpc-service-name: wn-adaptcloud
 - name: 11-15 反重力 德国02 0.26M限 稳测 VLESS
   type: vless
   server: 5.231.45.196
@@ -414,14 +402,6 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
-- name: 11-15 反重力 德国05 0.14M限 稳测 VLESS
-  type: vless
-  server: 91.98.221.107
-  port: 42275
-  uuid: aa3e4b64-c119-44be-b0f3-f88293705e37
-  udp: true
-  tls: false
-  network: http
 - name: 11-15 反重力 美国26 0.26M限 稳测 VLESS
   type: vless
   server: 156.229.167.109
@@ -578,7 +558,6 @@ proxy-groups:
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
   - 11-15 反重力 德国02 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
@@ -589,7 +568,6 @@ proxy-groups:
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国05 0.14M限 稳测 VLESS
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
   - 11-15 反重力 德国06 0.19M限 稳测 VLESS
   - 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
@@ -627,7 +605,6 @@ proxy-groups:
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
-  - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
   - 11-15 反重力 德国02 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
@@ -638,7 +615,6 @@ proxy-groups:
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国05 0.14M限 稳测 VLESS
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
   - 11-15 反重力 德国06 0.19M限 稳测 VLESS
   - 11-15 反重力 西班牙03 0.21M限 稳测 VLESS
