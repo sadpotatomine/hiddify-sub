@@ -286,19 +286,6 @@ proxies:
   reality-opts:
     public-key: ixnCbdlT5sAVd-ilp2nG11CvnNsBCf9xPD56TlXxlR4
     short-id: a91531ad58c8611c
-- name: 11-15 反重力 VN01 0.26M限 稳测 VLESS
-  type: vless
-  server: 163.61.182.194
-  port: 34646
-  uuid: 5407a1c6-fbbf-417a-864d-48563da8e454
-  udp: true
-  tls: true
-  servername: api.receptivity.io
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: UuXUXzPnZM8IY-D5bQPy4iBIzEpK4PJFEOJzeObISRA
-    short-id: 4710d669
 - name: 11-15 反重力 波兰04 0.26M限 稳测 VLESS
   type: vless
   server: 185.86.145.55
@@ -314,20 +301,6 @@ proxies:
 - name: 11-15 反重力 德国02 0.26M限 稳测 VLESS
   type: vless
   server: 5.231.45.196
-  port: 443
-  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: images.porsche.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
-- name: 11-15 反重力 荷兰09 0.26M限 稳测 VLESS
-  type: vless
-  server: 89.248.65.152
   port: 443
   uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
   udp: true
@@ -392,20 +365,6 @@ proxies:
   reality-opts:
     public-key: UkUbCx7k5ykWTJTr1jqCOxns6TwvTAbfR0JvJzuALjM
     short-id: a62b22480f962a1d
-- name: 11-15 反重力 IN01 0.26M限 稳测 VLESS
-  type: vless
-  server: 103.111.114.136
-  port: 443
-  uuid: 555b35c4-30f9-40c6-a61a-7f53ab1bea45
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: videos.porsche.com
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: kBTMVLCNE0jjwuJF6H5-65l5Pe0QToS0Hg-9Tmaa7Sk
-    short-id: 1a2b3c4d
 - name: 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   type: vless
   server: 196.196.148.85
@@ -504,15 +463,12 @@ proxy-groups:
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS
-  - 11-15 反重力 VN01 0.26M限 稳测 VLESS
   - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
   - 11-15 反重力 德国02 0.26M限 稳测 VLESS
-  - 11-15 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
-  - 11-15 反重力 IN01 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
@@ -548,15 +504,12 @@ proxy-groups:
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国01 0.26M限 稳测 VLESS
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS
-  - 11-15 反重力 VN01 0.26M限 稳测 VLESS
   - 11-15 反重力 波兰04 0.26M限 稳测 VLESS
   - 11-15 反重力 德国02 0.26M限 稳测 VLESS
-  - 11-15 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-15 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰10 0.26M限 稳测 VLESS
   - 11-15 反重力 EE01 0.26M限 稳测 VLESS_2
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
-  - 11-15 反重力 IN01 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
