@@ -360,19 +360,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 11-15 反重力 美国25 0.26M限 稳测 VLESS
-  type: vless
-  server: 196.245.52.188
-  port: 443
-  uuid: 632cd343-1e8f-4bf6-a9a2-20ada1f6970f
-  udp: true
-  tls: true
-  servername: 62981et.us11.h1clayd.click
-  client-fingerprint: firefox
-  network: raw
-  reality-opts:
-    public-key: UTK3fM9wiII4uIcBYUYJwppN1HezxBPhxPfIxDHZqj4
-    short-id: ce43937e79bc30f0
 - name: 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   type: vless
   server: 196.196.148.63
@@ -593,7 +580,6 @@ proxy-groups:
   - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
   - 11-15 反重力 德国06 0.19M限 稳测 VLESS
@@ -642,7 +628,6 @@ proxy-groups:
   - 11-15 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-15 反重力 美国26 0.26M限 稳测 VLESS
   - 11-15 反重力 德国06 0.19M限 稳测 VLESS
