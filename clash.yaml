@@ -468,6 +468,14 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
+- name: 11-15 反重力 德国05 0.14M限 稳测 VLESS
+  type: vless
+  server: 91.98.221.107
+  port: 42275
+  uuid: aa3e4b64-c119-44be-b0f3-f88293705e37
+  udp: true
+  tls: false
+  network: http
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -510,6 +518,7 @@ proxy-groups:
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
+  - 11-15 反重力 德国05 0.14M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -553,6 +562,7 @@ proxy-groups:
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
+  - 11-15 反重力 德国05 0.14M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
