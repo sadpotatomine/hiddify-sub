@@ -410,6 +410,19 @@ proxies:
   reality-opts:
     public-key: n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8
     short-id: 1aab0b827885a8b4
+- name: 11-16 反重力 德国10 0.24M限 稳测 VLESS
+  type: vless
+  server: bbcdd4t.de-p2.h1clayd.click
+  port: 443
+  uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
+  udp: true
+  tls: true
+  servername: bbcdd4t.de-p2.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8
+    short-id: 1aab0b827885a8b4
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -449,6 +462,7 @@ proxy-groups:
   - 11-15 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-15 反重力 智利01 0.15M限 稳测 VLESS
   - 11-15 反重力 德国09 0.19M限 稳测 VLESS
+  - 11-16 反重力 德国10 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -489,6 +503,7 @@ proxy-groups:
   - 11-15 反重力 波兰01 0.24M限 稳测 VLESS
   - 11-15 反重力 智利01 0.15M限 稳测 VLESS
   - 11-15 反重力 德国09 0.19M限 稳测 VLESS
+  - 11-16 反重力 德国10 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
