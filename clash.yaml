@@ -435,6 +435,19 @@ proxies:
   udp: true
   tls: false
   network: http
+- name: 11-15 反重力 美国26 0.26M限 稳测 VLESS
+  type: vless
+  server: 156.229.167.109
+  port: 8443
+  uuid: eb8c97f7-a154-4442-91b0-54c0d055ad0b
+  udp: true
+  tls: true
+  servername: github.githubassets.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: 4g6gX0ueJap7pY_iTDx23h6bzo3KIOTcFzP1Uacn0QA
+    short-id: 4ad2e4e660550e43
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -475,6 +488,7 @@ proxy-groups:
   - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-15 反重力 德国05 0.14M限 稳测 VLESS
+  - 11-15 反重力 美国26 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -516,6 +530,7 @@ proxy-groups:
   - 11-15 反重力 美国25 0.26M限 稳测 VLESS
   - 11-15 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-15 反重力 德国05 0.14M限 稳测 VLESS
+  - 11-15 反重力 美国26 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
