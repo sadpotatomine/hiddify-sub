@@ -265,17 +265,6 @@ proxies:
     short-id: d3bd772514c87d28
   grpc-opts:
     grpc-service-name: 204adda7e3da
-- name: 11-16 反重力 德国11 0.26M限 稳测 VLESS
-  type: vless
-  server: 176.98.176.60
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: mosaic.topp-con.xyz
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   type: vless
   server: 196.196.148.85
@@ -855,7 +844,6 @@ proxy-groups:
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-16 反重力 德国11 0.26M限 稳测 VLESS
   - 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-16 反重力 德国15 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰10 0.26M限 稳测 VLESS
@@ -918,7 +906,6 @@ proxy-groups:
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
-  - 11-16 反重力 德国11 0.26M限 稳测 VLESS
   - 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-16 反重力 德国15 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰10 0.26M限 稳测 VLESS
