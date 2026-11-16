@@ -475,6 +475,125 @@ proxies:
   servername: 188.255.236.23
   client-fingerprint: qq
   network: tcp
+- name: 11-16 反重力 美国29 0.22M限 稳测 VLESS
+  type: vless
+  server: 172.233.129.187
+  port: 443
+  uuid: ac28b793-b9cb-4795-8a49-311595469328
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: iNGO54Z98Rf8PR858MMTGjqGaEEOpcqEFSrZJbeGtlY
+    short-id: 4a979563
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-16 反重力 美国30 0.23M限 稳测 VLESS
+  type: vless
+  server: 172.235.37.163
+  port: 443
+  uuid: ac5752cd-bcf5-46c7-84d8-cadabbc8ead4
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: Gfo4sYcQIKnnr25rMF36kSrkqTupybXwgsfdMDbpv0w
+    short-id: d20ad1f3
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-16 反重力 美国31 0.22M限 稳测 VLESS
+  type: vless
+  server: 172.235.49.52
+  port: 443
+  uuid: ff5fc681-8548-4621-87d1-6b123db48f64
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: Md-qJgtcKVbuLuwCX8r-VZnfKq3z_3CtyPt3CRcqdQE
+    short-id: 270d474c
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-16 反重力 美国32 0.22M限 稳测 VLESS
+  type: vless
+  server: 172.233.146.140
+  port: 443
+  uuid: 23ef891c-d5bc-400d-84a2-f3a0c8c102d0
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: wn6AvldKYnxY_vOi6LqsI7fgBj8wqCNw3_YpyOPDhig
+    short-id: 618ad724
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-16 反重力 美国33 0.20M限 稳测 VLESS
+  type: vless
+  server: 172.235.50.209
+  port: 443
+  uuid: 1d53bb9d-5c26-4706-b067-a09df0d22578
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: eHN-Pl9ZQX_SHlIYSUWV-YF4BHDo2d2zKRC4FPF-HTU
+    short-id: 0c2ca327
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-16 反重力 美国34 0.19M限 稳测 VLESS
+  type: vless
+  server: 172.235.48.213
+  port: 443
+  uuid: 25999cd3-10ed-4429-8329-dc651f1adafc
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: Sf-7bsdlDkigFJRVwZ99MmSTqKCIh26ZP_x8RzPLJhg
+    short-id: e1ac70b6
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-16 反重力 美国35 0.19M限 稳测 VLESS
+  type: vless
+  server: 172.235.32.253
+  port: 443
+  uuid: 62fe4c8e-2620-478c-9c39-3d4e12848ff4
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: r__vI0YVD9j6Fttsb4aZ0TwvUggV493v6GILKXWIZwA
+    short-id: ac184496
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -521,6 +640,13 @@ proxy-groups:
   - 11-16 反重力 瑞典01 0.23M限 稳测 VLESS
   - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-16 反重力 EE04 0.26M限 稳测 VLESS
+  - 11-16 反重力 美国29 0.22M限 稳测 VLESS
+  - 11-16 反重力 美国30 0.23M限 稳测 VLESS
+  - 11-16 反重力 美国31 0.22M限 稳测 VLESS
+  - 11-16 反重力 美国32 0.22M限 稳测 VLESS
+  - 11-16 反重力 美国33 0.20M限 稳测 VLESS
+  - 11-16 反重力 美国34 0.19M限 稳测 VLESS
+  - 11-16 反重力 美国35 0.19M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -568,6 +694,13 @@ proxy-groups:
   - 11-16 反重力 瑞典01 0.23M限 稳测 VLESS
   - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
   - 11-16 反重力 EE04 0.26M限 稳测 VLESS
+  - 11-16 反重力 美国29 0.22M限 稳测 VLESS
+  - 11-16 反重力 美国30 0.23M限 稳测 VLESS
+  - 11-16 反重力 美国31 0.22M限 稳测 VLESS
+  - 11-16 反重力 美国32 0.22M限 稳测 VLESS
+  - 11-16 反重力 美国33 0.20M限 稳测 VLESS
+  - 11-16 反重力 美国34 0.19M限 稳测 VLESS
+  - 11-16 反重力 美国35 0.19M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
