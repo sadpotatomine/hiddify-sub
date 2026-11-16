@@ -817,6 +817,17 @@ proxies:
   reality-opts:
     public-key: GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU
     short-id: 2a67748b0d641e16
+- name: 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
+  type: vless
+  server: 130.78.30.147
+  port: 443
+  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 105ky37.virtual-network.lol
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -878,6 +889,7 @@ proxy-groups:
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
+  - 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -940,6 +952,7 @@ proxy-groups:
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
+  - 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
