@@ -537,23 +537,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-16 反重力 日本05 0.25M限 稳测 VLESS
-  type: vless
-  server: 139.162.91.205
-  port: 443
-  uuid: 0abae9af-0c58-425e-b61f-e3a5e6ede334
-  udp: true
-  tls: true
-  servername: itunes.apple.com
-  client-fingerprint: chrome
-  network: ws
-  reality-opts:
-    public-key: EeTzKB_vgD-Zsfeofz7nUwbsdT4A0Ox5UtAEbAdb-24
-    short-id: 91c8b3c1
-  ws-opts:
-    path: /ws
-    headers:
-      Host: itunes.apple.com
 - name: 11-16 反重力 美国36 0.26M限 稳测 VLESS
   type: vless
   server: 107.191.58.86
@@ -923,7 +906,6 @@ proxy-groups:
   - 11-16 反重力 日本02 0.26M限 稳测 VLESS
   - 11-16 反重力 日本03 0.26M限 稳测 VLESS
   - 11-16 反重力 日本04 0.26M限 稳测 VLESS
-  - 11-16 反重力 日本05 0.25M限 稳测 VLESS
   - 11-16 反重力 美国36 0.26M限 稳测 VLESS
   - 11-16 反重力 日本06 0.26M限 稳测 VLESS
   - 11-16 反重力 日本07 0.26M限 稳测 VLESS
@@ -990,7 +972,6 @@ proxy-groups:
   - 11-16 反重力 日本02 0.26M限 稳测 VLESS
   - 11-16 反重力 日本03 0.26M限 稳测 VLESS
   - 11-16 反重力 日本04 0.26M限 稳测 VLESS
-  - 11-16 反重力 日本05 0.25M限 稳测 VLESS
   - 11-16 反重力 美国36 0.26M限 稳测 VLESS
   - 11-16 反重力 日本06 0.26M限 稳测 VLESS
   - 11-16 反重力 日本07 0.26M限 稳测 VLESS
