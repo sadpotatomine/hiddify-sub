@@ -860,6 +860,21 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
+- name: 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
+  type: vless
+  server: 179.43.170.67
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: crag.quaystone.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: oI8uBtOZSUZ6paMGUrKhdMOuvQ08EyPfWpCfnveBjV8
+    short-id: a16cb62c
+  grpc-opts:
+    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -925,6 +940,7 @@ proxy-groups:
   - 11-16 反重力 美国42 0.08M限 稳测 VLESS
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
+  - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -991,6 +1007,7 @@ proxy-groups:
   - 11-16 反重力 美国42 0.08M限 稳测 VLESS
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
+  - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
