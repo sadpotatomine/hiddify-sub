@@ -258,21 +258,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-15 反重力 德国01 0.26M限 稳测 VLESS
-  type: vless
-  server: 200.165.236.84
-  port: 443
-  uuid: a54c6d0b-56d8-4bb8-a4af-8c5a7f0c0b34
-  udp: true
-  tls: true
-  servername: yandex.ru
-  client-fingerprint: safari
-  network: grpc
-  reality-opts:
-    public-key: WerkLBuzReJqDK23pG8dd7JPLBcu2rVhUfBR52D4um0
-    short-id: 05c656ffd118ce13
-  grpc-opts:
-    grpc-service-name: api
 - name: 11-15 反重力 美国24 0.26M限 稳测 VLESS
   type: vless
   server: 162.35.38.156
@@ -308,46 +293,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  type: vless
-  server: 179.254.92.134
-  port: 443
-  uuid: 7ad63b26-bf70-4872-8fab-ebaf73a1e19d
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: assets-70.topp-con.xyz
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: OQu-e59wDwOSwiBBawquNAPhg8Li1hmioWU2Up1TGDw
-    short-id: c33807f76b689c9a
-- name: 11-15 反重力 德国09 0.19M限 稳测 VLESS
-  type: vless
-  server: 153.56.228.151
-  port: 443
-  uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
-  udp: true
-  tls: true
-  servername: bbcdd4t.de-p2.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8
-    short-id: 1aab0b827885a8b4
-- name: 11-16 反重力 德国10 0.24M限 稳测 VLESS
-  type: vless
-  server: bbcdd4t.de-p2.h1clayd.click
-  port: 443
-  uuid: 4618cebd-e1e9-45c3-be98-d9d6e3ee8bef
-  udp: true
-  tls: true
-  servername: bbcdd4t.de-p2.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: n9cdr2Qf9h3S_jf5Rcd15fl-4fxuztHvlexE7G-QvW8
-    short-id: 1aab0b827885a8b4
 - name: 11-16 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   type: ss
   server: frr.drwrdoh.org
@@ -451,13 +396,9 @@ proxy-groups:
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
-  - 11-15 反重力 德国01 0.26M限 稳测 VLESS
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国09 0.19M限 稳测 VLESS
-  - 11-16 反重力 德国10 0.24M限 稳测 VLESS
   - 11-16 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-16 反重力 德国11 0.26M限 稳测 VLESS
@@ -493,13 +434,9 @@ proxy-groups:
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 美国23 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
-  - 11-15 反重力 德国01 0.26M限 稳测 VLESS
   - 11-15 反重力 美国24 0.26M限 稳测 VLESS
   - 11-15 反重力 西班牙02 0.26M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-15 反重力 美国27 0.26M限 稳测 VLESS
-  - 11-15 反重力 德国09 0.19M限 稳测 VLESS
-  - 11-16 反重力 德国10 0.24M限 稳测 VLESS
   - 11-16 反重力 美国28 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-16 反重力 德国11 0.26M限 稳测 VLESS
