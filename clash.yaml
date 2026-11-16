@@ -167,20 +167,6 @@ proxies:
   network: raw
   reality-opts:
     public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-- name: 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
-  type: vless
-  server: 196.199.122.2
-  port: 443
-  uuid: 4201786b-d99b-4147-a5f0-20d47acddb81
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: 7aa271t.es1.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE
-    short-id: 42426c882c5fcd41
 - name: 11-12 反重力 美国18 0.25M限 稳测 VLESS
   type: vless
   server: 196.245.52.187
@@ -828,21 +814,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
-  type: vless
-  server: 179.43.170.67
-  port: 443
-  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
-  udp: true
-  tls: true
-  servername: crag.quaystone.top
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: oI8uBtOZSUZ6paMGUrKhdMOuvQ08EyPfWpCfnveBjV8
-    short-id: a16cb62c
-  grpc-opts:
-    grpc-service-name: grpc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -863,7 +834,6 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
-  - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
@@ -905,7 +875,6 @@ proxy-groups:
   - 11-16 反重力 美国42 0.08M限 稳测 VLESS
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
-  - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -927,7 +896,6 @@ proxy-groups:
   - 11-05 反重力 美国11 0.26M限 稳测 VLESS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
   - 11-10 反重力 法国01 0.26M限 稳测 VLESS
-  - 11-10 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
@@ -969,7 +937,6 @@ proxy-groups:
   - 11-16 反重力 美国42 0.08M限 稳测 VLESS
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
-  - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
