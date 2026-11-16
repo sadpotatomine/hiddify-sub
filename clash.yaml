@@ -828,6 +828,94 @@ proxies:
   servername: 105ky37.virtual-network.lol
   client-fingerprint: firefox
   network: tcp
+- name: 11-17 反重力 新加坡03 0.26M限 稳测 VLESS
+  type: vless
+  server: 50.7.21.87
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: fell.glenmarsh.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: ZW0yTM5nfPIQ68ihbjYoIGxvypA6fAU8xjDk2PMVwwY
+    short-id: 7be77fcdd335
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-17 反重力 新加坡04 0.24M限 稳测 VLESS
+  type: vless
+  server: 50.7.21.44
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: holt.glenmarsh.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: ZW0yTM5nfPIQ68ihbjYoIGxvypA6fAU8xjDk2PMVwwY
+    short-id: e7cea6ccd340d2d7
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-17 反重力 荷兰12 0.26M限 稳测 VLESS
+  type: vless
+  server: 89.23.107.105
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: stone.quietgarden.live
+  client-fingerprint: qq
+  network: grpc
+  reality-opts:
+    public-key: qvkq-JHpqq3clyDm-SGTvWYuJZo6kmMBwryWXsUZfH4
+    short-id: bbb86c07ea6dadef
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-17 反重力 立陶宛01 0.26M限 稳测 VLESS
+  type: vless
+  server: 84.32.149.211
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: acorn.willowfen.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: M-cE7q2hNgBeNv7COM8DS2QC3GGi6Pu7pD1lvUfG0mo
+    short-id: e4fc6803b3212ad4
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-17 反重力 TR01 0.25M限 稳测 VLESS
+  type: vless
+  server: 77.83.245.22
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: birch.quietbrook.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: NLYZX3_IyPp1Qi7uF1OQMfd29L0ecThy8XKtarm4IDg
+    short-id: 1b01cb32688c4612
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-17 反重力 波兰01 0.26M限 稳测 VLESS
+  type: vless
+  server: 80.47.10.106
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  udp: true
+  tls: true
+  servername: pl8.galioncc.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -890,6 +978,12 @@ proxy-groups:
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
+  - 11-17 反重力 新加坡03 0.26M限 稳测 VLESS
+  - 11-17 反重力 新加坡04 0.24M限 稳测 VLESS
+  - 11-17 反重力 荷兰12 0.26M限 稳测 VLESS
+  - 11-17 反重力 立陶宛01 0.26M限 稳测 VLESS
+  - 11-17 反重力 TR01 0.25M限 稳测 VLESS
+  - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -953,6 +1047,12 @@ proxy-groups:
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
+  - 11-17 反重力 新加坡03 0.26M限 稳测 VLESS
+  - 11-17 反重力 新加坡04 0.24M限 稳测 VLESS
+  - 11-17 反重力 荷兰12 0.26M限 稳测 VLESS
+  - 11-17 反重力 立陶宛01 0.26M限 稳测 VLESS
+  - 11-17 反重力 TR01 0.25M限 稳测 VLESS
+  - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
