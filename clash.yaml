@@ -960,6 +960,72 @@ proxies:
   reality-opts:
     public-key: 9UG9zvrDpiPgY_J0dvB-n10ygEw3FzJ2qT8PFtITUBE
     short-id: e06e30590f288e0f
+- name: 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
+  type: vless
+  server: win2loxfde0202.gggrelay.org
+  port: 30322
+  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: psstatic.cdn.bcebos.com
+  client-fingerprint: ios
+  network: tcp
+  reality-opts:
+    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
+    short-id: 6a60e7e382d6
+- name: 11-17 反重力 新加坡06 0.22M限 稳测 VLESS
+  type: vless
+  server: 50.7.21.179
+  port: 443
+  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
+  udp: true
+  tls: true
+  servername: burn.heathcombe.top
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: ibyiKQwylyprC-QBaFQFXYDloYLr8kTt3jefWRVdJiU
+    short-id: 714cb0f66004a788
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
+  type: vless
+  server: app.streamru10.net
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: app.streamru10.net
+  client-fingerprint: chrome
+  network: tcp
+- name: 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
+  type: vless
+  server: 362c1eg.se1.h1clayd.click
+  port: 443
+  uuid: c82031be-e90f-4b15-ab4f-7ccef236d3ca
+  udp: true
+  tls: true
+  servername: 362c1eg.se1.h1clayd.click
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: BLhS7fE4Yh6kAADw7yRIn2PzKun-JDagJHJNOePYRSY
+    short-id: bee802ae4ab66496
+  grpc-opts:
+    grpc-service-name: ''
+- name: 11-17 反重力 EE01 0.25M限 稳测 VLESS
+  type: vless
+  server: ee.point.cookie-line.cc
+  port: 443
+  uuid: dfe50e18-28ce-459e-a6b9-0f2585bcc3b6
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ee.point.cookie-line.cc
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -1032,6 +1098,11 @@ proxy-groups:
   - 11-17 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-17 反重力 英国01 0.26M限 稳测 VLESS
   - 11-17 反重力 英国02 0.26M限 稳测 VLESS
+  - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
+  - 11-17 反重力 新加坡06 0.22M限 稳测 VLESS
+  - 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
+  - 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
+  - 11-17 反重力 EE01 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1105,6 +1176,11 @@ proxy-groups:
   - 11-17 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-17 反重力 英国01 0.26M限 稳测 VLESS
   - 11-17 反重力 英国02 0.26M限 稳测 VLESS
+  - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
+  - 11-17 反重力 新加坡06 0.22M限 稳测 VLESS
+  - 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
+  - 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
+  - 11-17 反重力 EE01 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
