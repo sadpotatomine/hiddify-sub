@@ -394,6 +394,87 @@ proxies:
   servername: base.hosamobenl.co.uk
   client-fingerprint: firefox
   network: tcp
+- name: 11-16 反重力 EE01 0.26M限 稳测 VLESS
+  type: vless
+  server: ee30.own-homelab.cloud
+  port: 443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  udp: true
+  tls: true
+  servername: ee30.own-homelab.cloud
+  client-fingerprint: edge
+  network: grpc
+  reality-opts:
+    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+    short-id: 05c0787b9357f4a8
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-16 反重力 EE02 0.26M限 稳测 VLESS
+  type: vless
+  server: ee24.own-homelab.cloud
+  port: 443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  udp: true
+  tls: true
+  servername: ee24.own-homelab.cloud
+  client-fingerprint: edge
+  network: grpc
+  reality-opts:
+    public-key: 4XnNIGFrNW2uKqvNJly-X_J52O_SDOdWwejuGQU_IAs
+    short-id: 05c0787b9357f4a8
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-16 反重力 EE03 0.26M限 稳测 VLESS
+  type: vless
+  server: 188.255.236.21
+  port: 443
+  uuid: e3453410-191b-48b5-b37f-aac745bbfa6b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 188.255.236.21
+  client-fingerprint: qq
+  network: tcp
+- name: 11-16 反重力 瑞典01 0.23M限 稳测 VLESS
+  type: vless
+  server: sweden.dance-tonic.rutube.info
+  port: 8443
+  uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e
+  udp: true
+  tls: true
+  servername: thelocal.se
+  client-fingerprint: firefox
+  network: grpc
+  reality-opts:
+    public-key: 9OYY5pqE32-AqAkHK9Pv2TNoaAFwFFRMJKT4_ccSil4
+    short-id: 08
+  grpc-opts:
+    grpc-service-name: grpc
+- name: 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
+  type: vless
+  server: 91.214.190.127
+  port: 443
+  uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: ch1.gofizzin.com
+  client-fingerprint: edge
+  network: tcp
+  reality-opts:
+    public-key: 3fcmILwQG2sbwo58XW9Z1lziNQXmAFwUglFuXQFePRI
+    short-id: 95da6299f1
+- name: 11-16 反重力 EE04 0.26M限 稳测 VLESS
+  type: vless
+  server: 188.255.236.23
+  port: 443
+  uuid: e3453410-191b-48b5-b37f-aac745bbfa6b
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 188.255.236.23
+  client-fingerprint: qq
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -434,6 +515,12 @@ proxy-groups:
   - 11-16 反重力 德国14 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 德国15 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰10 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE01 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE02 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE03 0.26M限 稳测 VLESS
+  - 11-16 反重力 瑞典01 0.23M限 稳测 VLESS
+  - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -475,6 +562,12 @@ proxy-groups:
   - 11-16 反重力 德国14 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 德国15 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰10 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE01 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE02 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE03 0.26M限 稳测 VLESS
+  - 11-16 反重力 瑞典01 0.23M限 稳测 VLESS
+  - 11-16 反重力 瑞士01 0.26M限 稳测 VLESS
+  - 11-16 反重力 EE04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
