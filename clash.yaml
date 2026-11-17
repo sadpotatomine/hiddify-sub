@@ -1026,6 +1026,17 @@ proxies:
   servername: ee.point.cookie-line.cc
   client-fingerprint: firefox
   network: tcp
+- name: 11-17 反重力 德国17 0.26M限 稳测 VLESS
+  type: vless
+  server: app.streamru2.net
+  port: 443
+  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: app.streamru2.net
+  client-fingerprint: chrome
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -1103,6 +1114,7 @@ proxy-groups:
   - 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
   - 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
   - 11-17 反重力 EE01 0.25M限 稳测 VLESS
+  - 11-17 反重力 德国17 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1181,6 +1193,7 @@ proxy-groups:
   - 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
   - 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
   - 11-17 反重力 EE01 0.25M限 稳测 VLESS
+  - 11-17 反重力 德国17 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
