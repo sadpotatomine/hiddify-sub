@@ -293,13 +293,6 @@ proxies:
   reality-opts:
     public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
     short-id: 6a60e7e382d6
-- name: 11-17 反重力 德国18 0.27M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 18.198.4.216
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
-  udp: true
 - name: 11-17 反重力 荷兰10 0.26M限 稳测 VLESS
   type: vless
   server: 37.49.228.244
@@ -341,7 +334,6 @@ proxy-groups:
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
-  - 11-17 反重力 德国18 0.27M限 稳测 SHADOWSOCKS
   - 11-17 反重力 荷兰10 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -372,7 +364,6 @@ proxy-groups:
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
-  - 11-17 反重力 德国18 0.27M限 稳测 SHADOWSOCKS
   - 11-17 反重力 荷兰10 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
