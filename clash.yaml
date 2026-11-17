@@ -342,6 +342,19 @@ proxies:
   reality-opts:
     public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
     short-id: 361d0dd59c70516f
+- name: 11-18 反重力 法国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 163.245.42.85
+  port: 443
+  uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: mother-earth.fyi
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -374,6 +387,7 @@ proxy-groups:
   - 11-18 反重力 美国41 0.25M限 稳测 VLESS
   - 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
+  - 11-18 反重力 法国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -407,6 +421,7 @@ proxy-groups:
   - 11-18 反重力 美国41 0.25M限 稳测 VLESS
   - 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
   - 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
+  - 11-18 反重力 法国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
