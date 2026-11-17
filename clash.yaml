@@ -316,6 +316,32 @@ proxies:
     short-id: bd8f712209a9c283
   grpc-opts:
     grpc-service-name: 99f2107b03f8
+- name: 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
+  type: vless
+  server: 88.216.214.159
+  port: 443
+  uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+  udp: true
+  tls: true
+  servername: api-svc-mgr.galioncc.com
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+    short-id: a7c92e4b10d6f835
+- name: 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
+  type: vless
+  server: 196.196.148.85
+  port: 443
+  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
+  udp: true
+  tls: true
+  servername: 5d0319t.nl7.h1clayd.click
+  client-fingerprint: firefox
+  network: tcp
+  reality-opts:
+    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
+    short-id: 361d0dd59c70516f
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -346,6 +372,8 @@ proxy-groups:
   - 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-18 反重力 德国01 0.20M限 稳测 VLESS
   - 11-18 反重力 美国41 0.25M限 稳测 VLESS
+  - 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -377,6 +405,8 @@ proxy-groups:
   - 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-18 反重力 德国01 0.20M限 稳测 VLESS
   - 11-18 反重力 美国41 0.25M限 稳测 VLESS
+  - 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
+  - 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
