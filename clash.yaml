@@ -157,20 +157,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
-- name: 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
-  type: vless
-  server: 79.182.39.131
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 717252g.nl8.h1clayd.click
-  network: grpc
-  reality-opts:
-    public-key: PD8Jdlg3xB9QY--jwQjp8PFPzCS8-Oryw6-HWBcHMFU
-    short-id: d3bd772514c87d28
-  grpc-opts:
-    grpc-service-name: 204adda7e3da
 - name: 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   type: vless
   server: 196.196.148.85
@@ -401,7 +387,6 @@ proxy-groups:
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-16 反重力 德国15 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰10 0.26M限 稳测 VLESS
@@ -438,7 +423,6 @@ proxy-groups:
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-15 反重力 德国03 0.26M限 稳测 SHADOWSOCKS
-  - 11-16 反重力 荷兰08 0.26M限 稳测 VLESS
   - 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-16 反重力 德国15 0.26M限 稳测 SHADOWSOCKS
   - 11-16 反重力 荷兰10 0.26M限 稳测 VLESS
