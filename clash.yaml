@@ -150,19 +150,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
-  type: vless
-  server: 196.196.148.85
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 5d0319t.nl7.h1clayd.click
-  client-fingerprint: firefox
-  network: tcp
-  reality-opts:
-    public-key: l-GzBDuNuhnjxoRlZqKvT7jAt_sbVAxhGFsAttO5kXs
-    short-id: 361d0dd59c70516f
 - name: 11-16 反重力 日本04 0.26M限 稳测 VLESS
   type: vless
   server: 172.238.18.103
@@ -356,7 +343,6 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
-  - 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-16 反重力 日本04 0.26M限 稳测 VLESS
   - 11-16 反重力 美国36 0.26M限 稳测 VLESS
   - 11-16 反重力 美国40 0.09M限 稳测 VLESS
@@ -389,7 +375,6 @@ proxy-groups:
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
-  - 11-16 反重力 荷兰09 0.26M限 稳测 VLESS
   - 11-16 反重力 日本04 0.26M限 稳测 VLESS
   - 11-16 反重力 美国36 0.26M限 稳测 VLESS
   - 11-16 反重力 美国40 0.09M限 稳测 VLESS
