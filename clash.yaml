@@ -306,6 +306,28 @@ proxies:
   reality-opts:
     public-key: _CbLQm3wopCKcM82NEeVJmQXJtJvikZHF3Hn89ZMBEc
     short-id: 1c9ac5
+- name: 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
+  type: vless
+  server: app.streamru13.net
+  port: 443
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: app.streamru13.net
+  client-fingerprint: firefox
+  network: tcp
+- name: 11-18 反重力 德国01 0.20M限 稳测 VLESS
+  type: vless
+  server: app.streamru1.com
+  port: 443
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: app.streamru1.com
+  client-fingerprint: chrome
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -335,6 +357,8 @@ proxy-groups:
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
   - 11-17 反重力 荷兰10 0.26M限 稳测 VLESS
+  - 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
+  - 11-18 反重力 德国01 0.20M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -365,6 +389,8 @@ proxy-groups:
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
   - 11-17 反重力 荷兰10 0.26M限 稳测 VLESS
+  - 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
+  - 11-18 反重力 德国01 0.20M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
