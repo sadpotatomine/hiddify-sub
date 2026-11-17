@@ -789,47 +789,6 @@ proxies:
   reality-opts:
     public-key: GQC47B2ZbBygpgJap7Em9lZmCZZkzlckiadXWXlVxGU
     short-id: 2a67748b0d641e16
-- name: 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
-  type: vless
-  server: 130.78.30.147
-  port: 443
-  uuid: 352a250d-080b-47b5-b7db-f9f8fa31c551
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: 105ky37.virtual-network.lol
-  client-fingerprint: firefox
-  network: tcp
-- name: 11-17 反重力 新加坡03 0.26M限 稳测 VLESS
-  type: vless
-  server: 50.7.21.87
-  port: 443
-  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
-  udp: true
-  tls: true
-  servername: fell.glenmarsh.top
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: ZW0yTM5nfPIQ68ihbjYoIGxvypA6fAU8xjDk2PMVwwY
-    short-id: 7be77fcdd335
-  grpc-opts:
-    grpc-service-name: grpc
-- name: 11-17 反重力 新加坡04 0.24M限 稳测 VLESS
-  type: vless
-  server: 50.7.21.44
-  port: 443
-  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
-  udp: true
-  tls: true
-  servername: holt.glenmarsh.top
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: ZW0yTM5nfPIQ68ihbjYoIGxvypA6fAU8xjDk2PMVwwY
-    short-id: e7cea6ccd340d2d7
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 11-17 反重力 荷兰12 0.26M限 稳测 VLESS
   type: vless
   server: 89.23.107.105
@@ -888,17 +847,6 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7c92e4b10d6f835
-- name: 11-17 反重力 荷兰13 0.26M限 稳测 VLESS
-  type: vless
-  server: app.streamru9.net
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: app.streamru9.net
-  client-fingerprint: chrome
-  network: tcp
 - name: 11-17 反重力 加拿大01 0.26M限 稳测 VLESS
   type: vless
   server: 23.155.44.105
@@ -912,21 +860,6 @@ proxies:
   reality-opts:
     public-key: HE1CGzI0QBqhMRUsHqq_9v4Mj3M5dkluFmfyMBH_7kM
     short-id: 70f75668dc5914b3
-- name: 11-17 反重力 西班牙01 0.25M限 稳测 VLESS
-  type: vless
-  server: 138.124.181.197
-  port: 443
-  uuid: 49db4ce7-ad48-41a3-9b6f-4c6dabd94504
-  udp: true
-  tls: true
-  servername: dune.brackenhill.top
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: is57aC-2dUxQGNRcwwdYPyfpPwh2Spmu695NcweLC1k
-    short-id: ff97c04684f118c8
-  grpc-opts:
-    grpc-service-name: grpc
 - name: 11-17 反重力 英国01 0.26M限 稳测 VLESS
   type: vless
   server: 94.183.179.212
@@ -982,17 +915,6 @@ proxies:
     short-id: 714cb0f66004a788
   grpc-opts:
     grpc-service-name: grpc
-- name: 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
-  type: vless
-  server: app.streamru10.net
-  port: 443
-  uuid: 2232d904-8e6a-4202-8240-6efd8aec02e9
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: app.streamru10.net
-  client-fingerprint: chrome
-  network: tcp
 - name: 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
   type: vless
   server: 362c1eg.se1.h1clayd.click
@@ -1008,17 +930,6 @@ proxies:
     short-id: bee802ae4ab66496
   grpc-opts:
     grpc-service-name: ''
-- name: 11-17 反重力 EE01 0.25M限 稳测 VLESS
-  type: vless
-  server: ee.point.cookie-line.cc
-  port: 443
-  uuid: dfe50e18-28ce-459e-a6b9-0f2585bcc3b6
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: ee.point.cookie-line.cc
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-17 反重力 德国17 0.26M限 稳测 VLESS
   type: vless
   server: app.streamru2.net
@@ -1089,23 +1000,16 @@ proxy-groups:
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
-  - 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
-  - 11-17 反重力 新加坡03 0.26M限 稳测 VLESS
-  - 11-17 反重力 新加坡04 0.24M限 稳测 VLESS
   - 11-17 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-17 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 11-17 反重力 TR01 0.25M限 稳测 VLESS
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
-  - 11-17 反重力 荷兰13 0.26M限 稳测 VLESS
   - 11-17 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 11-17 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-17 反重力 英国01 0.26M限 稳测 VLESS
   - 11-17 反重力 英国02 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡06 0.22M限 稳测 VLESS
-  - 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
   - 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
-  - 11-17 反重力 EE01 0.25M限 稳测 VLESS
   - 11-17 反重力 德国17 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
@@ -1167,23 +1071,16 @@ proxy-groups:
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-16 反重力 美国43 0.12M限 稳测 VLESS
   - 11-17 反重力 瑞典02 0.26M限 稳测 VLESS
-  - 11-17 反重力 荷兰11 0.23M限 稳测 VLESS
-  - 11-17 反重力 新加坡03 0.26M限 稳测 VLESS
-  - 11-17 反重力 新加坡04 0.24M限 稳测 VLESS
   - 11-17 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-17 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 11-17 反重力 TR01 0.25M限 稳测 VLESS
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
-  - 11-17 反重力 荷兰13 0.26M限 稳测 VLESS
   - 11-17 反重力 加拿大01 0.26M限 稳测 VLESS
-  - 11-17 反重力 西班牙01 0.25M限 稳测 VLESS
   - 11-17 反重力 英国01 0.26M限 稳测 VLESS
   - 11-17 反重力 英国02 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
   - 11-17 反重力 新加坡06 0.22M限 稳测 VLESS
-  - 11-17 反重力 瑞典03 0.26M限 稳测 VLESS
   - 11-17 反重力 瑞典04 0.26M限 稳测 VLESS
-  - 11-17 反重力 EE01 0.25M限 稳测 VLESS
   - 11-17 反重力 德国17 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
