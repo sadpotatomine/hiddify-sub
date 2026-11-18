@@ -1,0 +1,37 @@
+{
+  "date_beijing": "2026-11-18",
+  "started_at": 1794977108.7452574,
+  "finished_at": 1794977634.324527,
+  "status": "complete",
+  "phase": "publish",
+  "outcome": "no-new",
+  "published": false,
+  "appended": 0,
+  "removed": 0,
+  "total": 30,
+  "remote_node_count": 30,
+  "remote_sha256": "13bed86dfdb4a2a0f092d45dc1c83ded1a32dc5b77dad94f0d0ff09c35d5156b",
+  "remote_verified": true,
+  "repo_head_before": "19e5cf3b926b1ecc3f40f62625336fcba092b959",
+  "repo_head_after": "19e5cf3b926b1ecc3f40f62625336fcba092b959",
+  "google_https": "passed",
+  "batch": "batch-20261118-124508-330807-r3",
+  "engine": "python + sing-box",
+  "schedule": "5 completed rounds, then rest 1 hour; repeat",
+  "summary_generated_at": "2026-11-18T12:53:54.326525+08:00",
+  "checks": {
+    "candidates.json": {
+      "count": 200,
+      "passed": 0
+    },
+    "screen.json": {
+      "count": 200,
+      "passed": 3
+    },
+    "deep.json": {
+      "count": 6,
+      "passed": 4,
+      "incomplete_downloads": 0
+    }
+  }
+}
