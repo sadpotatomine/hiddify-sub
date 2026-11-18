@@ -265,31 +265,6 @@ proxies:
   reality-opts:
     public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
     short-id: a7c92e4b10d6f835
-- name: 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
-  type: vless
-  server: win2loxfde0202.gggrelay.org
-  port: 30322
-  uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: psstatic.cdn.bcebos.com
-  client-fingerprint: ios
-  network: tcp
-  reality-opts:
-    public-key: 5gncThwqPFzLu23WO3mPTEhG7-KgVYlGVvveHjM2SUo
-    short-id: 6a60e7e382d6
-- name: 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
-  type: vless
-  server: app.streamru13.net
-  port: 443
-  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: app.streamru13.net
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-18 反重力 德国01 0.20M限 稳测 VLESS
   type: vless
   server: app.streamru1.com
@@ -395,8 +370,6 @@ proxy-groups:
   - 11-16 反重力 日本13 0.26M限 稳测 VLESS
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
-  - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
-  - 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-18 反重力 德国01 0.20M限 稳测 VLESS
   - 11-18 反重力 美国41 0.25M限 稳测 VLESS
   - 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
@@ -431,8 +404,6 @@ proxy-groups:
   - 11-16 反重力 日本13 0.26M限 稳测 VLESS
   - 11-16 反重力 日本14 0.26M限 稳测 VLESS
   - 11-17 反重力 波兰01 0.26M限 稳测 VLESS
-  - 11-17 反重力 新加坡05 0.26M限 稳测 VLESS
-  - 11-18 反重力 荷兰11 0.26M限 稳测 VLESS
   - 11-18 反重力 德国01 0.20M限 稳测 VLESS
   - 11-18 反重力 美国41 0.25M限 稳测 VLESS
   - 11-18 反重力 瑞典01 0.26M限 稳测 VLESS
