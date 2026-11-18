@@ -384,6 +384,48 @@ proxies:
     path: /vlessws
     headers:
       Host: natan.srpcom.cloud
+- name: 11-19 反重力 芬兰01 0.23M限 稳测 VLESS
+  type: vless
+  server: 162.159.160.117
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: 11-19 反重力 芬兰02 0.18M限 稳测 VLESS
+  type: vless
+  server: 104.17.145.145
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
+- name: 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
+  type: vless
+  server: 104.18.63.135
+  port: 2083
+  uuid: a6ad7987-f17e-41fa-a752-72db9a725eb2
+  udp: true
+  tls: true
+  servername: vipfree.dr-ping.ir
+  client-fingerprint: chrome
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vipfree.dr-ping.ir
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -419,6 +461,9 @@ proxy-groups:
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 德国05 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 ID01 0.26M限 稳测 VLESS
+  - 11-19 反重力 芬兰01 0.23M限 稳测 VLESS
+  - 11-19 反重力 芬兰02 0.18M限 稳测 VLESS
+  - 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -455,6 +500,9 @@ proxy-groups:
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 德国05 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 ID01 0.26M限 稳测 VLESS
+  - 11-19 反重力 芬兰01 0.23M限 稳测 VLESS
+  - 11-19 反重力 芬兰02 0.18M限 稳测 VLESS
+  - 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
