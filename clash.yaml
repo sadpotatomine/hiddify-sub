@@ -344,6 +344,57 @@ proxies:
   password: 99a271e85dbc4aa8950f9c7beee06b19
   udp: true
   sni: del.vipvirtualnet.eu
+- name: 11-18 反重力 美国42 0.25M限 稳测 VLESS
+  type: vless
+  server: 172.236.231.45
+  port: 443
+  uuid: 4c4f7955-3b05-4795-b3b7-6c83b7f82b0f
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: M6kLOIYA9IagUu0eiplnPZFObYVzTc4GfPyEqKQnZWQ
+    short-id: 8353867a
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-18 反重力 日本15 0.26M限 稳测 VLESS
+  type: vless
+  server: 139.162.91.247
+  port: 443
+  uuid: 8cfdacf8-e781-42f0-9872-8d1d22469de5
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: _gFFckW3h8hFfllawgec9U2PDBeLJeCK_Jgk1S5tgC8
+    short-id: 536d7739
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-18 反重力 日本16 0.25M限 稳测 VLESS
+  type: vless
+  server: 103.29.68.232
+  port: 443
+  uuid: 3a280a05-7fd1-40d3-83f8-21d68ad55c48
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: N08LwXU5wRTp7VftvXcS3lS7pnNg1fXPvjZ66iJB3nk
+    short-id: e3c05fa9
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -377,6 +428,9 @@ proxy-groups:
   - 11-18 反重力 法国01 0.26M限 稳测 VLESS
   - 11-18 反重力 德国02 0.26M限 稳测 SHADOWSOCKS
   - 11-18 反重力 德国03 0.26M限 稳测 HYSTERIA2
+  - 11-18 反重力 美国42 0.25M限 稳测 VLESS
+  - 11-18 反重力 日本15 0.26M限 稳测 VLESS
+  - 11-18 反重力 日本16 0.25M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -411,6 +465,9 @@ proxy-groups:
   - 11-18 反重力 法国01 0.26M限 稳测 VLESS
   - 11-18 反重力 德国02 0.26M限 稳测 SHADOWSOCKS
   - 11-18 反重力 德国03 0.26M限 稳测 HYSTERIA2
+  - 11-18 反重力 美国42 0.25M限 稳测 VLESS
+  - 11-18 反重力 日本15 0.26M限 稳测 VLESS
+  - 11-18 反重力 日本16 0.25M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
