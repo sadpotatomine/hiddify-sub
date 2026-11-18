@@ -362,6 +362,13 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=
   udp: true
+- name: 11-18 反重力 德国03 0.26M限 稳测 HYSTERIA2
+  type: hysteria2
+  server: ide.vipvirtualnet.eu
+  port: 30746
+  password: 99a271e85dbc4aa8950f9c7beee06b19
+  udp: true
+  sni: del.vipvirtualnet.eu
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -396,6 +403,7 @@ proxy-groups:
   - 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-18 反重力 法国01 0.26M限 稳测 VLESS
   - 11-18 反重力 德国02 0.26M限 稳测 SHADOWSOCKS
+  - 11-18 反重力 德国03 0.26M限 稳测 HYSTERIA2
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -431,6 +439,7 @@ proxy-groups:
   - 11-18 反重力 荷兰12 0.26M限 稳测 VLESS
   - 11-18 反重力 法国01 0.26M限 稳测 VLESS
   - 11-18 反重力 德国02 0.26M限 稳测 SHADOWSOCKS
+  - 11-18 反重力 德国03 0.26M限 稳测 HYSTERIA2
 - name: 🐟 漏网之鱼
   type: select
   proxies:
