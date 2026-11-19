@@ -434,6 +434,20 @@ proxies:
     path: /
     headers:
       Host: vipfree.dr-ping.ir
+- name: 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
+  type: vless
+  server: 122.9.123.248
+  port: 44306
+  uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: dl.google.com
+  client-fingerprint: chrome
+  network: tcp
+  reality-opts:
+    public-key: qzoG-cG8dG_C1T2tsWnWgooE9eekntARY0fVGIyg4Fg
+    short-id: c11a9913
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -472,6 +486,7 @@ proxy-groups:
   - 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
   - 11-19 反重力 芬兰04 0.23M限 稳测 VLESS
   - 11-19 反重力 芬兰05 0.20M限 稳测 VLESS
+  - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -511,6 +526,7 @@ proxy-groups:
   - 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
   - 11-19 反重力 芬兰04 0.23M限 稳测 VLESS
   - 11-19 反重力 芬兰05 0.20M限 稳测 VLESS
+  - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
