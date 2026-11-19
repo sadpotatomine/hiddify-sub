@@ -89,21 +89,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 11-12 反重力 美国18 0.25M限 稳测 VLESS
-  type: vless
-  server: 196.245.52.187
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 0592efg.us8.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: cO3wYHISTeorXcM8ffaDCDdqZ-olBQL-GyZqb-W7rTk
-    short-id: bd8f712209a9c283
-  grpc-opts:
-    grpc-service-name: 99f2107b03f8
 - name: 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   type: vless
   server: 196.245.52.183
@@ -364,31 +349,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   udp: true
-- name: 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
-  type: vless
-  server: 122.9.123.248
-  port: 44306
-  uuid: 9195e0f1-f466-4e69-838f-a95519b5d45e
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: dl.google.com
-  client-fingerprint: chrome
-  network: tcp
-  reality-opts:
-    public-key: qzoG-cG8dG_C1T2tsWnWgooE9eekntARY0fVGIyg4Fg
-    short-id: c11a9913
-- name: 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
-  type: vless
-  server: app.streamru19.net
-  port: 443
-  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
-  udp: true
-  tls: true
-  flow: xtls-rprx-vision
-  servername: app.streamru19.net
-  client-fingerprint: firefox
-  network: tcp
 - name: 11-19 反重力 美国43 0.26M限 稳测 VLESS
   type: vless
   server: 172.236.241.130
@@ -455,7 +415,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
-  - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
@@ -473,8 +432,6 @@ proxy-groups:
   - 11-18 反重力 日本15 0.26M限 稳测 VLESS
   - 11-18 反重力 日本16 0.25M限 稳测 VLESS
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
-  - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
-  - 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 11-19 反重力 美国43 0.26M限 稳测 VLESS
   - 11-19 反重力 日本17 0.25M限 稳测 VLESS
   - 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
@@ -494,7 +451,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
-  - 11-12 反重力 美国18 0.25M限 稳测 VLESS
   - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
@@ -512,8 +468,6 @@ proxy-groups:
   - 11-18 反重力 日本15 0.26M限 稳测 VLESS
   - 11-18 反重力 日本16 0.25M限 稳测 VLESS
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
-  - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
-  - 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
   - 11-19 反重力 美国43 0.26M限 稳测 VLESS
   - 11-19 反重力 日本17 0.25M限 稳测 VLESS
   - 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
