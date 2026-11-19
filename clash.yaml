@@ -364,13 +364,6 @@ proxies:
   cipher: 2022-blake3-chacha20-poly1305
   password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
   udp: true
-- name: 11-19 反重力 德国05 0.23M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 18.134.253.71
-  port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=
-  udp: true
 - name: 11-19 反重力 芬兰01 0.23M限 稳测 VLESS
   type: vless
   server: 162.159.160.117
@@ -460,7 +453,6 @@ proxy-groups:
   - 11-18 反重力 日本15 0.26M限 稳测 VLESS
   - 11-18 反重力 日本16 0.25M限 稳测 VLESS
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
-  - 11-19 反重力 德国05 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 芬兰01 0.23M限 稳测 VLESS
   - 11-19 反重力 芬兰02 0.18M限 稳测 VLESS
   - 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
@@ -499,7 +491,6 @@ proxy-groups:
   - 11-18 反重力 日本15 0.26M限 稳测 VLESS
   - 11-18 反重力 日本16 0.25M限 稳测 VLESS
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
-  - 11-19 反重力 德国05 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 芬兰01 0.23M限 稳测 VLESS
   - 11-19 反重力 芬兰02 0.18M限 稳测 VLESS
   - 11-19 反重力 芬兰03 0.17M限 稳测 VLESS
