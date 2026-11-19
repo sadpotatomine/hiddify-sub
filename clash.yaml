@@ -448,6 +448,17 @@ proxies:
   reality-opts:
     public-key: qzoG-cG8dG_C1T2tsWnWgooE9eekntARY0fVGIyg4Fg
     short-id: c11a9913
+- name: 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
+  type: vless
+  server: app.streamru19.net
+  port: 443
+  uuid: fd90e601-a56c-42b8-aab7-aa02d26fcb04
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: app.streamru19.net
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -487,6 +498,7 @@ proxy-groups:
   - 11-19 反重力 芬兰04 0.23M限 稳测 VLESS
   - 11-19 反重力 芬兰05 0.20M限 稳测 VLESS
   - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
+  - 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -527,6 +539,7 @@ proxy-groups:
   - 11-19 反重力 芬兰04 0.23M限 稳测 VLESS
   - 11-19 反重力 芬兰05 0.20M限 稳测 VLESS
   - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
+  - 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
