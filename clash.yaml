@@ -389,6 +389,57 @@ proxies:
   servername: app.streamru19.net
   client-fingerprint: firefox
   network: tcp
+- name: 11-19 反重力 美国43 0.26M限 稳测 VLESS
+  type: vless
+  server: 172.236.241.130
+  port: 443
+  uuid: 21117a67-21c2-4e2a-ba8f-bc49e23b0ae8
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: ibi0jOH5SfYhh7ycxdBrqq5oN4ajN3-dNiHKWC2VYWs
+    short-id: 51ecfe9e
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-19 反重力 日本17 0.25M限 稳测 VLESS
+  type: vless
+  server: 139.162.91.239
+  port: 443
+  uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+    short-id: 7c6d6833
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
+  type: vless
+  server: 139.162.20.241
+  port: 443
+  uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
+    short-id: 640c807d
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -424,6 +475,9 @@ proxy-groups:
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
   - 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
+  - 11-19 反重力 美国43 0.26M限 稳测 VLESS
+  - 11-19 反重力 日本17 0.25M限 稳测 VLESS
+  - 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -460,6 +514,9 @@ proxy-groups:
   - 11-18 反重力 德国04 0.23M限 稳测 SHADOWSOCKS
   - 11-19 反重力 新加坡03 0.26M限 稳测 VLESS
   - 11-19 反重力 立陶宛01 0.26M限 稳测 VLESS
+  - 11-19 反重力 美国43 0.26M限 稳测 VLESS
+  - 11-19 反重力 日本17 0.25M限 稳测 VLESS
+  - 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
