@@ -385,13 +385,6 @@ proxies:
     path: /ws
     headers:
       Host: itunes.apple.com
-- name: 11-20 反重力 美国44 0.21M限 稳测 SHADOWSOCKS
-  type: ss
-  server: 103.238.140.162
-  port: 10002
-  cipher: 2022-blake3-aes-128-gcm
-  password: qryl6xVLkWXZlqD7CccpQw==
-  udp: true
 - name: 11-20 反重力 西班牙01 0.26M限 稳测 VLESS
   type: vless
   server: 196.196.149.80
@@ -483,7 +476,6 @@ proxy-groups:
   - 11-19 反重力 美国43 0.26M限 稳测 VLESS
   - 11-19 反重力 日本17 0.25M限 稳测 VLESS
   - 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
-  - 11-20 反重力 美国44 0.21M限 稳测 SHADOWSOCKS
   - 11-20 反重力 西班牙01 0.26M限 稳测 VLESS
   - 11-20 反重力 德国05 0.23M限 稳测 VLESS
   - 11-20 反重力 美国45 0.25M限 稳测 VLESS
@@ -523,7 +515,6 @@ proxy-groups:
   - 11-19 反重力 美国43 0.26M限 稳测 VLESS
   - 11-19 反重力 日本17 0.25M限 稳测 VLESS
   - 11-19 反重力 新加坡04 0.26M限 稳测 VLESS
-  - 11-20 反重力 美国44 0.21M限 稳测 SHADOWSOCKS
   - 11-20 反重力 西班牙01 0.26M限 稳测 VLESS
   - 11-20 反重力 德国05 0.23M限 稳测 VLESS
   - 11-20 反重力 美国45 0.25M限 稳测 VLESS
