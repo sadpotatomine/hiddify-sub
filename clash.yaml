@@ -418,6 +418,37 @@ proxies:
   network: grpc
   grpc-opts:
     grpc-service-name: glush.de2.v1
+- name: 11-20 反重力 美国45 0.25M限 稳测 VLESS
+  type: vless
+  server: 172.235.37.168
+  port: 443
+  uuid: dbac71f3-ab05-4194-985b-f07088bf1a4a
+  udp: true
+  tls: true
+  servername: itunes.apple.com
+  client-fingerprint: chrome
+  network: ws
+  reality-opts:
+    public-key: 1iwAzh_XzSCYWZEVZ0lfczKFd--jXx3coCt5le58gEM
+    short-id: c52e85fe
+  ws-opts:
+    path: /ws
+    headers:
+      Host: itunes.apple.com
+- name: 11-20 反重力 德国06 0.24M限 稳测 VLESS
+  type: vless
+  server: quay.gerqix.online
+  port: 443
+  uuid: 25ac78e7-6d1d-4c9a-a450-c01a4871769f
+  udp: true
+  tls: true
+  servername: quay.gerqix.online
+  client-fingerprint: firefox
+  network: ws
+  ws-opts:
+    path: /api/de2/stream
+    headers:
+      Host: quay.gerqix.online
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -455,6 +486,8 @@ proxy-groups:
   - 11-20 反重力 美国44 0.21M限 稳测 SHADOWSOCKS
   - 11-20 反重力 西班牙01 0.26M限 稳测 VLESS
   - 11-20 反重力 德国05 0.23M限 稳测 VLESS
+  - 11-20 反重力 美国45 0.25M限 稳测 VLESS
+  - 11-20 反重力 德国06 0.24M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -493,6 +526,8 @@ proxy-groups:
   - 11-20 反重力 美国44 0.21M限 稳测 SHADOWSOCKS
   - 11-20 反重力 西班牙01 0.26M限 稳测 VLESS
   - 11-20 反重力 德国05 0.23M限 稳测 VLESS
+  - 11-20 反重力 美国45 0.25M限 稳测 VLESS
+  - 11-20 反重力 德国06 0.24M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
