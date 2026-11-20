@@ -1,0 +1,27 @@
+{
+  "date_beijing": "2026-11-20",
+  "started_at": 1795178716.802204,
+  "finished_at": 1795179094.362498,
+  "status": "failed",
+  "phase": "plan",
+  "published": false,
+  "remote_node_count": 30,
+  "remote_sha256": "dd7ad9b63cb308873e827cef4ad26cdfeb8141483d53899ce2ba3e0f5405681d",
+  "repo_head_before": "6b987d780c9fe362b273311ab932104405270906",
+  "google_https": "passed",
+  "error": "CalledProcessError",
+  "batch": "batch-20261120-204516-713316-r5",
+  "engine": "python + sing-box",
+  "schedule": "5 completed rounds, then rest 1 hour; repeat",
+  "summary_generated_at": "2026-11-20T20:51:34.368701+08:00",
+  "checks": {
+    "candidates.json": {
+      "count": 200,
+      "passed": 0
+    },
+    "screen.json": {
+      "count": 200,
+      "passed": 0
+    }
+  }
+}
