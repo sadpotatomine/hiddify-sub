@@ -89,21 +89,6 @@ proxies:
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
   udp: true
-- name: 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
-  type: vless
-  server: 196.245.52.183
-  port: 443
-  uuid: cda0862a-0f87-4be9-8ed8-1d0c9e382839
-  udp: true
-  tls: true
-  servername: 15b171g.nl7.h1clayd.click
-  client-fingerprint: firefox
-  network: grpc
-  reality-opts:
-    public-key: zbz--PMjcIC4Ggr3j-ibDf0fzXRTj0lM_HzjPJyMkVE
-    short-id: 50a749f0eccb628c
-  grpc-opts:
-    grpc-service-name: 5b79e8a94241
 - name: 11-14 反重力 美国22 0.26M限 稳测 VLESS
   type: vless
   server: 162.35.101.177
@@ -406,7 +391,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
-  - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-16 反重力 日本04 0.26M限 稳测 VLESS
@@ -441,7 +425,6 @@ proxy-groups:
   - 10-25 反重力 意大利12 0.26M限 稳测 SHADOWSOCKS
   - 10-28 反重力 意大利13 0.26M限 稳测 SHADOWSOCKS
   - 11-07 反重力 意大利14 0.26M限 稳测 SHADOWSOCKS
-  - 11-13 反重力 荷兰07 0.26M限 稳测 VLESS
   - 11-14 反重力 美国22 0.26M限 稳测 VLESS
   - 11-15 反重力 日本01 0.25M限 稳测 VLESS
   - 11-16 反重力 日本04 0.26M限 稳测 VLESS
