@@ -1,0 +1,17 @@
+{
+  "date_beijing": "2026-11-20",
+  "started_at": 1795167966.8747401,
+  "finished_at": 1795167969.224053,
+  "status": "failed",
+  "published": false,
+  "remote_node_count": 33,
+  "remote_sha256": "d30f9aa056865285cb287770192c2ce76317b59a16b8effa27d682870f09a891",
+  "repo_head_before": "5b883f802558d0bafb52e3d3f0b3f5e2bb46252b",
+  "google_https": "passed",
+  "error": "FileNotFoundError",
+  "batch": "batch-20261120-174606-782235-r5",
+  "engine": "python + sing-box",
+  "schedule": "5 completed rounds, then rest 1 hour; repeat",
+  "summary_generated_at": "2026-11-20T17:46:09.229207+08:00",
+  "checks": {}
+}
