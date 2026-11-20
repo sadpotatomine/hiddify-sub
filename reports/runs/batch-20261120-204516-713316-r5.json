@@ -1,7 +1,7 @@
 {
   "date_beijing": "2026-11-20",
-  "started_at": 1795179401.0999367,
-  "finished_at": 1795179403.7871177,
+  "started_at": 1795179708.651372,
+  "finished_at": 1795179711.413891,
   "status": "failed",
   "phase": "plan",
   "published": false,
@@ -13,7 +13,7 @@
   "batch": "batch-20261120-204516-713316-r5",
   "engine": "python + sing-box",
   "schedule": "5 completed rounds, then rest 1 hour; repeat",
-  "summary_generated_at": "2026-11-20T20:56:43.794135+08:00",
+  "summary_generated_at": "2026-11-20T21:01:51.419518+08:00",
   "checks": {
     "candidates.json": {
       "count": 200,
