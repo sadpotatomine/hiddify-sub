@@ -429,6 +429,28 @@ proxies:
     path: /api/de2/stream
     headers:
       Host: quay.gerqix.online
+- name: 11-20 反重力 德国07 0.26M限 稳测 VLESS
+  type: vless
+  server: 217.60.12.99
+  port: 443
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 217.60.12.99
+  client-fingerprint: firefox
+  network: tcp
+- name: 11-20 反重力 英国01 0.26M限 稳测 VLESS
+  type: vless
+  server: 178.107.58.76
+  port: 443
+  uuid: a6142d9d-3f9f-47b7-b7e9-1245dd6a15d6
+  udp: true
+  tls: true
+  flow: xtls-rprx-vision
+  servername: 178.107.58.76
+  client-fingerprint: firefox
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -466,6 +488,8 @@ proxy-groups:
   - 11-20 反重力 德国05 0.23M限 稳测 VLESS
   - 11-20 反重力 美国45 0.25M限 稳测 VLESS
   - 11-20 反重力 德国06 0.24M限 稳测 VLESS
+  - 11-20 反重力 德国07 0.26M限 稳测 VLESS
+  - 11-20 反重力 英国01 0.26M限 稳测 VLESS
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -504,6 +528,8 @@ proxy-groups:
   - 11-20 反重力 德国05 0.23M限 稳测 VLESS
   - 11-20 反重力 美国45 0.25M限 稳测 VLESS
   - 11-20 反重力 德国06 0.24M限 稳测 VLESS
+  - 11-20 反重力 德国07 0.26M限 稳测 VLESS
+  - 11-20 反重力 英国01 0.26M限 稳测 VLESS
 - name: 🐟 漏网之鱼
   type: select
   proxies:
