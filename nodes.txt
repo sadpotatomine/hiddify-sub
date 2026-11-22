@@ -38,3 +38,5 @@ vless://e9a8144e-5237-488a-afb1-9ca3d8d54c80@140.235.11.243:56984/?type=tcp&encr
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@155.46.167.30:8880?type=ws&host=vms.lifetime50.workers.dev&path=#🇨🇦
 trojan://74480619-b6a8-4ab8-94e1-1132fc18b2fa@185.18.250.252:443?security=tls&sni=unnes.ac.id.r3xxe.eu.cc&type=ws&path=/au-mt&Host=unnes.ac.id.r3xxe.eu.cc# b2n.ir/v2ray-configs | 543
 vless://6202b230-417c-4d8e-b624-0f71afa9c75d@45.12.30.40:8880?security=none&type=ws&path=/?ed=2560&host=vms.lifetime28.workers.dev#%F0%9F%87%BA%F0%9F%87%B8US_1230%7C2.1MB%2Fs%2001
+vless://aba9cdd4-026c-0001-87a9-9b3e5f24dd82@87.242.119.253:443?security=tls&type=tcp&sni=hvtlr-ru-47sb.fade.mom&fp=edge#%F0%9F%8C%90%20Anycast-IP%20%7C%20%F0%9F%87%A9%F0%9F%87%AA%20%F0%9F%87%B5%F0%9F%87%B1%20%5B%2ACIDR%5D
+vless://a60da2ca-0abf-49f8-9dcb-156989d76ad2@92.42.201.155:14443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=node-slo04.rkitman.ru&fp=firefox&pbk=mGTe1s-luknrPURs4KI4fjdCXZAq03f_-b7by6Dr-CI&sid=e204defc87a8949e&type=tcp#%F0%9F%87%B8%F0%9F%87%AE%20%D0%A1%D0%BB%D0%BE%D0%B2%D0%B5%D0%BD%D0%B8%D1%8F%20%5B%D0%AD%D0%9A%D0%9E%5D
